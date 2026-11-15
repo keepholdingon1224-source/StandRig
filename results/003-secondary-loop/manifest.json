@@ -1,0 +1,21 @@
+{
+  "started": "2026-11-15T12:07:21.889Z",
+  "sourceCommit": "1fdcfed3d6464c82cdc9293d0702c110821d6c6e",
+  "codeSha256": "406e9033647bd78f7e524da27243da7eb48f37e0f3d25976793522f75e18d5fc",
+  "node": "v24.22.1",
+  "platform": "linux",
+  "rights": "Original procedural geometric artwork and code created for this experiment; Apache-2.0, no third-party character or SONY material.",
+  "fps": 30,
+  "simFps": 60,
+  "seconds": 8,
+  "render": "StandRig core software serverRenderer, fixed camera, physics evaluated sequentially then baked, no interpolation at seam",
+  "manual": "No vertex/keyframe edits or painting. Algorithm, dimensions, 3 segments, grid density, amplitudes and physics constants selected by Codex; no image-based rig inference.",
+  "command": "node experiments/003-secondary-loop.mjs",
+  "acceptance": {
+    "invertedTriangles": 0,
+    "maxRootDisplacement": 1e-8,
+    "maxLoopVertexDelta": 0.05,
+    "maxLoopVelocityDelta": 0.5,
+    "minTipTravel": 5
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "command": "ffmpeg",
+  "args": [
+    "-y",
+    "-framerate",
+    "30",
+    "-i",
+    "results/003-secondary-loop/frames/frame-%03d.png",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "results/003-secondary-loop/hair-skirt-loop.mp4"
+  ],
+  "exitCode": 0
+}

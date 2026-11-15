@@ -13,7 +13,19 @@
 
 ## 現在の判断
 
-第一段階は図形サンプルでMCP編集・曲げ・描画・復元を確認済み。高品質キャラクターの自動制作は未実証。次は同一姿勢のRenderer比較と、権利処理済みの髪1束・リボン1本・スカート1枚の小規模評価が候補。ChatGPTによる計画のレビューは未実施。
+第一段階は図形サンプルでMCP編集・曲げ・描画・復元を確認済み。003ではオリジナル合成の髪1束・裾1枚を自動メッシュ化し、実物理の8秒ループをMP4/GIF/240枚PNGに保存した。周期は連続するが約25%の縮み・約23%の伸びが残り、高品質キャラクターの自動制作は未実証。ChatGPTの視覚評価と、長さ保持・布拘束・接続の次段階検証が必要。
+
+## 2026-11-15T12:03:16Z / 003-secondary-loop
+
+1. **日時・目的:** 2026-11-15 12:03～12:09 UTC。権利上問題のない髪1束・スカート裾1枚で、手作業を抑えたメッシュ・揺れ・8秒ループ生成を実行。
+2. **コマンド・環境:** Linux / Node v24.22.1 / npm 11.9.0 / ローカルffmpeg・ffprobe。開始コミット `1fdcfed3d6464c82cdc9293d0702c110821d6c6e`。`node experiments/003-secondary-loop.mjs`、`node experiments/003-verify.mjs`、`npm test`。MP4生成引数は[video-command.json](results/003-secondary-loop/video-command.json)、GIF生成コマンドは[実験報告](results/003-secondary-loop/README.md)。既存ビルドを使い、npm ci/buildは今回未実行。StandRig coreの実物理・メッシュ評価・サーバー描画を使い、今回MCPやブラウザGUIは未実行。
+3. **変更ファイル:** `experiments/003-secondary-loop.mjs`、`experiments/003-verify.mjs`、`results/003-secondary-loop/`（コード保存版・素材2枚・モデル2種・モーション・全240枚PNG・MP4/GIF・比較画像・失敗記録・検査ログ）、`PROGRESS.md`、`experiments/README.md`、`results/README.md`。製品コードは変更しない。
+4. **成功・失敗:** 最終runは生成時9項目・独立検査14項目成功。npm testはschema/smoke16/Node183件成功、失敗0・skip0。根元移動0・三角形反転0・端の画面切れ0・空画像0。0秒と8秒のPNG差0、同位相位置差7.65e-14px。MP4は8秒・30fps・240枚、全デコード成功。初回は子プロセスEPERM、pivotによる画面切れ、速度測定方法の誤りがあり、成功扱いせず[失敗記録](results/003-secondary-loop/attempts/first-run.log)と[初回画像](results/003-secondary-loop/attempts/first-contact-sheet.png)を保存。測定は閾値を変えず修正し、ベイク境界の速度変化1.472px/sも別途記録。
+5. **成果物:** [成果物と技術報告](results/003-secondary-loop/README.md)、[MP4](results/003-secondary-loop/hair-skirt-loop.mp4)、[GIF](results/003-secondary-loop/preview.gif)、[PNG](results/003-secondary-loop/frames/)、[数値](results/003-secondary-loop/metrics.json)、[独立検査](results/003-secondary-loop/verification.json)、[公式テスト](results/003-secondary-loop/npm-test.log)。すべてオリジナル合成fixture。作業用モデルディレクトリ・認証情報・他プロジェクトの素材は含めない。
+6. **未解決:** 辺長比0.7496～1.2294の伸縮、通常のベイクキーで最大60.103px/sの速度変化、広い髪振幅、身体への接続・衝突・布面拘束・奥行き・実キャラクターの自然さ。ループは24秒の事前計算を必要とする。自動化したのは既知の役割・上下方向に基づく手順で、任意画像からのAI推定ではない。頂点手編集・手描き・キーフレーム手付けは0回だが、Codexによるアルゴリズム・定数設計、pivot修正、検査修正は必要だった。
+7. **ChatGPTに評価してほしい事項:** 動画の髪と裾の自然さ・変形の違和感、伸縮と速度変化の許容基準、中心線の長さ保持と布面拘束のどちらを次に実装すべきか、頭皮／腰の固定素材と自由形状の根元推定をどう段階化するか。レビューは未実施。
+
+公開先は指定Forkの同じ実験ブランチ。コミット・push後にリモートSHAを確認し最終ハンドオフで報告する。追加課金・購入なし、SONY共同プロジェクトへのアクセスなし、公式mainへの変更なし。
 
 ## 2026-11-15 / 001-baseline（既存記録の要約）
 

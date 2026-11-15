@@ -1,0 +1,71 @@
+{
+  "time": "2026-11-15T12:08:34.532Z",
+  "tests": [
+    {
+      "name": "numeric-acceptance",
+      "pass": true
+    },
+    {
+      "name": "baked-physics-disabled",
+      "pass": true
+    },
+    {
+      "name": "motion-parameter-validation",
+      "pass": true
+    },
+    {
+      "name": "baked-seam-velocity-jump-within-normal-frame-curvature",
+      "pass": true
+    },
+    {
+      "name": "240-png-frames",
+      "pass": true
+    },
+    {
+      "name": "no-frame-edge-clipping",
+      "pass": true
+    },
+    {
+      "name": "no-blank-frames",
+      "pass": true
+    },
+    {
+      "name": "serialized-motion-render-frame-0",
+      "pass": true
+    },
+    {
+      "name": "serialized-motion-render-frame-60",
+      "pass": true
+    },
+    {
+      "name": "serialized-motion-render-frame-120",
+      "pass": true
+    },
+    {
+      "name": "serialized-motion-render-frame-180",
+      "pass": true
+    },
+    {
+      "name": "mp4-duration-8-seconds",
+      "pass": true
+    },
+    {
+      "name": "mp4-240-frames-30fps",
+      "pass": true
+    },
+    {
+      "name": "decode-entire-mp4",
+      "pass": true
+    }
+  ],
+  "clippedFrames": 0,
+  "blankFrames": 0,
+  "bakedSeamVelocityJump": 1.4720233466666521,
+  "maxOrdinaryVelocityJump": 60.10301999659012,
+  "notTested": [
+    "body collisions",
+    "character anatomy and attachment",
+    "WebGL/browser parity",
+    "human-perceived naturalness"
+  ]
+}

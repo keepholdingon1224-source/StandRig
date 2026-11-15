@@ -1,5 +1,14 @@
 # StandRig modeling agent contract
 
+## StandRig research collaboration records
+
+- Keep this verification project independent from all SONY projects. Do not use their code, data, credentials or services. Do not purchase services or use additional paid APIs.
+- Work on an experimental branch; do not push to upstream main or rewrite existing history.
+- Codex implements and tests; ChatGPT reviews GitHub evidence and proposes technical assessments and next experiments. Do not mark a proposed assessment as reviewed until an actual review exists.
+- For every future work session, update root `PROGRESS.md` before handoff or commit: UTC date/time and purpose; commands/environment; changed files; successful and failed tests (including blocked/skipped/not run); artifact paths; unresolved problems; questions for ChatGPT.
+- Store research in `research/`, new experiment code in `experiments/`, and new shareable evidence in `results/<experiment-id>/`. Preserve the existing `validation/` evidence and link to it rather than duplicating it.
+- Never publish model working directories, credentials, or artwork without publication rights. A successful numeric test is not proof of animation quality.
+
 ## Mandatory pre-model visual reference gate
 
 1. Before the first modeling write for a PSD, generate and save all of the following project-local targets: a face close-up sheet covering neutral and maximum yaw/pitch/roll, a full-body sheet covering neutral and maximum body yaw/pitch/roll, and a connection-overlap sheet for hair roots/back hair, jaw/neck, neck/collar/shoulders, sleeves/arms, waist/skirt/thighs, and thighs/lower legs.

@@ -45,6 +45,10 @@
 
 今回の成果物索引: [002-collaboration-layout](results/002-collaboration-layout/README.md)。この追加後にもリンク検査を実施する。
 
+最終ローカル検査: Markdown7ファイル・相対リンク44件がすべて存在、2記録それぞれの7項目を確認し成功。`node --check`、`git diff --check`、`git diff --cached --check` はexit 0。既存の製品コードと `validation/` の変更なしを確認。
+
+GitHub反映成功: 共有構成コミット `d58d6e8e4ad6ee63b15d623c48b14d9777213b23` を `git -c credential.helper='!gh auth git-credential' push -u origin experiment/rigging-validation-20261115` でユーザーのForkへpush（exit 0）。`git ls-remote origin refs/heads/experiment/rigging-validation-20261115` のSHAが一致。過去の検証コミット `6b9b588` の画像・ログも同じブランチの履歴に含まれる。この結果の追記は別コミットで通常pushし、最終SHAをハンドオフで示す。公式とmainは変更していない。
+
 ## 次回記録テンプレート
 
 ### YYYY-MM-DDTHH:MM:SSZ / 実験ID

@@ -1,0 +1,12 @@
+{
+  "keys": [
+    "schemaVersion",
+    "name",
+    "stage",
+    "assets",
+    "parameters",
+    "parts",
+    "physics",
+    "deformers"
+  ]
+}

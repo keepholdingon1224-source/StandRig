@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "renderer": "canvas",
+      "state": {
+        "ready": true,
+        "error": ""
+      },
+      "pixel": {
+        "width": 800,
+        "height": 800,
+        "opaque": 80572,
+        "revision": "22"
+      },
+      "parameterUpdateChangedScreenshot": true
+    },
+    {
+      "renderer": "webgl",
+      "state": {
+        "ready": true,
+        "error": ""
+      },
+      "pixel": {
+        "width": 800,
+        "height": 800,
+        "opaque": 80436,
+        "revision": "23"
+      },
+      "parameterUpdateChangedScreenshot": true
+    }
+  ],
+  "webglStatus": {
+    "requested": "webgl",
+    "supported": true,
+    "status": "ready",
+    "framePath": "webgl-frame"
+  },
+  "errors": [],
+  "motionParametersAdvanced": true
+}

@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "entries": [
+    {
+      "poseId": "neutral",
+      "region": "full",
+      "pass": true,
+      "issues": [],
+      "audit": {
+        "width": 240,
+        "height": 240,
+        "totalPixelCount": 57600,
+        "alphaBBox": {
+          "left": 87,
+          "top": 53,
+          "right": 153,
+          "bottom": 191,
+          "width": 66,
+          "height": 138
+        },
+        "nonTransparentPixelCount": 6402,
+        "opaquePixelCount": 6402,
+        "transparentPixelCount": 51198,
+        "edgeContact": {
+          "left": false,
+          "top": false,
+          "right": false,
+          "bottom": false,
+          "any": false,
+          "contactedEdges": 0,
+          "pixelCount": 0
+        },
+        "simpleScore": 100
+      },
+      "coverage": 0.11114583333333333,
+      "motionDiffPixelRatio": null,
+      "baselineHash": "fnv1a-150d2cf5",
+      "artMeshDistortion": {
+        "partCount": 0,
+        "triangleCount": 0,
+        "maxStretchRatio": 1,
+        "maxCompressionRatio": 1,
+        "maxAnisotropy": 1,
+        "invertedTriangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "thresholds": {
+          "maxStretchRatio": 4,
+          "maxCompressionRatio": 4,
+          "maxAnisotropy": 6
+        },
+        "violations": [],
+        "worstTriangles": [],
+        "pass": true
+      }
+    },
+    {
+      "poseId": "half",
+      "region": "full",
+      "pass": true,
+      "issues": [],
+      "audit": {
+        "width": 240,
+        "height": 240,
+        "totalPixelCount": 57600,
+        "alphaBBox": {
+          "left": 87,
+          "top": 53,
+          "right": 153,
+          "bottom": 191,
+          "width": 66,
+          "height": 138
+        },
+        "nonTransparentPixelCount": 6402,
+        "opaquePixelCount": 6402,
+        "transparentPixelCount": 51198,
+        "edgeContact": {
+          "left": false,
+          "top": false,
+          "right": false,
+          "bottom": false,
+          "any": false,
+          "contactedEdges": 0,
+          "pixelCount": 0
+        },
+        "simpleScore": 100
+      },
+      "coverage": 0.11114583333333333,
+      "motionDiffPixelRatio": 0,
+      "baselineHash": "fnv1a-150d2cf5",
+      "artMeshDistortion": {
+        "partCount": 0,
+        "triangleCount": 0,
+        "maxStretchRatio": 1,
+        "maxCompressionRatio": 1,
+        "maxAnisotropy": 1,
+        "invertedTriangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "thresholds": {
+          "maxStretchRatio": 4,
+          "maxCompressionRatio": 4,
+          "maxAnisotropy": 6
+        },
+        "violations": [],
+        "worstTriangles": [],
+        "pass": true
+      }
+    },
+    {
+      "poseId": "full",
+      "region": "full",
+      "pass": true,
+      "issues": [],
+      "audit": {
+        "width": 240,
+        "height": 240,
+        "totalPixelCount": 57600,
+        "alphaBBox": {
+          "left": 87,
+          "top": 53,
+          "right": 153,
+          "bottom": 191,
+          "width": 66,
+          "height": 138
+        },
+        "nonTransparentPixelCount": 6402,
+        "opaquePixelCount": 6402,
+        "transparentPixelCount": 51198,
+        "edgeContact": {
+          "left": false,
+          "top": false,
+          "right": false,
+          "bottom": false,
+          "any": false,
+          "contactedEdges": 0,
+          "pixelCount": 0
+        },
+        "simpleScore": 100
+      },
+      "coverage": 0.11114583333333333,
+      "motionDiffPixelRatio": 0,
+      "baselineHash": "fnv1a-150d2cf5",
+      "artMeshDistortion": {
+        "partCount": 0,
+        "triangleCount": 0,
+        "maxStretchRatio": 1,
+        "maxCompressionRatio": 1,
+        "maxAnisotropy": 1,
+        "invertedTriangleCount": 0,
+        "degenerateTriangleCount": 0,
+        "thresholds": {
+          "maxStretchRatio": 4,
+          "maxCompressionRatio": 4,
+          "maxAnisotropy": 6
+        },
+        "violations": [],
+        "worstTriangles": [],
+        "pass": true
+      }
+    }
+  ],
+  "failed": [],
+  "failureRegions": [],
+  "renderedCount": 3,
+  "imagePolicy": "numeric-only",
+  "cache": "miss",
+  "revision": "rig-sha256-7bc6cdd69c9f53950a9255a8dbabaac17d235a3289f0cb60edd4e271d3d8ffd7"
+}

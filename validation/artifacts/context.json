@@ -1,0 +1,192 @@
+{
+  "semanticHash": "fnv1a-d542cafa",
+  "revision": "rig-sha256-7bc6cdd69c9f53950a9255a8dbabaac17d235a3289f0cb60edd4e271d3d8ffd7",
+  "summary": {
+    "name": "Sample Bot — geometric API demo",
+    "schemaVersion": "0.1.0",
+    "stage": {
+      "width": 320,
+      "height": 360,
+      "background": "transparent"
+    },
+    "counts": {
+      "assets": 4,
+      "parts": 7,
+      "imageParts": 5,
+      "groups": 2,
+      "visibleParts": 7,
+      "hiddenParts": 0,
+      "parameters": 30,
+      "bindings": 5,
+      "deformers": 0,
+      "deformerBindings": 0,
+      "glueCandidates": 0,
+      "glue": 0,
+      "physicsChains": 0,
+      "trackingMappings": 0,
+      "artMeshParts": 0,
+      "artMeshVertices": 0,
+      "artMeshTriangles": 0
+    },
+    "topWarnings": []
+  },
+  "modelFreeze": {
+    "ready": true,
+    "blockers": [],
+    "advisories": [
+      {
+        "id": "no-deformers",
+        "severity": "warning",
+        "category": "deformer",
+        "title": "No deformers exist",
+        "detail": "Modeling is limited to per-part transform keys.",
+        "recommendation": "Create head/body/face connection deformers before tuning detailed poses."
+      },
+      {
+        "id": "missing-neck-bridge-deformer",
+        "severity": "warning",
+        "category": "deformer",
+        "title": "Neck bridge is missing",
+        "detail": "Expected a connection deformer like neck-bridge-deformer.",
+        "recommendation": "首上部と首根元に左右/中央のピンキーを追加し、顔角度と体角度を分けて接続部を追従させる。"
+      },
+      {
+        "id": "missing-outline-pin-deformer",
+        "severity": "warning",
+        "category": "deformer",
+        "title": "Outline pins is missing",
+        "detail": "Expected a connection deformer like outline-pin-deformer.",
+        "recommendation": "左右の顎/頬ピンをミラーリンクし、ParamAngleX の左右キーを比較しながら輪郭の3D感を調整する。"
+      },
+      {
+        "id": "missing-shoulder-bridge-deformer",
+        "severity": "warning",
+        "category": "deformer",
+        "title": "Shoulder bridge is missing",
+        "detail": "Expected a connection deformer like shoulder-bridge-deformer.",
+        "recommendation": "首下、襟、左右肩の固定ピンを分け、体角度では肩側、顔角度では首側だけが追従するキーを作る。"
+      },
+      {
+        "id": "many-visible-parts-without-effective-deformer",
+        "severity": "info",
+        "category": "coverage",
+        "title": "Many visible image parts do not inherit a deformer",
+        "detail": "5 of 5 visible image parts have no direct or inherited deformer assignment.",
+        "recommendation": "For parts that should move with head/body, assign their parent group or branch to an existing deformer before fine modeling.",
+        "partIds": [
+          "body",
+          "head",
+          "left-eye",
+          "right-eye",
+          "mouth"
+        ]
+      },
+      {
+        "id": "ParamEyeLOpen-no-warp-pin-keys",
+        "severity": "info",
+        "category": "expression",
+        "title": "ParamEyeLOpen has no eyelid pin keys",
+        "detail": "Blink/wink currently appears to be driven by transform bindings rather than curved eyelid deformation.",
+        "recommendation": "Add eyelid warp pins or mesh pins so blinks close along the eyelid curve instead of only scaling.",
+        "parameterIds": [
+          "ParamEyeLOpen"
+        ]
+      },
+      {
+        "id": "ParamEyeROpen-no-warp-pin-keys",
+        "severity": "info",
+        "category": "expression",
+        "title": "ParamEyeROpen has no eyelid pin keys",
+        "detail": "Blink/wink currently appears to be driven by transform bindings rather than curved eyelid deformation.",
+        "recommendation": "Add eyelid warp pins or mesh pins so blinks close along the eyelid curve instead of only scaling.",
+        "parameterIds": [
+          "ParamEyeROpen"
+        ]
+      },
+      {
+        "id": "tracking-section-missing",
+        "severity": "info",
+        "category": "tracking",
+        "title": "Tracking section is missing",
+        "detail": "Camera input cannot be audited until tracking mappings exist.",
+        "recommendation": "Create tracking mappings after the model deformation pass is stable."
+      }
+    ],
+    "nextSteps": [
+      "Freeze neutral and representative poses, then begin tracking gain calibration."
+    ]
+  },
+  "unresolvedIssues": [
+    {
+      "id": "no-deformers",
+      "severity": "warning",
+      "category": "deformer",
+      "title": "No deformers exist",
+      "detail": "Modeling is limited to per-part transform keys.",
+      "recommendation": "Create head/body/face connection deformers before tuning detailed poses."
+    },
+    {
+      "id": "missing-neck-bridge-deformer",
+      "severity": "warning",
+      "category": "deformer",
+      "title": "Neck bridge is missing",
+      "detail": "Expected a connection deformer like neck-bridge-deformer.",
+      "recommendation": "首上部と首根元に左右/中央のピンキーを追加し、顔角度と体角度を分けて接続部を追従させる。"
+    },
+    {
+      "id": "missing-outline-pin-deformer",
+      "severity": "warning",
+      "category": "deformer",
+      "title": "Outline pins is missing",
+      "detail": "Expected a connection deformer like outline-pin-deformer.",
+      "recommendation": "左右の顎/頬ピンをミラーリンクし、ParamAngleX の左右キーを比較しながら輪郭の3D感を調整する。"
+    },
+    {
+      "id": "missing-shoulder-bridge-deformer",
+      "severity": "warning",
+      "category": "deformer",
+      "title": "Shoulder bridge is missing",
+      "detail": "Expected a connection deformer like shoulder-bridge-deformer.",
+      "recommendation": "首下、襟、左右肩の固定ピンを分け、体角度では肩側、顔角度では首側だけが追従するキーを作る。"
+    }
+  ],
+  "roles": [],
+  "physicsQa": {
+    "frames": 120,
+    "enabledChains": 0,
+    "changedOutputs": 0,
+    "finite": true,
+    "structuralMotion": 0,
+    "issues": []
+  },
+  "physicsSafety": {
+    "pass": true,
+    "rootLockPass": true,
+    "structuralViolations": 0,
+    "temporalStructuralMotion": 0,
+    "chainCount": 0,
+    "issues": []
+  },
+  "physicsSettling": {
+    "pass": false,
+    "finite": true,
+    "chainCount": 0,
+    "issues": []
+  },
+  "operationHistory": {
+    "scope": "server-memory",
+    "available": true,
+    "entries": [
+      {
+        "id": "5ad21171-c0aa-4f4e-bd0a-466d35c15ebe",
+        "appliedAt": "2026-11-15T07:16:55.230Z",
+        "revisionBefore": "rig-sha256-8e03e4d77d3d01bf3315419acf7f1e8bb30620b671e5fc832af7b7e18077d22e",
+        "revisionAfter": "rig-sha256-7bc6cdd69c9f53950a9255a8dbabaac17d235a3289f0cb60edd4e271d3d8ffd7",
+        "operationIds": [
+          "import"
+        ]
+      }
+    ]
+  },
+  "assetPayloadPolicy": "no-data-url"
+}

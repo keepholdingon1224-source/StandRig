@@ -1,0 +1,93 @@
+{
+  "expectedRevision": "rig-sha256-7bc6cdd69c9f53950a9255a8dbabaac17d235a3289f0cb60edd4e271d3d8ffd7",
+  "commit": false,
+  "qa": {
+    "poseSamples": [
+      {
+        "poseId": "neutral",
+        "values": {
+          "ParamAngleX": 0
+        }
+      },
+      {
+        "poseId": "half",
+        "values": {
+          "ParamAngleX": 15
+        }
+      },
+      {
+        "poseId": "full",
+        "values": {
+          "ParamAngleX": 30
+        }
+      }
+    ],
+    "regions": [
+      "full"
+    ],
+    "width": 240,
+    "height": 240,
+    "physics": false,
+    "checkTriangleDistortion": true
+  },
+  "operations": [
+    {
+      "id": "mesh",
+      "name": "Synthetic body mesh",
+      "target": {
+        "partIds": [
+          "body"
+        ]
+      },
+      "action": {
+        "type": "artmesh-generate",
+        "preset": "face-feature",
+        "columns": 8,
+        "rows": 8
+      }
+    },
+    {
+      "id": "bend",
+      "name": "Bounded bend",
+      "target": {
+        "partIds": [
+          "body"
+        ]
+      },
+      "action": {
+        "type": "deform-brush",
+        "brush": {
+          "surface": {
+            "kind": "artmesh",
+            "space": "mesh-local"
+          },
+          "center": [
+            60,
+            90
+          ],
+          "radius": 200,
+          "effect": {
+            "mode": "bend",
+            "angle": 30,
+            "axis": [
+              0,
+              1
+            ]
+          },
+          "iterations": 2,
+          "maxDisplacement": 15,
+          "falloff": "smooth",
+          "destination": {
+            "kind": "blend-shape",
+            "shape": {
+              "id": "validation-bend",
+              "parameter": "ParamAngleX",
+              "neutralInput": 0,
+              "targetInput": 30
+            }
+          }
+        }
+      }
+    }
+  ]
+}

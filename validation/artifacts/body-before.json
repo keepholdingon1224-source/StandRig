@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "part": {
+    "id": "body",
+    "name": "body",
+    "kind": "image",
+    "parentId": "root",
+    "assetId": "body",
+    "visible": true,
+    "drawOrder": 1,
+    "transform": {
+      "x": 160,
+      "y": 242,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "opacity": 1
+    },
+    "bindings": [
+      {
+        "parameter": "ParamBodyAngleZ",
+        "property": "rotation",
+        "keys": [
+          {
+            "input": -10,
+            "value": -10
+          },
+          {
+            "input": 0,
+            "value": 0
+          },
+          {
+            "input": 10,
+            "value": 10
+          }
+        ]
+      }
+    ]
+  }
+}

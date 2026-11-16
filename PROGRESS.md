@@ -74,6 +74,19 @@ GitHub反映成功: 実装・成果物コミット `62ba6adc1a9c09956d3210e5b5f6
 
 GitHub反映成功: 共有構成コミット `d58d6e8e4ad6ee63b15d623c48b14d9777213b23` を `git -c credential.helper='!gh auth git-credential' push -u origin experiment/rigging-validation-20261115` でユーザーのForkへpush（exit 0）。`git ls-remote origin refs/heads/experiment/rigging-validation-20261115` のSHAが一致。過去の検証コミット `6b9b588` の画像・ログも同じブランチの履歴に含まれる。この結果の追記は別コミットで通常pushし、最終SHAをハンドオフで示す。公式とmainは変更していない。
 
+
+## 2026-11-16T21:45:37Z / 005-spatiotemporal-constraints（2026-11-17 JST）
+
+1. **日時・目的:** ユーザー2026-11-17実行承認に基づき、004の髪全辺長・裾の柔らかさ・ループ速度を改善。004視覚評価「いいよ」、追加要望「スカートの波打ちを柔らかくしてくれてもいいかも」を暫定承認として記録し、004数値・総合不合格は維持。
+2. **コマンド・環境:** 初期`work`/`c3166aa`、作業ツリーclean。GitHub指定ブランチ先端`15020757c16e8652cc356ccbab057719b2259b0c`を確認・取得し、同ブランチへfast-forward。Linux/Node/Python NumPy・SciPy・Matplotlib・Pillow、既存ローカルffmpeg。`npm run build`、`node experiments/005-prepare.mjs`、`OPENBLAS_NUM_THREADS=1 python experiments/005-solve.py`、`node experiments/005-spatiotemporal-constraints.mjs`、`MPLCONFIGDIR=$PWD/work/mpl python experiments/005-plot.py`、`npm test`、`node experiments/005-verify.mjs`。独立検査が補助指標/物理状態検査も実行。詳細環境は[manifest](results/005-spatiotemporal-constraints/manifest.json)。
+3. **変更ファイル:** `experiments/005-*`7本、`results/005-spatiotemporal-constraints/`、本書、PROJECT.md、実験/成果物索引。003/004のコード・成果物・ログおよび製品ソースは無変更。main/原作者/SONYプロジェクトへの変更なし。
+4. **成功・失敗:** build exit0、公式schema/smoke16/Node183成功・失敗0/skip0。最終独立20項目成功・数値18チェック成功（exit0）。全482座標再生成一致、003の240PNG再計算一致、004の全座標/240PNG再描画一致、005の240PNG再描画一致。全動画/GIFを全デコード、8秒30fps240枚、3回再生版24秒720枚を確認。髪辺比0.901536〜1.098376、中心線1.000000〜1.019090、範囲147.977665px。裾辺比0.947091〜1.058099、範囲66.800470px。境界速度差1.419529/0.750531px/s、根元・反転/縮退・ループ位置・同位相60Hzメッシュ速度差0。実60Hz振り子状態も元トレースと再現一致。**数値合格、005ユーザー視覚評価待ち、総合未合格**。失敗151px試行・平滑化候補・初回検査ハッシュ不一致を保存し、修正前を成功扱いしない。
+5. **成果物:** [005報告](results/005-spatiotemporal-constraints/README.md)、[MP4](results/005-spatiotemporal-constraints/hair-skirt-loop.mp4)、[GIF](results/005-spatiotemporal-constraints/preview.gif)、[240PNG](results/005-spatiotemporal-constraints/frames/)、[003/004/005比較](results/005-spatiotemporal-constraints/comparison-003-004-005.mp4)、[A/B/C/D](results/005-spatiotemporal-constraints/comparison-A-B-C-D.mp4)、[裾拡大比較](results/005-spatiotemporal-constraints/hem-closeup-004-005.mp4)、[数値](results/005-spatiotemporal-constraints/metrics.json)、[独立検査](results/005-spatiotemporal-constraints/verification.json)。グラフ・最悪時刻画像・コード・失敗・ログは報告から参照。
+6. **未解決:** 髪幅は最大約9.8%縮小し縦方向曲率が004より悪化。髪可動範囲は004より約29.7%減（指定147pxを維持）。裾辺長比は少し悪化するが許容内。裾平滑化は全周期のオフライン正則化で、時間積分XPBD・新たな裾方向物理波伝播は未実装。新方式のネイティブGUI統合・Windows実機・身体衝突・全身制作は未実施。視覚的柔らかさは数値だけでは判定せずユーザー審査待ち。追加課金/有料API/別エンジン移行なし。
+7. **ChatGPTに評価してほしい事項:** 004/005裾比較の滑らかさ、揺れ戻し、プリーツ/金トリム、ループの見え方。髪の幅・曲率の悪化と振幅のトレードオフ。Codex静止比較は参考で、005のユーザー視覚承認は未取得。
+
+GitHub反映：指定Fork・指定ブランチへ通常commit/pushし、リモートSHAと照合する。最終コミットIDはチャットで報告する。
+
 ## 次回記録テンプレート
 
 ### YYYY-MM-DDTHH:MM:SSZ / 実験ID

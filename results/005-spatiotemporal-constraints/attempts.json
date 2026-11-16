@@ -1,0 +1,500 @@
+{
+  "hair": [
+    {
+      "hairTarget": 151,
+      "cost": 1.3389959179706925,
+      "nfev": 45,
+      "metrics": {
+        "edgeRatio": [
+          0.8978934094682202,
+          1.1012685414319041
+        ],
+        "areaRatio": [
+          0.8288210950243976,
+          1.073005018619625
+        ],
+        "tipRange": 150.80185790059227,
+        "seam30": 1.457213419937043,
+        "maxHemCurvature": 2.0677052802645728e-16,
+        "maxHorizontalCurvature": 2.426572871826273e-16,
+        "maxVerticalCurvature": 0.015562028515247614,
+        "maxCurvatureTimeDerivative": 2.3370938331165932e-14,
+        "maxAcceleration": 109.38947989346504,
+        "maxJerk": 152.1344554272547,
+        "maxShearCosine": 0.224523090390558,
+        "maxEdgeAcceptanceResidual": 0.0021065905317798617,
+        "edgeBandActiveSwitchFrames": 211,
+        "meanVelocityChangeOnSwitch": 0.7926061440305091,
+        "meanVelocityChangeOffSwitch": 0.8014092608426798,
+        "worstEdge": {
+          "time": 6.45,
+          "vertices": [
+            8,
+            17
+          ],
+          "ratio": 0.8978934094682202
+        },
+        "worstCurvatureChange": {
+          "time": 6.6,
+          "row": 16,
+          "column": 5
+        }
+      },
+      "parameters": [
+        0.06965270531965347,
+        0.1778608265419978,
+        0.20407846824253248,
+        0.23025149204684073,
+        0.25639095528631206,
+        0.28251215719580686,
+        0.3086371817879768,
+        0.334798114606796,
+        0.3610424621283982,
+        0.3874425852862899,
+        0.4141132965333879,
+        0.44124799476153836,
+        0.5165921634947204,
+        0.5331337908370457,
+        0.5340157049389398,
+        0.53415148125058,
+        0.02446251708177199,
+        0.05031285941205633,
+        0.07610696149350508,
+        0.10182950269590918,
+        0.12746477370283724,
+        0.15299491837828888,
+        0.17839766733747406,
+        0.20364310060422883,
+        0.22868857141871393,
+        0.2534700797082554,
+        0.2778864112616197,
+        0.30176729838688604,
+        0.3070697818076124,
+        0.30764307873510727,
+        0.3078371641822028,
+        0.307901250248089,
+        -0.004229588838879117,
+        -0.00018685967650095489,
+        -4.196413221417204e-05,
+        7.083325888576372e-05,
+        0.00015837458413786918,
+        0.00022249253409573877,
+        0.0002578522013402393,
+        0.0002470525730547516,
+        0.00015041742307525988,
+        -0.00011501287105945551,
+        -0.000719715595110686,
+        -0.002019388240437545,
+        0.07956916151751922,
+        0.07836541237007717,
+        0.07827353982701259,
+        0.07827409240180719,
+        -0.022029394885795934,
+        -0.02342125879012665,
+        -0.025030992522061358,
+        -0.027014845965528573,
+        -0.029562347580025895,
+        -0.032914043405450004,
+        -0.037384861112901305,
+        -0.0433962776923545,
+        -0.05152231663451749,
+        -0.06255788107564668,
+        -0.0776248481817679,
+        -0.09834623208907321,
+        -0.09801352599454302,
+        -0.09800095583480724,
+        -0.09801140639918421,
+        -0.09801310351437073
+      ]
+    },
+    {
+      "hairTarget": 148,
+      "cost": 0.017111384962751313,
+      "nfev": 71,
+      "metrics": {
+        "edgeRatio": [
+          0.9015362086034464,
+          1.0983755193919393
+        ],
+        "areaRatio": [
+          0.8299488323403875,
+          1.0716445505599084
+        ],
+        "tipRange": 147.97766549545972,
+        "seam30": 1.4195291460003283,
+        "maxHemCurvature": 2.361951885323287e-16,
+        "maxHorizontalCurvature": 2.361951885323287e-16,
+        "maxVerticalCurvature": 0.015024236505717214,
+        "maxCurvatureTimeDerivative": 2.440066774000669e-14,
+        "maxAcceleration": 107.43703214890853,
+        "maxJerk": 148.86885041056053,
+        "maxShearCosine": 0.22380935832343968,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 179,
+        "meanVelocityChangeOnSwitch": 0.7598763512713893,
+        "meanVelocityChangeOffSwitch": 0.7943279371124018,
+        "worstEdge": {
+          "time": 6.45,
+          "vertices": [
+            8,
+            17
+          ],
+          "ratio": 0.9015362086034464
+        },
+        "worstCurvatureChange": {
+          "time": 5.983333333333333,
+          "row": 14,
+          "column": 7
+        }
+      },
+      "parameters": [
+        0.06797987655042358,
+        0.17390762578688165,
+        0.19928007287237418,
+        0.2246741090627706,
+        0.2501007004355079,
+        0.2755747344538971,
+        0.301117378788073,
+        0.32675907664364634,
+        0.3525446031182891,
+        0.3785418918608786,
+        0.40485845164867584,
+        0.43167527093054586,
+        0.5207349144366079,
+        0.5231383117197369,
+        0.5232262023734655,
+        0.5232406002187932,
+        0.02378230573964337,
+        0.04898908813182605,
+        0.07417286213254531,
+        0.09932596645127838,
+        0.12443841545217982,
+        0.14949672966201577,
+        0.1744821709311193,
+        0.1993679763581248,
+        0.22411479220427968,
+        0.24866269772439828,
+        0.27291631880988565,
+        0.2967146514756251,
+        0.2974495949134209,
+        0.29750988700133646,
+        0.2975311570769261,
+        0.2975382837280473,
+        -0.0031974721749757906,
+        -6.22777248226127e-05,
+        -3.474000499558709e-05,
+        -9.928541970762125e-06,
+        1.0924634744102244e-05,
+        2.3463743716597454e-05,
+        1.7416183101177297e-05,
+        -2.889549258839595e-05,
+        -0.0001594599208232107,
+        -0.00046269452902179565,
+        -0.0011179057659893806,
+        -0.002498294034701353,
+        0.07841289557254563,
+        0.0781760098627396,
+        0.07818196622613427,
+        0.07818326488467148,
+        -0.020947016107056026,
+        -0.02203564344116185,
+        -0.023464989728855697,
+        -0.025361223121722225,
+        -0.027892314365050283,
+        -0.03128400898534788,
+        -0.03584210567331099,
+        -0.04198417077305486,
+        -0.05028578627166151,
+        -0.061550104614368537,
+        -0.07691680444976015,
+        -0.09804240638391222,
+        -0.09799111471378429,
+        -0.09799737271398903,
+        -0.09799996459451614,
+        -0.09800060948873955
+      ]
+    }
+  ],
+  "skirt": [
+    {
+      "temporalSigmaFrames": 0,
+      "spatialSigmaColumns": 0,
+      "metrics": {
+        "edgeRatio": [
+          0.9551295676005972,
+          1.0525479622325873
+        ],
+        "areaRatio": [
+          0.8888383710420042,
+          1.0444185761325995
+        ],
+        "tipRange": 67.08142960436433,
+        "seam30": 4.27472885786493,
+        "maxHemCurvature": 0.00022293459064611821,
+        "maxHorizontalCurvature": 0.0016299641200289135,
+        "maxVerticalCurvature": 0.009639891408388583,
+        "maxCurvatureTimeDerivative": 0.014363491629045941,
+        "maxAcceleration": 727.4205351952627,
+        "maxJerk": 42959.49447937787,
+        "maxShearCosine": 0.2544293977047741,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 344,
+        "meanVelocityChangeOnSwitch": 2.403661999433287,
+        "meanVelocityChangeOffSwitch": 0.3351101952718158,
+        "worstEdge": {
+          "time": 6.4,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.0525479622325873
+        },
+        "worstCurvatureChange": {
+          "time": 0.6,
+          "row": 1,
+          "column": 1
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 2,
+      "spatialSigmaColumns": 0,
+      "metrics": {
+        "edgeRatio": [
+          0.9551444092581342,
+          1.0525103294003586
+        ],
+        "areaRatio": [
+          0.888909056118737,
+          1.0443927783524503
+        ],
+        "tipRange": 67.04988858850051,
+        "seam30": 1.9770340874436219,
+        "maxHemCurvature": 0.00020895162405907072,
+        "maxHorizontalCurvature": 0.0016295118081002032,
+        "maxVerticalCurvature": 0.008278478744396826,
+        "maxCurvatureTimeDerivative": 0.006306094658655268,
+        "maxAcceleration": 165.40797583523195,
+        "maxJerk": 2865.713166132771,
+        "maxShearCosine": 0.25435172929975397,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 249,
+        "meanVelocityChangeOnSwitch": 1.1010704675452219,
+        "meanVelocityChangeOffSwitch": 0.4633124077914244,
+        "worstEdge": {
+          "time": 6.4,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.0525103294003586
+        },
+        "worstCurvatureChange": {
+          "time": 5.666666666666667,
+          "row": 2,
+          "column": 1
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 4,
+      "spatialSigmaColumns": 0,
+      "metrics": {
+        "edgeRatio": [
+          0.9551933957971469,
+          1.052401648261741
+        ],
+        "areaRatio": [
+          0.8890223761963278,
+          1.0443129925027304
+        ],
+        "tipRange": 66.95628109506752,
+        "seam30": 1.1300544204413354,
+        "maxHemCurvature": 0.00020373888974721215,
+        "maxHorizontalCurvature": 0.0016280254390418963,
+        "maxVerticalCurvature": 0.008191230069044477,
+        "maxCurvatureTimeDerivative": 0.004665921766609749,
+        "maxAcceleration": 86.53953879342109,
+        "maxJerk": 813.7257808076048,
+        "maxShearCosine": 0.2540444816462208,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 249,
+        "meanVelocityChangeOnSwitch": 0.7285812401825337,
+        "meanVelocityChangeOffSwitch": 0.36960055711715556,
+        "worstEdge": {
+          "time": 6.4,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.052401648261741
+        },
+        "worstCurvatureChange": {
+          "time": 5.683333333333334,
+          "row": 2,
+          "column": 1
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 6,
+      "spatialSigmaColumns": 0,
+      "metrics": {
+        "edgeRatio": [
+          0.9552760017250733,
+          1.0522126224306547
+        ],
+        "areaRatio": [
+          0.8892771056249772,
+          1.0441465041580744
+        ],
+        "tipRange": 66.80049734086671,
+        "seam30": 0.7659682459137004,
+        "maxHemCurvature": 0.00019684880491024038,
+        "maxHorizontalCurvature": 0.0016251027133350033,
+        "maxVerticalCurvature": 0.008098102630848987,
+        "maxCurvatureTimeDerivative": 0.0037460935107050137,
+        "maxAcceleration": 60.57884635593519,
+        "maxJerk": 363.3175251492016,
+        "maxShearCosine": 0.25350185214859045,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 247,
+        "meanVelocityChangeOnSwitch": 0.5875072613570179,
+        "meanVelocityChangeOffSwitch": 0.3396348197187059,
+        "worstEdge": {
+          "time": 6.383333333333334,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.0522126224306547
+        },
+        "worstCurvatureChange": {
+          "time": 5.733333333333333,
+          "row": 3,
+          "column": 2
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 6,
+      "spatialSigmaColumns": 0.65,
+      "metrics": {
+        "edgeRatio": [
+          0.9470905217983507,
+          1.058098735039116
+        ],
+        "areaRatio": [
+          0.9058908071361353,
+          1.0225088148646442
+        ],
+        "tipRange": 66.80046969832415,
+        "seam30": 0.7505313476963217,
+        "maxHemCurvature": 8.045533284360824e-05,
+        "maxHorizontalCurvature": 0.0008297869563785824,
+        "maxVerticalCurvature": 0.006437248263999791,
+        "maxCurvatureTimeDerivative": 0.0020701681755085953,
+        "maxAcceleration": 56.08831088050978,
+        "maxJerk": 333.7111888615792,
+        "maxShearCosine": 0.2443447709874617,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 240,
+        "meanVelocityChangeOnSwitch": 0.5733420003824946,
+        "meanVelocityChangeOffSwitch": 0.3391007665460269,
+        "worstEdge": {
+          "time": 6.383333333333334,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.058098735039116
+        },
+        "worstCurvatureChange": {
+          "time": 5.816666666666666,
+          "row": 3,
+          "column": 2
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 8,
+      "spatialSigmaColumns": 0.65,
+      "metrics": {
+        "edgeRatio": [
+          0.9471944779625595,
+          1.0578779629328265
+        ],
+        "areaRatio": [
+          0.9069144069653877,
+          1.0222750511936902
+        ],
+        "tipRange": 66.5813466794055,
+        "seam30": 0.6538957919993205,
+        "maxHemCurvature": 7.570540450315907e-05,
+        "maxHorizontalCurvature": 0.0008154723822893155,
+        "maxVerticalCurvature": 0.006255487233088373,
+        "maxCurvatureTimeDerivative": 0.0019269739951139058,
+        "maxAcceleration": 44.97746275862579,
+        "maxJerk": 201.65179593944305,
+        "maxShearCosine": 0.2433606303816191,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 236,
+        "meanVelocityChangeOnSwitch": 0.5068860920714353,
+        "meanVelocityChangeOffSwitch": 0.3192241134237129,
+        "worstEdge": {
+          "time": 6.383333333333334,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.0578779629328265
+        },
+        "worstCurvatureChange": {
+          "time": 5.816666666666666,
+          "row": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "temporalSigmaFrames": 12,
+      "spatialSigmaColumns": 0.65,
+      "metrics": {
+        "edgeRatio": [
+          0.9474648135501748,
+          1.0572814210213606
+        ],
+        "areaRatio": [
+          0.9100911425684757,
+          1.0212064260978182
+        ],
+        "tipRange": 65.94765290248976,
+        "seam30": 0.5534244164018544,
+        "maxHemCurvature": 6.378166286222959e-05,
+        "maxHorizontalCurvature": 0.0007890900333909516,
+        "maxVerticalCurvature": 0.0060889585357672485,
+        "maxCurvatureTimeDerivative": 0.0015762407910998569,
+        "maxAcceleration": 37.905977987709925,
+        "maxJerk": 100.30074315932514,
+        "maxShearCosine": 0.24046627247681887,
+        "maxEdgeAcceptanceResidual": 0.0,
+        "edgeBandActiveSwitchFrames": 235,
+        "meanVelocityChangeOnSwitch": 0.436054366597128,
+        "meanVelocityChangeOffSwitch": 0.2819998686308003,
+        "worstEdge": {
+          "time": 6.383333333333334,
+          "vertices": [
+            0,
+            10
+          ],
+          "ratio": 1.0572814210213606
+        },
+        "worstCurvatureChange": {
+          "time": 5.833333333333333,
+          "row": 4,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "file": "worst-004-hair-worstEdge.png",
+    "experiment": "004",
+    "part": "hair",
+    "event": "worstEdge",
+    "exactGeometryTime": 6.45,
+    "backgroundFrameTime": 6.466666666666667,
+    "details": {
+      "time": 6.45,
+      "vertices": [
+        0,
+        9
+      ],
+      "ratio": 1.2011330145255779
+    }
+  },
+  {
+    "file": "worst-004-hair-worstCurvatureChange.png",
+    "experiment": "004",
+    "part": "hair",
+    "event": "worstCurvatureChange",
+    "exactGeometryTime": 6.266666666666667,
+    "backgroundFrameTime": 6.266666666666667,
+    "details": {
+      "time": 6.266666666666667,
+      "row": 9,
+      "column": 1
+    }
+  },
+  {
+    "file": "worst-004-skirt-worstEdge.png",
+    "experiment": "004",
+    "part": "skirt",
+    "event": "worstEdge",
+    "exactGeometryTime": 6.4,
+    "backgroundFrameTime": 6.4,
+    "details": {
+      "time": 6.4,
+      "vertices": [
+        0,
+        10
+      ],
+      "ratio": 1.0525479622325873
+    }
+  },
+  {
+    "file": "worst-004-skirt-worstCurvatureChange.png",
+    "experiment": "004",
+    "part": "skirt",
+    "event": "worstCurvatureChange",
+    "exactGeometryTime": 0.6,
+    "backgroundFrameTime": 0.6,
+    "details": {
+      "time": 0.6,
+      "row": 1,
+      "column": 1
+    }
+  },
+  {
+    "file": "worst-005-hair-worstEdge.png",
+    "experiment": "005",
+    "part": "hair",
+    "event": "worstEdge",
+    "exactGeometryTime": 6.45,
+    "backgroundFrameTime": 6.466666666666667,
+    "details": {
+      "time": 6.45,
+      "vertices": [
+        8,
+        17
+      ],
+      "ratio": 0.9015362086034464
+    }
+  },
+  {
+    "file": "worst-005-hair-worstCurvatureChange.png",
+    "experiment": "005",
+    "part": "hair",
+    "event": "worstCurvatureChange",
+    "exactGeometryTime": 5.983333333333333,
+    "backgroundFrameTime": 6.0,
+    "details": {
+      "time": 5.983333333333333,
+      "row": 14,
+      "column": 7
+    }
+  },
+  {
+    "file": "worst-005-skirt-worstEdge.png",
+    "experiment": "005",
+    "part": "skirt",
+    "event": "worstEdge",
+    "exactGeometryTime": 6.383333333333334,
+    "backgroundFrameTime": 6.4,
+    "details": {
+      "time": 6.383333333333334,
+      "vertices": [
+        0,
+        10
+      ],
+      "ratio": 1.058098735039116
+    }
+  },
+  {
+    "file": "worst-005-skirt-worstCurvatureChange.png",
+    "experiment": "005",
+    "part": "skirt",
+    "event": "worstCurvatureChange",
+    "exactGeometryTime": 5.816666666666666,
+    "backgroundFrameTime": 5.8,
+    "details": {
+      "time": 5.816666666666666,
+      "row": 3,
+      "column": 2
+    }
+  }
+]

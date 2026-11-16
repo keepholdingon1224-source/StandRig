@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-16T21:44:13.761Z",
+  "integrityPass": true,
+  "numericalAcceptancePass": true,
+  "tests": [
+    {
+      "name": "identical-003-inputs",
+      "pass": true
+    },
+    {
+      "name": "003-actual-reproduction",
+      "pass": true
+    },
+    {
+      "name": "independent-all-element-geometry-measurement",
+      "pass": true
+    },
+    {
+      "name": "reproducibility-full-482-sample-geometry",
+      "pass": true
+    },
+    {
+      "name": "saved-geometry-render-and-no-endpoint-substitution",
+      "pass": true
+    },
+    {
+      "name": "all-240-PNG-decode-dimensions-and-pixel-bounds",
+      "pass": true
+    },
+    {
+      "name": "hair-skirt-loop.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "A-loop.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "B-loop.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "C-loop.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "comparison-003-004-005.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "comparison-A-B-C-D.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "hem-closeup-004-005.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "GIF-full-decode-loop-and-duration",
+      "pass": true
+    },
+    {
+      "name": "official-npm-test",
+      "pass": true
+    },
+    {
+      "name": "004-reproduction-all-geometry-and-images",
+      "pass": true
+    },
+    {
+      "name": "ablation-isolation-and-003-004-common-definitions",
+      "pass": true
+    },
+    {
+      "name": "protected-baseline-and-product-files-unchanged",
+      "pass": true
+    },
+    {
+      "name": "three-loops-720-frames-full-decode",
+      "pass": true
+    },
+    {
+      "name": "independent-monitoring-and-native-physical-state",
+      "pass": true
+    }
+  ],
+  "acceptance": [
+    {
+      "name": "hair:edgeRange",
+      "pass": true
+    },
+    {
+      "name": "hair:centerline",
+      "pass": true
+    },
+    {
+      "name": "hair:tipRange",
+      "pass": true
+    },
+    {
+      "name": "hair:root",
+      "pass": true
+    },
+    {
+      "name": "hair:triangles",
+      "pass": true
+    },
+    {
+      "name": "hair:loopPosition",
+      "pass": true
+    },
+    {
+      "name": "hair:samePhaseVelocity",
+      "pass": true
+    },
+    {
+      "name": "hair:seamVelocity",
+      "pass": true
+    },
+    {
+      "name": "hair:screen",
+      "pass": true
+    },
+    {
+      "name": "skirt:edgeRange",
+      "pass": true
+    },
+    {
+      "name": "skirt:centerline",
+      "pass": true
+    },
+    {
+      "name": "skirt:tipRange",
+      "pass": true
+    },
+    {
+      "name": "skirt:root",
+      "pass": true
+    },
+    {
+      "name": "skirt:triangles",
+      "pass": true
+    },
+    {
+      "name": "skirt:loopPosition",
+      "pass": true
+    },
+    {
+      "name": "skirt:samePhaseVelocity",
+      "pass": true
+    },
+    {
+      "name": "skirt:seamVelocity",
+      "pass": true
+    },
+    {
+      "name": "skirt:screen",
+      "pass": true
+    }
+  ],
+  "inspected": [
+    {
+      "id": "hair",
+      "samples": 482,
+      "edgeObservations": 196656,
+      "triangleObservations": 123392,
+      "metrics": {
+        "minEdgeRatio": 0.9015362086034464,
+        "maxEdgeRatio": 1.0983755193919393,
+        "minAreaRatio": 0.8299488323403875,
+        "maxAreaRatio": 1.0716445505599084,
+        "minCenterlineRatio": 1.0000000818873727,
+        "maxCenterlineRatio": 1.01908964205736,
+        "maxRootDisplacement": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "screenClippedElements": 0,
+        "tipHorizontalRange": 147.97766549545972,
+        "maxLoopPositionDelta": 0,
+        "samePhaseVelocityDelta60Hz": 0,
+        "seamVelocityJump30fps": 1.4195291460003283,
+        "maxOrdinaryVelocityJump30fps": 3.580171182835793,
+        "maxSpeed60Hz": 88.36487572780909
+      }
+    },
+    {
+      "id": "skirt",
+      "samples": 482,
+      "edgeObservations": 196656,
+      "triangleObservations": 123392,
+      "metrics": {
+        "minEdgeRatio": 0.9470905217983507,
+        "maxEdgeRatio": 1.058098735039116,
+        "minAreaRatio": 0.9058908071361353,
+        "maxAreaRatio": 1.0225088148646442,
+        "minCenterlineRatio": 0.9740406938832337,
+        "maxCenterlineRatio": 0.9953099936892517,
+        "maxRootDisplacement": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "screenClippedElements": 0,
+        "tipHorizontalRange": 66.80046969832415,
+        "maxLoopPositionDelta": 0,
+        "samePhaseVelocityDelta60Hz": 0,
+        "seamVelocityJump30fps": 0.7505313476963217,
+        "maxOrdinaryVelocityJump30fps": 1.8586521048967743,
+        "maxSpeed60Hz": 37.62760706523555
+      }
+    }
+  ],
+  "blankFrames": 0,
+  "clippedFrames": 0,
+  "visualQuality": "005ユーザー視覚評価待ち。004視覚品質は2026-11-17暫定承認、004数値不合格は維持。",
+  "notTested": [
+    "Windows physical machine",
+    "body collision",
+    "cloth back artwork",
+    "full 3D depth",
+    "native interactive playback of new solver",
+    "human visual review"
+  ]
+}

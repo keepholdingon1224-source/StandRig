@@ -1,0 +1,679 @@
+{
+  "pass": true,
+  "cycles": 3,
+  "cycleOutputDelta": 3.3698510648605406e-10,
+  "maxOutputError": 0,
+  "maxParticlePositionComponentDelta": 9.325873406851315e-15,
+  "maxParticleVelocityComponentDelta": 2.3685914340987324e-14,
+  "units": "native pendulum state units; these are not mesh pixel/s; mesh60Hz velocity is checked independently",
+  "start": {
+    "signature": "hair:4:3|skirt:4:3",
+    "strands": [
+      [
+        {
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "lastPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "lastGravity": {
+            "x": 0,
+            "y": 1
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "position": {
+            "x": 2.25205105367103,
+            "y": 17.858562821561513
+          },
+          "lastPosition": {
+            "x": 2.155208783360649,
+            "y": 17.870508529421457
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.24902298079812332,
+            "y": -0.030717534496998513
+          }
+        },
+        {
+          "position": {
+            "x": 3.1840351085324006,
+            "y": 35.83441901039114
+          },
+          "lastPosition": {
+            "x": 2.973467359218143,
+            "y": 35.85190038052786
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.6113257238155863,
+            "y": -0.05075236491306199
+          }
+        },
+        {
+          "position": {
+            "x": 1.6339251354130166,
+            "y": 53.76754921878576
+          },
+          "lastPosition": {
+            "x": 1.3020594200597777,
+            "y": 53.77413225886596
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 1.1062190511774634,
+            "y": -0.021943466934004622
+          }
+        }
+      ],
+      [
+        {
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "lastPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "lastGravity": {
+            "x": 0,
+            "y": 1
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "position": {
+            "x": 1.8837059249189698,
+            "y": 23.925961882198703
+          },
+          "lastPosition": {
+            "x": 1.751877693209167,
+            "y": 23.935975529483567
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.31638775610352654,
+            "y": -0.024032753483675152
+          }
+        },
+        {
+          "position": {
+            "x": 0.8614179876494532,
+            "y": 47.90417965110958
+          },
+          "lastPosition": {
+            "x": 0.5901723865232795,
+            "y": 47.907843224354934
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.7349880804709222,
+            "y": -0.009927101697090187
+          }
+        },
+        {
+          "position": {
+            "x": -4.104724660265855,
+            "y": 71.38475518069481
+          },
+          "lastPosition": {
+            "x": -4.482147992064595,
+            "y": 71.36571111504274
+          },
+          "lastGravity": {
+            "x": 0.05439274697968629,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 1.1742059211516354,
+            "y": 0.05924820425087774
+          }
+        }
+      ]
+    ],
+    "currentOutputs": [
+      [
+        -0.12544268020958205,
+        0.07364262600250204,
+        0.13802407515008297
+      ],
+      [
+        -0.07856855611105362,
+        0.12117677791814163,
+        0.1658202197695533
+      ]
+    ],
+    "previousOutputs": [
+      [
+        -0.12002177059756014,
+        0.07454728945271061,
+        0.1384644358979812
+      ],
+      [
+        -0.07305988239357575,
+        0.12148319191941548,
+        0.1645292509535563
+      ]
+    ],
+    "caches": {},
+    "inputCaches": {},
+    "remainTime": 0
+  },
+  "end": {
+    "signature": "hair:4:3|skirt:4:3",
+    "strands": [
+      [
+        {
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "lastPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "lastGravity": {
+            "x": 0,
+            "y": 1
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "position": {
+            "x": 2.25205105367103,
+            "y": 17.858562821561513
+          },
+          "lastPosition": {
+            "x": 2.155208783360649,
+            "y": 17.870508529421457
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.24902298079812332,
+            "y": -0.030717534496998513
+          }
+        },
+        {
+          "position": {
+            "x": 3.1840351085324006,
+            "y": 35.83441901039114
+          },
+          "lastPosition": {
+            "x": 2.973467359218143,
+            "y": 35.85190038052786
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.6113257238155863,
+            "y": -0.05075236491306199
+          }
+        },
+        {
+          "position": {
+            "x": 1.6339251354130073,
+            "y": 53.76754921878576
+          },
+          "lastPosition": {
+            "x": 1.3020594200597662,
+            "y": 53.774132258865954
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 1.1062190511774708,
+            "y": -0.021943466933980936
+          }
+        }
+      ],
+      [
+        {
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "lastPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "lastGravity": {
+            "x": 0,
+            "y": 1
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "position": {
+            "x": 1.8837059249189698,
+            "y": 23.925961882198703
+          },
+          "lastPosition": {
+            "x": 1.751877693209167,
+            "y": 23.935975529483567
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.31638775610352654,
+            "y": -0.024032753483675152
+          }
+        },
+        {
+          "position": {
+            "x": 0.8614179876494532,
+            "y": 47.90417965110958
+          },
+          "lastPosition": {
+            "x": 0.5901723865232795,
+            "y": 47.907843224354934
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 0.7349880804709222,
+            "y": -0.009927101697090187
+          }
+        },
+        {
+          "position": {
+            "x": -4.104724660265855,
+            "y": 71.38475518069481
+          },
+          "lastPosition": {
+            "x": -4.482147992064595,
+            "y": 71.36571111504274
+          },
+          "lastGravity": {
+            "x": 0.054392746979686143,
+            "y": 0.9985196187737143
+          },
+          "velocity": {
+            "x": 1.1742059211516354,
+            "y": 0.05924820425087774
+          }
+        }
+      ]
+    ],
+    "currentOutputs": [
+      [
+        -0.12544268020958205,
+        0.07364262600250204,
+        0.13802407515008341
+      ],
+      [
+        -0.07856855611105362,
+        0.12117677791814163,
+        0.1658202197695533
+      ]
+    ],
+    "previousOutputs": [
+      [
+        -0.12002177059756014,
+        0.07454728945271061,
+        0.13846443589798185
+      ],
+      [
+        -0.07305988239357575,
+        0.12148319191941548,
+        0.1645292509535563
+      ]
+    ],
+    "caches": {},
+    "inputCaches": {},
+    "remainTime": 0
+  },
+  "differences": [
+    {
+      "path": "state.strands.0.0.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.lastGravity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.0.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.0.1.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.1.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.0.2.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.2.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.3.position.x",
+      "delta": 9.325873406851315e-15
+    },
+    {
+      "path": "state.strands.0.3.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.3.lastPosition.x",
+      "delta": 1.1546319456101628e-14
+    },
+    {
+      "path": "state.strands.0.3.lastPosition.y",
+      "delta": 7.105427357601002e-15
+    },
+    {
+      "path": "state.strands.0.3.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.0.3.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.0.3.velocity.x",
+      "delta": 7.327471962526033e-15
+    },
+    {
+      "path": "state.strands.0.3.velocity.y",
+      "delta": 2.3685914340987324e-14
+    },
+    {
+      "path": "state.strands.1.0.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.lastGravity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.0.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.1.1.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.1.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.1.2.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.2.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.position.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.position.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.lastPosition.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.lastPosition.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.lastGravity.x",
+      "delta": 1.457167719820518e-16
+    },
+    {
+      "path": "state.strands.1.3.lastGravity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.velocity.x",
+      "delta": 0
+    },
+    {
+      "path": "state.strands.1.3.velocity.y",
+      "delta": 0
+    },
+    {
+      "path": "state.currentOutputs.0.0",
+      "delta": 0
+    },
+    {
+      "path": "state.currentOutputs.0.1",
+      "delta": 0
+    },
+    {
+      "path": "state.currentOutputs.0.2",
+      "delta": 4.440892098500626e-16
+    },
+    {
+      "path": "state.currentOutputs.1.0",
+      "delta": 0
+    },
+    {
+      "path": "state.currentOutputs.1.1",
+      "delta": 0
+    },
+    {
+      "path": "state.currentOutputs.1.2",
+      "delta": 0
+    },
+    {
+      "path": "state.previousOutputs.0.0",
+      "delta": 0
+    },
+    {
+      "path": "state.previousOutputs.0.1",
+      "delta": 0
+    },
+    {
+      "path": "state.previousOutputs.0.2",
+      "delta": 6.661338147750939e-16
+    },
+    {
+      "path": "state.previousOutputs.1.0",
+      "delta": 0
+    },
+    {
+      "path": "state.previousOutputs.1.1",
+      "delta": 0
+    },
+    {
+      "path": "state.previousOutputs.1.2",
+      "delta": 0
+    },
+    {
+      "path": "state.remainTime",
+      "delta": 0
+    }
+  ]
+}

@@ -20,3 +20,5 @@ Codexが実装と実行を担当する。リポジトリ直下から起動し、
 `experiments/<id>/` にコードとREADME、`results/<id>/` に共有可能なログ・設定・画像・動画・結果要約を保存する。実験のREADMEに目的、対象コミット、実行コマンド、環境、素材、合格条件、出力先を明記する。モデルの作業領域は `workspace/` 等のGit除外先を使う。既存の製品コード・検証記録は上書きしない。
 
 - 004: [変形拘束・比較結果・未達項目](../results/004-deformation-constraints/README.md)。髪中心線保持と裾距離拘束、総合不合格・全証拠保存。
+
+- 005: [実行手順と全証拠](../results/005-spatiotemporal-constraints/README.md)。`005-prepare.mjs` → `005-solve.py` → `005-spatiotemporal-constraints.mjs` → `005-plot.py` → `005-verify.mjs`。独立補助検査 `005-monitor-verify.py`、実物理状態検査 `005-physics-verify.mjs`。

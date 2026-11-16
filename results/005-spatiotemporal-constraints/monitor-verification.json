@@ -1,0 +1,92 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "004:hair:independent-monitoring",
+      "pass": true
+    },
+    {
+      "name": "004:skirt:independent-monitoring",
+      "pass": true
+    },
+    {
+      "name": "005:hair:independent-monitoring",
+      "pass": true
+    },
+    {
+      "name": "005:skirt:independent-monitoring",
+      "pass": true
+    }
+  ],
+  "parts": {
+    "004": [
+      {
+        "maxHemCurvature": 1.810568156307221e-16,
+        "maxHorizontalCurvature": 2.6105866439778505e-16,
+        "maxVerticalCurvature": 0.005947543677823062,
+        "maxCurvatureTimeDerivative": 2.22320927100049e-14,
+        "maxAcceleration": 184.09614729142908,
+        "maxJerk": 277.1126987069232,
+        "widthRatio": [
+          0.9999999999999997,
+          1.0000000000000004
+        ],
+        "maxVerticalCurvatureTimeDerivative": 0.005158422912381047,
+        "quarterToHemFundamentalLagSeconds": -0.000794401097486525,
+        "leftToRightHemFundamentalLagSeconds": 0.0853628872811229,
+        "dominantTipFrequencyHz": 0.125
+      },
+      {
+        "maxHemCurvature": 0.00022293459064611821,
+        "maxHorizontalCurvature": 0.0016299641200289135,
+        "maxVerticalCurvature": 0.009639891408388583,
+        "maxCurvatureTimeDerivative": 0.014363491629045941,
+        "maxAcceleration": 727.4205351952627,
+        "maxJerk": 42959.49447937787,
+        "widthRatio": [
+          0.9615790121241066,
+          1.0259071153018435
+        ],
+        "maxVerticalCurvatureTimeDerivative": 0.10174605697759416,
+        "quarterToHemFundamentalLagSeconds": 0.38146779275245696,
+        "leftToRightHemFundamentalLagSeconds": 0.015362549950575522,
+        "dominantTipFrequencyHz": 0.125
+      }
+    ],
+    "005": [
+      {
+        "maxHemCurvature": 2.361951885323287e-16,
+        "maxHorizontalCurvature": 2.361951885323287e-16,
+        "maxVerticalCurvature": 0.015024236505717214,
+        "maxCurvatureTimeDerivative": 2.440066774000669e-14,
+        "maxAcceleration": 107.43703214890853,
+        "maxJerk": 148.86885041056053,
+        "widthRatio": [
+          0.9019575936160876,
+          1.0
+        ],
+        "maxVerticalCurvatureTimeDerivative": 0.014129157390960611,
+        "quarterToHemFundamentalLagSeconds": -3.220412927890017e-05,
+        "leftToRightHemFundamentalLagSeconds": 0.05746289765795615,
+        "dominantTipFrequencyHz": 0.125
+      },
+      {
+        "maxHemCurvature": 8.045533284360824e-05,
+        "maxHorizontalCurvature": 0.0008297869563785824,
+        "maxVerticalCurvature": 0.006437248263999791,
+        "maxCurvatureTimeDerivative": 0.0020701681755085953,
+        "maxAcceleration": 56.08831088050978,
+        "maxJerk": 333.7111888615792,
+        "widthRatio": [
+          0.9637131198781343,
+          1.024826682952475
+        ],
+        "maxVerticalCurvatureTimeDerivative": 0.024623099452302413,
+        "quarterToHemFundamentalLagSeconds": 0.3814615071778672,
+        "leftToRightHemFundamentalLagSeconds": 0.014733240373935483,
+        "dominantTipFrequencyHz": 0.125
+      }
+    ]
+  },
+  "limits": "Curvature is mesh centerline curvature, not the painted scalloped texture silhouette. Phase lag describes response, not proof of material propagation. No added numeric softness acceptance."
+}

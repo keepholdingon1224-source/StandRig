@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-16T21:41:26.964Z",
+  "sourceCommit": "15020757c16e8652cc356ccbab057719b2259b0c",
+  "branch": "experiment/rigging-validation-20261115",
+  "node": "v24.22.1",
+  "platform": "linux",
+  "python": "Python 3.12.14",
+  "libraries": "scipy 1.17.0 numpy 2.3.5",
+  "inputHashes": {
+    "fixture": "b0b597a0937df6f172793329cd1e2c5aa87b28719c9cf4a3947136cbcf926443",
+    "physics": "6f6553d98cecfbd6c6fc05d021217d911615cd07340c9e580f7596a3c455b1c0",
+    "baselineGeometry": "ec8bd9cf9e9e7bc663e9f717a788af6f43c84dd3d2c989d42eda1aca40653255"
+  },
+  "condition": "Same original assets/UV/153 vertices per part/256 triangles per part/driving trace/camera640x360/supersample1/video8s30fps240 frames, same phase. No input amplitude or time scale change.",
+  "solver": "Offline hair coupled elastic row coefficients; skirt full-cycle periodic temporal/spatial Gaussian displacement regularization of exact 004 distance-projected targets. Not XPBD; not online time integration. Python solver and StandRig native software renderer.",
+  "changes": "005 deformation response differs; optimized hair travel ~148px vs004 ~210.5px, explicitly permitted tip mismatch, minimum147 preserved. Skirt time smoothing sigma0.1s and spatial0.65 column; full 8s cycle unchanged; no phase shift, no seam-specific edits, no crossfade or duplicated video endpoint.",
+  "variants": {
+    "A": "004 reproduction",
+    "B": "005 hair,004 skirt",
+    "C": "004 hair,005 skirt",
+    "D": "both005"
+  },
+  "rights": "Original Apache-2.0 synthetic assets from003. No SONY materials/services/credentials, paid APIs, purchases or new engine.",
+  "notImplemented": [
+    "native GUI integration of005 solver",
+    "body collision",
+    "full character",
+    "Windows hardware validation"
+  ],
+  "reproduce": "node experiments/005-prepare.mjs && OPENBLAS_NUM_THREADS=1 python experiments/005-solve.py && node experiments/005-spatiotemporal-constraints.mjs && MPLCONFIGDIR=$PWD/work/mpl python experiments/005-plot.py && npm test && node experiments/005-verify.mjs"
+}

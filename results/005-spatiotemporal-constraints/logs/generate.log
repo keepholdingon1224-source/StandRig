@@ -1,0 +1,18 @@
+NUMERIC [{"name":"hair:edgeRange","pass":true},{"name":"hair:centerline","pass":true},{"name":"hair:tipRange","pass":true},{"name":"hair:root","pass":true},{"name":"hair:triangles","pass":true},{"name":"hair:loopPosition","pass":true},{"name":"hair:samePhaseVelocity","pass":true},{"name":"hair:seamVelocity","pass":true},{"name":"hair:screen","pass":true},{"name":"skirt:edgeRange","pass":true},{"name":"skirt:centerline","pass":true},{"name":"skirt:tipRange","pass":true},{"name":"skirt:root","pass":true},{"name":"skirt:triangles","pass":true},{"name":"skirt:loopPosition","pass":true},{"name":"skirt:samePhaseVelocity","pass":true},{"name":"skirt:seamVelocity","pass":true},{"name":"skirt:screen","pass":true}]
+render A 0
+render A 60
+render A 120
+render A 180
+render B 0
+render B 60
+render B 120
+render B 180
+render C 0
+render C 60
+render C 120
+render C 180
+render D 0
+render D 60
+render D 120
+render D 180
+Saved all media true

@@ -1,0 +1,10 @@
+NUMERIC {"started":"2026-11-16T13:42:24.857Z","ended":"2026-11-16T13:42:25.442Z","cycles":3,"preRollSeconds":24,"cycleDelta":3.3698510648605406e-10,"inversions":0,"minAreaRatio":0.8275853222678999,"minStretch":0.749552223966053,"maxStretch":1.2294404135205854,"maxRoot":0,"maxLoopVertexDelta":7.652779469160726e-14,"maxLoopVelocityDelta":1.906586229693906e-12,"saturated":0,"partMetrics":[{"id":"hair","tipTravel":210.50800885963892,"vertices":153,"triangles":256},{"id":"skirt","tipTravel":68.78943200374528,"vertices":153,"triangles":256}],"tests":[{"name":"rig-validation","pass":true},{"name":"no-inverted-or-degenerate-triangles","pass":true},{"name":"root-fixed","pass":true},{"name":"periodic-state-convergence","pass":true},{"name":"loop-position","pass":true},{"name":"loop-velocity","pass":true},{"name":"visible-motion-both-parts","pass":true},{"name":"no-parameter-clipping","pass":true}],"failed":[]}
+Rendered 0/240
+Rendered 30/240
+Rendered 60/240
+Rendered 90/240
+Rendered 120/240
+Rendered 150/240
+Rendered 180/240
+Rendered 210/240
+EXPERIMENT PASS {"started":"2026-11-16T13:42:24.857Z","ended":"2026-11-16T13:42:35.457Z","cycles":3,"preRollSeconds":24,"cycleDelta":3.3698510648605406e-10,"inversions":0,"minAreaRatio":0.8275853222678999,"minStretch":0.749552223966053,"maxStretch":1.2294404135205854,"maxRoot":0,"maxLoopVertexDelta":7.652779469160726e-14,"maxLoopVelocityDelta":1.906586229693906e-12,"saturated":0,"partMetrics":[{"id":"hair","tipTravel":210.50800885963892,"vertices":153,"triangles":256},{"id":"skirt","tipTravel":68.78943200374528,"vertices":153,"triangles":256}],"tests":[{"name":"rig-validation","pass":true},{"name":"no-inverted-or-degenerate-triangles","pass":true},{"name":"root-fixed","pass":true},{"name":"periodic-state-convergence","pass":true},{"name":"loop-position","pass":true},{"name":"loop-velocity","pass":true},{"name":"visible-motion-both-parts","pass":true},{"name":"no-parameter-clipping","pass":true},{"name":"native-motion-parse-range-and-241-samples","pass":true}],"failed":[],"mp4":true,"endpointChangedPixels":0}

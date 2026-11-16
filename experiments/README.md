@@ -18,3 +18,5 @@ Codexが実装と実行を担当する。リポジトリ直下から起動し、
 - [003: 髪1束・裾1枚の自動メッシュ／物理／8秒ループ](../results/003-secondary-loop/README.md): `node experiments/003-secondary-loop.mjs` → `node experiments/003-verify.mjs`。結果とコード保存版は `results/003-secondary-loop/`。
 
 `experiments/<id>/` にコードとREADME、`results/<id>/` に共有可能なログ・設定・画像・動画・結果要約を保存する。実験のREADMEに目的、対象コミット、実行コマンド、環境、素材、合格条件、出力先を明記する。モデルの作業領域は `workspace/` 等のGit除外先を使う。既存の製品コード・検証記録は上書きしない。
+
+- 004: [変形拘束・比較結果・未達項目](../results/004-deformation-constraints/README.md)。髪中心線保持と裾距離拘束、総合不合格・全証拠保存。

@@ -1,0 +1,27 @@
+
+> standrig@0.2.0 test
+> npm run schemas:check && node scripts/smoke.mjs && node --test tests/*.test.mjs
+
+
+> standrig@0.2.0 schemas:check
+> node scripts/generate-operation-schemas.mjs --check
+
+Strict operation and QA schemas verified
+file:///workspace/standrig-004/scripts/generate-operation-schemas.mjs:102
+if(process.argv.includes('--check')){if(original.replaceAll('\r\n','\n')!==templateText)throw Error('Document Blend Shape schemas are stale');}
+                                                                                              ^
+
+Error: Document Blend Shape schemas are stale
+    at file:///workspace/standrig-004/scripts/generate-operation-schemas.mjs:102:95
+
+Node.js v24.22.1
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

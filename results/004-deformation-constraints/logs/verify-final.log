@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-16T13:42:53.254Z",
+  "integrityPass": true,
+  "numericalAcceptancePass": false,
+  "tests": [
+    {
+      "name": "identical-003-inputs",
+      "pass": true
+    },
+    {
+      "name": "003-actual-reproduction",
+      "pass": true
+    },
+    {
+      "name": "independent-all-element-geometry-measurement",
+      "pass": true
+    },
+    {
+      "name": "reproducibility-full-482-sample-geometry",
+      "pass": true
+    },
+    {
+      "name": "saved-geometry-render-and-no-endpoint-substitution",
+      "pass": true
+    },
+    {
+      "name": "all-240-PNG-decode-dimensions-and-pixel-bounds",
+      "pass": true
+    },
+    {
+      "name": "hair-skirt-loop.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "comparison.mp4:full-decode-and-specification",
+      "pass": true
+    },
+    {
+      "name": "GIF-full-decode-loop-and-duration",
+      "pass": true
+    },
+    {
+      "name": "official-npm-test",
+      "pass": true
+    }
+  ],
+  "acceptance": [
+    {
+      "name": "hair:edgeRange",
+      "pass": false
+    },
+    {
+      "name": "hair:centerline",
+      "pass": true
+    },
+    {
+      "name": "hair:tipRange",
+      "pass": true
+    },
+    {
+      "name": "hair:root",
+      "pass": true
+    },
+    {
+      "name": "hair:triangles",
+      "pass": true
+    },
+    {
+      "name": "hair:loopPosition",
+      "pass": true
+    },
+    {
+      "name": "hair:samePhaseVelocity",
+      "pass": true
+    },
+    {
+      "name": "hair:seamVelocity",
+      "pass": false
+    },
+    {
+      "name": "hair:screen",
+      "pass": true
+    },
+    {
+      "name": "skirt:edgeRange",
+      "pass": true
+    },
+    {
+      "name": "skirt:centerline",
+      "pass": true
+    },
+    {
+      "name": "skirt:tipRange",
+      "pass": true
+    },
+    {
+      "name": "skirt:root",
+      "pass": true
+    },
+    {
+      "name": "skirt:triangles",
+      "pass": true
+    },
+    {
+      "name": "skirt:loopPosition",
+      "pass": true
+    },
+    {
+      "name": "skirt:samePhaseVelocity",
+      "pass": true
+    },
+    {
+      "name": "skirt:seamVelocity",
+      "pass": false
+    },
+    {
+      "name": "skirt:screen",
+      "pass": true
+    }
+  ],
+  "inspected": [
+    {
+      "id": "hair",
+      "samples": 482,
+      "edgeObservations": 196656,
+      "triangleObservations": 123392,
+      "metrics": {
+        "minEdgeRatio": 0.7988699474192439,
+        "maxEdgeRatio": 1.2011330145255779,
+        "minAreaRatio": 0.7585928625579315,
+        "maxAreaRatio": 1.2010753127700853,
+        "minCenterlineRatio": 0.9999999999999997,
+        "maxCenterlineRatio": 1.0000000000000004,
+        "maxRootDisplacement": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "screenClippedElements": 0,
+        "tipHorizontalRange": 210.50800885963875,
+        "maxLoopPositionDelta": 0,
+        "samePhaseVelocityDelta60Hz": 0,
+        "seamVelocityJump30fps": 2.947090838814561,
+        "maxOrdinaryVelocityJump30fps": 6.132722874995135,
+        "maxSpeed60Hz": 129.12274286040568
+      }
+    },
+    {
+      "id": "skirt",
+      "samples": 482,
+      "edgeObservations": 196656,
+      "triangleObservations": 123392,
+      "metrics": {
+        "minEdgeRatio": 0.9551295676005972,
+        "maxEdgeRatio": 1.0525479622325873,
+        "minAreaRatio": 0.8888383710420042,
+        "maxAreaRatio": 1.0444185761325995,
+        "minCenterlineRatio": 0.9740926307129972,
+        "maxCenterlineRatio": 0.9962850809173716,
+        "maxRootDisplacement": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "screenClippedElements": 0,
+        "tipHorizontalRange": 67.08142960436433,
+        "maxLoopPositionDelta": 0,
+        "samePhaseVelocityDelta60Hz": 0,
+        "seamVelocityJump30fps": 4.27472885786493,
+        "maxOrdinaryVelocityJump30fps": 12.206117317559157,
+        "maxSpeed60Hz": 37.96808284412985
+      }
+    }
+  ],
+  "blankFrames": 0,
+  "clippedFrames": 0,
+  "visualQuality": "Not approved. Saved synthetic evidence only; numerical pass never implies visual approval.",
+  "notTested": [
+    "Windows physical machine",
+    "body collision",
+    "cloth back artwork",
+    "full 3D depth",
+    "native interactive playback of new solver",
+    "human visual review"
+  ]
+}

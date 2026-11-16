@@ -1,0 +1,21 @@
+
+> standrig@0.2.0 build
+> npm run build --workspace=@standrig/core && npm run build --workspace=@standrig/runtime && npm run build --workspace=@standrig/service && npm run build --workspace=@standrig/preview
+
+
+> @standrig/core@0.2.0 build
+> tsc -p tsconfig.json
+
+sh: 1: tsc: not found
+npm error Lifecycle script `build` failed with error:
+npm error code 127
+npm error path /workspace/standrig-004/packages/core
+npm error workspace @standrig/core@0.2.0
+npm error location /workspace/standrig-004/packages/core
+npm error command failed
+npm error command sh -c tsc -p tsconfig.json
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

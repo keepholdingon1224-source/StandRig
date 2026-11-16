@@ -1,0 +1,170 @@
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.5.4.tgz (sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz (sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz (sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for vite@https://registry.npmjs.org/vite/-/vite-8.1.3.tgz (sha512-Ds+gBRbj0lwRO2Y5hwnUBdxSwlAve9LeRyU4sNnAr0ewW0gWF0n5bgXgUzbgZ49MV9BVUAQUFYVcDUcilUExMA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.1.4.tgz (sha512-IjZYiLxZwpnhwhdBH2ugdTGVSdhCQUmLxLoqyjiL0JxYjyRst+5a0P3xfrTxJ5F638j4Mvvw5FAX5XE6eHpXbA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz (sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz (sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz (sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz (sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz (sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz (sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz (sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz (sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-7.0.0.tgz (sha512-LKWqWJRhstyYo9pGvgor/ivk2w94eSjE3RGVuzLGlr3NmD8bf7RcYGze1mNdEHRP6TRP6rMuDHk5t44hnTRyow==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz (sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pkce-challenge@https://registry.npmjs.org/pkce-challenge/-/pkce-challenge-5.0.1.tgz (sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pako@https://registry.npmjs.org/pako/-/pako-2.1.0.tgz (sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss-linux-x64-gnu@https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz (sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz (sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz (sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for jose@https://registry.npmjs.org/jose/-/jose-6.2.12.tgz (sha512-9NiFmJEex0sy2Dk58j2UGBSHgUs2ypF9eZSu4L6vjOX3Dp96Sw1F3uL+H+D1sx02jZZdzUT0HgvCy59CuvXcWw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss-linux-x64-musl@https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz (sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz (sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @types/pngjs@https://registry.npmjs.org/@types/pngjs/-/pngjs-6.0.5.tgz (sha512-0k5eKfrA83JOZPppLtS2C7OUtyNAl2wKNxfyYl9Q5g9lPkgBl/9hNyAu6HuEH2J4XmIv2znEpkDd0SaZVxW6iQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for eventsource-parser@https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.1.1.tgz (sha512-EKN1vKAMcZ8MlYMpaNuxN6R9yakzH6uajHcHVTqWJzvu5pWw9DyhbP35HH8MVBQ+dZjAfDxk+A8NiR9KWaXiyQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for ag-psd@https://registry.npmjs.org/ag-psd/-/ag-psd-31.0.2.tgz (sha512-5s5PvqbomPIIJ9YjL6robz55rT4RYPiQkww4brisyZEb5jzlHB1EKh47IJg7gIFj0RUrD0cMgdntM907qaZjXA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for eventsource@https://registry.npmjs.org/eventsource/-/eventsource-3.0.7.tgz (sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz (sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz (sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz (sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz (sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @types/node@https://registry.npmjs.org/@types/node/-/node-24.13.2.tgz (sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/binding-linux-x64-musl@https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.1.4.tgz (sha512-rT6yQcxUuXs4CnbofqwHRRV0iem349rLMYpTjkgQGLjrY4ado/eDzwPZPTCgTOlF6Nkp8NEv70yLMTn6qkWxsQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz (sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz (sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/client@https://registry.npmjs.org/@modelcontextprotocol/client/-/client-2.0.0.tgz (sha512-8f1OghQ2rjzIOfqgUCP+8GiUWqRs89njoWLNqAe8kWmDePv3s1fZXseej+QXemssEuuOvLLmLO/kqM3IQHtISw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.5.4.tgz (sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz (sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/server@https://registry.npmjs.org/@modelcontextprotocol/server/-/server-2.0.0.tgz (sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/binding-linux-x64-gnu@https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.1.4.tgz (sha512-JWtGshGfX+oENAKonoNkqEJX+7hC8yfhi9GUyPX1VX4mdh1y5r+ZiJLR5XzAB0aoP6s/PcILsGjKq8O0mm24bw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/core@https://registry.npmjs.org/@modelcontextprotocol/core/-/core-2.0.0.tgz (sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.1.4.tgz (sha512-IjZYiLxZwpnhwhdBH2ugdTGVSdhCQUmLxLoqyjiL0JxYjyRst+5a0P3xfrTxJ5F638j4Mvvw5FAX5XE6eHpXbA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz (sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.138.0.tgz (sha512-1a7ZKmrRTCoN1XMZ4L0PyyqrMnrNlLyPuOkdSX2MZg7IiIGRUyurNhAm73ptDOraoBcIordsIGKNPKUzy3ZmfA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz (sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz (sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz (sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for vite@https://registry.npmjs.org/vite/-/vite-8.1.3.tgz (sha512-Ds+gBRbj0lwRO2Y5hwnUBdxSwlAve9LeRyU4sNnAr0ewW0gWF0n5bgXgUzbgZ49MV9BVUAQUFYVcDUcilUExMA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz (sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz (sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz (sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz (sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz (sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-7.0.0.tgz (sha512-LKWqWJRhstyYo9pGvgor/ivk2w94eSjE3RGVuzLGlr3NmD8bf7RcYGze1mNdEHRP6TRP6rMuDHk5t44hnTRyow==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.28.tgz (sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz (sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pkce-challenge@https://registry.npmjs.org/pkce-challenge/-/pkce-challenge-5.0.1.tgz (sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss-linux-x64-gnu@https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz (sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for pako@https://registry.npmjs.org/pako/-/pako-2.1.0.tgz (sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss-linux-x64-musl@https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz (sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @types/pngjs@https://registry.npmjs.org/@types/pngjs/-/pngjs-6.0.5.tgz (sha512-0k5eKfrA83JOZPppLtS2C7OUtyNAl2wKNxfyYl9Q5g9lPkgBl/9hNyAu6HuEH2J4XmIv2znEpkDd0SaZVxW6iQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz (sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz (sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for eventsource@https://registry.npmjs.org/eventsource/-/eventsource-3.0.7.tgz (sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for ag-psd@https://registry.npmjs.org/ag-psd/-/ag-psd-31.0.2.tgz (sha512-5s5PvqbomPIIJ9YjL6robz55rT4RYPiQkww4brisyZEb5jzlHB1EKh47IJg7gIFj0RUrD0cMgdntM907qaZjXA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz (sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for jose@https://registry.npmjs.org/jose/-/jose-6.2.12.tgz (sha512-9NiFmJEex0sy2Dk58j2UGBSHgUs2ypF9eZSu4L6vjOX3Dp96Sw1F3uL+H+D1sx02jZZdzUT0HgvCy59CuvXcWw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for eventsource-parser@https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.1.1.tgz (sha512-EKN1vKAMcZ8MlYMpaNuxN6R9yakzH6uajHcHVTqWJzvu5pWw9DyhbP35HH8MVBQ+dZjAfDxk+A8NiR9KWaXiyQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz (sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz (sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @types/node@https://registry.npmjs.org/@types/node/-/node-24.13.2.tgz (sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz (sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz (sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz (sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/binding-linux-x64-musl@https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.1.4.tgz (sha512-rT6yQcxUuXs4CnbofqwHRRV0iem349rLMYpTjkgQGLjrY4ado/eDzwPZPTCgTOlF6Nkp8NEv70yLMTn6qkWxsQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz (sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz (sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/core@https://registry.npmjs.org/@modelcontextprotocol/core/-/core-2.0.0.tgz (sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/client@https://registry.npmjs.org/@modelcontextprotocol/client/-/client-2.0.0.tgz (sha512-8f1OghQ2rjzIOfqgUCP+8GiUWqRs89njoWLNqAe8kWmDePv3s1fZXseej+QXemssEuuOvLLmLO/kqM3IQHtISw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @modelcontextprotocol/server@https://registry.npmjs.org/@modelcontextprotocol/server/-/server-2.0.0.tgz (sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.138.0.tgz (sha512-1a7ZKmrRTCoN1XMZ4L0PyyqrMnrNlLyPuOkdSX2MZg7IiIGRUyurNhAm73ptDOraoBcIordsIGKNPKUzy3ZmfA==) seems to be corrupted. Trying again.
+npm warn tarball tarball data for @rolldown/binding-linux-x64-gnu@https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.1.4.tgz (sha512-JWtGshGfX+oENAKonoNkqEJX+7hC8yfhi9GUyPX1VX4mdh1y5r+ZiJLR5XzAB0aoP6s/PcILsGjKq8O0mm24bw==) seems to be corrupted. Trying again.
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/zod/v4'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/pako/lib'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open '/workspace/standrig-004/packages/mcp/node_modules/zod/v4/classic/checks.cjs'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/ag-psd/.v8-cache/v24.13.1-x64-cf738c9d'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open '/workspace/standrig-004/node_modules/pako/package.json'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/packages/mcp/node_modules/zod/v4'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open '/workspace/standrig-004/node_modules/pako/README.md'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/client/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/pako/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/zod/src/v4/classic/tests'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/client/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/client/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/server/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/client/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/server/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/client/dist'
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/packages/mcp/node_modules',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/packages/mcp/node_modules/zod/v3'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/packages/mcp/node_modules/zod/v3'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/packages/contracts/node_modules',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/packages/contracts/node_modules/zod/v3'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/packages/contracts/node_modules/zod/v3'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/node_modules',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/node_modules/ag-psd'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/node_modules/ag-psd'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/node_modules/@types',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/node_modules/@types/node'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/node_modules/@types/node'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/node_modules/jose',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/node_modules/jose/dist/webapi'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/node_modules/jose/dist/webapi'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '/workspace/standrig-004/node_modules/zod',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/workspace/standrig-004/node_modules/zod'] {
+npm warn cleanup       errno: -39,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: '/workspace/standrig-004/node_modules/zod'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/server/dist'
+npm warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/workspace/standrig-004/node_modules/@modelcontextprotocol/server/dist'
+npm error code ENOENT
+npm error syscall mkdir
+npm error path /home/agent/.npm/_cacache
+npm error errno -2
+npm error enoent ENOENT: no such file or directory, mkdir '/home/agent/.npm/_cacache'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm error Log files were not written due to an error writing to the directory: /home/agent/.npm/_logs
+npm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal

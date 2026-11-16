@@ -16,3 +16,5 @@ releases/
 !.env.example
 *.psd
 *.psb
+
+/work/

@@ -1,0 +1,18 @@
+{
+  "relativeLinksChecked": 90,
+  "brokenLinks": [],
+  "savedCodeMatches": true,
+  "integrityPass": true,
+  "acceptancePass": false,
+  "officialTestExit": 0,
+  "numericVerifierExit": 1,
+  "gitDiffCheckExit": 0,
+  "003AndProductFilesUnchanged": true,
+  "credentialPatternMatches": [],
+  "initialCheckout": {
+    "branch": "work",
+    "sha": "c3166aa138f07bc289027c7a9060fc64cc0f082a",
+    "dirty": false
+  },
+  "workingBase": "1d37e35edd0b13b3182118d91e50dbb187194e3f"
+}

@@ -1,0 +1,10 @@
+NUMERIC [{"name":"hair:edgeRange","pass":false},{"name":"hair:centerline","pass":true},{"name":"hair:tipRange","pass":true},{"name":"hair:root","pass":true},{"name":"hair:triangles","pass":true},{"name":"hair:loopPosition","pass":true},{"name":"hair:samePhaseVelocity","pass":true},{"name":"hair:seamVelocity","pass":false},{"name":"hair:screen","pass":true},{"name":"skirt:edgeRange","pass":true},{"name":"skirt:centerline","pass":true},{"name":"skirt:tipRange","pass":true},{"name":"skirt:root","pass":true},{"name":"skirt:triangles","pass":true},{"name":"skirt:loopPosition","pass":true},{"name":"skirt:samePhaseVelocity","pass":true},{"name":"skirt:seamVelocity","pass":false},{"name":"skirt:screen","pass":true}]
+render 0
+render 30
+render 60
+render 90
+render 120
+render 150
+render 180
+render 210
+SAVED results/004-deformation-constraints numeric pass: false

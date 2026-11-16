@@ -13,7 +13,20 @@
 
 ## 現在の判断
 
-第一段階は図形サンプルでMCP編集・曲げ・描画・復元を確認済み。003ではオリジナル合成の髪1束・裾1枚を自動メッシュ化し、実物理の8秒ループをMP4/GIF/240枚PNGに保存した。周期は連続するが約25%の縮み・約23%の伸びが残り、高品質キャラクターの自動制作は未実証。ChatGPTの視覚評価と、長さ保持・布拘束・接続の次段階検証が必要。
+004で003を完全再現し、髪の中心線長保持と裾の距離拘束を実装。全240枚PNG・8秒MP4/GIF・左右比較・グラフ・独立検査を保存した。公式183件と証拠整合性10項目は成功したが、髪の辺長比0.798870〜1.201133と30fps境界速度段差（髪2.947091、裾4.274729px/s）が基準未達。**004総合は不合格**。ChatGPTによる映像品質評価、Windows実機確認、新方式のGUI統合は未実施。
+
+
+## 2026-11-16 / 004-deformation-constraints
+
+1. **日時・目的:** 2026-11-16 JST（計算開始13:36 UTC以降）。003の髪1束・スカート裾1枚を保持し、中心線長保持・布距離拘束を同一条件で比較。
+2. **コマンド・環境:** Linux、Node v24.22.1、npm11.9.0、ffmpeg/ffprobe、StandRig software renderer。初期 `work` / `c3166aa138f07bc289027c7a9060fc64cc0f082a`、未コミット変更なし。`git ls-remote`で指定先端 `1d37e35edd0b13b3182118d91e50dbb187194e3f` を確認し、別worktree `/workspace/standrig-004` を作成。`npm ci --cache "$PWD/work/npm-cache"`、`npm run build`、`npm test`、`node experiments/004-deformation-constraints.mjs`、`node experiments/004-verify.mjs`、`python experiments/004-plot.py`。検査コード内で003を出力先だけ変更して再実行。正式コマンドと各方式は[004報告](results/004-deformation-constraints/README.md)。
+3. **変更ファイル:** `experiments/004-deformation-constraints.mjs`、`experiments/004-verify.mjs`、`experiments/004-plot.py`、`results/004-deformation-constraints/`、本書、`PROJECT.md`、実験/成果物索引、`.gitignore`（scratch work除外）。製品コード、003コード・成果物、初期チェックアウトは変更なし。
+4. **成功・失敗:** npm ci/build/公式test最終exit0、schema/smoke16/Node183成功・失敗0・skip0。003の240枚PNGは再計算とバイト一致。004の482サンプル全393,312辺観測・246,784三角形観測を独立再測定し一致、全座標再生成ハッシュ一致、240枚再描画一致、動画/GIF全デコード成功、反転/縮退/根元変位/画面切れ0。生成exit0。独立検査は証拠整合性10項目成功だが**数値3項目未達によりexit1・不合格**。髪辺長比0.798870〜1.201133、髪/裾30fps境界速度差2.947091/4.274729px/s。中心線1.000000、先端範囲210.508009/67.081430px、裾辺長比0.955130〜1.052548。初回方式・依存解決・cache書込み・背景検査失敗は[報告](results/004-deformation-constraints/README.md)とattempts/logsに保存し最終成功と混同しない。
+5. **成果物:** [README](results/004-deformation-constraints/README.md)、[MP4](results/004-deformation-constraints/hair-skirt-loop.mp4)、[GIF](results/004-deformation-constraints/preview.gif)、[左右比較動画](results/004-deformation-constraints/comparison.mp4)、[PNG240枚](results/004-deformation-constraints/frames/)、[グラフ](results/004-deformation-constraints/timeseries.png)、[数値](results/004-deformation-constraints/metrics.json)、[検査](results/004-deformation-constraints/verification.json)、[公式test](results/004-deformation-constraints/logs/npm-test-final.log)。ワイヤーフレーム・同時刻比較8枚・モデル/全座標・各ログはREADMEから参照。
+6. **未解決:** 髪の全辺長拘束、両パーツ境界速度、裾の面積変化/通常速度変化の悪化、人の映像品質評価。身体衝突、布裏面生成、完全3D奥行き、身体接続、全身制作は対象外・未実装。新ソルバーのネイティブGUI再生への統合とWindows実機確認は未実施。追加課金・外部有料AI API・SONY素材/コード/認証の利用なし。閾値の緩和・入力振幅の削減なし。
+7. **ChatGPTに評価してほしい事項:** 同時刻比較動画で髪の輪郭/横断歪み、裾プリーツ/金トリムの面積変化、境界速度の見え方を確認し、中心線と辺長の同時最適化および滑らかな布拘束の優先順位を評価してほしい。ChatGPTレビューは未実施。
+
+GitHub反映先は指定Forkの `experiment/rigging-validation-20261115`。通常commit/push後、リモートSHAとHEADの一致を確認してチャットでSHA・リンクを報告する。公式/mainとFork/mainは変更しない。
 
 ## 2026-11-15T12:03:16Z / 003-secondary-loop
 

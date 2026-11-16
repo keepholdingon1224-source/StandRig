@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-16T13:39:59.230Z",
+  "sourceCommit": "1d37e35edd0b13b3182118d91e50dbb187194e3f",
+  "node": "v24.22.1",
+  "rights": "003 original procedural Apache-2.0 synthetic fixture. No external character/SONY material, paid services or API.",
+  "inputHashes": {
+    "fixture": "b0b597a0937df6f172793329cd1e2c5aa87b28719c9cf4a3947136cbcf926443",
+    "physicsTrace": "6f6553d98cecfbd6c6fc05d021217d911615cd07340c9e580f7596a3c455b1c0"
+  },
+  "algorithm": {
+    "hair": "fixed-root, exact discrete arc length, distributed curvature solved with 48 bisections to match original center-tip x; local normal rotation blended 75% with rest orientation (cross-section shear permitted); original physics channels",
+    "skirt": "160 deterministic position-based projection sweeps, rest distance band 0.96..1.04, all triangle edges plus 2-grid bending links, 0.002 target attraction per sweep; same original blend-shape target"
+  },
+  "reproduce": "node experiments/004-deformation-constraints.mjs && node experiments/004-verify.mjs",
+  "scope": "experiment-only geometry evaluation/render adapter; product runtime support for these algorithms is not implemented",
+  "notImplemented": [
+    "body collision",
+    "cloth back artwork",
+    "full 3D depth",
+    "Windows physical-machine check",
+    "human visual-quality approval"
+  ]
+}

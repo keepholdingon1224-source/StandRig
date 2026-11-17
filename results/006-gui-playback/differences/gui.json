@@ -1,0 +1,2914 @@
+{
+  "diffs": {
+    "before": {
+      "changedPixels": 6060782,
+      "maxChannel": 198,
+      "mae": 0.6374797453703703,
+      "blankFrames": 0,
+      "frames": [
+        {
+          "frame": 0,
+          "changedPixels": 25677,
+          "baselineForeground": 44954,
+          "guiForeground": 45611
+        },
+        {
+          "frame": 1,
+          "changedPixels": 24589,
+          "baselineForeground": 44896,
+          "guiForeground": 45618
+        },
+        {
+          "frame": 2,
+          "changedPixels": 25560,
+          "baselineForeground": 44854,
+          "guiForeground": 45620
+        },
+        {
+          "frame": 3,
+          "changedPixels": 24367,
+          "baselineForeground": 44860,
+          "guiForeground": 45533
+        },
+        {
+          "frame": 4,
+          "changedPixels": 27724,
+          "baselineForeground": 44863,
+          "guiForeground": 45468
+        },
+        {
+          "frame": 5,
+          "changedPixels": 22509,
+          "baselineForeground": 44858,
+          "guiForeground": 45419
+        },
+        {
+          "frame": 6,
+          "changedPixels": 24991,
+          "baselineForeground": 44770,
+          "guiForeground": 45419
+        },
+        {
+          "frame": 7,
+          "changedPixels": 26124,
+          "baselineForeground": 44739,
+          "guiForeground": 45427
+        },
+        {
+          "frame": 8,
+          "changedPixels": 25891,
+          "baselineForeground": 44648,
+          "guiForeground": 45415
+        },
+        {
+          "frame": 9,
+          "changedPixels": 24532,
+          "baselineForeground": 44650,
+          "guiForeground": 45358
+        },
+        {
+          "frame": 10,
+          "changedPixels": 24915,
+          "baselineForeground": 44636,
+          "guiForeground": 45311
+        },
+        {
+          "frame": 11,
+          "changedPixels": 26214,
+          "baselineForeground": 44640,
+          "guiForeground": 45264
+        },
+        {
+          "frame": 12,
+          "changedPixels": 25899,
+          "baselineForeground": 44636,
+          "guiForeground": 45200
+        },
+        {
+          "frame": 13,
+          "changedPixels": 24864,
+          "baselineForeground": 44639,
+          "guiForeground": 45199
+        },
+        {
+          "frame": 14,
+          "changedPixels": 25368,
+          "baselineForeground": 44582,
+          "guiForeground": 45198
+        },
+        {
+          "frame": 15,
+          "changedPixels": 25514,
+          "baselineForeground": 44543,
+          "guiForeground": 45204
+        },
+        {
+          "frame": 16,
+          "changedPixels": 24425,
+          "baselineForeground": 44537,
+          "guiForeground": 45204
+        },
+        {
+          "frame": 17,
+          "changedPixels": 25262,
+          "baselineForeground": 44504,
+          "guiForeground": 45215
+        },
+        {
+          "frame": 18,
+          "changedPixels": 25350,
+          "baselineForeground": 44489,
+          "guiForeground": 45213
+        },
+        {
+          "frame": 19,
+          "changedPixels": 23243,
+          "baselineForeground": 44448,
+          "guiForeground": 45220
+        },
+        {
+          "frame": 20,
+          "changedPixels": 26357,
+          "baselineForeground": 44440,
+          "guiForeground": 45233
+        },
+        {
+          "frame": 21,
+          "changedPixels": 27080,
+          "baselineForeground": 44446,
+          "guiForeground": 45206
+        },
+        {
+          "frame": 22,
+          "changedPixels": 23346,
+          "baselineForeground": 44453,
+          "guiForeground": 45193
+        },
+        {
+          "frame": 23,
+          "changedPixels": 25247,
+          "baselineForeground": 44468,
+          "guiForeground": 45197
+        },
+        {
+          "frame": 24,
+          "changedPixels": 25778,
+          "baselineForeground": 44472,
+          "guiForeground": 45182
+        },
+        {
+          "frame": 25,
+          "changedPixels": 25325,
+          "baselineForeground": 44482,
+          "guiForeground": 45192
+        },
+        {
+          "frame": 26,
+          "changedPixels": 25105,
+          "baselineForeground": 44489,
+          "guiForeground": 45188
+        },
+        {
+          "frame": 27,
+          "changedPixels": 25500,
+          "baselineForeground": 44500,
+          "guiForeground": 45186
+        },
+        {
+          "frame": 28,
+          "changedPixels": 25235,
+          "baselineForeground": 44501,
+          "guiForeground": 45209
+        },
+        {
+          "frame": 29,
+          "changedPixels": 25381,
+          "baselineForeground": 44506,
+          "guiForeground": 45221
+        },
+        {
+          "frame": 30,
+          "changedPixels": 25276,
+          "baselineForeground": 44509,
+          "guiForeground": 45235
+        },
+        {
+          "frame": 31,
+          "changedPixels": 25130,
+          "baselineForeground": 44520,
+          "guiForeground": 45251
+        },
+        {
+          "frame": 32,
+          "changedPixels": 25243,
+          "baselineForeground": 44529,
+          "guiForeground": 45274
+        },
+        {
+          "frame": 33,
+          "changedPixels": 25118,
+          "baselineForeground": 44559,
+          "guiForeground": 45308
+        },
+        {
+          "frame": 34,
+          "changedPixels": 25185,
+          "baselineForeground": 44557,
+          "guiForeground": 45325
+        },
+        {
+          "frame": 35,
+          "changedPixels": 25195,
+          "baselineForeground": 44598,
+          "guiForeground": 45331
+        },
+        {
+          "frame": 36,
+          "changedPixels": 25079,
+          "baselineForeground": 44641,
+          "guiForeground": 45346
+        },
+        {
+          "frame": 37,
+          "changedPixels": 25135,
+          "baselineForeground": 44676,
+          "guiForeground": 45343
+        },
+        {
+          "frame": 38,
+          "changedPixels": 25087,
+          "baselineForeground": 44705,
+          "guiForeground": 45353
+        },
+        {
+          "frame": 39,
+          "changedPixels": 25088,
+          "baselineForeground": 44759,
+          "guiForeground": 45370
+        },
+        {
+          "frame": 40,
+          "changedPixels": 25250,
+          "baselineForeground": 44807,
+          "guiForeground": 45381
+        },
+        {
+          "frame": 41,
+          "changedPixels": 25303,
+          "baselineForeground": 44810,
+          "guiForeground": 45409
+        },
+        {
+          "frame": 42,
+          "changedPixels": 25398,
+          "baselineForeground": 44826,
+          "guiForeground": 45438
+        },
+        {
+          "frame": 43,
+          "changedPixels": 25423,
+          "baselineForeground": 44835,
+          "guiForeground": 45488
+        },
+        {
+          "frame": 44,
+          "changedPixels": 25477,
+          "baselineForeground": 44849,
+          "guiForeground": 45550
+        },
+        {
+          "frame": 45,
+          "changedPixels": 25433,
+          "baselineForeground": 44866,
+          "guiForeground": 45576
+        },
+        {
+          "frame": 46,
+          "changedPixels": 25452,
+          "baselineForeground": 44875,
+          "guiForeground": 45612
+        },
+        {
+          "frame": 47,
+          "changedPixels": 25535,
+          "baselineForeground": 44894,
+          "guiForeground": 45649
+        },
+        {
+          "frame": 48,
+          "changedPixels": 25457,
+          "baselineForeground": 44919,
+          "guiForeground": 45650
+        },
+        {
+          "frame": 49,
+          "changedPixels": 25442,
+          "baselineForeground": 44937,
+          "guiForeground": 45657
+        },
+        {
+          "frame": 50,
+          "changedPixels": 25431,
+          "baselineForeground": 44983,
+          "guiForeground": 45669
+        },
+        {
+          "frame": 51,
+          "changedPixels": 25533,
+          "baselineForeground": 44997,
+          "guiForeground": 45665
+        },
+        {
+          "frame": 52,
+          "changedPixels": 25481,
+          "baselineForeground": 45030,
+          "guiForeground": 45684
+        },
+        {
+          "frame": 53,
+          "changedPixels": 25463,
+          "baselineForeground": 45044,
+          "guiForeground": 45696
+        },
+        {
+          "frame": 54,
+          "changedPixels": 25493,
+          "baselineForeground": 45073,
+          "guiForeground": 45701
+        },
+        {
+          "frame": 55,
+          "changedPixels": 25630,
+          "baselineForeground": 45084,
+          "guiForeground": 45719
+        },
+        {
+          "frame": 56,
+          "changedPixels": 25520,
+          "baselineForeground": 45097,
+          "guiForeground": 45748
+        },
+        {
+          "frame": 57,
+          "changedPixels": 25572,
+          "baselineForeground": 45094,
+          "guiForeground": 45753
+        },
+        {
+          "frame": 58,
+          "changedPixels": 25623,
+          "baselineForeground": 45097,
+          "guiForeground": 45763
+        },
+        {
+          "frame": 59,
+          "changedPixels": 25602,
+          "baselineForeground": 45100,
+          "guiForeground": 45791
+        },
+        {
+          "frame": 60,
+          "changedPixels": 25603,
+          "baselineForeground": 45113,
+          "guiForeground": 45795
+        },
+        {
+          "frame": 61,
+          "changedPixels": 25644,
+          "baselineForeground": 45098,
+          "guiForeground": 45784
+        },
+        {
+          "frame": 62,
+          "changedPixels": 25586,
+          "baselineForeground": 45109,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 63,
+          "changedPixels": 25472,
+          "baselineForeground": 45112,
+          "guiForeground": 45823
+        },
+        {
+          "frame": 64,
+          "changedPixels": 25432,
+          "baselineForeground": 45125,
+          "guiForeground": 45821
+        },
+        {
+          "frame": 65,
+          "changedPixels": 25596,
+          "baselineForeground": 45130,
+          "guiForeground": 45795
+        },
+        {
+          "frame": 66,
+          "changedPixels": 25667,
+          "baselineForeground": 45124,
+          "guiForeground": 45805
+        },
+        {
+          "frame": 67,
+          "changedPixels": 25577,
+          "baselineForeground": 45119,
+          "guiForeground": 45787
+        },
+        {
+          "frame": 68,
+          "changedPixels": 25461,
+          "baselineForeground": 45115,
+          "guiForeground": 45780
+        },
+        {
+          "frame": 69,
+          "changedPixels": 25502,
+          "baselineForeground": 45137,
+          "guiForeground": 45766
+        },
+        {
+          "frame": 70,
+          "changedPixels": 25481,
+          "baselineForeground": 45128,
+          "guiForeground": 45766
+        },
+        {
+          "frame": 71,
+          "changedPixels": 25482,
+          "baselineForeground": 45123,
+          "guiForeground": 45753
+        },
+        {
+          "frame": 72,
+          "changedPixels": 25417,
+          "baselineForeground": 45118,
+          "guiForeground": 45764
+        },
+        {
+          "frame": 73,
+          "changedPixels": 25442,
+          "baselineForeground": 45127,
+          "guiForeground": 45755
+        },
+        {
+          "frame": 74,
+          "changedPixels": 25367,
+          "baselineForeground": 45135,
+          "guiForeground": 45752
+        },
+        {
+          "frame": 75,
+          "changedPixels": 25368,
+          "baselineForeground": 45130,
+          "guiForeground": 45745
+        },
+        {
+          "frame": 76,
+          "changedPixels": 25430,
+          "baselineForeground": 45134,
+          "guiForeground": 45756
+        },
+        {
+          "frame": 77,
+          "changedPixels": 25467,
+          "baselineForeground": 45122,
+          "guiForeground": 45775
+        },
+        {
+          "frame": 78,
+          "changedPixels": 25525,
+          "baselineForeground": 45109,
+          "guiForeground": 45767
+        },
+        {
+          "frame": 79,
+          "changedPixels": 25559,
+          "baselineForeground": 45106,
+          "guiForeground": 45764
+        },
+        {
+          "frame": 80,
+          "changedPixels": 25482,
+          "baselineForeground": 45096,
+          "guiForeground": 45785
+        },
+        {
+          "frame": 81,
+          "changedPixels": 25505,
+          "baselineForeground": 45092,
+          "guiForeground": 45804
+        },
+        {
+          "frame": 82,
+          "changedPixels": 25593,
+          "baselineForeground": 45080,
+          "guiForeground": 45802
+        },
+        {
+          "frame": 83,
+          "changedPixels": 25643,
+          "baselineForeground": 45069,
+          "guiForeground": 45814
+        },
+        {
+          "frame": 84,
+          "changedPixels": 25699,
+          "baselineForeground": 45064,
+          "guiForeground": 45824
+        },
+        {
+          "frame": 85,
+          "changedPixels": 25624,
+          "baselineForeground": 45058,
+          "guiForeground": 45834
+        },
+        {
+          "frame": 86,
+          "changedPixels": 25455,
+          "baselineForeground": 45056,
+          "guiForeground": 45833
+        },
+        {
+          "frame": 87,
+          "changedPixels": 25505,
+          "baselineForeground": 45037,
+          "guiForeground": 45836
+        },
+        {
+          "frame": 88,
+          "changedPixels": 25560,
+          "baselineForeground": 45044,
+          "guiForeground": 45822
+        },
+        {
+          "frame": 89,
+          "changedPixels": 25569,
+          "baselineForeground": 45048,
+          "guiForeground": 45816
+        },
+        {
+          "frame": 90,
+          "changedPixels": 25440,
+          "baselineForeground": 45058,
+          "guiForeground": 45813
+        },
+        {
+          "frame": 91,
+          "changedPixels": 25234,
+          "baselineForeground": 45077,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 92,
+          "changedPixels": 25293,
+          "baselineForeground": 45098,
+          "guiForeground": 45807
+        },
+        {
+          "frame": 93,
+          "changedPixels": 25299,
+          "baselineForeground": 45124,
+          "guiForeground": 45800
+        },
+        {
+          "frame": 94,
+          "changedPixels": 25171,
+          "baselineForeground": 45160,
+          "guiForeground": 45799
+        },
+        {
+          "frame": 95,
+          "changedPixels": 25064,
+          "baselineForeground": 45193,
+          "guiForeground": 45792
+        },
+        {
+          "frame": 96,
+          "changedPixels": 25596,
+          "baselineForeground": 45220,
+          "guiForeground": 45794
+        },
+        {
+          "frame": 97,
+          "changedPixels": 25620,
+          "baselineForeground": 45225,
+          "guiForeground": 45793
+        },
+        {
+          "frame": 98,
+          "changedPixels": 25735,
+          "baselineForeground": 45229,
+          "guiForeground": 45790
+        },
+        {
+          "frame": 99,
+          "changedPixels": 25760,
+          "baselineForeground": 45230,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 100,
+          "changedPixels": 25389,
+          "baselineForeground": 45227,
+          "guiForeground": 45782
+        },
+        {
+          "frame": 101,
+          "changedPixels": 25622,
+          "baselineForeground": 45225,
+          "guiForeground": 45790
+        },
+        {
+          "frame": 102,
+          "changedPixels": 25403,
+          "baselineForeground": 45226,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 103,
+          "changedPixels": 25479,
+          "baselineForeground": 45226,
+          "guiForeground": 45781
+        },
+        {
+          "frame": 104,
+          "changedPixels": 25425,
+          "baselineForeground": 45227,
+          "guiForeground": 45779
+        },
+        {
+          "frame": 105,
+          "changedPixels": 25401,
+          "baselineForeground": 45221,
+          "guiForeground": 45783
+        },
+        {
+          "frame": 106,
+          "changedPixels": 25243,
+          "baselineForeground": 45221,
+          "guiForeground": 45838
+        },
+        {
+          "frame": 107,
+          "changedPixels": 25203,
+          "baselineForeground": 45216,
+          "guiForeground": 45878
+        },
+        {
+          "frame": 108,
+          "changedPixels": 25345,
+          "baselineForeground": 45215,
+          "guiForeground": 45910
+        },
+        {
+          "frame": 109,
+          "changedPixels": 25565,
+          "baselineForeground": 45214,
+          "guiForeground": 45984
+        },
+        {
+          "frame": 110,
+          "changedPixels": 25961,
+          "baselineForeground": 45209,
+          "guiForeground": 46001
+        },
+        {
+          "frame": 111,
+          "changedPixels": 25349,
+          "baselineForeground": 45211,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 112,
+          "changedPixels": 25517,
+          "baselineForeground": 45211,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 113,
+          "changedPixels": 25532,
+          "baselineForeground": 45208,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 114,
+          "changedPixels": 25471,
+          "baselineForeground": 45206,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 115,
+          "changedPixels": 25416,
+          "baselineForeground": 45207,
+          "guiForeground": 46002
+        },
+        {
+          "frame": 116,
+          "changedPixels": 25591,
+          "baselineForeground": 45202,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 117,
+          "changedPixels": 25514,
+          "baselineForeground": 45204,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 118,
+          "changedPixels": 25115,
+          "baselineForeground": 45296,
+          "guiForeground": 45998
+        },
+        {
+          "frame": 119,
+          "changedPixels": 25279,
+          "baselineForeground": 45346,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 120,
+          "changedPixels": 25363,
+          "baselineForeground": 45423,
+          "guiForeground": 45995
+        },
+        {
+          "frame": 121,
+          "changedPixels": 25230,
+          "baselineForeground": 45424,
+          "guiForeground": 45986
+        },
+        {
+          "frame": 122,
+          "changedPixels": 25268,
+          "baselineForeground": 45424,
+          "guiForeground": 45983
+        },
+        {
+          "frame": 123,
+          "changedPixels": 25386,
+          "baselineForeground": 45422,
+          "guiForeground": 45982
+        },
+        {
+          "frame": 124,
+          "changedPixels": 25168,
+          "baselineForeground": 45421,
+          "guiForeground": 45978
+        },
+        {
+          "frame": 125,
+          "changedPixels": 25002,
+          "baselineForeground": 45415,
+          "guiForeground": 45982
+        },
+        {
+          "frame": 126,
+          "changedPixels": 25247,
+          "baselineForeground": 45412,
+          "guiForeground": 45984
+        },
+        {
+          "frame": 127,
+          "changedPixels": 25503,
+          "baselineForeground": 45410,
+          "guiForeground": 45983
+        },
+        {
+          "frame": 128,
+          "changedPixels": 25400,
+          "baselineForeground": 45405,
+          "guiForeground": 46042
+        },
+        {
+          "frame": 129,
+          "changedPixels": 24799,
+          "baselineForeground": 45403,
+          "guiForeground": 46078
+        },
+        {
+          "frame": 130,
+          "changedPixels": 23380,
+          "baselineForeground": 45393,
+          "guiForeground": 46079
+        },
+        {
+          "frame": 131,
+          "changedPixels": 22467,
+          "baselineForeground": 45399,
+          "guiForeground": 46031
+        },
+        {
+          "frame": 132,
+          "changedPixels": 22995,
+          "baselineForeground": 45401,
+          "guiForeground": 45985
+        },
+        {
+          "frame": 133,
+          "changedPixels": 25455,
+          "baselineForeground": 45403,
+          "guiForeground": 45989
+        },
+        {
+          "frame": 134,
+          "changedPixels": 25891,
+          "baselineForeground": 45409,
+          "guiForeground": 45990
+        },
+        {
+          "frame": 135,
+          "changedPixels": 22418,
+          "baselineForeground": 45413,
+          "guiForeground": 45993
+        },
+        {
+          "frame": 136,
+          "changedPixels": 23268,
+          "baselineForeground": 45314,
+          "guiForeground": 45986
+        },
+        {
+          "frame": 137,
+          "changedPixels": 24610,
+          "baselineForeground": 45206,
+          "guiForeground": 45994
+        },
+        {
+          "frame": 138,
+          "changedPixels": 27371,
+          "baselineForeground": 45216,
+          "guiForeground": 46011
+        },
+        {
+          "frame": 139,
+          "changedPixels": 22295,
+          "baselineForeground": 45225,
+          "guiForeground": 45949
+        },
+        {
+          "frame": 140,
+          "changedPixels": 26938,
+          "baselineForeground": 45219,
+          "guiForeground": 45799
+        },
+        {
+          "frame": 141,
+          "changedPixels": 27023,
+          "baselineForeground": 45219,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 142,
+          "changedPixels": 22969,
+          "baselineForeground": 45219,
+          "guiForeground": 45813
+        },
+        {
+          "frame": 143,
+          "changedPixels": 27701,
+          "baselineForeground": 45078,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 144,
+          "changedPixels": 24266,
+          "baselineForeground": 45017,
+          "guiForeground": 45803
+        },
+        {
+          "frame": 145,
+          "changedPixels": 26190,
+          "baselineForeground": 45023,
+          "guiForeground": 45760
+        },
+        {
+          "frame": 146,
+          "changedPixels": 25575,
+          "baselineForeground": 45027,
+          "guiForeground": 45642
+        },
+        {
+          "frame": 147,
+          "changedPixels": 24591,
+          "baselineForeground": 45028,
+          "guiForeground": 45594
+        },
+        {
+          "frame": 148,
+          "changedPixels": 25801,
+          "baselineForeground": 44990,
+          "guiForeground": 45599
+        },
+        {
+          "frame": 149,
+          "changedPixels": 24867,
+          "baselineForeground": 44899,
+          "guiForeground": 45589
+        },
+        {
+          "frame": 150,
+          "changedPixels": 26705,
+          "baselineForeground": 44817,
+          "guiForeground": 45588
+        },
+        {
+          "frame": 151,
+          "changedPixels": 25196,
+          "baselineForeground": 44809,
+          "guiForeground": 45531
+        },
+        {
+          "frame": 152,
+          "changedPixels": 24694,
+          "baselineForeground": 44817,
+          "guiForeground": 45467
+        },
+        {
+          "frame": 153,
+          "changedPixels": 27707,
+          "baselineForeground": 44808,
+          "guiForeground": 45360
+        },
+        {
+          "frame": 154,
+          "changedPixels": 24088,
+          "baselineForeground": 44769,
+          "guiForeground": 45363
+        },
+        {
+          "frame": 155,
+          "changedPixels": 22894,
+          "baselineForeground": 44682,
+          "guiForeground": 45361
+        },
+        {
+          "frame": 156,
+          "changedPixels": 27514,
+          "baselineForeground": 44571,
+          "guiForeground": 45354
+        },
+        {
+          "frame": 157,
+          "changedPixels": 26891,
+          "baselineForeground": 44562,
+          "guiForeground": 45282
+        },
+        {
+          "frame": 158,
+          "changedPixels": 23438,
+          "baselineForeground": 44552,
+          "guiForeground": 45202
+        },
+        {
+          "frame": 159,
+          "changedPixels": 24828,
+          "baselineForeground": 44535,
+          "guiForeground": 45099
+        },
+        {
+          "frame": 160,
+          "changedPixels": 26524,
+          "baselineForeground": 44517,
+          "guiForeground": 45082
+        },
+        {
+          "frame": 161,
+          "changedPixels": 25181,
+          "baselineForeground": 44419,
+          "guiForeground": 45059
+        },
+        {
+          "frame": 162,
+          "changedPixels": 25004,
+          "baselineForeground": 44355,
+          "guiForeground": 45042
+        },
+        {
+          "frame": 163,
+          "changedPixels": 25157,
+          "baselineForeground": 44241,
+          "guiForeground": 45017
+        },
+        {
+          "frame": 164,
+          "changedPixels": 25153,
+          "baselineForeground": 44225,
+          "guiForeground": 44935
+        },
+        {
+          "frame": 165,
+          "changedPixels": 25903,
+          "baselineForeground": 44199,
+          "guiForeground": 44851
+        },
+        {
+          "frame": 166,
+          "changedPixels": 25541,
+          "baselineForeground": 44168,
+          "guiForeground": 44776
+        },
+        {
+          "frame": 167,
+          "changedPixels": 25074,
+          "baselineForeground": 44148,
+          "guiForeground": 44687
+        },
+        {
+          "frame": 168,
+          "changedPixels": 25428,
+          "baselineForeground": 44101,
+          "guiForeground": 44665
+        },
+        {
+          "frame": 169,
+          "changedPixels": 25143,
+          "baselineForeground": 44025,
+          "guiForeground": 44625
+        },
+        {
+          "frame": 170,
+          "changedPixels": 24828,
+          "baselineForeground": 43949,
+          "guiForeground": 44594
+        },
+        {
+          "frame": 171,
+          "changedPixels": 24657,
+          "baselineForeground": 43886,
+          "guiForeground": 44558
+        },
+        {
+          "frame": 172,
+          "changedPixels": 25077,
+          "baselineForeground": 43816,
+          "guiForeground": 44524
+        },
+        {
+          "frame": 173,
+          "changedPixels": 25165,
+          "baselineForeground": 43716,
+          "guiForeground": 44481
+        },
+        {
+          "frame": 174,
+          "changedPixels": 25114,
+          "baselineForeground": 43680,
+          "guiForeground": 44415
+        },
+        {
+          "frame": 175,
+          "changedPixels": 25244,
+          "baselineForeground": 43648,
+          "guiForeground": 44334
+        },
+        {
+          "frame": 176,
+          "changedPixels": 25176,
+          "baselineForeground": 43612,
+          "guiForeground": 44277
+        },
+        {
+          "frame": 177,
+          "changedPixels": 25339,
+          "baselineForeground": 43575,
+          "guiForeground": 44225
+        },
+        {
+          "frame": 178,
+          "changedPixels": 25243,
+          "baselineForeground": 43541,
+          "guiForeground": 44173
+        },
+        {
+          "frame": 179,
+          "changedPixels": 25224,
+          "baselineForeground": 43490,
+          "guiForeground": 44121
+        },
+        {
+          "frame": 180,
+          "changedPixels": 25272,
+          "baselineForeground": 43467,
+          "guiForeground": 44078
+        },
+        {
+          "frame": 181,
+          "changedPixels": 25168,
+          "baselineForeground": 43433,
+          "guiForeground": 44027
+        },
+        {
+          "frame": 182,
+          "changedPixels": 25202,
+          "baselineForeground": 43400,
+          "guiForeground": 43983
+        },
+        {
+          "frame": 183,
+          "changedPixels": 25140,
+          "baselineForeground": 43356,
+          "guiForeground": 43945
+        },
+        {
+          "frame": 184,
+          "changedPixels": 25134,
+          "baselineForeground": 43325,
+          "guiForeground": 43916
+        },
+        {
+          "frame": 185,
+          "changedPixels": 25113,
+          "baselineForeground": 43298,
+          "guiForeground": 43877
+        },
+        {
+          "frame": 186,
+          "changedPixels": 25080,
+          "baselineForeground": 43280,
+          "guiForeground": 43869
+        },
+        {
+          "frame": 187,
+          "changedPixels": 25060,
+          "baselineForeground": 43242,
+          "guiForeground": 43851
+        },
+        {
+          "frame": 188,
+          "changedPixels": 25044,
+          "baselineForeground": 43214,
+          "guiForeground": 43823
+        },
+        {
+          "frame": 189,
+          "changedPixels": 25053,
+          "baselineForeground": 43187,
+          "guiForeground": 43815
+        },
+        {
+          "frame": 190,
+          "changedPixels": 25016,
+          "baselineForeground": 43173,
+          "guiForeground": 43807
+        },
+        {
+          "frame": 191,
+          "changedPixels": 25030,
+          "baselineForeground": 43147,
+          "guiForeground": 43802
+        },
+        {
+          "frame": 192,
+          "changedPixels": 24988,
+          "baselineForeground": 43132,
+          "guiForeground": 43817
+        },
+        {
+          "frame": 193,
+          "changedPixels": 24893,
+          "baselineForeground": 43136,
+          "guiForeground": 43807
+        },
+        {
+          "frame": 194,
+          "changedPixels": 24880,
+          "baselineForeground": 43141,
+          "guiForeground": 43814
+        },
+        {
+          "frame": 195,
+          "changedPixels": 24857,
+          "baselineForeground": 43142,
+          "guiForeground": 43821
+        },
+        {
+          "frame": 196,
+          "changedPixels": 24901,
+          "baselineForeground": 43148,
+          "guiForeground": 43820
+        },
+        {
+          "frame": 197,
+          "changedPixels": 25048,
+          "baselineForeground": 43171,
+          "guiForeground": 43835
+        },
+        {
+          "frame": 198,
+          "changedPixels": 25100,
+          "baselineForeground": 43176,
+          "guiForeground": 43839
+        },
+        {
+          "frame": 199,
+          "changedPixels": 25115,
+          "baselineForeground": 43200,
+          "guiForeground": 43840
+        },
+        {
+          "frame": 200,
+          "changedPixels": 25137,
+          "baselineForeground": 43229,
+          "guiForeground": 43872
+        },
+        {
+          "frame": 201,
+          "changedPixels": 25148,
+          "baselineForeground": 43232,
+          "guiForeground": 43886
+        },
+        {
+          "frame": 202,
+          "changedPixels": 25182,
+          "baselineForeground": 43258,
+          "guiForeground": 43913
+        },
+        {
+          "frame": 203,
+          "changedPixels": 25055,
+          "baselineForeground": 43297,
+          "guiForeground": 43944
+        },
+        {
+          "frame": 204,
+          "changedPixels": 25067,
+          "baselineForeground": 43336,
+          "guiForeground": 43981
+        },
+        {
+          "frame": 205,
+          "changedPixels": 25038,
+          "baselineForeground": 43368,
+          "guiForeground": 43998
+        },
+        {
+          "frame": 206,
+          "changedPixels": 25122,
+          "baselineForeground": 43432,
+          "guiForeground": 44055
+        },
+        {
+          "frame": 207,
+          "changedPixels": 25068,
+          "baselineForeground": 43473,
+          "guiForeground": 44113
+        },
+        {
+          "frame": 208,
+          "changedPixels": 25100,
+          "baselineForeground": 43515,
+          "guiForeground": 44140
+        },
+        {
+          "frame": 209,
+          "changedPixels": 25123,
+          "baselineForeground": 43563,
+          "guiForeground": 44188
+        },
+        {
+          "frame": 210,
+          "changedPixels": 25221,
+          "baselineForeground": 43606,
+          "guiForeground": 44256
+        },
+        {
+          "frame": 211,
+          "changedPixels": 25096,
+          "baselineForeground": 43660,
+          "guiForeground": 44308
+        },
+        {
+          "frame": 212,
+          "changedPixels": 25272,
+          "baselineForeground": 43729,
+          "guiForeground": 44378
+        },
+        {
+          "frame": 213,
+          "changedPixels": 25270,
+          "baselineForeground": 43791,
+          "guiForeground": 44437
+        },
+        {
+          "frame": 214,
+          "changedPixels": 25355,
+          "baselineForeground": 43837,
+          "guiForeground": 44504
+        },
+        {
+          "frame": 215,
+          "changedPixels": 25402,
+          "baselineForeground": 43917,
+          "guiForeground": 44565
+        },
+        {
+          "frame": 216,
+          "changedPixels": 25329,
+          "baselineForeground": 43986,
+          "guiForeground": 44624
+        },
+        {
+          "frame": 217,
+          "changedPixels": 25481,
+          "baselineForeground": 44059,
+          "guiForeground": 44711
+        },
+        {
+          "frame": 218,
+          "changedPixels": 25340,
+          "baselineForeground": 44111,
+          "guiForeground": 44765
+        },
+        {
+          "frame": 219,
+          "changedPixels": 25495,
+          "baselineForeground": 44189,
+          "guiForeground": 44834
+        },
+        {
+          "frame": 220,
+          "changedPixels": 25355,
+          "baselineForeground": 44236,
+          "guiForeground": 44900
+        },
+        {
+          "frame": 221,
+          "changedPixels": 25694,
+          "baselineForeground": 44311,
+          "guiForeground": 44985
+        },
+        {
+          "frame": 222,
+          "changedPixels": 25772,
+          "baselineForeground": 44373,
+          "guiForeground": 45034
+        },
+        {
+          "frame": 223,
+          "changedPixels": 25647,
+          "baselineForeground": 44446,
+          "guiForeground": 45097
+        },
+        {
+          "frame": 224,
+          "changedPixels": 25576,
+          "baselineForeground": 44514,
+          "guiForeground": 45160
+        },
+        {
+          "frame": 225,
+          "changedPixels": 25732,
+          "baselineForeground": 44566,
+          "guiForeground": 45226
+        },
+        {
+          "frame": 226,
+          "changedPixels": 25499,
+          "baselineForeground": 44623,
+          "guiForeground": 45319
+        },
+        {
+          "frame": 227,
+          "changedPixels": 25516,
+          "baselineForeground": 44699,
+          "guiForeground": 45372
+        },
+        {
+          "frame": 228,
+          "changedPixels": 25497,
+          "baselineForeground": 44770,
+          "guiForeground": 45412
+        },
+        {
+          "frame": 229,
+          "changedPixels": 25508,
+          "baselineForeground": 44828,
+          "guiForeground": 45469
+        },
+        {
+          "frame": 230,
+          "changedPixels": 25742,
+          "baselineForeground": 44876,
+          "guiForeground": 45520
+        },
+        {
+          "frame": 231,
+          "changedPixels": 25319,
+          "baselineForeground": 44892,
+          "guiForeground": 45598
+        },
+        {
+          "frame": 232,
+          "changedPixels": 26053,
+          "baselineForeground": 44922,
+          "guiForeground": 45658
+        },
+        {
+          "frame": 233,
+          "changedPixels": 24659,
+          "baselineForeground": 44952,
+          "guiForeground": 45696
+        },
+        {
+          "frame": 234,
+          "changedPixels": 22878,
+          "baselineForeground": 44961,
+          "guiForeground": 45720
+        },
+        {
+          "frame": 235,
+          "changedPixels": 25768,
+          "baselineForeground": 44961,
+          "guiForeground": 45745
+        },
+        {
+          "frame": 236,
+          "changedPixels": 25244,
+          "baselineForeground": 44976,
+          "guiForeground": 45729
+        },
+        {
+          "frame": 237,
+          "changedPixels": 24958,
+          "baselineForeground": 44995,
+          "guiForeground": 45689
+        },
+        {
+          "frame": 238,
+          "changedPixels": 20177,
+          "baselineForeground": 45008,
+          "guiForeground": 45591
+        },
+        {
+          "frame": 239,
+          "changedPixels": 24055,
+          "baselineForeground": 45024,
+          "guiForeground": 45600
+        }
+      ]
+    },
+    "reloaded": {
+      "changedPixels": 6060782,
+      "maxChannel": 198,
+      "mae": 0.6374797453703703,
+      "blankFrames": 0,
+      "frames": [
+        {
+          "frame": 0,
+          "changedPixels": 25677,
+          "baselineForeground": 44954,
+          "guiForeground": 45611
+        },
+        {
+          "frame": 1,
+          "changedPixels": 24589,
+          "baselineForeground": 44896,
+          "guiForeground": 45618
+        },
+        {
+          "frame": 2,
+          "changedPixels": 25560,
+          "baselineForeground": 44854,
+          "guiForeground": 45620
+        },
+        {
+          "frame": 3,
+          "changedPixels": 24367,
+          "baselineForeground": 44860,
+          "guiForeground": 45533
+        },
+        {
+          "frame": 4,
+          "changedPixels": 27724,
+          "baselineForeground": 44863,
+          "guiForeground": 45468
+        },
+        {
+          "frame": 5,
+          "changedPixels": 22509,
+          "baselineForeground": 44858,
+          "guiForeground": 45419
+        },
+        {
+          "frame": 6,
+          "changedPixels": 24991,
+          "baselineForeground": 44770,
+          "guiForeground": 45419
+        },
+        {
+          "frame": 7,
+          "changedPixels": 26124,
+          "baselineForeground": 44739,
+          "guiForeground": 45427
+        },
+        {
+          "frame": 8,
+          "changedPixels": 25891,
+          "baselineForeground": 44648,
+          "guiForeground": 45415
+        },
+        {
+          "frame": 9,
+          "changedPixels": 24532,
+          "baselineForeground": 44650,
+          "guiForeground": 45358
+        },
+        {
+          "frame": 10,
+          "changedPixels": 24915,
+          "baselineForeground": 44636,
+          "guiForeground": 45311
+        },
+        {
+          "frame": 11,
+          "changedPixels": 26214,
+          "baselineForeground": 44640,
+          "guiForeground": 45264
+        },
+        {
+          "frame": 12,
+          "changedPixels": 25899,
+          "baselineForeground": 44636,
+          "guiForeground": 45200
+        },
+        {
+          "frame": 13,
+          "changedPixels": 24864,
+          "baselineForeground": 44639,
+          "guiForeground": 45199
+        },
+        {
+          "frame": 14,
+          "changedPixels": 25368,
+          "baselineForeground": 44582,
+          "guiForeground": 45198
+        },
+        {
+          "frame": 15,
+          "changedPixels": 25514,
+          "baselineForeground": 44543,
+          "guiForeground": 45204
+        },
+        {
+          "frame": 16,
+          "changedPixels": 24425,
+          "baselineForeground": 44537,
+          "guiForeground": 45204
+        },
+        {
+          "frame": 17,
+          "changedPixels": 25262,
+          "baselineForeground": 44504,
+          "guiForeground": 45215
+        },
+        {
+          "frame": 18,
+          "changedPixels": 25350,
+          "baselineForeground": 44489,
+          "guiForeground": 45213
+        },
+        {
+          "frame": 19,
+          "changedPixels": 23243,
+          "baselineForeground": 44448,
+          "guiForeground": 45220
+        },
+        {
+          "frame": 20,
+          "changedPixels": 26357,
+          "baselineForeground": 44440,
+          "guiForeground": 45233
+        },
+        {
+          "frame": 21,
+          "changedPixels": 27080,
+          "baselineForeground": 44446,
+          "guiForeground": 45206
+        },
+        {
+          "frame": 22,
+          "changedPixels": 23346,
+          "baselineForeground": 44453,
+          "guiForeground": 45193
+        },
+        {
+          "frame": 23,
+          "changedPixels": 25247,
+          "baselineForeground": 44468,
+          "guiForeground": 45197
+        },
+        {
+          "frame": 24,
+          "changedPixels": 25778,
+          "baselineForeground": 44472,
+          "guiForeground": 45182
+        },
+        {
+          "frame": 25,
+          "changedPixels": 25325,
+          "baselineForeground": 44482,
+          "guiForeground": 45192
+        },
+        {
+          "frame": 26,
+          "changedPixels": 25105,
+          "baselineForeground": 44489,
+          "guiForeground": 45188
+        },
+        {
+          "frame": 27,
+          "changedPixels": 25500,
+          "baselineForeground": 44500,
+          "guiForeground": 45186
+        },
+        {
+          "frame": 28,
+          "changedPixels": 25235,
+          "baselineForeground": 44501,
+          "guiForeground": 45209
+        },
+        {
+          "frame": 29,
+          "changedPixels": 25381,
+          "baselineForeground": 44506,
+          "guiForeground": 45221
+        },
+        {
+          "frame": 30,
+          "changedPixels": 25276,
+          "baselineForeground": 44509,
+          "guiForeground": 45235
+        },
+        {
+          "frame": 31,
+          "changedPixels": 25130,
+          "baselineForeground": 44520,
+          "guiForeground": 45251
+        },
+        {
+          "frame": 32,
+          "changedPixels": 25243,
+          "baselineForeground": 44529,
+          "guiForeground": 45274
+        },
+        {
+          "frame": 33,
+          "changedPixels": 25118,
+          "baselineForeground": 44559,
+          "guiForeground": 45308
+        },
+        {
+          "frame": 34,
+          "changedPixels": 25185,
+          "baselineForeground": 44557,
+          "guiForeground": 45325
+        },
+        {
+          "frame": 35,
+          "changedPixels": 25195,
+          "baselineForeground": 44598,
+          "guiForeground": 45331
+        },
+        {
+          "frame": 36,
+          "changedPixels": 25079,
+          "baselineForeground": 44641,
+          "guiForeground": 45346
+        },
+        {
+          "frame": 37,
+          "changedPixels": 25135,
+          "baselineForeground": 44676,
+          "guiForeground": 45343
+        },
+        {
+          "frame": 38,
+          "changedPixels": 25087,
+          "baselineForeground": 44705,
+          "guiForeground": 45353
+        },
+        {
+          "frame": 39,
+          "changedPixels": 25088,
+          "baselineForeground": 44759,
+          "guiForeground": 45370
+        },
+        {
+          "frame": 40,
+          "changedPixels": 25250,
+          "baselineForeground": 44807,
+          "guiForeground": 45381
+        },
+        {
+          "frame": 41,
+          "changedPixels": 25303,
+          "baselineForeground": 44810,
+          "guiForeground": 45409
+        },
+        {
+          "frame": 42,
+          "changedPixels": 25398,
+          "baselineForeground": 44826,
+          "guiForeground": 45438
+        },
+        {
+          "frame": 43,
+          "changedPixels": 25423,
+          "baselineForeground": 44835,
+          "guiForeground": 45488
+        },
+        {
+          "frame": 44,
+          "changedPixels": 25477,
+          "baselineForeground": 44849,
+          "guiForeground": 45550
+        },
+        {
+          "frame": 45,
+          "changedPixels": 25433,
+          "baselineForeground": 44866,
+          "guiForeground": 45576
+        },
+        {
+          "frame": 46,
+          "changedPixels": 25452,
+          "baselineForeground": 44875,
+          "guiForeground": 45612
+        },
+        {
+          "frame": 47,
+          "changedPixels": 25535,
+          "baselineForeground": 44894,
+          "guiForeground": 45649
+        },
+        {
+          "frame": 48,
+          "changedPixels": 25457,
+          "baselineForeground": 44919,
+          "guiForeground": 45650
+        },
+        {
+          "frame": 49,
+          "changedPixels": 25442,
+          "baselineForeground": 44937,
+          "guiForeground": 45657
+        },
+        {
+          "frame": 50,
+          "changedPixels": 25431,
+          "baselineForeground": 44983,
+          "guiForeground": 45669
+        },
+        {
+          "frame": 51,
+          "changedPixels": 25533,
+          "baselineForeground": 44997,
+          "guiForeground": 45665
+        },
+        {
+          "frame": 52,
+          "changedPixels": 25481,
+          "baselineForeground": 45030,
+          "guiForeground": 45684
+        },
+        {
+          "frame": 53,
+          "changedPixels": 25463,
+          "baselineForeground": 45044,
+          "guiForeground": 45696
+        },
+        {
+          "frame": 54,
+          "changedPixels": 25493,
+          "baselineForeground": 45073,
+          "guiForeground": 45701
+        },
+        {
+          "frame": 55,
+          "changedPixels": 25630,
+          "baselineForeground": 45084,
+          "guiForeground": 45719
+        },
+        {
+          "frame": 56,
+          "changedPixels": 25520,
+          "baselineForeground": 45097,
+          "guiForeground": 45748
+        },
+        {
+          "frame": 57,
+          "changedPixels": 25572,
+          "baselineForeground": 45094,
+          "guiForeground": 45753
+        },
+        {
+          "frame": 58,
+          "changedPixels": 25623,
+          "baselineForeground": 45097,
+          "guiForeground": 45763
+        },
+        {
+          "frame": 59,
+          "changedPixels": 25602,
+          "baselineForeground": 45100,
+          "guiForeground": 45791
+        },
+        {
+          "frame": 60,
+          "changedPixels": 25603,
+          "baselineForeground": 45113,
+          "guiForeground": 45795
+        },
+        {
+          "frame": 61,
+          "changedPixels": 25644,
+          "baselineForeground": 45098,
+          "guiForeground": 45784
+        },
+        {
+          "frame": 62,
+          "changedPixels": 25586,
+          "baselineForeground": 45109,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 63,
+          "changedPixels": 25472,
+          "baselineForeground": 45112,
+          "guiForeground": 45823
+        },
+        {
+          "frame": 64,
+          "changedPixels": 25432,
+          "baselineForeground": 45125,
+          "guiForeground": 45821
+        },
+        {
+          "frame": 65,
+          "changedPixels": 25596,
+          "baselineForeground": 45130,
+          "guiForeground": 45795
+        },
+        {
+          "frame": 66,
+          "changedPixels": 25667,
+          "baselineForeground": 45124,
+          "guiForeground": 45805
+        },
+        {
+          "frame": 67,
+          "changedPixels": 25577,
+          "baselineForeground": 45119,
+          "guiForeground": 45787
+        },
+        {
+          "frame": 68,
+          "changedPixels": 25461,
+          "baselineForeground": 45115,
+          "guiForeground": 45780
+        },
+        {
+          "frame": 69,
+          "changedPixels": 25502,
+          "baselineForeground": 45137,
+          "guiForeground": 45766
+        },
+        {
+          "frame": 70,
+          "changedPixels": 25481,
+          "baselineForeground": 45128,
+          "guiForeground": 45766
+        },
+        {
+          "frame": 71,
+          "changedPixels": 25482,
+          "baselineForeground": 45123,
+          "guiForeground": 45753
+        },
+        {
+          "frame": 72,
+          "changedPixels": 25417,
+          "baselineForeground": 45118,
+          "guiForeground": 45764
+        },
+        {
+          "frame": 73,
+          "changedPixels": 25442,
+          "baselineForeground": 45127,
+          "guiForeground": 45755
+        },
+        {
+          "frame": 74,
+          "changedPixels": 25367,
+          "baselineForeground": 45135,
+          "guiForeground": 45752
+        },
+        {
+          "frame": 75,
+          "changedPixels": 25368,
+          "baselineForeground": 45130,
+          "guiForeground": 45745
+        },
+        {
+          "frame": 76,
+          "changedPixels": 25430,
+          "baselineForeground": 45134,
+          "guiForeground": 45756
+        },
+        {
+          "frame": 77,
+          "changedPixels": 25467,
+          "baselineForeground": 45122,
+          "guiForeground": 45775
+        },
+        {
+          "frame": 78,
+          "changedPixels": 25525,
+          "baselineForeground": 45109,
+          "guiForeground": 45767
+        },
+        {
+          "frame": 79,
+          "changedPixels": 25559,
+          "baselineForeground": 45106,
+          "guiForeground": 45764
+        },
+        {
+          "frame": 80,
+          "changedPixels": 25482,
+          "baselineForeground": 45096,
+          "guiForeground": 45785
+        },
+        {
+          "frame": 81,
+          "changedPixels": 25505,
+          "baselineForeground": 45092,
+          "guiForeground": 45804
+        },
+        {
+          "frame": 82,
+          "changedPixels": 25593,
+          "baselineForeground": 45080,
+          "guiForeground": 45802
+        },
+        {
+          "frame": 83,
+          "changedPixels": 25643,
+          "baselineForeground": 45069,
+          "guiForeground": 45814
+        },
+        {
+          "frame": 84,
+          "changedPixels": 25699,
+          "baselineForeground": 45064,
+          "guiForeground": 45824
+        },
+        {
+          "frame": 85,
+          "changedPixels": 25624,
+          "baselineForeground": 45058,
+          "guiForeground": 45834
+        },
+        {
+          "frame": 86,
+          "changedPixels": 25455,
+          "baselineForeground": 45056,
+          "guiForeground": 45833
+        },
+        {
+          "frame": 87,
+          "changedPixels": 25505,
+          "baselineForeground": 45037,
+          "guiForeground": 45836
+        },
+        {
+          "frame": 88,
+          "changedPixels": 25560,
+          "baselineForeground": 45044,
+          "guiForeground": 45822
+        },
+        {
+          "frame": 89,
+          "changedPixels": 25569,
+          "baselineForeground": 45048,
+          "guiForeground": 45816
+        },
+        {
+          "frame": 90,
+          "changedPixels": 25440,
+          "baselineForeground": 45058,
+          "guiForeground": 45813
+        },
+        {
+          "frame": 91,
+          "changedPixels": 25234,
+          "baselineForeground": 45077,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 92,
+          "changedPixels": 25293,
+          "baselineForeground": 45098,
+          "guiForeground": 45807
+        },
+        {
+          "frame": 93,
+          "changedPixels": 25299,
+          "baselineForeground": 45124,
+          "guiForeground": 45800
+        },
+        {
+          "frame": 94,
+          "changedPixels": 25171,
+          "baselineForeground": 45160,
+          "guiForeground": 45799
+        },
+        {
+          "frame": 95,
+          "changedPixels": 25064,
+          "baselineForeground": 45193,
+          "guiForeground": 45792
+        },
+        {
+          "frame": 96,
+          "changedPixels": 25596,
+          "baselineForeground": 45220,
+          "guiForeground": 45794
+        },
+        {
+          "frame": 97,
+          "changedPixels": 25620,
+          "baselineForeground": 45225,
+          "guiForeground": 45793
+        },
+        {
+          "frame": 98,
+          "changedPixels": 25735,
+          "baselineForeground": 45229,
+          "guiForeground": 45790
+        },
+        {
+          "frame": 99,
+          "changedPixels": 25760,
+          "baselineForeground": 45230,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 100,
+          "changedPixels": 25389,
+          "baselineForeground": 45227,
+          "guiForeground": 45782
+        },
+        {
+          "frame": 101,
+          "changedPixels": 25622,
+          "baselineForeground": 45225,
+          "guiForeground": 45790
+        },
+        {
+          "frame": 102,
+          "changedPixels": 25403,
+          "baselineForeground": 45226,
+          "guiForeground": 45789
+        },
+        {
+          "frame": 103,
+          "changedPixels": 25479,
+          "baselineForeground": 45226,
+          "guiForeground": 45781
+        },
+        {
+          "frame": 104,
+          "changedPixels": 25425,
+          "baselineForeground": 45227,
+          "guiForeground": 45779
+        },
+        {
+          "frame": 105,
+          "changedPixels": 25401,
+          "baselineForeground": 45221,
+          "guiForeground": 45783
+        },
+        {
+          "frame": 106,
+          "changedPixels": 25243,
+          "baselineForeground": 45221,
+          "guiForeground": 45838
+        },
+        {
+          "frame": 107,
+          "changedPixels": 25203,
+          "baselineForeground": 45216,
+          "guiForeground": 45878
+        },
+        {
+          "frame": 108,
+          "changedPixels": 25345,
+          "baselineForeground": 45215,
+          "guiForeground": 45910
+        },
+        {
+          "frame": 109,
+          "changedPixels": 25565,
+          "baselineForeground": 45214,
+          "guiForeground": 45984
+        },
+        {
+          "frame": 110,
+          "changedPixels": 25961,
+          "baselineForeground": 45209,
+          "guiForeground": 46001
+        },
+        {
+          "frame": 111,
+          "changedPixels": 25349,
+          "baselineForeground": 45211,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 112,
+          "changedPixels": 25517,
+          "baselineForeground": 45211,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 113,
+          "changedPixels": 25532,
+          "baselineForeground": 45208,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 114,
+          "changedPixels": 25471,
+          "baselineForeground": 45206,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 115,
+          "changedPixels": 25416,
+          "baselineForeground": 45207,
+          "guiForeground": 46002
+        },
+        {
+          "frame": 116,
+          "changedPixels": 25591,
+          "baselineForeground": 45202,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 117,
+          "changedPixels": 25514,
+          "baselineForeground": 45204,
+          "guiForeground": 46004
+        },
+        {
+          "frame": 118,
+          "changedPixels": 25115,
+          "baselineForeground": 45296,
+          "guiForeground": 45998
+        },
+        {
+          "frame": 119,
+          "changedPixels": 25279,
+          "baselineForeground": 45346,
+          "guiForeground": 46000
+        },
+        {
+          "frame": 120,
+          "changedPixels": 25363,
+          "baselineForeground": 45423,
+          "guiForeground": 45995
+        },
+        {
+          "frame": 121,
+          "changedPixels": 25230,
+          "baselineForeground": 45424,
+          "guiForeground": 45986
+        },
+        {
+          "frame": 122,
+          "changedPixels": 25268,
+          "baselineForeground": 45424,
+          "guiForeground": 45983
+        },
+        {
+          "frame": 123,
+          "changedPixels": 25386,
+          "baselineForeground": 45422,
+          "guiForeground": 45982
+        },
+        {
+          "frame": 124,
+          "changedPixels": 25168,
+          "baselineForeground": 45421,
+          "guiForeground": 45978
+        },
+        {
+          "frame": 125,
+          "changedPixels": 25002,
+          "baselineForeground": 45415,
+          "guiForeground": 45982
+        },
+        {
+          "frame": 126,
+          "changedPixels": 25247,
+          "baselineForeground": 45412,
+          "guiForeground": 45984
+        },
+        {
+          "frame": 127,
+          "changedPixels": 25503,
+          "baselineForeground": 45410,
+          "guiForeground": 45983
+        },
+        {
+          "frame": 128,
+          "changedPixels": 25400,
+          "baselineForeground": 45405,
+          "guiForeground": 46042
+        },
+        {
+          "frame": 129,
+          "changedPixels": 24799,
+          "baselineForeground": 45403,
+          "guiForeground": 46078
+        },
+        {
+          "frame": 130,
+          "changedPixels": 23380,
+          "baselineForeground": 45393,
+          "guiForeground": 46079
+        },
+        {
+          "frame": 131,
+          "changedPixels": 22467,
+          "baselineForeground": 45399,
+          "guiForeground": 46031
+        },
+        {
+          "frame": 132,
+          "changedPixels": 22995,
+          "baselineForeground": 45401,
+          "guiForeground": 45985
+        },
+        {
+          "frame": 133,
+          "changedPixels": 25455,
+          "baselineForeground": 45403,
+          "guiForeground": 45989
+        },
+        {
+          "frame": 134,
+          "changedPixels": 25891,
+          "baselineForeground": 45409,
+          "guiForeground": 45990
+        },
+        {
+          "frame": 135,
+          "changedPixels": 22418,
+          "baselineForeground": 45413,
+          "guiForeground": 45993
+        },
+        {
+          "frame": 136,
+          "changedPixels": 23268,
+          "baselineForeground": 45314,
+          "guiForeground": 45986
+        },
+        {
+          "frame": 137,
+          "changedPixels": 24610,
+          "baselineForeground": 45206,
+          "guiForeground": 45994
+        },
+        {
+          "frame": 138,
+          "changedPixels": 27371,
+          "baselineForeground": 45216,
+          "guiForeground": 46011
+        },
+        {
+          "frame": 139,
+          "changedPixels": 22295,
+          "baselineForeground": 45225,
+          "guiForeground": 45949
+        },
+        {
+          "frame": 140,
+          "changedPixels": 26938,
+          "baselineForeground": 45219,
+          "guiForeground": 45799
+        },
+        {
+          "frame": 141,
+          "changedPixels": 27023,
+          "baselineForeground": 45219,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 142,
+          "changedPixels": 22969,
+          "baselineForeground": 45219,
+          "guiForeground": 45813
+        },
+        {
+          "frame": 143,
+          "changedPixels": 27701,
+          "baselineForeground": 45078,
+          "guiForeground": 45810
+        },
+        {
+          "frame": 144,
+          "changedPixels": 24266,
+          "baselineForeground": 45017,
+          "guiForeground": 45803
+        },
+        {
+          "frame": 145,
+          "changedPixels": 26190,
+          "baselineForeground": 45023,
+          "guiForeground": 45760
+        },
+        {
+          "frame": 146,
+          "changedPixels": 25575,
+          "baselineForeground": 45027,
+          "guiForeground": 45642
+        },
+        {
+          "frame": 147,
+          "changedPixels": 24591,
+          "baselineForeground": 45028,
+          "guiForeground": 45594
+        },
+        {
+          "frame": 148,
+          "changedPixels": 25801,
+          "baselineForeground": 44990,
+          "guiForeground": 45599
+        },
+        {
+          "frame": 149,
+          "changedPixels": 24867,
+          "baselineForeground": 44899,
+          "guiForeground": 45589
+        },
+        {
+          "frame": 150,
+          "changedPixels": 26705,
+          "baselineForeground": 44817,
+          "guiForeground": 45588
+        },
+        {
+          "frame": 151,
+          "changedPixels": 25196,
+          "baselineForeground": 44809,
+          "guiForeground": 45531
+        },
+        {
+          "frame": 152,
+          "changedPixels": 24694,
+          "baselineForeground": 44817,
+          "guiForeground": 45467
+        },
+        {
+          "frame": 153,
+          "changedPixels": 27707,
+          "baselineForeground": 44808,
+          "guiForeground": 45360
+        },
+        {
+          "frame": 154,
+          "changedPixels": 24088,
+          "baselineForeground": 44769,
+          "guiForeground": 45363
+        },
+        {
+          "frame": 155,
+          "changedPixels": 22894,
+          "baselineForeground": 44682,
+          "guiForeground": 45361
+        },
+        {
+          "frame": 156,
+          "changedPixels": 27514,
+          "baselineForeground": 44571,
+          "guiForeground": 45354
+        },
+        {
+          "frame": 157,
+          "changedPixels": 26891,
+          "baselineForeground": 44562,
+          "guiForeground": 45282
+        },
+        {
+          "frame": 158,
+          "changedPixels": 23438,
+          "baselineForeground": 44552,
+          "guiForeground": 45202
+        },
+        {
+          "frame": 159,
+          "changedPixels": 24828,
+          "baselineForeground": 44535,
+          "guiForeground": 45099
+        },
+        {
+          "frame": 160,
+          "changedPixels": 26524,
+          "baselineForeground": 44517,
+          "guiForeground": 45082
+        },
+        {
+          "frame": 161,
+          "changedPixels": 25181,
+          "baselineForeground": 44419,
+          "guiForeground": 45059
+        },
+        {
+          "frame": 162,
+          "changedPixels": 25004,
+          "baselineForeground": 44355,
+          "guiForeground": 45042
+        },
+        {
+          "frame": 163,
+          "changedPixels": 25157,
+          "baselineForeground": 44241,
+          "guiForeground": 45017
+        },
+        {
+          "frame": 164,
+          "changedPixels": 25153,
+          "baselineForeground": 44225,
+          "guiForeground": 44935
+        },
+        {
+          "frame": 165,
+          "changedPixels": 25903,
+          "baselineForeground": 44199,
+          "guiForeground": 44851
+        },
+        {
+          "frame": 166,
+          "changedPixels": 25541,
+          "baselineForeground": 44168,
+          "guiForeground": 44776
+        },
+        {
+          "frame": 167,
+          "changedPixels": 25074,
+          "baselineForeground": 44148,
+          "guiForeground": 44687
+        },
+        {
+          "frame": 168,
+          "changedPixels": 25428,
+          "baselineForeground": 44101,
+          "guiForeground": 44665
+        },
+        {
+          "frame": 169,
+          "changedPixels": 25143,
+          "baselineForeground": 44025,
+          "guiForeground": 44625
+        },
+        {
+          "frame": 170,
+          "changedPixels": 24828,
+          "baselineForeground": 43949,
+          "guiForeground": 44594
+        },
+        {
+          "frame": 171,
+          "changedPixels": 24657,
+          "baselineForeground": 43886,
+          "guiForeground": 44558
+        },
+        {
+          "frame": 172,
+          "changedPixels": 25077,
+          "baselineForeground": 43816,
+          "guiForeground": 44524
+        },
+        {
+          "frame": 173,
+          "changedPixels": 25165,
+          "baselineForeground": 43716,
+          "guiForeground": 44481
+        },
+        {
+          "frame": 174,
+          "changedPixels": 25114,
+          "baselineForeground": 43680,
+          "guiForeground": 44415
+        },
+        {
+          "frame": 175,
+          "changedPixels": 25244,
+          "baselineForeground": 43648,
+          "guiForeground": 44334
+        },
+        {
+          "frame": 176,
+          "changedPixels": 25176,
+          "baselineForeground": 43612,
+          "guiForeground": 44277
+        },
+        {
+          "frame": 177,
+          "changedPixels": 25339,
+          "baselineForeground": 43575,
+          "guiForeground": 44225
+        },
+        {
+          "frame": 178,
+          "changedPixels": 25243,
+          "baselineForeground": 43541,
+          "guiForeground": 44173
+        },
+        {
+          "frame": 179,
+          "changedPixels": 25224,
+          "baselineForeground": 43490,
+          "guiForeground": 44121
+        },
+        {
+          "frame": 180,
+          "changedPixels": 25272,
+          "baselineForeground": 43467,
+          "guiForeground": 44078
+        },
+        {
+          "frame": 181,
+          "changedPixels": 25168,
+          "baselineForeground": 43433,
+          "guiForeground": 44027
+        },
+        {
+          "frame": 182,
+          "changedPixels": 25202,
+          "baselineForeground": 43400,
+          "guiForeground": 43983
+        },
+        {
+          "frame": 183,
+          "changedPixels": 25140,
+          "baselineForeground": 43356,
+          "guiForeground": 43945
+        },
+        {
+          "frame": 184,
+          "changedPixels": 25134,
+          "baselineForeground": 43325,
+          "guiForeground": 43916
+        },
+        {
+          "frame": 185,
+          "changedPixels": 25113,
+          "baselineForeground": 43298,
+          "guiForeground": 43877
+        },
+        {
+          "frame": 186,
+          "changedPixels": 25080,
+          "baselineForeground": 43280,
+          "guiForeground": 43869
+        },
+        {
+          "frame": 187,
+          "changedPixels": 25060,
+          "baselineForeground": 43242,
+          "guiForeground": 43851
+        },
+        {
+          "frame": 188,
+          "changedPixels": 25044,
+          "baselineForeground": 43214,
+          "guiForeground": 43823
+        },
+        {
+          "frame": 189,
+          "changedPixels": 25053,
+          "baselineForeground": 43187,
+          "guiForeground": 43815
+        },
+        {
+          "frame": 190,
+          "changedPixels": 25016,
+          "baselineForeground": 43173,
+          "guiForeground": 43807
+        },
+        {
+          "frame": 191,
+          "changedPixels": 25030,
+          "baselineForeground": 43147,
+          "guiForeground": 43802
+        },
+        {
+          "frame": 192,
+          "changedPixels": 24988,
+          "baselineForeground": 43132,
+          "guiForeground": 43817
+        },
+        {
+          "frame": 193,
+          "changedPixels": 24893,
+          "baselineForeground": 43136,
+          "guiForeground": 43807
+        },
+        {
+          "frame": 194,
+          "changedPixels": 24880,
+          "baselineForeground": 43141,
+          "guiForeground": 43814
+        },
+        {
+          "frame": 195,
+          "changedPixels": 24857,
+          "baselineForeground": 43142,
+          "guiForeground": 43821
+        },
+        {
+          "frame": 196,
+          "changedPixels": 24901,
+          "baselineForeground": 43148,
+          "guiForeground": 43820
+        },
+        {
+          "frame": 197,
+          "changedPixels": 25048,
+          "baselineForeground": 43171,
+          "guiForeground": 43835
+        },
+        {
+          "frame": 198,
+          "changedPixels": 25100,
+          "baselineForeground": 43176,
+          "guiForeground": 43839
+        },
+        {
+          "frame": 199,
+          "changedPixels": 25115,
+          "baselineForeground": 43200,
+          "guiForeground": 43840
+        },
+        {
+          "frame": 200,
+          "changedPixels": 25137,
+          "baselineForeground": 43229,
+          "guiForeground": 43872
+        },
+        {
+          "frame": 201,
+          "changedPixels": 25148,
+          "baselineForeground": 43232,
+          "guiForeground": 43886
+        },
+        {
+          "frame": 202,
+          "changedPixels": 25182,
+          "baselineForeground": 43258,
+          "guiForeground": 43913
+        },
+        {
+          "frame": 203,
+          "changedPixels": 25055,
+          "baselineForeground": 43297,
+          "guiForeground": 43944
+        },
+        {
+          "frame": 204,
+          "changedPixels": 25067,
+          "baselineForeground": 43336,
+          "guiForeground": 43981
+        },
+        {
+          "frame": 205,
+          "changedPixels": 25038,
+          "baselineForeground": 43368,
+          "guiForeground": 43998
+        },
+        {
+          "frame": 206,
+          "changedPixels": 25122,
+          "baselineForeground": 43432,
+          "guiForeground": 44055
+        },
+        {
+          "frame": 207,
+          "changedPixels": 25068,
+          "baselineForeground": 43473,
+          "guiForeground": 44113
+        },
+        {
+          "frame": 208,
+          "changedPixels": 25100,
+          "baselineForeground": 43515,
+          "guiForeground": 44140
+        },
+        {
+          "frame": 209,
+          "changedPixels": 25123,
+          "baselineForeground": 43563,
+          "guiForeground": 44188
+        },
+        {
+          "frame": 210,
+          "changedPixels": 25221,
+          "baselineForeground": 43606,
+          "guiForeground": 44256
+        },
+        {
+          "frame": 211,
+          "changedPixels": 25096,
+          "baselineForeground": 43660,
+          "guiForeground": 44308
+        },
+        {
+          "frame": 212,
+          "changedPixels": 25272,
+          "baselineForeground": 43729,
+          "guiForeground": 44378
+        },
+        {
+          "frame": 213,
+          "changedPixels": 25270,
+          "baselineForeground": 43791,
+          "guiForeground": 44437
+        },
+        {
+          "frame": 214,
+          "changedPixels": 25355,
+          "baselineForeground": 43837,
+          "guiForeground": 44504
+        },
+        {
+          "frame": 215,
+          "changedPixels": 25402,
+          "baselineForeground": 43917,
+          "guiForeground": 44565
+        },
+        {
+          "frame": 216,
+          "changedPixels": 25329,
+          "baselineForeground": 43986,
+          "guiForeground": 44624
+        },
+        {
+          "frame": 217,
+          "changedPixels": 25481,
+          "baselineForeground": 44059,
+          "guiForeground": 44711
+        },
+        {
+          "frame": 218,
+          "changedPixels": 25340,
+          "baselineForeground": 44111,
+          "guiForeground": 44765
+        },
+        {
+          "frame": 219,
+          "changedPixels": 25495,
+          "baselineForeground": 44189,
+          "guiForeground": 44834
+        },
+        {
+          "frame": 220,
+          "changedPixels": 25355,
+          "baselineForeground": 44236,
+          "guiForeground": 44900
+        },
+        {
+          "frame": 221,
+          "changedPixels": 25694,
+          "baselineForeground": 44311,
+          "guiForeground": 44985
+        },
+        {
+          "frame": 222,
+          "changedPixels": 25772,
+          "baselineForeground": 44373,
+          "guiForeground": 45034
+        },
+        {
+          "frame": 223,
+          "changedPixels": 25647,
+          "baselineForeground": 44446,
+          "guiForeground": 45097
+        },
+        {
+          "frame": 224,
+          "changedPixels": 25576,
+          "baselineForeground": 44514,
+          "guiForeground": 45160
+        },
+        {
+          "frame": 225,
+          "changedPixels": 25732,
+          "baselineForeground": 44566,
+          "guiForeground": 45226
+        },
+        {
+          "frame": 226,
+          "changedPixels": 25499,
+          "baselineForeground": 44623,
+          "guiForeground": 45319
+        },
+        {
+          "frame": 227,
+          "changedPixels": 25516,
+          "baselineForeground": 44699,
+          "guiForeground": 45372
+        },
+        {
+          "frame": 228,
+          "changedPixels": 25497,
+          "baselineForeground": 44770,
+          "guiForeground": 45412
+        },
+        {
+          "frame": 229,
+          "changedPixels": 25508,
+          "baselineForeground": 44828,
+          "guiForeground": 45469
+        },
+        {
+          "frame": 230,
+          "changedPixels": 25742,
+          "baselineForeground": 44876,
+          "guiForeground": 45520
+        },
+        {
+          "frame": 231,
+          "changedPixels": 25319,
+          "baselineForeground": 44892,
+          "guiForeground": 45598
+        },
+        {
+          "frame": 232,
+          "changedPixels": 26053,
+          "baselineForeground": 44922,
+          "guiForeground": 45658
+        },
+        {
+          "frame": 233,
+          "changedPixels": 24659,
+          "baselineForeground": 44952,
+          "guiForeground": 45696
+        },
+        {
+          "frame": 234,
+          "changedPixels": 22878,
+          "baselineForeground": 44961,
+          "guiForeground": 45720
+        },
+        {
+          "frame": 235,
+          "changedPixels": 25768,
+          "baselineForeground": 44961,
+          "guiForeground": 45745
+        },
+        {
+          "frame": 236,
+          "changedPixels": 25244,
+          "baselineForeground": 44976,
+          "guiForeground": 45729
+        },
+        {
+          "frame": 237,
+          "changedPixels": 24958,
+          "baselineForeground": 44995,
+          "guiForeground": 45689
+        },
+        {
+          "frame": 238,
+          "changedPixels": 20177,
+          "baselineForeground": 45008,
+          "guiForeground": 45591
+        },
+        {
+          "frame": 239,
+          "changedPixels": 24055,
+          "baselineForeground": 45024,
+          "guiForeground": 45600
+        }
+      ]
+    }
+  },
+  "geometry": {
+    "before": {
+      "samples": 482,
+      "trianglesPerSample": 512,
+      "maxErrorPx": 0.000016158029857098344
+    },
+    "reloaded": {
+      "samples": 482,
+      "trianglesPerSample": 512,
+      "maxErrorPx": 0.000016158029857098344
+    }
+  },
+  "normalization": "CSS canvas676x396, existing padding18 -> stage640x360 scale1, crop padding and alpha composite on fixed 005 renderer background #eef0f3. GUI range step set any only in automation for exact 60Hz sampling; extra sample 481/60 minus 1e-12 seconds avoids HTML numeric upper-bound rounding.",
+  "visualAcceptance": "User review required for Canvas renderer differences; no tolerance relaxed"
+}

@@ -1,0 +1,4327 @@
+{
+  "definition": "Foreground max RGB distance from background >16; 4-neighbor contour; diagnostic threshold only, no acceptance tolerance",
+  "minimumSilhouetteIoU": 0.9852229632535635,
+  "maximumMissingPixels": 2,
+  "frames": [
+    {
+      "frame": 0,
+      "silhouetteIoU": 0.9880868647793213,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 542,
+      "edgeXorPixels": 1021,
+      "foregroundMeanRGBBaseline": [
+        46.759376251279086,
+        76.6255060728745,
+        109.85941184321752
+      ],
+      "foregroundMeanRGBGui": [
+        49.33167237620679,
+        78.80248698669752,
+        111.72244961516216
+      ],
+      "foregroundMAE": 2.5226824457593686
+    },
+    {
+      "frame": 1,
+      "silhouetteIoU": 0.9870940791064794,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 587,
+      "edgeXorPixels": 1125,
+      "foregroundMeanRGBBaseline": [
+        46.45322523164647,
+        76.43413667141839,
+        109.87386404133998
+      ],
+      "foregroundMeanRGBGui": [
+        49.32256771204562,
+        78.80543923734854,
+        111.77394422665716
+      ],
+      "foregroundMAE": 2.6813079116179614
+    },
+    {
+      "frame": 2,
+      "silhouetteIoU": 0.987190773835725,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 582,
+      "edgeXorPixels": 1128,
+      "foregroundMeanRGBBaseline": [
+        46.60190841396531,
+        76.4591340794578,
+        109.82596869844384
+      ],
+      "foregroundMeanRGBGui": [
+        49.48660097204263,
+        78.90326392295002,
+        111.84875373433808
+      ],
+      "foregroundMAE": 2.8799438177197128
+    },
+    {
+      "frame": 3,
+      "silhouetteIoU": 0.9889770723104057,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 500,
+      "edgeXorPixels": 980,
+      "foregroundMeanRGBBaseline": [
+        46.93486402139991,
+        76.64607668301382,
+        109.81448952296032
+      ],
+      "foregroundMeanRGBGui": [
+        49.57581364244316,
+        78.95572893446277,
+        111.85425769059296
+      ],
+      "foregroundMAE": 2.8262594739188587
+    },
+    {
+      "frame": 4,
+      "silhouetteIoU": 0.9898943094812559,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 458,
+      "edgeXorPixels": 880,
+      "foregroundMeanRGBBaseline": [
+        47.163475469763505,
+        76.79776207565254,
+        109.82540177874863
+      ],
+      "foregroundMeanRGBGui": [
+        49.69647593785525,
+        79.05117803089405,
+        111.90504424581503
+      ],
+      "foregroundMAE": 2.8064106279116423
+    },
+    {
+      "frame": 5,
+      "silhouetteIoU": 0.9901772509546829,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 445,
+      "edgeXorPixels": 862,
+      "foregroundMeanRGBBaseline": [
+        47.15546836684649,
+        76.80665656070266,
+        109.82705426010968
+      ],
+      "foregroundMeanRGBGui": [
+        49.60138659770833,
+        78.9754112978733,
+        111.82727718578626
+      ],
+      "foregroundMAE": 2.5584511123991263
+    },
+    {
+      "frame": 6,
+      "silhouetteIoU": 0.9881693373946056,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 536,
+      "edgeXorPixels": 1012,
+      "foregroundMeanRGBBaseline": [
+        46.79434889434889,
+        76.5972972972973,
+        109.85309358945723
+      ],
+      "foregroundMeanRGBGui": [
+        49.336519991065444,
+        78.79021666294393,
+        111.71775742684834
+      ],
+      "foregroundMAE": 2.521859876405331
+    },
+    {
+      "frame": 7,
+      "silhouetteIoU": 0.9875722926140126,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 563,
+      "edgeXorPixels": 1105,
+      "foregroundMeanRGBBaseline": [
+        46.633228279577104,
+        76.50318514048146,
+        109.85549520552539
+      ],
+      "foregroundMeanRGBGui": [
+        49.325376070095444,
+        78.76957464404659,
+        111.71320324549052
+      ],
+      "foregroundMAE": 2.592801209980852
+    },
+    {
+      "frame": 8,
+      "silhouetteIoU": 0.9868051718421925,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 597,
+      "edgeXorPixels": 1139,
+      "foregroundMeanRGBBaseline": [
+        46.48730066296363,
+        76.38369019888908,
+        109.83441587529117
+      ],
+      "foregroundMeanRGBGui": [
+        49.077719046765814,
+        78.57639759899659,
+        111.61342053395448
+      ],
+      "foregroundMAE": 2.573538195066595
+    },
+    {
+      "frame": 9,
+      "silhouetteIoU": 0.9880504536401858,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 540,
+      "edgeXorPixels": 1032,
+      "foregroundMeanRGBBaseline": [
+        46.663628219484885,
+        76.47711086226204,
+        109.80940649496081
+      ],
+      "foregroundMeanRGBGui": [
+        49.38564389697648,
+        78.8021052631579,
+        111.75379619260919
+      ],
+      "foregroundMAE": 2.7305860395670027
+    },
+    {
+      "frame": 10,
+      "silhouetteIoU": 0.9889442782762823,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 499,
+      "edgeXorPixels": 978,
+      "foregroundMeanRGBBaseline": [
+        46.90532305762165,
+        76.6314857962183,
+        109.80914508468501
+      ],
+      "foregroundMeanRGBGui": [
+        49.62393583654449,
+        78.97793261044896,
+        111.88690742898109
+      ],
+      "foregroundMAE": 2.8462601188875944
+    },
+    {
+      "frame": 11,
+      "silhouetteIoU": 0.9898443389950774,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 458,
+      "edgeXorPixels": 889,
+      "foregroundMeanRGBBaseline": [
+        47.20593637992832,
+        76.81971326164874,
+        109.8209229390681
+      ],
+      "foregroundMeanRGBGui": [
+        49.79796146953405,
+        79.12242383512545,
+        111.96780913978495
+      ],
+      "foregroundMAE": 2.904226403823178
+    },
+    {
+      "frame": 12,
+      "silhouetteIoU": 0.9897556432657768,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 462,
+      "edgeXorPixels": 901,
+      "foregroundMeanRGBBaseline": [
+        47.19186307016758,
+        76.8331615736177,
+        109.82229590465096
+      ],
+      "foregroundMeanRGBGui": [
+        49.948897750694506,
+        79.25080652388206,
+        112.06913701944619
+      ],
+      "foregroundMAE": 2.9304373151716105
+    },
+    {
+      "frame": 13,
+      "silhouetteIoU": 0.9900195173882186,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 449,
+      "edgeXorPixels": 878,
+      "foregroundMeanRGBBaseline": [
+        47.16963125588064,
+        76.8342219633496,
+        109.82550741520677
+      ],
+      "foregroundMeanRGBGui": [
+        50.00914019445316,
+        79.30303777050943,
+        112.10114700479411
+      ],
+      "foregroundMAE": 2.914788595665875
+    },
+    {
+      "frame": 14,
+      "silhouetteIoU": 0.9886459395928505,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 512,
+      "edgeXorPixels": 989,
+      "foregroundMeanRGBBaseline": [
+        46.96431295141537,
+        76.73733793907856,
+        109.8461262392894
+      ],
+      "foregroundMeanRGBGui": [
+        49.50886007805841,
+        78.95960253016912,
+        111.80779238257593
+      ],
+      "foregroundMAE": 2.59209995065273
+    },
+    {
+      "frame": 15,
+      "silhouetteIoU": 0.9878906163365788,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 546,
+      "edgeXorPixels": 1036,
+      "foregroundMeanRGBBaseline": [
+        46.79702759131626,
+        76.65931796241834,
+        109.85957389488809
+      ],
+      "foregroundMeanRGBGui": [
+        49.229620815840875,
+        78.753900725142,
+        111.6592955122017
+      ],
+      "foregroundMAE": 2.4338504366567135
+    },
+    {
+      "frame": 16,
+      "silhouetteIoU": 0.9883713188788531,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 524,
+      "edgeXorPixels": 1024,
+      "foregroundMeanRGBBaseline": [
+        46.69676897860206,
+        76.6114466623257,
+        109.8655724453825
+      ],
+      "foregroundMeanRGBGui": [
+        49.121629207176056,
+        78.6869793654714,
+        111.60783169050453
+      ],
+      "foregroundMAE": 2.3744377334201525
+    },
+    {
+      "frame": 17,
+      "silhouetteIoU": 0.9874417572664743,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 566,
+      "edgeXorPixels": 1113,
+      "foregroundMeanRGBBaseline": [
+        46.54199622505842,
+        76.54109742944455,
+        109.87338216789502
+      ],
+      "foregroundMeanRGBGui": [
+        49.02393043321948,
+        78.65275031457847,
+        111.58147582239799
+      ],
+      "foregroundMAE": 2.391320630355324
+    },
+    {
+      "frame": 18,
+      "silhouetteIoU": 0.9869994453688298,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 586,
+      "edgeXorPixels": 1145,
+      "foregroundMeanRGBBaseline": [
+        46.444604284205084,
+        76.50522601092405,
+        109.8868709119108
+      ],
+      "foregroundMeanRGBGui": [
+        48.983816224235206,
+        78.63692148621007,
+        111.58376227831599
+      ],
+      "foregroundMAE": 2.4238126278405896
+    },
+    {
+      "frame": 19,
+      "silhouetteIoU": 0.9868120157190116,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 593,
+      "edgeXorPixels": 1159,
+      "foregroundMeanRGBBaseline": [
+        46.40801403919274,
+        76.46966049452156,
+        109.85963057124215
+      ],
+      "foregroundMeanRGBGui": [
+        48.92460683510698,
+        78.60415776092874,
+        111.59313339482979
+      ],
+      "foregroundMAE": 2.4750376853330933
+    },
+    {
+      "frame": 20,
+      "silhouetteIoU": 0.9863716067742436,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 613,
+      "edgeXorPixels": 1174,
+      "foregroundMeanRGBBaseline": [
+        46.423704403789465,
+        76.50007875964806,
+        109.85123427619884
+      ],
+      "foregroundMeanRGBGui": [
+        48.77544499201152,
+        78.5264744931254,
+        111.49551070006076
+      ],
+      "foregroundMAE": 2.422406744826241
+    },
+    {
+      "frame": 21,
+      "silhouetteIoU": 0.9866364766471319,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 602,
+      "edgeXorPixels": 1133,
+      "foregroundMeanRGBBaseline": [
+        46.49115780947667,
+        76.55006074787383,
+        109.84520541781038
+      ],
+      "foregroundMeanRGBGui": [
+        48.98053818116366,
+        78.69317823876165,
+        111.62487062952796
+      ],
+      "foregroundMAE": 2.5835170769023086
+    },
+    {
+      "frame": 22,
+      "silhouetteIoU": 0.987537210645577,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 561,
+      "edgeXorPixels": 1096,
+      "foregroundMeanRGBBaseline": [
+        46.53204508132185,
+        76.59528040852136,
+        109.8450948192473
+      ],
+      "foregroundMeanRGBGui": [
+        48.95055451825524,
+        78.68031403954738,
+        111.58099565833577
+      ],
+      "foregroundMAE": 2.474238709048508
+    },
+    {
+      "frame": 23,
+      "silhouetteIoU": 0.9876729671501233,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 555,
+      "edgeXorPixels": 1087,
+      "foregroundMeanRGBBaseline": [
+        46.54569578123594,
+        76.6186920931906,
+        109.84663128541872
+      ],
+      "foregroundMeanRGBGui": [
+        49.09240352613115,
+        78.8016101466223,
+        111.65914815147971
+      ],
+      "foregroundMAE": 2.588543072171749
+    },
+    {
+      "frame": 24,
+      "silhouetteIoU": 0.9878715180594428,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 546,
+      "edgeXorPixels": 1070,
+      "foregroundMeanRGBBaseline": [
+        46.55216765605325,
+        76.6487003058104,
+        109.85282874617737
+      ],
+      "foregroundMeanRGBGui": [
+        49.137457276488576,
+        78.85631408526713,
+        111.67772980751934
+      ],
+      "foregroundMAE": 2.644053187024045
+    },
+    {
+      "frame": 25,
+      "silhouetteIoU": 0.9875013875013875,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 563,
+      "edgeXorPixels": 1098,
+      "foregroundMeanRGBBaseline": [
+        46.55467380063846,
+        76.66734859044108,
+        109.85176026257813
+      ],
+      "foregroundMeanRGBGui": [
+        49.13257047794614,
+        78.88786475428263,
+        111.71395171080437
+      ],
+      "foregroundMAE": 2.665535122821216
+    },
+    {
+      "frame": 26,
+      "silhouetteIoU": 0.9876784406012032,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 554,
+      "edgeXorPixels": 1086,
+      "foregroundMeanRGBBaseline": [
+        46.54652940118684,
+        76.69061319906491,
+        109.85766948390577
+      ],
+      "foregroundMeanRGBGui": [
+        49.097194749145835,
+        78.894578313253,
+        111.72138554216868
+      ],
+      "foregroundMAE": 2.6250449559431757
+    },
+    {
+      "frame": 27,
+      "silhouetteIoU": 0.9878568574346224,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 546,
+      "edgeXorPixels": 1072,
+      "foregroundMeanRGBBaseline": [
+        46.534843479628755,
+        76.69743140295287,
+        109.85840131238905
+      ],
+      "foregroundMeanRGBGui": [
+        49.049529202903436,
+        78.87028921998247,
+        111.68331872626351
+      ],
+      "foregroundMAE": 2.6014816812362827
+    },
+    {
+      "frame": 28,
+      "silhouetteIoU": 0.9879231879231879,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 544,
+      "edgeXorPixels": 1060,
+      "foregroundMeanRGBBaseline": [
+        46.510640210332355,
+        76.70650097750612,
+        109.86200310105392
+      ],
+      "foregroundMeanRGBGui": [
+        48.97375339880003,
+        78.8388350823577,
+        111.654142603537
+      ],
+      "foregroundMAE": 2.565500400740058
+    },
+    {
+      "frame": 29,
+      "silhouetteIoU": 0.9876395268845838,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 557,
+      "edgeXorPixels": 1075,
+      "foregroundMeanRGBBaseline": [
+        46.49550622387993,
+        76.72084662742103,
+        109.86666966251741
+      ],
+      "foregroundMeanRGBGui": [
+        48.93358198894531,
+        78.83465150766189,
+        111.65436120972453
+      ],
+      "foregroundMAE": 2.532669752392936
+    },
+    {
+      "frame": 30,
+      "silhouetteIoU": 0.9875965208129937,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 559,
+      "edgeXorPixels": 1103,
+      "foregroundMeanRGBBaseline": [
+        46.449841605068634,
+        76.71900065155361,
+        109.87245276236267
+      ],
+      "foregroundMeanRGBGui": [
+        48.90889483025905,
+        78.83502213035565,
+        111.63625334202071
+      ],
+      "foregroundMAE": 2.5465486381031552
+    },
+    {
+      "frame": 31,
+      "silhouetteIoU": 0.9874024130589071,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 568,
+      "edgeXorPixels": 1091,
+      "foregroundMeanRGBBaseline": [
+        46.41736298292902,
+        76.71628481581311,
+        109.8785265049416
+      ],
+      "foregroundMeanRGBGui": [
+        48.8125786163522,
+        78.79193620844565,
+        111.61152291105121
+      ],
+      "foregroundMAE": 2.479275232105421
+    },
+    {
+      "frame": 32,
+      "silhouetteIoU": 0.9874487193702184,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 566,
+      "edgeXorPixels": 1108,
+      "foregroundMeanRGBBaseline": [
+        46.36755822048553,
+        76.70506860697523,
+        109.87920231759078
+      ],
+      "foregroundMeanRGBGui": [
+        48.782703406768626,
+        78.78479193334681,
+        111.60136091086707
+      ],
+      "foregroundMAE": 2.4889996781123913
+    },
+    {
+      "frame": 33,
+      "silhouetteIoU": 0.9876102664125183,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 559,
+      "edgeXorPixels": 1098,
+      "foregroundMeanRGBBaseline": [
+        46.343095670908234,
+        76.70580578558764,
+        109.88801364483045
+      ],
+      "foregroundMeanRGBGui": [
+        48.78953746717835,
+        78.81123903139658,
+        111.62009919432663
+      ],
+      "foregroundMAE": 2.485506108006613
+    },
+    {
+      "frame": 34,
+      "silhouetteIoU": 0.9871939736346516,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 578,
+      "edgeXorPixels": 1136,
+      "foregroundMeanRGBBaseline": [
+        46.290436968377584,
+        76.70354826402136,
+        109.906097807303
+      ],
+      "foregroundMeanRGBGui": [
+        48.70231389007339,
+        78.76068855623134,
+        111.58875148685952
+      ],
+      "foregroundMAE": 2.4368486807160865
+    },
+    {
+      "frame": 35,
+      "silhouetteIoU": 0.9864631718646317,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 612,
+      "edgeXorPixels": 1187,
+      "foregroundMeanRGBBaseline": [
+        46.28718776626754,
+        76.71980806314184,
+        109.91244001973183
+      ],
+      "foregroundMeanRGBGui": [
+        48.788779765908785,
+        78.8510471321584,
+        111.65534328893672
+      ],
+      "foregroundMAE": 2.4819722857527244
+    },
+    {
+      "frame": 36,
+      "silhouetteIoU": 0.9876327433628319,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 559,
+      "edgeXorPixels": 1089,
+      "foregroundMeanRGBBaseline": [
+        46.32752402499944,
+        76.77975403776797,
+        109.93703098048879
+      ],
+      "foregroundMeanRGBGui": [
+        48.86635604041128,
+        78.91606370825026,
+        111.6718039470442
+      ],
+      "foregroundMAE": 2.4495344339657863
+    },
+    {
+      "frame": 37,
+      "silhouetteIoU": 0.9877078174743544,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 556,
+      "edgeXorPixels": 1065,
+      "foregroundMeanRGBBaseline": [
+        46.44668278270212,
+        76.87073596561912,
+        109.9291565941445
+      ],
+      "foregroundMeanRGBGui": [
+        49.02616617423225,
+        79.05940549735877,
+        111.76750380517504
+      ],
+      "foregroundMAE": 2.5259050347688543
+    },
+    {
+      "frame": 38,
+      "silhouetteIoU": 0.988414512812576,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 524,
+      "edgeXorPixels": 1018,
+      "foregroundMeanRGBBaseline": [
+        46.53870931663125,
+        76.9362040040264,
+        109.92215635834918
+      ],
+      "foregroundMeanRGBGui": [
+        49.06278939715916,
+        79.09406106699474,
+        111.77787719494464
+      ],
+      "foregroundMAE": 2.5177944301532267
+    },
+    {
+      "frame": 39,
+      "silhouetteIoU": 0.989171031404009,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 490,
+      "edgeXorPixels": 945,
+      "foregroundMeanRGBBaseline": [
+        46.70886302196207,
+        77.04584552827365,
+        109.91047610536428
+      ],
+      "foregroundMeanRGBGui": [
+        49.21921848119931,
+        79.22645724882146,
+        111.85247659688554
+      ],
+      "foregroundMAE": 2.565763310172256
+    },
+    {
+      "frame": 40,
+      "silhouetteIoU": 0.9900349109549693,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 451,
+      "edgeXorPixels": 877,
+      "foregroundMeanRGBBaseline": [
+        46.86526658780994,
+        77.14564688553128,
+        109.90204655522575
+      ],
+      "foregroundMeanRGBGui": [
+        49.30388109000826,
+        79.29883723525342,
+        111.87852344499743
+      ],
+      "foregroundMAE": 2.5804822163203665
+    },
+    {
+      "frame": 41,
+      "silhouetteIoU": 0.9898168805637163,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 461,
+      "edgeXorPixels": 903,
+      "foregroundMeanRGBBaseline": [
+        46.84311537603214,
+        77.13974559250167,
+        109.90426244141932
+      ],
+      "foregroundMeanRGBGui": [
+        49.31510823476903,
+        79.30359294800267,
+        111.88589600535595
+      ],
+      "foregroundMAE": 2.6289444320464184
+    },
+    {
+      "frame": 42,
+      "silhouetteIoU": 0.9895364238410596,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 474,
+      "edgeXorPixels": 916,
+      "foregroundMeanRGBBaseline": [
+        46.77983759425334,
+        77.1002543166912,
+        109.89184848079239
+      ],
+      "foregroundMeanRGBGui": [
+        49.2662963458707,
+        79.27455048409405,
+        111.86023736224513
+      ],
+      "foregroundMAE": 2.6496527313017744
+    },
+    {
+      "frame": 43,
+      "silhouetteIoU": 0.9889709937134664,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 500,
+      "edgeXorPixels": 967,
+      "foregroundMeanRGBBaseline": [
+        46.72193598750976,
+        77.06552916248467,
+        109.89271774283483
+      ],
+      "foregroundMeanRGBGui": [
+        49.18006022080964,
+        79.21474294635887,
+        111.82188022750084
+      ],
+      "foregroundMAE": 2.6511728188543175
+    },
+    {
+      "frame": 44,
+      "silhouetteIoU": 0.9887127708824761,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 512,
+      "edgeXorPixels": 995,
+      "foregroundMeanRGBBaseline": [
+        46.67107404847377,
+        77.02871858904324,
+        109.89243907333497
+      ],
+      "foregroundMeanRGBGui": [
+        49.20475372918014,
+        79.2299716827577,
+        111.84438894958639
+      ],
+      "foregroundMAE": 2.717489055868953
+    },
+    {
+      "frame": 45,
+      "silhouetteIoU": 0.9878027300748569,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 554,
+      "edgeXorPixels": 1077,
+      "foregroundMeanRGBBaseline": [
+        46.63455623411938,
+        77.01141175946151,
+        109.89350510408772
+      ],
+      "foregroundMeanRGBGui": [
+        49.16687469353185,
+        79.21454999331343,
+        111.84048054205857
+      ],
+      "foregroundMAE": 2.7271281891261387
+    },
+    {
+      "frame": 46,
+      "silhouetteIoU": 0.9875008252096033,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 568,
+      "edgeXorPixels": 1100,
+      "foregroundMeanRGBBaseline": [
+        46.58781058495822,
+        76.99890807799443,
+        109.90190529247911
+      ],
+      "foregroundMeanRGBGui": [
+        49.10805571030641,
+        79.17943175487466,
+        111.80833426183844
+      ],
+      "foregroundMAE": 2.687212627669452
+    },
+    {
+      "frame": 47,
+      "silhouetteIoU": 0.9872020406368194,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 582,
+      "edgeXorPixels": 1141,
+      "foregroundMeanRGBBaseline": [
+        46.493785361072746,
+        76.9492359780817,
+        109.92506793780906
+      ],
+      "foregroundMeanRGBGui": [
+        49.041007707043256,
+        79.13055196685526,
+        111.76872187820199
+      ],
+      "foregroundMAE": 2.6426099998515022
+    },
+    {
+      "frame": 48,
+      "silhouetteIoU": 0.9872307692307692,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 581,
+      "edgeXorPixels": 1128,
+      "foregroundMeanRGBBaseline": [
+        46.53347135955832,
+        76.98390436118346,
+        109.91705069124424
+      ],
+      "foregroundMeanRGBGui": [
+        49.05547763752532,
+        79.14759901155414,
+        111.77109908947216
+      ],
+      "foregroundMAE": 2.6251326461705142
+    },
+    {
+      "frame": 49,
+      "silhouetteIoU": 0.9870840197693574,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 588,
+      "edgeXorPixels": 1140,
+      "foregroundMeanRGBBaseline": [
+        46.48414446892316,
+        76.96679796159067,
+        109.9341077508512
+      ],
+      "foregroundMeanRGBGui": [
+        49.10031822329039,
+        79.17471126243407,
+        111.78625631439571
+      ],
+      "foregroundMAE": 2.637989481570495
+    },
+    {
+      "frame": 50,
+      "silhouetteIoU": 0.9878774569012847,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 552,
+      "edgeXorPixels": 1073,
+      "foregroundMeanRGBBaseline": [
+        46.533646044061086,
+        76.98430518195762,
+        109.91659071204677
+      ],
+      "foregroundMeanRGBGui": [
+        49.18302469821933,
+        79.23724518151302,
+        111.82010981926506
+      ],
+      "foregroundMAE": 2.6599900703228627
+    },
+    {
+      "frame": 51,
+      "silhouetteIoU": 0.987837808171061,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 554,
+      "edgeXorPixels": 1063,
+      "foregroundMeanRGBBaseline": [
+        46.57694957441607,
+        77.00937840300465,
+        109.9182167700069
+      ],
+      "foregroundMeanRGBGui": [
+        49.194101829010826,
+        79.2431939907105,
+        111.82003244660756
+      ],
+      "foregroundMAE": 2.636435021594032
+    },
+    {
+      "frame": 52,
+      "silhouetteIoU": 0.9887142104338662,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 514,
+      "edgeXorPixels": 993,
+      "foregroundMeanRGBBaseline": [
+        46.59462580501888,
+        77.02056406839884,
+        109.91565622918054
+      ],
+      "foregroundMeanRGBGui": [
+        49.24878969575838,
+        79.2679991117033,
+        111.81876526759937
+      ],
+      "foregroundMAE": 2.621807683766378
+    },
+    {
+      "frame": 53,
+      "silhouetteIoU": 0.988826202445503,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 509,
+      "edgeXorPixels": 998,
+      "foregroundMeanRGBBaseline": [
+        46.63011721871948,
+        77.0273954355741,
+        109.91104253618684
+      ],
+      "foregroundMeanRGBGui": [
+        49.25155403605363,
+        79.26691679246959,
+        111.82412751975846
+      ],
+      "foregroundMAE": 2.6181067400763696
+    },
+    {
+      "frame": 54,
+      "silhouetteIoU": 0.9889634895559066,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 503,
+      "edgeXorPixels": 989,
+      "foregroundMeanRGBBaseline": [
+        46.75728263039957,
+        77.09071949947862,
+        109.89998446963814
+      ],
+      "foregroundMeanRGBGui": [
+        49.35881791760034,
+        79.33913873050385,
+        111.86408714751626
+      ],
+      "foregroundMAE": 2.6587387867089682
+    },
+    {
+      "frame": 55,
+      "silhouetteIoU": 0.9892046077893581,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 491,
+      "edgeXorPixels": 961,
+      "foregroundMeanRGBBaseline": [
+        46.79122951001486,
+        77.10769026018677,
+        109.89144466872213
+      ],
+      "foregroundMeanRGBGui": [
+        49.31040525253422,
+        79.2932369185724,
+        111.82037575139188
+      ],
+      "foregroundMAE": 2.6005737565527287
+    },
+    {
+      "frame": 56,
+      "silhouetteIoU": 0.989489851892485,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 478,
+      "edgeXorPixels": 946,
+      "foregroundMeanRGBBaseline": [
+        46.75618680149015,
+        77.06683519602626,
+        109.87994500620897
+      ],
+      "foregroundMeanRGBGui": [
+        49.30321979776477,
+        79.28554638992372,
+        111.82393116906155
+      ],
+      "foregroundMAE": 2.6172166045769027
+    },
+    {
+      "frame": 57,
+      "silhouetteIoU": 0.988534975995791,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 523,
+      "edgeXorPixels": 1022,
+      "foregroundMeanRGBBaseline": [
+        46.72643810706524,
+        77.03718898301327,
+        109.87468399343594
+      ],
+      "foregroundMeanRGBGui": [
+        49.25360358362531,
+        79.23475406927751,
+        111.79416330332195
+      ],
+      "foregroundMAE": 2.6072500406558152
+    },
+    {
+      "frame": 58,
+      "silhouetteIoU": 0.9885573993292268,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 522,
+      "edgeXorPixels": 1025,
+      "foregroundMeanRGBBaseline": [
+        46.75683526620396,
+        77.03594474133534,
+        109.88016941259951
+      ],
+      "foregroundMeanRGBGui": [
+        49.23793156972748,
+        79.20861698117392,
+        111.78672638978203
+      ],
+      "foregroundMAE": 2.6103953699802647
+    },
+    {
+      "frame": 59,
+      "silhouetteIoU": 0.9886448331798852,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 518,
+      "edgeXorPixels": 1013,
+      "foregroundMeanRGBBaseline": [
+        46.81620842572062,
+        77.06993348115299,
+        109.87736141906873
+      ],
+      "foregroundMeanRGBGui": [
+        49.22831485587583,
+        79.19064301552106,
+        111.7730820399113
+      ],
+      "foregroundMAE": 2.5891426459719145
+    },
+    {
+      "frame": 60,
+      "silhouetteIoU": 0.9883231827542391,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 533,
+      "edgeXorPixels": 1041,
+      "foregroundMeanRGBBaseline": [
+        46.831467647906365,
+        77.05661339303526,
+        109.86606964733004
+      ],
+      "foregroundMeanRGBGui": [
+        49.27118568926917,
+        79.20807749429211,
+        111.79693214816129
+      ],
+      "foregroundMAE": 2.6382121930855114
+    },
+    {
+      "frame": 61,
+      "silhouetteIoU": 0.9877565324046697,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 559,
+      "edgeXorPixels": 1092,
+      "foregroundMeanRGBBaseline": [
+        46.695640604904874,
+        76.98283737638033,
+        109.88156902745133
+      ],
+      "foregroundMeanRGBGui": [
+        49.234289768947626,
+        79.16626014457404,
+        111.77063284402855
+      ],
+      "foregroundMAE": 2.6284166334057684
+    },
+    {
+      "frame": 62,
+      "silhouetteIoU": 0.9881273137499726,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 542,
+      "edgeXorPixels": 1040,
+      "foregroundMeanRGBBaseline": [
+        46.678334700392384,
+        76.9454875967102,
+        109.8812653794143
+      ],
+      "foregroundMeanRGBGui": [
+        49.28590746857611,
+        79.18583874614822,
+        111.79731317475448
+      ],
+      "foregroundMAE": 2.682302866390299
+    },
+    {
+      "frame": 63,
+      "silhouetteIoU": 0.9881497382428318,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 541,
+      "edgeXorPixels": 1055,
+      "foregroundMeanRGBBaseline": [
+        46.73884997339954,
+        76.97448572441922,
+        109.87391381450612
+      ],
+      "foregroundMeanRGBGui": [
+        49.336118992729205,
+        79.21012147543891,
+        111.80832151090618
+      ],
+      "foregroundMAE": 2.6961562333747118
+    },
+    {
+      "frame": 64,
+      "silhouetteIoU": 0.988499452354874,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 525,
+      "edgeXorPixels": 1024,
+      "foregroundMeanRGBBaseline": [
+        46.85108033240997,
+        77.03656509695291,
+        109.87129085872576
+      ],
+      "foregroundMeanRGBGui": [
+        49.397939058171744,
+        79.24454293628808,
+        111.82998337950139
+      ],
+      "foregroundMAE": 2.6913684210526316
+    },
+    {
+      "frame": 65,
+      "silhouetteIoU": 0.9882623453410708,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 535,
+      "edgeXorPixels": 1048,
+      "foregroundMeanRGBBaseline": [
+        46.86498703716014,
+        77.02178200270336,
+        109.87418289791486
+      ],
+      "foregroundMeanRGBGui": [
+        49.36466573600124,
+        79.2084690553746,
+        111.8008375988832
+      ],
+      "foregroundMAE": 2.670884206016826
+    },
+    {
+      "frame": 66,
+      "silhouetteIoU": 0.9879795060430898,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 548,
+      "edgeXorPixels": 1076,
+      "foregroundMeanRGBBaseline": [
+        46.72264698712409,
+        76.94599206613036,
+        109.89083172661392
+      ],
+      "foregroundMeanRGBGui": [
+        49.38880393590852,
+        79.21261884183232,
+        111.81663453227844
+      ],
+      "foregroundMAE": 2.69640759701261
+    },
+    {
+      "frame": 67,
+      "silhouetteIoU": 0.9881731969600736,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 540,
+      "edgeXorPixels": 1048,
+      "foregroundMeanRGBBaseline": [
+        46.72479443250072,
+        76.92761364391941,
+        109.88488220040338
+      ],
+      "foregroundMeanRGBGui": [
+        49.356612513575215,
+        79.1702387020989,
+        111.79319133846052
+      ],
+      "foregroundMAE": 2.6725547995301313
+    },
+    {
+      "frame": 68,
+      "silhouetteIoU": 0.9881072320294363,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 543,
+      "edgeXorPixels": 1064,
+      "foregroundMeanRGBBaseline": [
+        46.78570320292586,
+        76.95872769588829,
+        109.88411836418042
+      ],
+      "foregroundMeanRGBGui": [
+        49.33689460268204,
+        79.14476338246703,
+        111.76608666740552
+      ],
+      "foregroundMAE": 2.629406331966456
+    },
+    {
+      "frame": 69,
+      "silhouetteIoU": 0.9887190046438272,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 515,
+      "edgeXorPixels": 1001,
+      "foregroundMeanRGBBaseline": [
+        46.892482885437666,
+        77.00314597780091,
+        109.8723663513304
+      ],
+      "foregroundMeanRGBGui": [
+        49.47821078051266,
+        79.233444845692,
+        111.8310033896803
+      ],
+      "foregroundMAE": 2.687639852006115
+    },
+    {
+      "frame": 70,
+      "silhouetteIoU": 0.9886301399872938,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 519,
+      "edgeXorPixels": 1004,
+      "foregroundMeanRGBBaseline": [
+        46.87234089700408,
+        76.97848342492466,
+        109.87138805176387
+      ],
+      "foregroundMeanRGBGui": [
+        49.49949033859245,
+        79.2404493884063,
+        111.83861460733912
+      ],
+      "foregroundMAE": 2.7025276251255685
+    },
+    {
+      "frame": 71,
+      "silhouetteIoU": 0.9885422600008763,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 523,
+      "edgeXorPixels": 1011,
+      "foregroundMeanRGBBaseline": [
+        46.74285840923697,
+        76.89752454402411,
+        109.88123573343971
+      ],
+      "foregroundMeanRGBGui": [
+        49.44895064601201,
+        79.1894599206613,
+        111.80694989251602
+      ],
+      "foregroundMAE": 2.658053173178497
+    },
+    {
+      "frame": 72,
+      "silhouetteIoU": 0.9888443246323448,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 509,
+      "edgeXorPixels": 990,
+      "foregroundMeanRGBBaseline": [
+        46.736956425373464,
+        76.87905048982668,
+        109.87468416153199
+      ],
+      "foregroundMeanRGBGui": [
+        49.38694091050135,
+        79.12292211534199,
+        111.77077884658009
+      ],
+      "foregroundMAE": 2.6127118518846877
+    },
+    {
+      "frame": 73,
+      "silhouetteIoU": 0.9891716534052301,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 494,
+      "edgeXorPixels": 947,
+      "foregroundMeanRGBBaseline": [
+        46.833004631373676,
+        76.92496731446806,
+        109.86520265029804
+      ],
+      "foregroundMeanRGBGui": [
+        49.478804263522946,
+        79.18507766968777,
+        111.80326633722605
+      ],
+      "foregroundMAE": 2.6276360789180164
+    },
+    {
+      "frame": 74,
+      "silhouetteIoU": 0.9893903855849536,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 484,
+      "edgeXorPixels": 943,
+      "foregroundMeanRGBBaseline": [
+        46.939404010191645,
+        76.98331671651711,
+        109.86427384513128
+      ],
+      "foregroundMeanRGBGui": [
+        49.505815885676306,
+        79.18473468483438,
+        111.78739337542926
+      ],
+      "foregroundMAE": 2.582932683431188
+    },
+    {
+      "frame": 75,
+      "silhouetteIoU": 0.9892590968873302,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 490,
+      "edgeXorPixels": 953,
+      "foregroundMeanRGBBaseline": [
+        46.95570573897629,
+        76.97668956348328,
+        109.85683580766674
+      ],
+      "foregroundMeanRGBGui": [
+        49.540150675825394,
+        79.21136716153335,
+        111.81996454686461
+      ],
+      "foregroundMAE": 2.6258881749021348
+    },
+    {
+      "frame": 76,
+      "silhouetteIoU": 0.9894986078530243,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 479,
+      "edgeXorPixels": 932,
+      "foregroundMeanRGBBaseline": [
+        46.99525856338902,
+        76.97946116010104,
+        109.85494305844817
+      ],
+      "foregroundMeanRGBGui": [
+        49.50500731156113,
+        79.16701378118492,
+        111.7834005406124
+      ],
+      "foregroundMAE": 2.591889336937416
+    },
+    {
+      "frame": 77,
+      "silhouetteIoU": 0.989387361312108,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 484,
+      "edgeXorPixels": 949,
+      "foregroundMeanRGBBaseline": [
+        46.99694162492797,
+        76.97123354461239,
+        109.84985151367404
+      ],
+      "foregroundMeanRGBGui": [
+        49.469593546385354,
+        79.12800851026107,
+        111.76913700633837
+      ],
+      "foregroundMAE": 2.5806701830592615
+    },
+    {
+      "frame": 78,
+      "silhouetteIoU": 0.9891890706547959,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 493,
+      "edgeXorPixels": 959,
+      "foregroundMeanRGBBaseline": [
+        47.0060963444102,
+        76.95971978984238,
+        109.84781307499613
+      ],
+      "foregroundMeanRGBGui": [
+        49.45485379857678,
+        79.09986920570175,
+        111.76095679354452
+      ],
+      "foregroundMAE": 2.583926341380508
+    },
+    {
+      "frame": 79,
+      "silhouetteIoU": 0.9888630683562064,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 508,
+      "edgeXorPixels": 981,
+      "foregroundMeanRGBBaseline": [
+        47.0092448898151,
+        76.95089345098214,
+        109.84658360306832
+      ],
+      "foregroundMeanRGBGui": [
+        49.38134616237308,
+        79.04305413913892,
+        111.73373830532523
+      ],
+      "foregroundMAE": 2.557686338846273
+    },
+    {
+      "frame": 80,
+      "silhouetteIoU": 0.9886004910557699,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 520,
+      "edgeXorPixels": 1026,
+      "foregroundMeanRGBBaseline": [
+        47.00368103601206,
+        76.93536012063154,
+        109.84220329962746
+      ],
+      "foregroundMeanRGBGui": [
+        49.36287032109278,
+        79.02754124534327,
+        111.73095174738336
+      ],
+      "foregroundMAE": 2.5694518360830227
+    },
+    {
+      "frame": 81,
+      "silhouetteIoU": 0.9885994913619223,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 520,
+      "edgeXorPixels": 1018,
+      "foregroundMeanRGBBaseline": [
+        47.016566131464565,
+        76.93091901002396,
+        109.84695733167746
+      ],
+      "foregroundMeanRGBGui": [
+        49.355517608444956,
+        79.01279606138561,
+        111.7216135899938
+      ],
+      "foregroundMAE": 2.589284130222656
+    },
+    {
+      "frame": 82,
+      "silhouetteIoU": 0.9878599290003068,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 554,
+      "edgeXorPixels": 1076,
+      "foregroundMeanRGBBaseline": [
+        47.02029724933452,
+        76.92222715173025,
+        109.84387755102041
+      ],
+      "foregroundMeanRGBGui": [
+        49.35973824312334,
+        79.00090949423247,
+        111.73223158828749
+      ],
+      "foregroundMAE": 2.6275805974563737
+    },
+    {
+      "frame": 83,
+      "silhouetteIoU": 0.987813698630137,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 556,
+      "edgeXorPixels": 1084,
+      "foregroundMeanRGBBaseline": [
+        46.99238944729193,
+        76.89678049213428,
+        109.84177594355322
+      ],
+      "foregroundMeanRGBGui": [
+        49.386629390490135,
+        79.019436863476,
+        111.7681554949078
+      ],
+      "foregroundMAE": 2.688455479376068
+    },
+    {
+      "frame": 84,
+      "silhouetteIoU": 0.9872929629305056,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 580,
+      "edgeXorPixels": 1142,
+      "foregroundMeanRGBBaseline": [
+        46.94507811113083,
+        76.85811290608912,
+        109.83714273033907
+      ],
+      "foregroundMeanRGBGui": [
+        49.3222749866856,
+        78.96469465648855,
+        111.73220308894017
+      ],
+      "foregroundMAE": 2.6719332504881947
+    },
+    {
+      "frame": 85,
+      "silhouetteIoU": 0.9868372062463041,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 601,
+      "edgeXorPixels": 1170,
+      "foregroundMeanRGBBaseline": [
+        46.926960806072174,
+        76.84477784189266,
+        109.83778685250122
+      ],
+      "foregroundMeanRGBGui": [
+        49.30913489280483,
+        78.95570154023703,
+        111.73798215633184
+      ],
+      "foregroundMAE": 2.695392605086777
+    },
+    {
+      "frame": 86,
+      "silhouetteIoU": 0.9863829414597837,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 622,
+      "edgeXorPixels": 1195,
+      "foregroundMeanRGBBaseline": [
+        46.89417613636363,
+        76.813720703125,
+        109.83376242897727
+      ],
+      "foregroundMeanRGBGui": [
+        49.30866033380682,
+        78.95754172585227,
+        111.76344992897727
+      ],
+      "foregroundMAE": 2.7327252012310606
+    },
+    {
+      "frame": 87,
+      "silhouetteIoU": 0.9858374923386743,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 647,
+      "edgeXorPixels": 1247,
+      "foregroundMeanRGBBaseline": [
+        46.79279259275707,
+        76.75697759619868,
+        109.83817749850124
+      ],
+      "foregroundMeanRGBGui": [
+        49.21380198503453,
+        78.87767835335391,
+        111.71163709838576
+      ],
+      "foregroundMAE": 2.6943476104832325
+    },
+    {
+      "frame": 88,
+      "silhouetteIoU": 0.9858180863170796,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 648,
+      "edgeXorPixels": 1245,
+      "foregroundMeanRGBBaseline": [
+        46.714767782612554,
+        76.70224669212325,
+        109.83869105763253
+      ],
+      "foregroundMeanRGBGui": [
+        49.206220584317556,
+        78.87165882248468,
+        111.71905248201759
+      ],
+      "foregroundMAE": 2.714597578663825
+    },
+    {
+      "frame": 89,
+      "silhouetteIoU": 0.98577618276511,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 650,
+      "edgeXorPixels": 1249,
+      "foregroundMeanRGBBaseline": [
+        46.62906233351092,
+        76.65141626709288,
+        109.8424347362813
+      ],
+      "foregroundMeanRGBGui": [
+        49.22309536494406,
+        78.87912892914225,
+        111.73124223050968
+      ],
+      "foregroundMAE": 2.741823536376014
+    },
+    {
+      "frame": 90,
+      "silhouetteIoU": 0.9861026000175085,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 634,
+      "edgeXorPixels": 1212,
+      "foregroundMeanRGBBaseline": [
+        46.51050891093504,
+        76.59624475664158,
+        109.85420689349047
+      ],
+      "foregroundMeanRGBGui": [
+        49.19129103136028,
+        78.8621301906474,
+        111.71946645360322
+      ],
+      "foregroundMAE": 2.7125122992357826
+    },
+    {
+      "frame": 91,
+      "silhouetteIoU": 0.9865834974830379,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 613,
+      "edgeXorPixels": 1165,
+      "foregroundMeanRGBBaseline": [
+        46.426403709208685,
+        76.55966457395124,
+        109.87275107039066
+      ],
+      "foregroundMeanRGBGui": [
+        49.26002174057724,
+        78.9084899172527,
+        111.7442820063447
+      ],
+      "foregroundMAE": 2.715945308398222
+    },
+    {
+      "frame": 92,
+      "silhouetteIoU": 0.986999912457323,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 594,
+      "edgeXorPixels": 1123,
+      "foregroundMeanRGBBaseline": [
+        46.46276996762606,
+        76.58749833695508,
+        109.86755510222183
+      ],
+      "foregroundMeanRGBGui": [
+        49.290234600204,
+        78.93815690274513,
+        111.75094239212382
+      ],
+      "foregroundMAE": 2.6881753810220705
+    },
+    {
+      "frame": 93,
+      "silhouetteIoU": 0.9876554018560673,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 564,
+      "edgeXorPixels": 1081,
+      "foregroundMeanRGBBaseline": [
+        46.47107969151671,
+        76.59480542505096,
+        109.87627426646574
+      ],
+      "foregroundMeanRGBGui": [
+        49.30230032798511,
+        78.9418048045386,
+        111.74197766155483
+      ],
+      "foregroundMAE": 2.6622196613775375
+    },
+    {
+      "frame": 94,
+      "silhouetteIoU": 0.9884433549290842,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 528,
+      "edgeXorPixels": 1023,
+      "foregroundMeanRGBBaseline": [
+        46.64484056687334,
+        76.7007971656333,
+        109.86200177147919
+      ],
+      "foregroundMeanRGBGui": [
+        49.4207263064659,
+        79.03139946855624,
+        111.7678697962799
+      ],
+      "foregroundMAE": 2.6438736344847946
+    },
+    {
+      "frame": 95,
+      "silhouetteIoU": 0.9893821971189631,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 485,
+      "edgeXorPixels": 941,
+      "foregroundMeanRGBBaseline": [
+        46.77631491602682,
+        76.78270971168101,
+        109.85623879804395
+      ],
+      "foregroundMeanRGBGui": [
+        49.495784745425176,
+        79.08549996680902,
+        111.7793463589494
+      ],
+      "foregroundMAE": 2.620627088265882
+    },
+    {
+      "frame": 96,
+      "silhouetteIoU": 0.9898866074164879,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 462,
+      "edgeXorPixels": 894,
+      "foregroundMeanRGBBaseline": [
+        46.8969482529854,
+        76.85090667846086,
+        109.8452675807165
+      ],
+      "foregroundMeanRGBGui": [
+        49.58701901813357,
+        79.14800973020787,
+        111.7984741264927
+      ],
+      "foregroundMAE": 2.6259767064720627
+    },
+    {
+      "frame": 97,
+      "silhouetteIoU": 0.9901042122777827,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 451,
+      "edgeXorPixels": 877,
+      "foregroundMeanRGBBaseline": [
+        46.9605740314877,
+        76.8912966566425,
+        109.84618786485052
+      ],
+      "foregroundMeanRGBGui": [
+        49.66632761365646,
+        79.20248098354855,
+        111.83420307801167
+      ],
+      "foregroundMAE": 2.6484462527271657
+    },
+    {
+      "frame": 98,
+      "silhouetteIoU": 0.9901484303165637,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 449,
+      "edgeXorPixels": 871,
+      "foregroundMeanRGBBaseline": [
+        46.958963473954185,
+        76.88334659945167,
+        109.8437030158309
+      ],
+      "foregroundMeanRGBGui": [
+        49.688843194481294,
+        79.21791810382949,
+        111.85389581675068
+      ],
+      "foregroundMAE": 2.6680669791574543
+    },
+    {
+      "frame": 99,
+      "silhouetteIoU": 0.9903439819579164,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 441,
+      "edgeXorPixels": 865,
+      "foregroundMeanRGBBaseline": [
+        46.96272385584789,
+        76.87999115631219,
+        109.84355516250277
+      ],
+      "foregroundMeanRGBGui": [
+        49.6934998894539,
+        79.2278355074066,
+        111.88795047534822
+      ],
+      "foregroundMAE": 2.680153290588842
+    },
+    {
+      "frame": 100,
+      "silhouetteIoU": 0.9900398406374502,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 455,
+      "edgeXorPixels": 884,
+      "foregroundMeanRGBBaseline": [
+        46.962544497755765,
+        76.8778163486413,
+        109.84027240365269
+      ],
+      "foregroundMeanRGBGui": [
+        49.62131027925796,
+        79.17648749640702,
+        111.84482720498816
+      ],
+      "foregroundMAE": 2.626734767579838
+    },
+    {
+      "frame": 101,
+      "silhouetteIoU": 0.9900827531853409,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 453,
+      "edgeXorPixels": 878,
+      "foregroundMeanRGBBaseline": [
+        46.9592039800995,
+        76.87599778883362,
+        109.84183526810392
+      ],
+      "foregroundMeanRGBGui": [
+        49.695212824765065,
+        79.23655058043117,
+        111.92061912658927
+      ],
+      "foregroundMAE": 2.7036152570480927
+    },
+    {
+      "frame": 102,
+      "silhouetteIoU": 0.9902997657054019,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 443,
+      "edgeXorPixels": 868,
+      "foregroundMeanRGBBaseline": [
+        46.964776898244374,
+        76.87308185556981,
+        109.84409410516075
+      ],
+      "foregroundMeanRGBGui": [
+        49.60701808694114,
+        79.16249502498563,
+        111.85101490293194
+      ],
+      "foregroundMAE": 2.6224885390409645
+    },
+    {
+      "frame": 103,
+      "silhouetteIoU": 0.9901263217812027,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 451,
+      "edgeXorPixels": 876,
+      "foregroundMeanRGBBaseline": [
+        46.96429045239464,
+        76.87027373634635,
+        109.84084376243753
+      ],
+      "foregroundMeanRGBGui": [
+        49.62625480918056,
+        79.1739928359793,
+        111.86251271392563
+      ],
+      "foregroundMAE": 2.646457052727782
+    },
+    {
+      "frame": 104,
+      "silhouetteIoU": 0.990061295971979,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 453,
+      "edgeXorPixels": 877,
+      "foregroundMeanRGBBaseline": [
+        46.96877902091717,
+        76.8689028434971,
+        109.84332021403617
+      ],
+      "foregroundMeanRGBGui": [
+        49.50521823729713,
+        79.08057312165569,
+        111.78362004156901
+      ],
+      "foregroundMAE": 2.5626409587405474
+    },
+    {
+      "frame": 105,
+      "silhouetteIoU": 0.9899735108036516,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 458,
+      "edgeXorPixels": 891,
+      "foregroundMeanRGBBaseline": [
+        46.96764777426417,
+        76.8708785741138,
+        109.84270582251608
+      ],
+      "foregroundMeanRGBGui": [
+        49.31049733530882,
+        78.9373742287875,
+        111.65445257734238
+      ],
+      "foregroundMAE": 2.432999417674679
+    },
+    {
+      "frame": 106,
+      "silhouetteIoU": 0.9900602079912425,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 454,
+      "edgeXorPixels": 877,
+      "foregroundMeanRGBBaseline": [
+        46.97317617920878,
+        76.87112182393136,
+        109.84737179628934
+      ],
+      "foregroundMeanRGBGui": [
+        49.2485128590699,
+        78.90595077508237,
+        111.64392649432786
+      ],
+      "foregroundMAE": 2.4192300037593153
+    },
+    {
+      "frame": 107,
+      "silhouetteIoU": 0.9899507389162562,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 459,
+      "edgeXorPixels": 885,
+      "foregroundMeanRGBBaseline": [
+        46.97220010615711,
+        76.87314225053079,
+        109.84744338287332
+      ],
+      "foregroundMeanRGBGui": [
+        49.264264861995755,
+        78.91228768577494,
+        111.67252742392074
+      ],
+      "foregroundMAE": 2.4565271880160413
+    },
+    {
+      "frame": 108,
+      "silhouetteIoU": 0.9897771551158006,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 467,
+      "edgeXorPixels": 906,
+      "foregroundMeanRGBBaseline": [
+        46.97288510450072,
+        76.87420103947805,
+        109.84876700210107
+      ],
+      "foregroundMeanRGBGui": [
+        49.22373106270043,
+        78.8831140108371,
+        111.64257436691364
+      ],
+      "foregroundMAE": 2.4659663091157062
+    },
+    {
+      "frame": 109,
+      "silhouetteIoU": 0.988759622113366,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 514,
+      "edgeXorPixels": 997,
+      "foregroundMeanRGBBaseline": [
+        46.97611359313487,
+        76.87141150970938,
+        109.84827708231964
+      ],
+      "foregroundMeanRGBGui": [
+        49.36103861635777,
+        78.98093510859468,
+        111.74554341575619
+      ],
+      "foregroundMAE": 2.617412011029032
+    },
+    {
+      "frame": 110,
+      "silhouetteIoU": 0.9877430631417959,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 561,
+      "edgeXorPixels": 1093,
+      "foregroundMeanRGBBaseline": [
+        46.97648698268044,
+        76.8741179853569,
+        109.85020681722666
+      ],
+      "foregroundMeanRGBGui": [
+        49.45017584994138,
+        79.04499104160676,
+        111.82377402729546
+      ],
+      "foregroundMAE": 2.733268449497519
+    },
+    {
+      "frame": 111,
+      "silhouetteIoU": 0.9869457966775088,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 598,
+      "edgeXorPixels": 1165,
+      "foregroundMeanRGBBaseline": [
+        46.97823538519387,
+        76.86987679989383,
+        109.84775828891199
+      ],
+      "foregroundMeanRGBGui": [
+        49.30313419300613,
+        78.94877352856605,
+        111.76319922142841
+      ],
+      "foregroundMAE": 2.6621913546113407
+    },
+    {
+      "frame": 112,
+      "silhouetteIoU": 0.9858912294474247,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 647,
+      "edgeXorPixels": 1244,
+      "foregroundMeanRGBBaseline": [
+        46.98164163588507,
+        76.86903629647652,
+        109.84939505872465
+      ],
+      "foregroundMeanRGBGui": [
+        49.19185596425648,
+        78.86739952666386,
+        111.68470062595387
+      ],
+      "foregroundMAE": 2.60454314215567
+    },
+    {
+      "frame": 113,
+      "silhouetteIoU": 0.9855893958882905,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 661,
+      "edgeXorPixels": 1264,
+      "foregroundMeanRGBBaseline": [
+        46.98405149531057,
+        76.8678994868165,
+        109.84949566448417
+      ],
+      "foregroundMeanRGBGui": [
+        49.13302955229163,
+        78.82476552822509,
+        111.67050079631923
+      ],
+      "foregroundMAE": 2.5952854951925914
+    },
+    {
+      "frame": 114,
+      "silhouetteIoU": 0.9856962190920587,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 656,
+      "edgeXorPixels": 1262,
+      "foregroundMeanRGBBaseline": [
+        46.98615228067071,
+        76.86570366765474,
+        109.84822811131266
+      ],
+      "foregroundMeanRGBGui": [
+        49.20618944387913,
+        78.87972835464319,
+        111.72578861213114
+      ],
+      "foregroundMAE": 2.707516701322833
+    },
+    {
+      "frame": 115,
+      "silhouetteIoU": 0.9857395172368679,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 654,
+      "edgeXorPixels": 1264,
+      "foregroundMeanRGBBaseline": [
+        46.96991616342602,
+        76.85205830955383,
+        109.8457760966222
+      ],
+      "foregroundMeanRGBGui": [
+        49.15468843320725,
+        78.84135200300838,
+        111.70862919459375
+      ],
+      "foregroundMAE": 2.708098303360099
+    },
+    {
+      "frame": 116,
+      "silhouetteIoU": 0.9853082221640945,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 674,
+      "edgeXorPixels": 1269,
+      "foregroundMeanRGBBaseline": [
+        46.5055086058139,
+        76.58831467634175,
+        109.841776912526
+      ],
+      "foregroundMeanRGBGui": [
+        49.01725587363391,
+        78.75684704216627,
+        111.65587805849299
+      ],
+      "foregroundMAE": 2.6442709024674422
+    },
+    {
+      "frame": 117,
+      "silhouetteIoU": 0.9852229632535635,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 678,
+      "edgeXorPixels": 1268,
+      "foregroundMeanRGBBaseline": [
+        46.25705689761968,
+        76.4593177594903,
+        109.86954694274843
+      ],
+      "foregroundMeanRGBGui": [
+        49.00358375365012,
+        78.7498230245111,
+        111.68363419166445
+      ],
+      "foregroundMAE": 2.679202430463381
+    },
+    {
+      "frame": 118,
+      "silhouetteIoU": 0.9874648470711342,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 575,
+      "edgeXorPixels": 1090,
+      "foregroundMeanRGBBaseline": [
+        46.3943615330272,
+        76.5810446838573,
+        109.88877605086542
+      ],
+      "foregroundMeanRGBGui": [
+        49.43235605793006,
+        79.0632947721653,
+        111.83892617449665
+      ],
+      "foregroundMAE": 2.7995775933121396
+    },
+    {
+      "frame": 119,
+      "silhouetteIoU": 0.9886195168745094,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 522,
+      "edgeXorPixels": 1006,
+      "foregroundMeanRGBBaseline": [
+        46.60920478101707,
+        76.7151457680942,
+        109.87908525559035
+      ],
+      "foregroundMeanRGBGui": [
+        49.5864905394081,
+        79.18930004851586,
+        111.91337714462135
+      ],
+      "foregroundMAE": 2.796115791175995
+    },
+    {
+      "frame": 120,
+      "silhouetteIoU": 0.9900823924321025,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 455,
+      "edgeXorPixels": 889,
+      "foregroundMeanRGBBaseline": [
+        46.895053166897824,
+        76.88668736102855,
+        109.8553816348546
+      ],
+      "foregroundMeanRGBGui": [
+        49.775334081852805,
+        79.32351451907624,
+        111.92283644849526
+      ],
+      "foregroundMAE": 2.7704099978718566
+    },
+    {
+      "frame": 121,
+      "silhouetteIoU": 0.9903848250299793,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 441,
+      "edgeXorPixels": 860,
+      "foregroundMeanRGBBaseline": [
+        46.89932634730539,
+        76.88351972525537,
+        109.85593518844664
+      ],
+      "foregroundMeanRGBGui": [
+        49.8568157802043,
+        79.37396530468475,
+        111.96224462839028
+      ],
+      "foregroundMAE": 2.8304714101209347
+    },
+    {
+      "frame": 122,
+      "silhouetteIoU": 0.9903200488357896,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 444,
+      "edgeXorPixels": 868,
+      "foregroundMeanRGBBaseline": [
+        46.90161588587531,
+        76.88257308911588,
+        109.85701391334977
+      ],
+      "foregroundMeanRGBGui": [
+        49.62171979570271,
+        79.20720324057767,
+        111.82949542092285
+      ],
+      "foregroundMAE": 2.6407479159328404
+    },
+    {
+      "frame": 123,
+      "silhouetteIoU": 0.9903844057301092,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 441,
+      "edgeXorPixels": 859,
+      "foregroundMeanRGBBaseline": [
+        46.904385540046675,
+        76.88342653339791,
+        109.85947338294218
+      ],
+      "foregroundMeanRGBGui": [
+        49.53760292369336,
+        79.15805116463387,
+        111.8067236141077
+      ],
+      "foregroundMAE": 2.5982269971966594
+    },
+    {
+      "frame": 124,
+      "silhouetteIoU": 0.9905353832733617,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 434,
+      "edgeXorPixels": 849,
+      "foregroundMeanRGBBaseline": [
+        46.907575790933706,
+        76.88150855331234,
+        109.86008674401708
+      ],
+      "foregroundMeanRGBGui": [
+        49.64084894652253,
+        79.23839193324673,
+        111.90986548072478
+      ],
+      "foregroundMAE": 2.686385886117288
+    },
+    {
+      "frame": 125,
+      "silhouetteIoU": 0.9902749612960904,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 446,
+      "edgeXorPixels": 871,
+      "foregroundMeanRGBBaseline": [
+        46.90917097875151,
+        76.88426731256193,
+        109.86264450071562
+      ],
+      "foregroundMeanRGBGui": [
+        49.48087636243532,
+        79.11846306286469,
+        111.7977100077067
+      ],
+      "foregroundMAE": 2.534911372894418
+    },
+    {
+      "frame": 126,
+      "silhouetteIoU": 0.9903823086820928,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 441,
+      "edgeXorPixels": 858,
+      "foregroundMeanRGBBaseline": [
+        46.910089844094074,
+        76.88315863648374,
+        109.86140227252709
+      ],
+      "foregroundMeanRGBGui": [
+        49.46243283713556,
+        79.100391966881,
+        111.77794415572977
+      ],
+      "foregroundMAE": 2.5524237352828916
+    },
+    {
+      "frame": 127,
+      "silhouetteIoU": 0.9904034896401308,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 440,
+      "edgeXorPixels": 854,
+      "foregroundMeanRGBBaseline": [
+        46.90955736621889,
+        76.88255890772957,
+        109.85948029068487
+      ],
+      "foregroundMeanRGBGui": [
+        49.43673199735741,
+        79.07546795859943,
+        111.76271746311384
+      ],
+      "foregroundMAE": 2.538244145929678
+    },
+    {
+      "frame": 128,
+      "silhouetteIoU": 0.9899921507064364,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 459,
+      "edgeXorPixels": 889,
+      "foregroundMeanRGBBaseline": [
+        46.90778548617994,
+        76.88444003964321,
+        109.85834159233565
+      ],
+      "foregroundMeanRGBGui": [
+        49.31300517564145,
+        78.98605880409646,
+        111.70049554013875
+      ],
+      "foregroundMAE": 2.4719744521528466
+    },
+    {
+      "frame": 129,
+      "silhouetteIoU": 0.9905100571578167,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 435,
+      "edgeXorPixels": 836,
+      "foregroundMeanRGBBaseline": [
+        46.907737374182325,
+        76.88408254961126,
+        109.85714600356805
+      ],
+      "foregroundMeanRGBGui": [
+        49.28515736845583,
+        78.96086161707376,
+        111.67222430235887
+      ],
+      "foregroundMAE": 2.4698367949254454
+    },
+    {
+      "frame": 130,
+      "silhouetteIoU": 0.9902918975522492,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 445,
+      "edgeXorPixels": 859,
+      "foregroundMeanRGBBaseline": [
+        46.907078183860946,
+        76.89399246579869,
+        109.86467076421475
+      ],
+      "foregroundMeanRGBGui": [
+        49.21893243451633,
+        78.9139294604895,
+        111.65296411340955
+      ],
+      "foregroundMAE": 2.3811821205912804
+    },
+    {
+      "frame": 131,
+      "silhouetteIoU": 0.9913094744197218,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 398,
+      "edgeXorPixels": 759,
+      "foregroundMeanRGBBaseline": [
+        46.910130179078834,
+        76.88973325403643,
+        109.86422608427499
+      ],
+      "foregroundMeanRGBGui": [
+        49.215907839379724,
+        78.89499768717373,
+        111.61908852617898
+      ],
+      "foregroundMAE": 2.3643545746235235
+    },
+    {
+      "frame": 132,
+      "silhouetteIoU": 0.9902503926016402,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 447,
+      "edgeXorPixels": 868,
+      "foregroundMeanRGBBaseline": [
+        46.908988788793195,
+        76.88942974824343,
+        109.86357128697605
+      ],
+      "foregroundMeanRGBGui": [
+        49.279663443536485,
+        78.94233607189268,
+        111.68267218783727
+      ],
+      "foregroundMAE": 2.3608290566287087
+    },
+    {
+      "frame": 133,
+      "silhouetteIoU": 0.9905532769002531,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 433,
+      "edgeXorPixels": 839,
+      "foregroundMeanRGBBaseline": [
+        46.90784749906394,
+        76.88903816928396,
+        109.86313679712794
+      ],
+      "foregroundMeanRGBGui": [
+        49.48576085280708,
+        79.07510516926195,
+        111.77569764112503
+      ],
+      "foregroundMAE": 2.5496773340968657
+    },
+    {
+      "frame": 134,
+      "silhouetteIoU": 0.9903168822105424,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 444,
+      "edgeXorPixels": 870,
+      "foregroundMeanRGBBaseline": [
+        46.904159968288226,
+        76.88737915391222,
+        109.85989561540664
+      ],
+      "foregroundMeanRGBGui": [
+        49.55508819837477,
+        79.13693320707348,
+        111.84241009491511
+      ],
+      "foregroundMAE": 2.577785607845728
+    },
+    {
+      "frame": 135,
+      "silhouetteIoU": 0.9915718683814057,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 386,
+      "edgeXorPixels": 751,
+      "foregroundMeanRGBBaseline": [
+        46.90196639728712,
+        76.88637614779908,
+        109.85836654702398
+      ],
+      "foregroundMeanRGBGui": [
+        49.39127562592209,
+        78.94796644132737,
+        111.63939841014687
+      ],
+      "foregroundMAE": 2.3560654438156474
+    },
+    {
+      "frame": 136,
+      "silhouetteIoU": 0.9883743756407181,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 533,
+      "edgeXorPixels": 1023,
+      "foregroundMeanRGBBaseline": [
+        46.496910447102444,
+        76.63783819570111,
+        109.88601756631505
+      ],
+      "foregroundMeanRGBGui": [
+        49.44915478660017,
+        79.05102175927969,
+        111.85556340203911
+      ],
+      "foregroundMAE": 2.6868591016757146
+    },
+    {
+      "frame": 137,
+      "silhouetteIoU": 0.9862983811144566,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 628,
+      "edgeXorPixels": 1214,
+      "foregroundMeanRGBBaseline": [
+        46.517652524001235,
+        76.57866212449674,
+        109.84256514621953
+      ],
+      "foregroundMeanRGBGui": [
+        49.04747157456975,
+        78.71548024598505,
+        111.6403795956289
+      ],
+      "foregroundMAE": 2.629016797180315
+    },
+    {
+      "frame": 138,
+      "silhouetteIoU": 0.9862583431488026,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 630,
+      "edgeXorPixels": 1227,
+      "foregroundMeanRGBBaseline": [
+        46.997500884642605,
+        76.85410031847134,
+        109.84821744515216
+      ],
+      "foregroundMeanRGBGui": [
+        49.09293170559094,
+        78.74991153573956,
+        111.64355537862703
+      ],
+      "foregroundMAE": 2.5629275772587876
+    },
+    {
+      "frame": 139,
+      "silhouetteIoU": 0.9897360703812317,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 469,
+      "edgeXorPixels": 915,
+      "foregroundMeanRGBBaseline": [
+        46.99387506909895,
+        76.85353233830845,
+        109.84705362078496
+      ],
+      "foregroundMeanRGBGui": [
+        49.385693753454944,
+        78.96203427307906,
+        111.75088999447209
+      ],
+      "foregroundMAE": 2.604621337755666
+    },
+    {
+      "frame": 140,
+      "silhouetteIoU": 0.9901029121961901,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 451,
+      "edgeXorPixels": 858,
+      "foregroundMeanRGBBaseline": [
+        46.9901145561502,
+        76.86748639922155,
+        109.85689327259057
+      ],
+      "foregroundMeanRGBGui": [
+        49.42096067937547,
+        78.99356450970852,
+        111.72234508381618
+      ],
+      "foregroundMAE": 2.531934185501349
+    },
+    {
+      "frame": 141,
+      "silhouetteIoU": 0.9893232984006826,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 488,
+      "edgeXorPixels": 928,
+      "foregroundMeanRGBBaseline": [
+        46.981268935624406,
+        76.86925849753422,
+        109.85163316305093
+      ],
+      "foregroundMeanRGBGui": [
+        49.605497689024524,
+        79.15219266237644,
+        111.8923461376855
+      ],
+      "foregroundMAE": 2.616805620056466
+    },
+    {
+      "frame": 142,
+      "silhouetteIoU": 0.9901464888655325,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 450,
+      "edgeXorPixels": 871,
+      "foregroundMeanRGBBaseline": [
+        46.96388686171742,
+        76.86366350427917,
+        109.85052743315863
+      ],
+      "foregroundMeanRGBGui": [
+        49.714213052035646,
+        79.20413985271678,
+        111.87200070766713
+      ],
+      "foregroundMAE": 2.6633494769897608
+    },
+    {
+      "frame": 143,
+      "silhouetteIoU": 0.9867349619122668,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 606,
+      "edgeXorPixels": 1149,
+      "foregroundMeanRGBBaseline": [
+        46.380185456320156,
+        76.50448112161143,
+        109.89098895248236
+      ],
+      "foregroundMeanRGBGui": [
+        49.391543546741204,
+        78.96483872398953,
+        111.82237455077865
+      ],
+      "foregroundMAE": 2.7940828489876806
+    },
+    {
+      "frame": 144,
+      "silhouetteIoU": 0.9854428440085811,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 665,
+      "edgeXorPixels": 1267,
+      "foregroundMeanRGBBaseline": [
+        46.66226092365107,
+        76.60170602216941,
+        109.83424039807184
+      ],
+      "foregroundMeanRGBGui": [
+        49.261812204278385,
+        78.84565830686185,
+        111.75764711109136
+      ],
+      "foregroundMAE": 2.7342559477530712
+    },
+    {
+      "frame": 145,
+      "silhouetteIoU": 0.9879314506396332,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 550,
+      "edgeXorPixels": 1065,
+      "foregroundMeanRGBBaseline": [
+        47.07143015791929,
+        76.84361326433157,
+        109.84434622304155
+      ],
+      "foregroundMeanRGBGui": [
+        49.336650156586636,
+        78.90567043511095,
+        111.74886169291251
+      ],
+      "foregroundMAE": 2.6943117961930567
+    },
+    {
+      "frame": 146,
+      "silhouetteIoU": 0.9902573125137454,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 443,
+      "edgeXorPixels": 860,
+      "foregroundMeanRGBBaseline": [
+        47.06418371199503,
+        76.85224420903013,
+        109.84782463855021
+      ],
+      "foregroundMeanRGBGui": [
+        49.51438026073245,
+        79.01985475381437,
+        111.78075376996024
+      ],
+      "foregroundMAE": 2.6274605607006167
+    },
+    {
+      "frame": 147,
+      "silhouetteIoU": 0.989843921741042,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 462,
+      "edgeXorPixels": 888,
+      "foregroundMeanRGBBaseline": [
+        47.058385893221995,
+        76.85653371235675,
+        109.84809451896598
+      ],
+      "foregroundMeanRGBGui": [
+        49.60899884516301,
+        79.11057564182286,
+        111.86583903349027
+      ],
+      "foregroundMAE": 2.595577566551183
+    },
+    {
+      "frame": 148,
+      "silhouetteIoU": 0.9888996351167186,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 504,
+      "edgeXorPixels": 975,
+      "foregroundMeanRGBBaseline": [
+        46.891373446842564,
+        76.76438685011892,
+        109.8508746582498
+      ],
+      "foregroundMeanRGBGui": [
+        49.674676031918914,
+        79.15072573295694,
+        111.91306763875615
+      ],
+      "foregroundMAE": 2.7479680218127394
+    },
+    {
+      "frame": 149,
+      "silhouetteIoU": 0.9879854769501595,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 546,
+      "edgeXorPixels": 1070,
+      "foregroundMeanRGBBaseline": [
+        46.536114390075504,
+        76.5560702910978,
+        109.87431791353927
+      ],
+      "foregroundMeanRGBGui": [
+        49.54901000022272,
+        79.03637052050156,
+        111.86605492327223
+      ],
+      "foregroundMAE": 2.799943577065562
+    },
+    {
+      "frame": 150,
+      "silhouetteIoU": 0.9862896126760563,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 623,
+      "edgeXorPixels": 1226,
+      "foregroundMeanRGBBaseline": [
+        46.541334761362876,
+        76.50072517125199,
+        109.83037686592141
+      ],
+      "foregroundMeanRGBGui": [
+        49.380681437847244,
+        78.90693263716894,
+        111.81384296137627
+      ],
+      "foregroundMAE": 2.834125443470112
+    },
+    {
+      "frame": 151,
+      "silhouetteIoU": 0.9878527336860671,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 551,
+      "edgeXorPixels": 1073,
+      "foregroundMeanRGBBaseline": [
+        46.89247695775402,
+        76.71025909973443,
+        109.82719989287867
+      ],
+      "foregroundMeanRGBGui": [
+        49.73360262447276,
+        79.17076926510299,
+        112.02479412618001
+      ],
+      "foregroundMAE": 3.017585752862148
+    },
+    {
+      "frame": 152,
+      "silhouetteIoU": 0.9902558663661674,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 441,
+      "edgeXorPixels": 862,
+      "foregroundMeanRGBBaseline": [
+        47.12573353861258,
+        76.84981145547448,
+        109.83626748778366
+      ],
+      "foregroundMeanRGBGui": [
+        49.54122319655488,
+        79.0255037151081,
+        111.83358993239173
+      ],
+      "foregroundMAE": 2.7103926337476105
+    },
+    {
+      "frame": 153,
+      "silhouetteIoU": 0.9899038992599138,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 457,
+      "edgeXorPixels": 878,
+      "foregroundMeanRGBBaseline": [
+        47.112412961971074,
+        76.86111855025888,
+        109.8350740939118
+      ],
+      "foregroundMeanRGBGui": [
+        49.65387877164792,
+        79.11145331190859,
+        111.86379664345652
+      ],
+      "foregroundMAE": 2.688731178956139
+    },
+    {
+      "frame": 154,
+      "silhouetteIoU": 0.9902236181460264,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 442,
+      "edgeXorPixels": 864,
+      "foregroundMeanRGBBaseline": [
+        46.95155129665617,
+        76.76876856753557,
+        109.84462462864929
+      ],
+      "foregroundMeanRGBGui": [
+        49.55214545779445,
+        79.02671491433804,
+        111.7923116442181
+      ],
+      "foregroundMAE": 2.5404037019663903
+    },
+    {
+      "frame": 155,
+      "silhouetteIoU": 0.9878841476895865,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 548,
+      "edgeXorPixels": 1061,
+      "foregroundMeanRGBBaseline": [
+        46.65708786535965,
+        76.61107381048296,
+        109.87317040418961
+      ],
+      "foregroundMeanRGBGui": [
+        49.40365247750772,
+        78.93516404816258,
+        111.78261939931069
+      ],
+      "foregroundMAE": 2.595907375080196
+    },
+    {
+      "frame": 156,
+      "silhouetteIoU": 0.9854082377130728,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 660,
+      "edgeXorPixels": 1250,
+      "foregroundMeanRGBBaseline": [
+        46.44813892441273,
+        76.45332166655449,
+        109.85699221466874
+      ],
+      "foregroundMeanRGBGui": [
+        49.4268021807902,
+        78.951986717821,
+        111.88245720311413
+      ],
+      "foregroundMAE": 2.9321831085982666
+    },
+    {
+      "frame": 157,
+      "silhouetteIoU": 0.9875892026062675,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 560,
+      "edgeXorPixels": 1087,
+      "foregroundMeanRGBBaseline": [
+        46.69673713029038,
+        76.58731654773125,
+        109.82698263094116
+      ],
+      "foregroundMeanRGBGui": [
+        49.701113055966964,
+        79.15030743682959,
+        112.00406175665366
+      ],
+      "foregroundMAE": 3.05599688823063
+    },
+    {
+      "frame": 158,
+      "silhouetteIoU": 0.9891432250616106,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 489,
+      "edgeXorPixels": 957,
+      "foregroundMeanRGBBaseline": [
+        47.15907254444245,
+        76.86559525947207,
+        109.83201652002155
+      ],
+      "foregroundMeanRGBGui": [
+        49.73462470820614,
+        79.16466151912373,
+        111.96226880948106
+      ],
+      "foregroundMAE": 2.883289938349195
+    },
+    {
+      "frame": 159,
+      "silhouetteIoU": 0.9907895615030368,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 414,
+      "edgeXorPixels": 806,
+      "foregroundMeanRGBBaseline": [
+        47.17150555742674,
+        76.89212978556192,
+        109.83996856405075
+      ],
+      "foregroundMeanRGBGui": [
+        49.84468395643876,
+        79.25218367576063,
+        111.98053216571236
+      ],
+      "foregroundMAE": 2.8182553048164367
+    },
+    {
+      "frame": 160,
+      "silhouetteIoU": 0.9903009810246257,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 436,
+      "edgeXorPixels": 846,
+      "foregroundMeanRGBBaseline": [
+        47.148707235438145,
+        76.8974549048678,
+        109.84118426668464
+      ],
+      "foregroundMeanRGBGui": [
+        49.82357301704967,
+        79.25781162252622,
+        111.98321989352382
+      ],
+      "foregroundMAE": 2.77706643903827
+    },
+    {
+      "frame": 161,
+      "silhouetteIoU": 0.9883407872193668,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 524,
+      "edgeXorPixels": 1023,
+      "foregroundMeanRGBBaseline": [
+        46.799477700983815,
+        76.69035772980031,
+        109.86005988428376
+      ],
+      "foregroundMeanRGBGui": [
+        49.501542132871066,
+        79.0348499515973,
+        111.84430086224363
+      ],
+      "foregroundMAE": 2.6908980391274
+    },
+    {
+      "frame": 162,
+      "silhouetteIoU": 0.9871583726520075,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 577,
+      "edgeXorPixels": 1110,
+      "foregroundMeanRGBBaseline": [
+        46.64407620335926,
+        76.61203922894826,
+        109.87669935745689
+      ],
+      "foregroundMeanRGBGui": [
+        49.326141359485966,
+        78.90210799233458,
+        111.74737910043963
+      ],
+      "foregroundMAE": 2.6126704993800023
+    },
+    {
+      "frame": 163,
+      "silhouetteIoU": 0.9863334373745931,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 613,
+      "edgeXorPixels": 1154,
+      "foregroundMeanRGBBaseline": [
+        46.4950159354445,
+        76.49587486720463,
+        109.85334870369114
+      ],
+      "foregroundMeanRGBGui": [
+        49.149295901991366,
+        78.76203069550868,
+        111.70384937049343
+      ],
+      "foregroundMAE": 2.6434981126104744
+    },
+    {
+      "frame": 164,
+      "silhouetteIoU": 0.9878708005718371,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 543,
+      "edgeXorPixels": 1066,
+      "foregroundMeanRGBBaseline": [
+        46.67739966082532,
+        76.59414358394574,
+        109.83057094403618
+      ],
+      "foregroundMeanRGBGui": [
+        49.57211984171848,
+        79.07697003957038,
+        111.90064443188243
+      ],
+      "foregroundMAE": 2.8953080836630867
+    },
+    {
+      "frame": 165,
+      "silhouetteIoU": 0.9883718330016324,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 520,
+      "edgeXorPixels": 1016,
+      "foregroundMeanRGBBaseline": [
+        46.93495327948596,
+        76.74709835064142,
+        109.83510939161519
+      ],
+      "foregroundMeanRGBGui": [
+        50.00979660173307,
+        79.38853820222177,
+        112.13898504491051
+      ],
+      "foregroundMAE": 3.165705106450372
+    },
+    {
+      "frame": 166,
+      "silhouetteIoU": 0.9904693561769784,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 425,
+      "edgeXorPixels": 836,
+      "foregroundMeanRGBBaseline": [
+        47.216016120268065,
+        76.92829650425648,
+        109.83422387248687
+      ],
+      "foregroundMeanRGBGui": [
+        50.13799583408803,
+        79.49042293062851,
+        112.16761003441405
+      ],
+      "foregroundMAE": 3.183398237034354
+    },
+    {
+      "frame": 167,
+      "silhouetteIoU": 0.9903759870782484,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 428,
+      "edgeXorPixels": 849,
+      "foregroundMeanRGBBaseline": [
+        47.22832808571364,
+        76.94611185358008,
+        109.83156273359458
+      ],
+      "foregroundMeanRGBGui": [
+        50.027476385711374,
+        79.41869209685822,
+        112.10195483271796
+      ],
+      "foregroundMAE": 3.004190545223911
+    },
+    {
+      "frame": 168,
+      "silhouetteIoU": 0.9898769976656492,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 451,
+      "edgeXorPixels": 882,
+      "foregroundMeanRGBBaseline": [
+        47.21133307634747,
+        76.96340219042652,
+        109.84202172286342
+      ],
+      "foregroundMeanRGBGui": [
+        50.02666606199406,
+        79.45293757511168,
+        112.14126663794472
+      ],
+      "foregroundMAE": 2.9371140488121963
+    },
+    {
+      "frame": 169,
+      "silhouetteIoU": 0.988703736974488,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 503,
+      "edgeXorPixels": 979,
+      "foregroundMeanRGBBaseline": [
+        46.996615559341286,
+        76.83586598523566,
+        109.85290176036342
+      ],
+      "foregroundMeanRGBGui": [
+        49.6094491766042,
+        79.14727995457126,
+        111.88710959681998
+      ],
+      "foregroundMAE": 2.659398069278819
+    },
+    {
+      "frame": 170,
+      "silhouetteIoU": 0.9880398372338751,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 532,
+      "edgeXorPixels": 1012,
+      "foregroundMeanRGBBaseline": [
+        46.80732212337027,
+        76.72788914423536,
+        109.86789232974584
+      ],
+      "foregroundMeanRGBGui": [
+        49.357823841270566,
+        78.95995358256161,
+        111.74110901271929
+      ],
+      "foregroundMAE": 2.5448360599786115
+    },
+    {
+      "frame": 171,
+      "silhouetteIoU": 0.9881786043998109,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 525,
+      "edgeXorPixels": 1044,
+      "foregroundMeanRGBBaseline": [
+        46.69965364808823,
+        76.68283735131932,
+        109.87073326345532
+      ],
+      "foregroundMeanRGBGui": [
+        49.26304516246639,
+        78.89805404912728,
+        111.68778198058607
+      ],
+      "foregroundMAE": 2.5302146470400584
+    },
+    {
+      "frame": 172,
+      "silhouetteIoU": 0.987180064888248,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 568,
+      "edgeXorPixels": 1120,
+      "foregroundMeanRGBBaseline": [
+        46.54645669291339,
+        76.60178021225607,
+        109.8876868652288
+      ],
+      "foregroundMeanRGBGui": [
+        49.201460686979345,
+        78.8513979230857,
+        111.65833618623759
+      ],
+      "foregroundMAE": 2.5415116588687283
+    },
+    {
+      "frame": 173,
+      "silhouetteIoU": 0.9863718411552347,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 604,
+      "edgeXorPixels": 1158,
+      "foregroundMeanRGBBaseline": [
+        46.55871991948028,
+        76.5840424558514,
+        109.85792387226645
+      ],
+      "foregroundMeanRGBGui": [
+        49.09964315124897,
+        78.7794857717998,
+        111.6425336261323
+      ],
+      "foregroundMAE": 2.55327568853509
+    },
+    {
+      "frame": 174,
+      "silhouetteIoU": 0.9874980218388986,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 553,
+      "edgeXorPixels": 1092,
+      "foregroundMeanRGBBaseline": [
+        46.64375,
+        76.63353937728938,
+        109.83873626373627
+      ],
+      "foregroundMeanRGBGui": [
+        49.29342948717949,
+        78.91872710622711,
+        111.7102793040293
+      ],
+      "foregroundMAE": 2.6774420024420023
+    },
+    {
+      "frame": 175,
+      "silhouetteIoU": 0.9878015661069117,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 538,
+      "edgeXorPixels": 1066,
+      "foregroundMeanRGBBaseline": [
+        46.74811556349806,
+        76.69228125644374,
+        109.83361972185946
+      ],
+      "foregroundMeanRGBGui": [
+        49.45577015602447,
+        79.03839897358353,
+        111.78445253969345
+      ],
+      "foregroundMAE": 2.7696901657998643
+    },
+    {
+      "frame": 176,
+      "silhouetteIoU": 0.9883067440174039,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 516,
+      "edgeXorPixels": 1006,
+      "foregroundMeanRGBBaseline": [
+        46.81289553333945,
+        76.73734293313767,
+        109.81963679721177
+      ],
+      "foregroundMeanRGBGui": [
+        49.69086489956893,
+        79.23773273410988,
+        111.94111712372741
+      ],
+      "foregroundMAE": 2.9284677000214008
+    },
+    {
+      "frame": 177,
+      "silhouetteIoU": 0.988722998729352,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 497,
+      "edgeXorPixels": 981,
+      "foregroundMeanRGBBaseline": [
+        46.90519793459553,
+        76.80002294893862,
+        109.82724039013196
+      ],
+      "foregroundMeanRGBGui": [
+        49.87972461273666,
+        79.3774182444062,
+        112.04596672403902
+      ],
+      "foregroundMAE": 3.040963855421687
+    },
+    {
+      "frame": 178,
+      "silhouetteIoU": 0.9886918413224641,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 498,
+      "edgeXorPixels": 971,
+      "foregroundMeanRGBBaseline": [
+        47.00730346110562,
+        76.86359982545187,
+        109.81748237293586
+      ],
+      "foregroundMeanRGBGui": [
+        50.02310465997566,
+        79.48207436668886,
+        112.1240440045015
+      ],
+      "foregroundMAE": 3.1089318113961553
+    },
+    {
+      "frame": 179,
+      "silhouetteIoU": 0.9895785928824975,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 458,
+      "edgeXorPixels": 906,
+      "foregroundMeanRGBBaseline": [
+        47.060657622441944,
+        76.92209703380087,
+        109.81667049896528
+      ],
+      "foregroundMeanRGBGui": [
+        50.077765003449066,
+        79.53035180501264,
+        112.13393883651415
+      ],
+      "foregroundMAE": 3.1173219897294397
+    },
+    {
+      "frame": 180,
+      "silhouetteIoU": 0.9901138952164009,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 433,
+      "edgeXorPixels": 862,
+      "foregroundMeanRGBBaseline": [
+        47.19544011411218,
+        76.99457046887223,
+        109.82020429761192
+      ],
+      "foregroundMeanRGBGui": [
+        50.20917498734643,
+        79.62575346247642,
+        112.20075461280081
+      ],
+      "foregroundMAE": 3.1999187104096687
+    },
+    {
+      "frame": 181,
+      "silhouetteIoU": 0.9901064581576128,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 434,
+      "edgeXorPixels": 836,
+      "foregroundMeanRGBBaseline": [
+        47.30048580572376,
+        77.06720696244791,
+        109.83496419772983
+      ],
+      "foregroundMeanRGBGui": [
+        50.16208873437248,
+        79.6035963437939,
+        112.1701010752193
+      ],
+      "foregroundMAE": 3.141720197392152
+    },
+    {
+      "frame": 182,
+      "silhouetteIoU": 0.9901215978828737,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 433,
+      "edgeXorPixels": 844,
+      "foregroundMeanRGBBaseline": [
+        47.30488479262673,
+        77.07152073732719,
+        109.8263133640553
+      ],
+      "foregroundMeanRGBGui": [
+        50.1921198156682,
+        79.63582949308756,
+        112.18382488479263
+      ],
+      "foregroundMAE": 3.1537557603686635
+    },
+    {
+      "frame": 183,
+      "silhouetteIoU": 0.9898404146024063,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 445,
+      "edgeXorPixels": 863,
+      "foregroundMeanRGBBaseline": [
+        47.30055816957284,
+        77.08220315527262,
+        109.83377156564259
+      ],
+      "foregroundMeanRGBGui": [
+        50.137950917981364,
+        79.59571916228434,
+        112.14756896392656
+      ],
+      "foregroundMAE": 3.102169634345112
+    },
+    {
+      "frame": 184,
+      "silhouetteIoU": 0.9900367907497544,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 436,
+      "edgeXorPixels": 853,
+      "foregroundMeanRGBBaseline": [
+        47.303519907674556,
+        77.08934795152913,
+        109.83503750721293
+      ],
+      "foregroundMeanRGBGui": [
+        50.122977495672245,
+        79.59886901327178,
+        112.14783612233121
+      ],
+      "foregroundMAE": 3.0863627620696286
+    },
+    {
+      "frame": 185,
+      "silhouetteIoU": 0.9901891279987193,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 429,
+      "edgeXorPixels": 843,
+      "foregroundMeanRGBBaseline": [
+        47.24576192895746,
+        77.05309714074554,
+        109.82618134786826
+      ],
+      "foregroundMeanRGBGui": [
+        50.12492493879625,
+        79.60275301399602,
+        112.14758187445148
+      ],
+      "foregroundMAE": 3.104292730996043
+    },
+    {
+      "frame": 186,
+      "silhouetteIoU": 0.9905930283124671,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 411,
+      "edgeXorPixels": 811,
+      "foregroundMeanRGBBaseline": [
+        47.18710720887246,
+        77.02548521256932,
+        109.82920517560073
+      ],
+      "foregroundMeanRGBGui": [
+        50.11014325323475,
+        79.59547134935305,
+        112.14272181146026
+      ],
+      "foregroundMAE": 3.102333641404806
+    },
+    {
+      "frame": 187,
+      "silhouetteIoU": 0.9894736842105263,
+      "baselineOnlyPixels": 2,
+      "guiOnlyPixels": 458,
+      "edgeXorPixels": 897,
+      "foregroundMeanRGBBaseline": [
+        47.13556891766883,
+        77.00534227567067,
+        109.82627197039778
+      ],
+      "foregroundMeanRGBGui": [
+        50.061147086031454,
+        79.56609620721554,
+        112.12793709528215
+      ],
+      "foregroundMAE": 3.0796253469010177
+    },
+    {
+      "frame": 188,
+      "silhouetteIoU": 0.9893312575837359,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 465,
+      "edgeXorPixels": 917,
+      "foregroundMeanRGBBaseline": [
+        47.0698632356004,
+        76.96792631846898,
+        109.83012056557054
+      ],
+      "foregroundMeanRGBGui": [
+        49.946983546617915,
+        79.48615000115706,
+        112.057945525652
+      ],
+      "foregroundMAE": 3.0127662200418084
+    },
+    {
+      "frame": 189,
+      "silhouetteIoU": 0.9887583854202441,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 490,
+      "edgeXorPixels": 956,
+      "foregroundMeanRGBBaseline": [
+        46.98823692863428,
+        76.92631871439818,
+        109.83075533737785
+      ],
+      "foregroundMeanRGBGui": [
+        49.85988514796462,
+        79.43849858750521,
+        112.02206733663688
+      ],
+      "foregroundMAE": 2.980101576128066
+    },
+    {
+      "frame": 190,
+      "silhouetteIoU": 0.9890041921517422,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 480,
+      "edgeXorPixels": 942,
+      "foregroundMeanRGBBaseline": [
+        46.932226159868435,
+        76.8817084752044,
+        109.83262687327728
+      ],
+      "foregroundMeanRGBGui": [
+        49.80371991754106,
+        79.39443633752578,
+        111.99629398003381
+      ],
+      "foregroundMAE": 2.962244921594515
+    },
+    {
+      "frame": 191,
+      "silhouetteIoU": 0.9885218108504399,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 501,
+      "edgeXorPixels": 987,
+      "foregroundMeanRGBBaseline": [
+        46.88298143555751,
+        76.86346675319257,
+        109.8380883954852
+      ],
+      "foregroundMeanRGBGui": [
+        49.7343731893295,
+        79.34859897559505,
+        111.9645630055392
+      ],
+      "foregroundMAE": 2.9385588801075393
+    },
+    {
+      "frame": 192,
+      "silhouetteIoU": 0.988359303391384,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 508,
+      "edgeXorPixels": 1001,
+      "foregroundMeanRGBBaseline": [
+        46.8199944356858,
+        76.82509505703422,
+        109.84116201428174
+      ],
+      "foregroundMeanRGBGui": [
+        49.64539089307243,
+        79.2883937679681,
+        111.9322776592785
+      ],
+      "foregroundMAE": 2.9065968036106216
+    },
+    {
+      "frame": 193,
+      "silhouetteIoU": 0.9881565986301056,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 517,
+      "edgeXorPixels": 1014,
+      "foregroundMeanRGBBaseline": [
+        46.791357566765576,
+        76.81899109792285,
+        109.86683976261128
+      ],
+      "foregroundMeanRGBGui": [
+        49.67838928041543,
+        79.32263074925817,
+        111.9700018545994
+      ],
+      "foregroundMAE": 2.9262023986152323
+    },
+    {
+      "frame": 194,
+      "silhouetteIoU": 0.987886420883902,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 529,
+      "edgeXorPixels": 1026,
+      "foregroundMeanRGBBaseline": [
+        46.825734220347236,
+        76.84177464592847,
+        109.86708699381099
+      ],
+      "foregroundMeanRGBGui": [
+        49.705291949653464,
+        79.33856424283165,
+        111.97677383463527
+      ],
+      "foregroundMAE": 2.9293324988603264
+    },
+    {
+      "frame": 195,
+      "silhouetteIoU": 0.9878866982665843,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 529,
+      "edgeXorPixels": 1029,
+      "foregroundMeanRGBBaseline": [
+        46.784316906958416,
+        76.82882110240601,
+        109.87260674053127
+      ],
+      "foregroundMeanRGBGui": [
+        49.682328125724354,
+        79.32576143896898,
+        111.9652079180381
+      ],
+      "foregroundMAE": 2.906139415573378
+    },
+    {
+      "frame": 196,
+      "silhouetteIoU": 0.9880014654698662,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 524,
+      "edgeXorPixels": 1023,
+      "foregroundMeanRGBBaseline": [
+        46.783141744692685,
+        76.82819597663854,
+        109.8727171595439
+      ],
+      "foregroundMeanRGBGui": [
+        49.741517567442294,
+        79.36747937331974,
+        112.00815796792435
+      ],
+      "foregroundMAE": 2.9438135409906985
+    },
+    {
+      "frame": 197,
+      "silhouetteIoU": 0.9881208514534219,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 519,
+      "edgeXorPixels": 1014,
+      "foregroundMeanRGBBaseline": [
+        46.813462741192005,
+        76.84005466632694,
+        109.86370480183456
+      ],
+      "foregroundMeanRGBGui": [
+        49.82592481063677,
+        79.42933913970026,
+        112.05172453730513
+      ],
+      "foregroundMAE": 2.9904488352520597
+    },
+    {
+      "frame": 198,
+      "silhouetteIoU": 0.9880088789217144,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 523,
+      "edgeXorPixels": 1012,
+      "foregroundMeanRGBBaseline": [
+        46.85790387955993,
+        76.86733063115229,
+        109.8644354371743
+      ],
+      "foregroundMeanRGBGui": [
+        49.836433121019105,
+        79.43541401273886,
+        112.06045165026056
+      ],
+      "foregroundMAE": 2.97848291835553
+    },
+    {
+      "frame": 199,
+      "silhouetteIoU": 0.9882414842266602,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 513,
+      "edgeXorPixels": 986,
+      "foregroundMeanRGBBaseline": [
+        46.885390865529295,
+        76.87960369452996,
+        109.86064492233616
+      ],
+      "foregroundMeanRGBGui": [
+        49.88958077733281,
+        79.46568207597399,
+        112.0983124609366
+      ],
+      "foregroundMAE": 3.021497411205506
+    },
+    {
+      "frame": 200,
+      "silhouetteIoU": 0.98856567874131,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 499,
+      "edgeXorPixels": 982,
+      "foregroundMeanRGBBaseline": [
+        46.882876839085775,
+        76.87221245489035,
+        109.86524937540483
+      ],
+      "foregroundMeanRGBGui": [
+        49.964444341630426,
+        79.5196631812714,
+        112.14437401684094
+      ],
+      "foregroundMAE": 3.0828629591931156
+    },
+    {
+      "frame": 201,
+      "silhouetteIoU": 0.9882726773957571,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 512,
+      "edgeXorPixels": 1005,
+      "foregroundMeanRGBBaseline": [
+        46.82311304388055,
+        76.83197242719345,
+        109.86780319678009
+      ],
+      "foregroundMeanRGBGui": [
+        49.911891929402515,
+        79.45906872383243,
+        112.10892646480535
+      ],
+      "foregroundMAE": 3.0374268464759084
+    },
+    {
+      "frame": 202,
+      "silhouetteIoU": 0.9881893361356056,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 516,
+      "edgeXorPixels": 1014,
+      "foregroundMeanRGBBaseline": [
+        46.806297246688395,
+        76.80673648195668,
+        109.85422012622234
+      ],
+      "foregroundMeanRGBGui": [
+        49.81868830478304,
+        79.38236585986083,
+        112.04861640890492
+      ],
+      "foregroundMAE": 2.986368294919512
+    },
+    {
+      "frame": 203,
+      "silhouetteIoU": 0.9884708460800876,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 505,
+      "edgeXorPixels": 981,
+      "foregroundMeanRGBBaseline": [
+        46.87493359817078,
+        76.83924983255191,
+        109.85049772501559
+      ],
+      "foregroundMeanRGBGui": [
+        49.881562232949165,
+        79.43566528858813,
+        112.08571032635055
+      ],
+      "foregroundMAE": 3.0171066509611904
+    },
+    {
+      "frame": 204,
+      "silhouetteIoU": 0.9884585557228228,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 506,
+      "edgeXorPixels": 996,
+      "foregroundMeanRGBBaseline": [
+        46.86127007568765,
+        76.8203341332841,
+        109.85000923020122
+      ],
+      "foregroundMeanRGBGui": [
+        49.79238969909544,
+        79.36609285582426,
+        112.04552796750968
+      ],
+      "foregroundMAE": 2.9523029352039876
+    },
+    {
+      "frame": 205,
+      "silhouetteIoU": 0.9883768631204704,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 510,
+      "edgeXorPixels": 1005,
+      "foregroundMeanRGBBaseline": [
+        46.82975926950747,
+        76.79625530344954,
+        109.84654584025088
+      ],
+      "foregroundMeanRGBGui": [
+        49.63514572957019,
+        79.24372809444752,
+        111.94940970300682
+      ],
+      "foregroundMAE": 2.8453467994834902
+    },
+    {
+      "frame": 206,
+      "silhouetteIoU": 0.9891591509519905,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 476,
+      "edgeXorPixels": 934,
+      "foregroundMeanRGBBaseline": [
+        46.92194695155646,
+        76.84046325290109,
+        109.82874378338552
+      ],
+      "foregroundMeanRGBGui": [
+        49.64171578559587,
+        79.2322941609873,
+        111.92328237244428
+      ],
+      "foregroundMAE": 2.8082750046048996
+    },
+    {
+      "frame": 207,
+      "silhouetteIoU": 0.9887643004981008,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 494,
+      "edgeXorPixels": 984,
+      "foregroundMeanRGBBaseline": [
+        46.86872311549698,
+        76.81018103190486,
+        109.84482322361006
+      ],
+      "foregroundMeanRGBGui": [
+        49.64219170519633,
+        79.24118418328618,
+        111.94267706392473
+      ],
+      "foregroundMAE": 2.8273334406796558
+    },
+    {
+      "frame": 208,
+      "silhouetteIoU": 0.9888199604608358,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 492,
+      "edgeXorPixels": 969,
+      "foregroundMeanRGBBaseline": [
+        46.83607951281167,
+        76.77899574859244,
+        109.8561875215443
+      ],
+      "foregroundMeanRGBGui": [
+        49.56812593358612,
+        79.16987245777318,
+        111.8989314029645
+      ],
+      "foregroundMAE": 2.7795319621586425
+    },
+    {
+      "frame": 209,
+      "silhouetteIoU": 0.9887423681881113,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 496,
+      "edgeXorPixels": 972,
+      "foregroundMeanRGBBaseline": [
+        46.868213851204004,
+        76.7970525445906,
+        109.85602460803894
+      ],
+      "foregroundMeanRGBGui": [
+        49.67295640796088,
+        79.24594265776003,
+        111.9653834676216
+      ],
+      "foregroundMAE": 2.8705246807305893
+    },
+    {
+      "frame": 210,
+      "silhouetteIoU": 0.988506528835691,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 506,
+      "edgeXorPixels": 992,
+      "foregroundMeanRGBBaseline": [
+        46.836968237587435,
+        76.78135534915721,
+        109.87276688453159
+      ],
+      "foregroundMeanRGBGui": [
+        49.735741314069486,
+        79.28521958490998,
+        112.02265795206972
+      ],
+      "foregroundMAE": 2.9328899591025492
+    },
+    {
+      "frame": 211,
+      "silhouetteIoU": 0.9885429638854296,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 505,
+      "edgeXorPixels": 989,
+      "foregroundMeanRGBBaseline": [
+        46.89095031952175,
+        76.8061568061568,
+        109.87253487253487
+      ],
+      "foregroundMeanRGBGui": [
+        49.79387984149889,
+        79.31141345427059,
+        112.05382624430243
+      ],
+      "foregroundMAE": 2.9948235186330425
+    },
+    {
+      "frame": 212,
+      "silhouetteIoU": 0.9889858874615524,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 487,
+      "edgeXorPixels": 965,
+      "foregroundMeanRGBBaseline": [
+        46.84490841318119,
+        76.76210295227423,
+        109.86006997644584
+      ],
+      "foregroundMeanRGBGui": [
+        49.84742390633218,
+        79.35500468796451,
+        112.09721237622631
+      ],
+      "foregroundMAE": 3.034538483233857
+    },
+    {
+      "frame": 213,
+      "silhouetteIoU": 0.9884878445181824,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 510,
+      "edgeXorPixels": 999,
+      "foregroundMeanRGBBaseline": [
+        46.76744079833756,
+        76.70509922130118,
+        109.85834988924665
+      ],
+      "foregroundMeanRGBGui": [
+        49.835057431892395,
+        79.33022767235276,
+        112.10052293850335
+      ],
+      "foregroundMAE": 3.038797926514581
+    },
+    {
+      "frame": 214,
+      "silhouetteIoU": 0.9880541844163455,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 530,
+      "edgeXorPixels": 1023,
+      "foregroundMeanRGBBaseline": [
+        46.71811483450053,
+        76.67620959463467,
+        109.86543330976116
+      ],
+      "foregroundMeanRGBGui": [
+        49.7021694002783,
+        79.22189018409107,
+        112.02100964938295
+      ],
+      "foregroundMAE": 2.945677547885728
+    },
+    {
+      "frame": 215,
+      "silhouetteIoU": 0.988342522786092,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 518,
+      "edgeXorPixels": 1017,
+      "foregroundMeanRGBBaseline": [
+        46.78632420247285,
+        76.69633627069244,
+        109.85358744905162
+      ],
+      "foregroundMeanRGBGui": [
+        49.756153653482706,
+        79.25889746567388,
+        112.06234487783775
+      ],
+      "foregroundMAE": 2.982702218578986
+    },
+    {
+      "frame": 216,
+      "silhouetteIoU": 0.988293713207208,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 520,
+      "edgeXorPixels": 1013,
+      "foregroundMeanRGBBaseline": [
+        46.79981811981357,
+        76.69876094122996,
+        109.84706149823803
+      ],
+      "foregroundMeanRGBGui": [
+        49.61361827895874,
+        79.14950551324316,
+        111.95841764237808
+      ],
+      "foregroundMAE": 2.8526315789473684
+    },
+    {
+      "frame": 217,
+      "silhouetteIoU": 0.9888233049801378,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 498,
+      "edgeXorPixels": 963,
+      "foregroundMeanRGBBaseline": [
+        46.87621144374589,
+        76.7446151751061,
+        109.8483170294378
+      ],
+      "foregroundMeanRGBGui": [
+        49.66290655711659,
+        79.18177897818833,
+        111.9904446310629
+      ],
+      "foregroundMAE": 2.872148709684741
+    },
+    {
+      "frame": 218,
+      "silhouetteIoU": 0.9883710508626484,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 519,
+      "edgeXorPixels": 1012,
+      "foregroundMeanRGBBaseline": [
+        46.79059644986511,
+        76.69703702024438,
+        109.86035229307882
+      ],
+      "foregroundMeanRGBGui": [
+        49.55201650381991,
+        79.08848133118724,
+        111.92584616082156
+      ],
+      "foregroundMAE": 2.80411537560548
+    },
+    {
+      "frame": 219,
+      "silhouetteIoU": 0.9888558193658111,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 498,
+      "edgeXorPixels": 968,
+      "foregroundMeanRGBBaseline": [
+        46.8117404783996,
+        76.69395098327638,
+        109.863744370771
+      ],
+      "foregroundMeanRGBGui": [
+        49.69376994274593,
+        79.19393966824323,
+        112.0219285342506
+      ],
+      "foregroundMAE": 2.942527174937956
+    },
+    {
+      "frame": 220,
+      "silhouetteIoU": 0.9881606576419604,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 530,
+      "edgeXorPixels": 1037,
+      "foregroundMeanRGBBaseline": [
+        46.73272899900533,
+        76.65819694366579,
+        109.87679717876843
+      ],
+      "foregroundMeanRGBGui": [
+        49.621145673207344,
+        79.1372863730898,
+        111.9928112849263
+      ],
+      "foregroundMAE": 2.917374988696989
+    },
+    {
+      "frame": 221,
+      "silhouetteIoU": 0.9885552382652151,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 513,
+      "edgeXorPixels": 998,
+      "foregroundMeanRGBBaseline": [
+        46.77619552707003,
+        76.67845455981585,
+        109.86434519645235
+      ],
+      "foregroundMeanRGBGui": [
+        49.74080927986279,
+        79.22384960844937,
+        112.07018573266232
+      ],
+      "foregroundMAE": 2.9923420068756443
+    },
+    {
+      "frame": 222,
+      "silhouetteIoU": 0.9880867551438497,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 535,
+      "edgeXorPixels": 1036,
+      "foregroundMeanRGBBaseline": [
+        46.702837310977394,
+        76.63279471750839,
+        109.86201068217159
+      ],
+      "foregroundMeanRGBGui": [
+        49.767651499785906,
+        79.24990422103531,
+        112.09469722579045
+      ],
+      "foregroundMAE": 3.0110727995252367
+    },
+    {
+      "frame": 223,
+      "silhouetteIoU": 0.9884796726269904,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 518,
+      "edgeXorPixels": 1006,
+      "foregroundMeanRGBBaseline": [
+        46.822818701345454,
+        76.69342573009945,
+        109.85197768078118
+      ],
+      "foregroundMeanRGBGui": [
+        49.687913423030196,
+        79.17162399316024,
+        112.03167889123881
+      ],
+      "foregroundMAE": 2.921425250116246
+    },
+    {
+      "frame": 224,
+      "silhouetteIoU": 0.9887605508662817,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 506,
+      "edgeXorPixels": 981,
+      "foregroundMeanRGBBaseline": [
+        46.86455946443815,
+        76.71613424989891,
+        109.8446106842791
+      ],
+      "foregroundMeanRGBGui": [
+        49.65192972997259,
+        79.14222491800332,
+        111.98420721570741
+      ],
+      "foregroundMAE": 2.8782405535337197
+    },
+    {
+      "frame": 225,
+      "silhouetteIoU": 0.9882034680030156,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 532,
+      "edgeXorPixels": 1037,
+      "foregroundMeanRGBBaseline": [
+        46.709105596194405,
+        76.61737647533994,
+        109.85859175155949
+      ],
+      "foregroundMeanRGBGui": [
+        49.538190548848895,
+        79.05627608490778,
+        111.93964008436924
+      ],
+      "foregroundMAE": 2.8627129799997006
+    },
+    {
+      "frame": 226,
+      "silhouetteIoU": 0.9878245854824784,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 550,
+      "edgeXorPixels": 1069,
+      "foregroundMeanRGBBaseline": [
+        46.67299374761894,
+        76.60168522959012,
+        109.85957914080183
+      ],
+      "foregroundMeanRGBGui": [
+        49.50850458283845,
+        79.03357013199471,
+        111.92208054142482
+      ],
+      "foregroundMAE": 2.843944453159432
+    },
+    {
+      "frame": 227,
+      "silhouetteIoU": 0.9882381552475072,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 532,
+      "edgeXorPixels": 1032,
+      "foregroundMeanRGBBaseline": [
+        46.66578670663773,
+        76.60491286158528,
+        109.86487393453993
+      ],
+      "foregroundMeanRGBGui": [
+        49.45927201950827,
+        79.00053692476342,
+        111.89279402223764
+      ],
+      "foregroundMAE": 2.774394654615689
+    },
+    {
+      "frame": 228,
+      "silhouetteIoU": 0.9887585856578105,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 509,
+      "edgeXorPixels": 977,
+      "foregroundMeanRGBBaseline": [
+        46.78697788697789,
+        76.67790931427295,
+        109.86209515300425
+      ],
+      "foregroundMeanRGBGui": [
+        49.48914451641724,
+        79.02628992628992,
+        111.90911324547689
+      ],
+      "foregroundMAE": 2.745141836050927
+    },
+    {
+      "frame": 229,
+      "silhouetteIoU": 0.9889692905047652,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 500,
+      "edgeXorPixels": 966,
+      "foregroundMeanRGBBaseline": [
+        46.90410011599893,
+        76.74957615775854,
+        109.85210136521816
+      ],
+      "foregroundMeanRGBGui": [
+        49.621397340947624,
+        79.12068350138307,
+        111.97207102703668
+      ],
+      "foregroundMAE": 2.8172645073019837
+    },
+    {
+      "frame": 230,
+      "silhouetteIoU": 0.9891117478510029,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 494,
+      "edgeXorPixels": 961,
+      "foregroundMeanRGBBaseline": [
+        46.88916124431768,
+        76.71982797040735,
+        109.83438809163027
+      ],
+      "foregroundMeanRGBGui": [
+        49.673611730100724,
+        79.14825296372226,
+        112.00280773687494
+      ],
+      "foregroundMAE": 2.9263377603470304
+    },
+    {
+      "frame": 231,
+      "silhouetteIoU": 0.9883096296948615,
+      "baselineOnlyPixels": 1,
+      "guiOnlyPixels": 530,
+      "edgeXorPixels": 1036,
+      "foregroundMeanRGBBaseline": [
+        46.75569713305563,
+        76.64937292553073,
+        109.84598249092245
+      ],
+      "foregroundMeanRGBGui": [
+        49.58448241295583,
+        79.08186496179636,
+        111.97839210532177
+      ],
+      "foregroundMAE": 2.9473019833225664
+    },
+    {
+      "frame": 232,
+      "silhouetteIoU": 0.9875788686877569,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 565,
+      "edgeXorPixels": 1103,
+      "foregroundMeanRGBBaseline": [
+        46.63100485285606,
+        76.57898134544321,
+        109.8555496193402
+      ],
+      "foregroundMeanRGBGui": [
+        49.576042918837096,
+        79.08174168558836,
+        111.99343306175147
+      ],
+      "foregroundMAE": 2.9796536218334
+    },
+    {
+      "frame": 233,
+      "silhouetteIoU": 0.9876738514270648,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 561,
+      "edgeXorPixels": 1099,
+      "foregroundMeanRGBBaseline": [
+        46.51018864566649,
+        76.50649581776116,
+        109.8590718989144
+      ],
+      "foregroundMeanRGBGui": [
+        49.41755650471614,
+        78.96431749421605,
+        111.89753514860296
+      ],
+      "foregroundMAE": 2.8506036068102274
+    },
+    {
+      "frame": 234,
+      "silhouetteIoU": 0.987697985545133,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 560,
+      "edgeXorPixels": 1087,
+      "foregroundMeanRGBBaseline": [
+        46.482573786170235,
+        76.49585196058807,
+        109.85954493894708
+      ],
+      "foregroundMeanRGBGui": [
+        49.30441938568982,
+        78.8712662084918,
+        111.82451457930206
+      ],
+      "foregroundMAE": 2.7501834923600454
+    },
+    {
+      "frame": 235,
+      "silhouetteIoU": 0.9868741631730283,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 598,
+      "edgeXorPixels": 1143,
+      "foregroundMeanRGBBaseline": [
+        46.54436066813461,
+        76.51562465247659,
+        109.84159604990992
+      ],
+      "foregroundMeanRGBGui": [
+        49.42863815306599,
+        78.95289250683926,
+        111.8905718289184
+      ],
+      "foregroundMAE": 2.879577114981132
+    },
+    {
+      "frame": 236,
+      "silhouetteIoU": 0.9877020379479972,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 560,
+      "edgeXorPixels": 1084,
+      "foregroundMeanRGBBaseline": [
+        46.684364994663824,
+        76.58264407684098,
+        109.84113749555318
+      ],
+      "foregroundMeanRGBGui": [
+        49.56761383849164,
+        79.02508004268944,
+        111.94392564923515
+      ],
+      "foregroundMAE": 2.9401532669275467
+    },
+    {
+      "frame": 237,
+      "silhouetteIoU": 0.9892707165314513,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 488,
+      "edgeXorPixels": 961,
+      "foregroundMeanRGBBaseline": [
+        46.99697744193799,
+        76.75419491054562,
+        109.83309256584064
+      ],
+      "foregroundMeanRGBGui": [
+        49.515079453272584,
+        78.94630514501611,
+        111.85320591176797
+      ],
+      "foregroundMAE": 2.7849835166870394
+    },
+    {
+      "frame": 238,
+      "silhouetteIoU": 0.992393005975349,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 345,
+      "edgeXorPixels": 665,
+      "foregroundMeanRGBBaseline": [
+        47.082074297902594,
+        76.8112779950231,
+        109.83949520085318
+      ],
+      "foregroundMeanRGBGui": [
+        49.305834518307854,
+        78.69734269463207,
+        111.61482403128333
+      ],
+      "foregroundMAE": 2.2946957577912075
+    },
+    {
+      "frame": 239,
+      "silhouetteIoU": 0.9901260088404108,
+      "baselineOnlyPixels": 0,
+      "guiOnlyPixels": 449,
+      "edgeXorPixels": 866,
+      "foregroundMeanRGBBaseline": [
+        47.082289445628994,
+        76.81643123667378,
+        109.83628731343283
+      ],
+      "foregroundMeanRGBGui": [
+        49.453002842928214,
+        78.89334577114428,
+        111.75950604122247
+      ],
+      "foregroundMAE": 2.4762719142383323
+    }
+  ]
+}

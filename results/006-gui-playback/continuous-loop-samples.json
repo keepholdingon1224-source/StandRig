@@ -1,0 +1,366 @@
+[
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 1.3348193429999808,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 2.600366485999984,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 3.8002576709999993,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 5.000417029999983,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 6.20135300099998,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 7.433970033999999,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 0.6344360319999983,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 1.8338249910000013,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 3.033997072999977,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 4.269652899999985,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 5.700952155999986,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 7.167877257999991,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 0.5676461309999834,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 1.9003629629999887,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 3.3004355359999726,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 4.500843547999972,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 5.766919360999974,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 6.933765963999983,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 0.13394737099997878,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 1.3346449269999778,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 2.466993042999987,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 3.7339847819999763,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 4.934443876999974,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 6.133749322999987,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 7.467637778999974,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  },
+  {
+    "loaded": true,
+    "name": "005 baked 8-second cycle",
+    "duration": 8,
+    "time": 1.4615613649999915,
+    "running": true,
+    "active": true,
+    "ended": false,
+    "speed": 1,
+    "loop": true,
+    "parameterIds": [
+      "BakedPhase"
+    ]
+  }
+]

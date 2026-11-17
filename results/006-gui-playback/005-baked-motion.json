@@ -1,0 +1,21 @@
+{
+  "format": "standrig-motion",
+  "version": 1,
+  "name": "005 baked 8-second cycle",
+  "duration": 8,
+  "tracks": [
+    {
+      "parameter": "BakedPhase",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 8,
+          "value": 8
+        }
+      ]
+    }
+  ]
+}

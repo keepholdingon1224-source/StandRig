@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "issueCount": 13,
+  "errorCount": 0,
+  "warningCount": 13,
+  "infoCount": 0,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "missing-root-part",
+      "message": "No part with id 'root' exists.",
+      "path": "parts"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamAngleX is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamAngleY is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamAngleZ is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamEyeBallX is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamEyeBallY is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamBodyAngleX is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamBodyAngleY is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamMouthOpen is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamMouthForm is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamMouthSmile is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamEyeLOpen is missing.",
+      "path": "parameters"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-standard-parameter",
+      "message": "Standard parameter ParamEyeROpen is missing.",
+      "path": "parameters"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+before 0
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at capture (/workspace/StandRig/experiments/006-capture.mjs:17:14)
+    at async file:///workspace/StandRig/experiments/006-capture.mjs:25:1 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v24.22.1

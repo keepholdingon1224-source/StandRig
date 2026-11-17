@@ -110,3 +110,13 @@ GitHub反映：成果物コミット `cd28e402942a3dfbaf8e515651e4ca1f6d165aa9` 
 7. **ChatGPTに評価してほしい事項:**
 
 GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方法。コミット自身のIDは本文に自己参照で埋めず、Git履歴とハンドオフで示す。
+
+## 2026-11-17T05:51:03Z / 006-gui-playback（2026-11-17 JST承認済み実行）
+
+1. **日時・目的:** 2026-11-17 JST、ユーザー最終指示に基づき005の動き・素材を維持して標準GUIへ移行。開始時work/c3166aa clean。指定リモート最新9b8b4caをls-remote/fetchで確認しSHA明示で実験ブランチへ移動。005正式合格記録と指定248ファイル（240PNG+8基準）をSHA-256固定。
+2. **環境・コマンド:** Linux、Node、既存Chromium headless、Playwright（work配下のみ）、Python NumPy/Pillow、FFmpeg。`npm run build`、`npm test`、`node experiments/006-bake.mjs`、専用service `--data-dir work/006-data --port 5180` と `work/006-fresh-data --port 5182`、006-gui/capture/fresh-session/evaluate/verify、006-monitor-verify.py/image-metrics.py。詳細コマンドと失敗は[README](results/006-gui-playback/README.md)と[logs](results/006-gui-playback/logs/)。
+3. **変更:** experiments/006-*、results/006-gui-playback/、PROJECT.md、本書。既存Core/Runtime/Preview/Serviceソース・005以前のコード・成果物・合格記録は変更なし。単一位相parameter＋既存ArtMesh482キー、8秒1track/2keys。旧物理をモデル内で無効化。adapter/solver再実行/新schema不要。
+4. **成功:** build、公式schema/smoke16/Node183全件成功（fail/skip0）。GUI import/play/pause/resume/stop/seek/loop on-off・26秒以上/3wrap・portable/motion download・新session再importを実操作。新service/新data dir復元も成功。GUI出力ファイルから評価した全482サンプル最大差7.1e−15px、実GUI描画行列からの差約1.62e−5px。18数値基準と幅/曲率/加速度/ジャーク監視を維持。software出力240PNGは005と全枚バイト一致。保存前後のGUI240PNGも全枚一致。MP4は8秒/640x360/30fps/240枚、3周期720枚/24秒、全decode。基準ハッシュ一致。
+5. **失敗・再試行:** npmの既定cache先権限→work cacheへ変更。HTML rangeの0.01秒丸め→精密計測時だけstep any。追加sample上限のHTML数値文字列丸めが値域拒否→1e−12秒内側を実入力、誤差実測。採取完了前の独立検査→完了後再実行。同じmodel名でimport完了誤認→busy解除を待機。全失敗ログ保持。GUI/Canvasの画素差・三角形境界細線は残存し、数値誤差とは区別する。
+6. **成果物:** [006報告](results/006-gui-playback/README.md)、[3列比較](results/006-gui-playback/comparison-005-gui-export.mp4)、[補助出力](results/006-gui-playback/exported-loop.mp4)、[GUI描画](results/006-gui-playback/gui-playback.mp4)、[3周期](results/006-gui-playback/three-loops.mp4)、[独立検査](results/006-gui-playback/verification.json)、[GUI操作](results/006-gui-playback/gui-verification.json)、[差分](results/006-gui-playback/differences/)。全入力/出力hashはmanifest。
+7. **判定・未解決・ChatGPTレビュー依頼:** 数値・GUI操作・保存復元・補助動画検査成功。**006全体の最終合格は保留**。標準Canvasにはsoftware rendererとの差があるため、比較動画でユーザー本人の同等品質判断が必要。GUI直接MP4は未実装で残件。GPU描画は単一poseの探索確認のみ（全面検査済みとはしない）。Windows実機・全身・衝突・オンライン物理は未実施。追加課金/有料API/SONY関与なし。指定Fork実験ブランチへ通常commit/pushし、リモートSHAを照合する。main/上流への変更なし。

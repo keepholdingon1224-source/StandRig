@@ -24,7 +24,10 @@
 
 - 005: **数値合格＋ユーザー本人の動画視覚承認により2026-11-17総合合格（合成素材の8秒オフライン生成に限定）**。髪の全辺比0.901536〜1.098376、中心線1.000000〜1.019090、先端147.978px。裾辺比0.947091〜1.058099、先端66.800px。30fps境界速度差は髪1.419529/裾0.750531px/s。公式183件・独立検査20項目成功。裾の曲率急変・加速度・ジャークが改善。一方、髪縦曲率・幅保持、裾の辺長比は悪化（許容内）。オフライン実験コードのみ、GUI未統合。新規の裾方向物理波伝播は未実装。改善・悪化と失敗を[005報告](results/005-spatiotemporal-constraints/README.md)に記録。
 
+- 006: **実行済み・最終合格保留**。既存ArtMesh位相キーへ005を無損失ベイクし、標準GUI操作・3周期ループ・portableモデル/モーション書出し・新session復元・補助MP4出力を検証。本体変更なし。全482サンプルのCore最大差約7.1e−15px、実GUI描画採取約1.62e−5px。software出力240PNGは005と全枚一致。Canvas描画差（境界細線等）のユーザー審査待ち、GUI直接MP4は未実装。[006報告](results/006-gui-playback/README.md)。Windows実機未実施。
+
 ## 正本リンク
+- [006 GUI再生・保存・補助動画出力](results/006-gui-playback/README.md)
 - [005 正式総合合格記録](results/005-spatiotemporal-constraints/FINAL-ACCEPTANCE.md)\n- [005 実験報告・全成果物](results/005-spatiotemporal-constraints/README.md)
 - [003・004・005比較](results/005-spatiotemporal-constraints/comparison-003-004-005.mp4) / [004・005裾拡大](results/005-spatiotemporal-constraints/hem-closeup-004-005.mp4)
 - [作業履歴と状態](PROGRESS.md)
@@ -38,8 +41,8 @@
 - [調査](research/README.md) / [実験](experiments/README.md) / [成果物](results/README.md)
 
 ## 次の検証（推奨順）
-1. **005のユーザー視覚審査は完了・合格**。[正式判定](results/005-spatiotemporal-constraints/FINAL-ACCEPTANCE.md)を以後の品質基準として固定。次段階（006）はユーザー判断待ち。
-2. **推奨する次の一手：GUI統合可否の最小検証**。005のオフライン周期全体平滑化をリアルタイム処理と同一視しない。005成果物の回帰検査を維持。\n3. 髪の可動範囲147px以上と全辺長許容を保ちながら、縦曲率・幅変化を改善。
+1. **005のユーザー視覚審査は完了・合格**。[正式判定](results/005-spatiotemporal-constraints/FINAL-ACCEPTANCE.md)を以後の品質基準として固定。006は2026-11-17承認に基づき実行済み。
+2. **006のレビューと残件判断**。Canvas描画と005の比較、およびGUI直接MP4を検討。005のオフライン周期全体平滑化をリアルタイム処理と同一視しない。005成果物の回帰検査を維持。\n3. 髪の可動範囲147px以上と全辺長許容を保ちながら、縦曲率・幅変化を改善。
 4. 裾の新規物理波伝播・慣性の実装を検討。005の全周期平滑化はオンライン時間積分ではない。
 5. 身体接続・衝突、任意素材の汎用化は別工程。
 

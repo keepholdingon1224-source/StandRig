@@ -13,7 +13,7 @@
 
 ## 現在の判断
 
-**最新判定（2026-11-17）: 005は数値18/18合格＋ユーザー視覚承認により総合合格。対象は合成素材の8秒オフライン生成。詳細は[正式判定](results/005-spatiotemporal-constraints/FINAL-ACCEPTANCE.md)。006は未開始。**
+**最新判定（2026-11-18）: 005総合合格を維持。006は数値・GUI操作・保存復元・補助MP4検査に合格し、本人の視覚承認を受け総合合格（対象範囲限定）。GUI直接MP4とWindows実機は残件。[006正式判定](results/006-gui-playback/FINAL-ACCEPTANCE.md)。007はユーザー判断待ち・未開始。**
 
 
 004で003を完全再現し、髪の中心線長保持と裾の距離拘束を実装。全240枚PNG・8秒MP4/GIF・左右比較・グラフ・独立検査を保存した。公式183件と証拠整合性10項目は成功したが、髪の辺長比0.798870〜1.201133と30fps境界速度段差（髪2.947091、裾4.274729px/s）が基準未達。**004総合は不合格**。ChatGPTによる映像品質評価、Windows実機確認、新方式のGUI統合は未実施。
@@ -120,3 +120,12 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 5. **失敗・再試行:** npmの既定cache先権限→work cacheへ変更。HTML rangeの0.01秒丸め→精密計測時だけstep any。追加sample上限のHTML数値文字列丸めが値域拒否→1e−12秒内側を実入力、誤差実測。採取完了前の独立検査→完了後再実行。同じmodel名でimport完了誤認→busy解除を待機。全失敗ログ保持。GUI/Canvasの画素差・三角形境界細線は残存し、数値誤差とは区別する。
 6. **成果物:** [006報告](results/006-gui-playback/README.md)、[3列比較](results/006-gui-playback/comparison-005-gui-export.mp4)、[補助出力](results/006-gui-playback/exported-loop.mp4)、[GUI描画](results/006-gui-playback/gui-playback.mp4)、[3周期](results/006-gui-playback/three-loops.mp4)、[独立検査](results/006-gui-playback/verification.json)、[GUI操作](results/006-gui-playback/gui-verification.json)、[差分](results/006-gui-playback/differences/)。全入力/出力hashはmanifest。
 7. **判定・未解決・ChatGPTレビュー依頼:** 数値・GUI操作・保存復元・補助動画検査成功。**006全体の最終合格は保留**。標準Canvasにはsoftware rendererとの差があるため、比較動画でユーザー本人の同等品質判断が必要。GUI直接MP4は未実装で残件。GPU描画は単一poseの探索確認のみ（全面検査済みとはしない）。Windows実機・全身・衝突・オンライン物理は未実施。追加課金/有料API/SONY関与なし。指定Fork実験ブランチへ通常commit/pushし、リモートSHAを照合する。main/上流への変更なし。
+
+
+## 2026-11-18 / 006-final-acceptance（ChatGPT判定・ユーザー視覚承認）
+
+- **006総合合格（対象範囲限定）**。ユーザー本人は比較動画 comparison-005-gui-export.mp4 を目視し「合格とします」と判定、Canvas三角形境界・輪郭・色差を許容。MUSE中継の承認とChatGPTによるGitHub検証記録の照合に基づく。
+- 独立検査18/18、数値基準18/18、GUI操作13/13、公式Node183件成功。全482サンプルでCore最大差約7.1e-15px、GUI最大差約1.62e-5px。補助software出力240PNGは005と全枚一致、GUI再読み込み前後も全枚一致、005基準ハッシュ一致。
+- [正式合格記録](results/006-gui-playback/FINAL-ACCEPTANCE.md)。元の006実行報告と検査JSONの保留表記は実行時点の履歴として保存する。本節が最新判定。005と006の既存成果物・検査ログは変更しない。
+- **合格範囲・残件**：標準GUIのベイク済み再生、保存復元、補助MP4出力。GUI直接MP4未実装、Windows実機未確認、GPU全周期未検証。005の髪幅・縦曲率・裾辺長比は監視継続。
+- **007は提案のみ・未開始**：実キャラクター画像への段階的適用を第一候補、実素材上の品質改善を第二候補とする。素材の権利・公開可否、対象範囲と進行はユーザー判断待ち。SONY完全分離・追加課金なし。

@@ -1,0 +1,28 @@
+{
+  "automatic": {
+    "status": "failed-at-segmentation-visual-check",
+    "executed": ["color segmentation", "mask export", "root row inference"],
+    "failure": "Left mask includes part of the tied upper hair; right mask misses the root section.",
+    "downstream": "Stopped at the failed mask check; no automatic rig or video claimed.",
+    "individualPoints": 0
+  },
+  "assisted": {
+    "status": "completed-through-gui-and-numeric-verification-visual-approval-pending",
+    "interventions": [
+      {"type": "manual cut row", "part": "image-left hair", "y": 538},
+      {"type": "manual cut row", "part": "image-right hair", "y": 452},
+      {"type": "motion tuning", "part": "skirt", "change": "right phase 0.65 to 0.48 radians after edge ratio exceeded 1.10"}
+    ],
+    "manualWallSeconds": null,
+    "manualWallSecondsReason": "Review and editing elapsed time was not separately instrumented.",
+    "handPaintingOperations": 0,
+    "softwareStages": ["matte refinement", "completion", "centerline extraction", "mesh generation", "native bake", "video generation", "scripted GUI verification"]
+  },
+  "referenceMaterial": {
+    "status": "blocked",
+    "reason": "Independent ground-truth masks were unavailable. The assisted masks were produced by the implementer.",
+    "iou": null
+  },
+  "additionalPaidApiUsed": false,
+  "sourceChanged": false
+}

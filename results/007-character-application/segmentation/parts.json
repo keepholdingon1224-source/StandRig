@@ -1,0 +1,73 @@
+{
+  "parts": {
+    "left": {
+      "bboxXYWH": [
+        401,
+        501,
+        121,
+        378
+      ]
+    },
+    "right": {
+      "bboxXYWH": [
+        635,
+        477,
+        60,
+        270
+      ]
+    },
+    "skirt": {
+      "bboxXYWH": [
+        238,
+        774,
+        678,
+        983
+      ]
+    },
+    "skirt-left": {
+      "bboxXYWH": [
+        238,
+        774,
+        334,
+        983
+      ]
+    },
+    "skirt-right": {
+      "bboxXYWH": [
+        572,
+        777,
+        344,
+        973
+      ]
+    },
+    "fixed": {
+      "bboxXYWH": [
+        236,
+        119,
+        684,
+        1840
+      ]
+    },
+    "background": {
+      "bboxXYWH": [
+        0,
+        0,
+        1152,
+        2048
+      ]
+    }
+  },
+  "drawOrder": [
+    "background",
+    "fixed",
+    "skirt",
+    "left",
+    "right"
+  ],
+  "method": "RGB differences, connected components, closing, contour fill, width transition",
+  "parameterSource": "Asset-class palette and silhouette heuristics",
+  "individualCoordinates": [],
+  "alpha": "binary matte",
+  "opencv": "5.1.0",
+  "seconds": 0.9907878760000131
+}

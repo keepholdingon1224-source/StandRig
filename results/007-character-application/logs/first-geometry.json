@@ -1,0 +1,121 @@
+{
+  "left": {
+    "restLengthPx": 342.5372535660028,
+    "edgeRatio": [
+      0.9471397898909032,
+      1.052860611708064
+    ],
+    "invertedOrDegenerateTriangleSamples": 0,
+    "positionSeamPx": 0,
+    "samePhaseVelocityDeltaPxPerSecond": 0,
+    "rootMaxPx": 0.0,
+    "seam30PxPerSecond": 0.16723305906875874,
+    "normalizationScale": 0.7006537172277377,
+    "positionSeamNormalizedPx": 0,
+    "samePhaseVelocityDeltaNormalizedPxPerSecond": 0,
+    "rootMaxNormalizedPx": 0.0,
+    "seam30NormalizedPxPerSecond": 0.11717246447989164,
+    "horizontalTravelPx": [
+      82.78268945405381
+    ],
+    "horizontalTravelFraction": [
+      0.24167499620038432
+    ],
+    "meshBounds": [
+      [
+        362.05090287369984,
+        538.0
+      ],
+      [
+        540.7232198652063,
+        887.3706750788298
+      ]
+    ],
+    "centerlineRatio": [
+      0.9999999999999993,
+      1.0000000000000004
+    ],
+    "meshWidthRatio": [
+      0.9999999999999991,
+      1.0000000000000009
+    ],
+    "verticalCurvatureMaxRadPerPx": 0.018125372733873806
+  },
+  "right": {
+    "restLengthPx": 296.6043358139309,
+    "edgeRatio": [
+      0.9607970750402478,
+      1.0392034385058775
+    ],
+    "invertedOrDegenerateTriangleSamples": 0,
+    "positionSeamPx": 0,
+    "samePhaseVelocityDeltaPxPerSecond": 0,
+    "rootMaxPx": 0.0,
+    "seam30PxPerSecond": 0.38929894895241723,
+    "normalizationScale": 0.8091587715378491,
+    "positionSeamNormalizedPx": 0,
+    "samePhaseVelocityDeltaNormalizedPxPerSecond": 0,
+    "rootMaxNormalizedPx": 0.0,
+    "seam30NormalizedPxPerSecond": 0.31500465929531374,
+    "horizontalTravelPx": [
+      71.61528747433852
+    ],
+    "horizontalTravelFraction": [
+      0.24145057515027363
+    ],
+    "meshBounds": [
+      [
+        603.8308483136925,
+        452.0
+      ],
+      [
+        737.1637142007459,
+        752.778808168451
+      ]
+    ],
+    "centerlineRatio": [
+      0.9999999999999997,
+      1.0000000000000007
+    ],
+    "meshWidthRatio": [
+      0.9999999999999979,
+      1.0000000000000022
+    ],
+    "verticalCurvatureMaxRadPerPx": 0.015133141856395584
+  },
+  "skirt": {
+    "restLengthPx": 983.0,
+    "edgeRatio": [
+      0.9248259229950918,
+      1.1082957319492928
+    ],
+    "invertedOrDegenerateTriangleSamples": 0,
+    "positionSeamPx": 0,
+    "samePhaseVelocityDeltaPxPerSecond": 0,
+    "rootMaxPx": 0.0,
+    "seam30PxPerSecond": 1.0608823967027092,
+    "normalizationScale": 0.2034587995930824,
+    "positionSeamNormalizedPx": 0,
+    "samePhaseVelocityDeltaNormalizedPxPerSecond": 0,
+    "rootMaxNormalizedPx": 0.0,
+    "seam30NormalizedPxPerSecond": 0.21584585894256547,
+    "horizontalTravelPx": [
+      102.17433605000065,
+      102.1731422142168
+    ],
+    "horizontalTravelFraction": [
+      0.10394133880976668,
+      0.10394012432778921
+    ],
+    "meshBounds": [
+      [
+        183.28581943315345,
+        774.0
+      ],
+      [
+        970.7138935355123,
+        1757.0
+      ]
+    ]
+  }
+}

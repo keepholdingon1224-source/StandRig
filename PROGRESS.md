@@ -129,3 +129,13 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - [正式合格記録](results/006-gui-playback/FINAL-ACCEPTANCE.md)。元の006実行報告と検査JSONの保留表記は実行時点の履歴として保存する。本節が最新判定。005と006の既存成果物・検査ログは変更しない。
 - **合格範囲・残件**：標準GUIのベイク済み再生、保存復元、補助MP4出力。GUI直接MP4未実装、Windows実機未確認、GPU全周期未検証。005の髪幅・縦曲率・裾辺長比は監視継続。
 - **007は提案のみ・未開始**：実キャラクター画像への段階的適用を第一候補、実素材上の品質改善を第二候補とする。素材の権利・公開可否、対象範囲と進行はユーザー判断待ち。SONY完全分離・追加課金なし。
+
+## 2026-11-18 JST / 007-character-application
+
+1. **日時・目的**。MUSE経由の最終承認後、指定Forkの `experiment/rigging-validation-20261115` を別ディレクトリへ取得。基準 `13dc02a48f9ace0e2c657dbb751fd7ae865a9138`、開始時clean。入力PNGのSHA-256は承認値と同一。
+2. **環境・実行**。Linux、Node 24.22.1/npm 11.9.0、Python/NumPy/SciPy/Pillow/OpenCV、FFmpeg、Chromium。公式 `npm run build`、schema/smoke 16件および `npm test` のNode 183件が成功。007-reference、segment、rig、bake、GUI、verifyのコマンドは[実験報告](results/007-character-application/README.md)参照。005・006コードと成果物1,643ファイルのSHA-256照合に成功。
+3. **変更**。`experiments/007-*`、`results/007-character-application/`、`PROGRESS.md`、`PROJECT.md`。
+4. **A〜E**。A自動版は左結び目上の混入と右根元の欠落。左右各1行の指定を使用した補助版でBとCを実施。最初のスカート辺長比上限1.108を位相調整で1.088へ改善。DはGUI操作13件成功。Eは保存データを独立検査し、数値・操作検査に成功。IoUと基準素材版は独立確認済みマスク未入手のため未実施。視覚合格は保留。
+5. **成果物**。[統合8秒](results/007-character-application/character-loop.mp4)、[3周期24秒](results/007-character-application/three-loops.mp4)、[独立検査](results/007-character-application/verification.json)、[GUI操作](results/007-character-application/gui-verification.json)、[全成果物索引](results/007-character-application/README.md)。
+6. **未解決**。左毛束先端周辺の暗い断片、ブラウスの色補間、GUI中立姿勢の三角形境界と低アルファ画素、独立マスクと視覚承認。GUI直接MP4出力は継続残件。追加課金・外部有料API・SONY関連素材の利用なし。
+7. **ChatGPTレビュー依頼**。左の袖・腰の補完、左右の根元と裾の境界、GUI描画差分とユーザー確認用の観点、独立マスク検証の設計を確認してほしい。

@@ -1,0 +1,13 @@
+{
+  "shirt": "Row-wise clean endpoint color interpolation; OpenCV Telea and Navier-Stokes comparison",
+  "skirt": "nearest known skirt sample with vertical distance weighted 4x",
+  "background": "median BGR from source margins",
+  "hiddenLegs": "Short vertical transfer of visible skin below the hem",
+  "staticChangedPixels": 0,
+  "assistedRootRows": {
+    "left": 538,
+    "right": 452
+  },
+  "processingSeconds": 1.1249835959999928,
+  "manualOperations": 2
+}

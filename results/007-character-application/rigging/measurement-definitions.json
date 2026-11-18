@@ -1,0 +1,32 @@
+{
+  "hair": "Rest centerline polyline length; center vertex at last mesh row, peak-to-peak x.",
+  "skirt": "Rest top-to-bottom height; lowest opaque matte pixel at the x 20th/80th percentiles, transported barycentrically; peak-to-peak x.",
+  "restProbePointsXY": {
+    "left": [
+      [
+        450.94356760732785,
+        881.0
+      ]
+    ],
+    "right": [
+      [
+        671.8444716599854,
+        749.0
+      ]
+    ],
+    "skirt": [
+      [
+        436,
+        1746
+      ],
+      [
+        706,
+        1750
+      ]
+    ]
+  },
+  "normalizedLengths": {
+    "hair": 240,
+    "skirt": 200
+  }
+}

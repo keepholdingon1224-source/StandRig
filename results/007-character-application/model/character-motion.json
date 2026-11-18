@@ -1,0 +1,21 @@
+{
+  "format": "standrig-motion",
+  "version": 1,
+  "name": "007 original character",
+  "duration": 8,
+  "tracks": [
+    {
+      "parameter": "BakedPhase",
+      "keys": [
+        {
+          "time": 0,
+          "value": 0
+        },
+        {
+          "time": 8,
+          "value": 8
+        }
+      ]
+    }
+  ]
+}

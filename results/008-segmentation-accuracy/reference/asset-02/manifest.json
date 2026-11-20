@@ -10,5 +10,5 @@
   "created_date": "2026-11-20",
   "method": "Color-class seeding + connected components on the original image; bundles split just below the ribbons (split row from the strand width profile and visual check); skirt from the magenta component (B-G>=25 excludes skin) with row fill; no 007/008 algorithm outputs used.",
   "split_rows": "per-column curve (see validation.json boundary samples)",
-  "revision": "v2 (2026-11-20): tie-following per-column root boundary; line-art absorption; blouse/trim regrown"
+  "revision": "v3 (2026-11-20): local polygon/curve fixes per ChatGPT v3 instruction; script annotation-v3.py"
 }

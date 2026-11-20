@@ -1,13 +1,13 @@
 {
   "hair-left-root": {
     "x": 470,
-    "y": 219,
-    "note": "per-column tie-following boundary (median ~219); ribbon itself is fixed"
+    "y": 224,
+    "note": "hand-set curve under the left bow: (405,200)-(440,220)-(470,228)-(500,220)-(528,242)-(550,278); band-limited adjustment from v2 flat 219"
   },
   "hair-right-root": {
     "x": 705,
-    "y": 250,
-    "note": "per-column tie-following boundary (median ~250); ribbon itself is fixed"
+    "y": 224,
+    "note": "hand-set curve under the right bow: (632,238)-(665,222)-(700,214)-(735,222)-(762,242)-(790,268); band-limited adjustment from v2 flat 250"
   },
   "waist-top-center": {
     "x": 576,

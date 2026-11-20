@@ -10,18 +10,18 @@
   "unclassified_pixels": 0,
   "class_pixel_counts": {
     "background": 1589649,
-    "hair-left": 72572,
-    "hair-right": 30916,
-    "skirt": 411365,
-    "fixed": 254794
+    "hair-left": 68549,
+    "hair-right": 27094,
+    "skirt": 409765,
+    "fixed": 264239
   },
   "aux_pixel_counts": {
-    "blouse-visible": 126240,
-    "hem-trim": 2977,
-    "uncertain": 37298
+    "blouse-visible": 134177,
+    "hem-trim": 4734,
+    "uncertain": 37912
   },
   "all_primary_masks_nonempty": true,
-  "revision": "v2 (ChatGPT review fixes): per-column tie-following root boundary; nearest-core assignment absorbs line art; skirt edges/trim absorbed; blouse regrown",
+  "revision": "v3 local polygon/curve fixes (see annotation-notes.md)",
   "previous_class_pixel_counts": {
     "background": 1589649,
     "hair-left": 60130,
@@ -58,5 +58,12 @@
     "760": 225,
     "770": 225,
     "780": 225
+  },
+  "v2_class_pixel_counts": {
+    "background": 1589649,
+    "hair-left": 72572,
+    "hair-right": 30916,
+    "skirt": 411365,
+    "fixed": 254794
   }
 }

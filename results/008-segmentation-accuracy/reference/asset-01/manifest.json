@@ -13,5 +13,5 @@
     "hair-left": 539,
     "hair-right": 451
   },
-  "revision": "v3 (2026-11-20): local polygon fixes per ChatGPT v3 instruction; script annotation-v3.py"
+  "revision": "v4 (2026-11-20): final local fixes; independent verification passed"
 }

@@ -21,7 +21,7 @@
     "uncertain": 23972
   },
   "all_primary_masks_nonempty": true,
-  "revision": "v3 local polygon fixes (see annotation-notes.md)",
+  "revision": "v4 final local fixes + independent verification passed (see reference-verification.json)",
   "previous_class_pixel_counts": {
     "background": 1659731,
     "hair-left": 15543,

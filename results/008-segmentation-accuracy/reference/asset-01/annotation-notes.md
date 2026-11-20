@@ -42,3 +42,8 @@
 - blouse-visible：袖口より下の腕に沿う細い誤抽出をポリゴン2件（x368-392,y840-960 の66px／x766-792,y810-960 の21px）で除去（102,223→102,136px）。
 - hem-trim：列ごとの金色スキャンで見えている金線に沿って再構成（1,573→2,434px）。
 - 修正スクリプトは annotation-v3.py として同フォルダに保存。差分画像 diff-v2-v3.png、原画・v2・v3の3枚比較 compare-v1-v2-v3.png、補助マスク専用の重畳 overlay-blouse.png / overlay-trim.png を追加。
+
+## v4 最終局所修正・独立検査（2026-11-20、ChatGPT v4指示）
+
+- blouse-visible：右袖口から腰の横へ伸びる三角形の誤抽出（ポリゴン x698-750, y800-995 の1,206px）と、左前腕の外郭の細線（ポリゴン x362-392, y795-890 の213px）を除去。主要マスクと根元は変更なし。
+- 独立検査（verify-reference.py、保存済みPNGを直接読み込んで再計算）で blouse⊆fixed の違反90pxを検出したため、fixedとの積集合で解消（100,717→100,627px）。再検査で全項目合格（reference-verification.json）。

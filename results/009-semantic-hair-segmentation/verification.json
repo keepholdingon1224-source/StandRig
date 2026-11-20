@@ -1,0 +1,370 @@
+{
+  "errata_corrections": {
+    "asset-01/annotation-notes.md": {
+      "actual": "a06f9389b7ea628aef552ac8366b1f4c89610b1e6dbebd9f7691117d29bded5f",
+      "expected": "d3851da974958d8d83965eed4f867a90904cffa7404ea1ea6e6243221c78d9a2"
+    },
+    "asset-01/manifest.json": {
+      "actual": "5c72c25367294e4750be6fa52216c5c1194543feccdf5f32c7539f5cc744954f",
+      "expected": "4c93e1ee235effc3439df8f0ab0f82d3371e3326329be587a58417d01ca07b4c"
+    },
+    "asset-02/annotation-notes.md": {
+      "actual": "c05abf91550bf0075e163fbff63a70e999f8cd489ef85e31331a04b6328bbd70",
+      "expected": "32e35c17fb22c544030921c4056b291e3810aad200e18936e4139fc2f6bc942b"
+    },
+    "asset-02/manifest.json": {
+      "actual": "bf214701420fa1a41d9be332fe8203880062c3a209fa47eaa4557403ba830210",
+      "expected": "932df0f03586284d2233fa0de2fe07fcd09ab70298e54d45bf9a70d3a66d4268"
+    }
+  },
+  "frozen_input_changes": [],
+  "frozen_snapshot": "ca383315a73c0f5e0621f15b9a943d6b67f87d23",
+  "passed": true,
+  "references": {
+    "asset-01": {
+      "command_template": [
+        "python",
+        "results/008-segmentation-accuracy/reference/asset-01/verify-reference.py",
+        "<temporary copy>",
+        "source_007/original.png",
+        "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea"
+      ],
+      "frozen_sha256_mismatches": {},
+      "original_dimensions_match": true,
+      "png_8bit_grayscale_binary": {
+        "background.png": true,
+        "blouse-visible.png": true,
+        "fixed.png": true,
+        "hair-left.png": true,
+        "hair-right.png": true,
+        "hem-trim.png": true,
+        "skirt.png": true,
+        "uncertain.png": true
+      },
+      "returncode": 0,
+      "saved_png_checks": {
+        "all_checks_passed": true,
+        "asset_dir": "asset-01",
+        "background": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 1659731
+        },
+        "blouse-visible": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 100627
+        },
+        "blouse_subset_fixed_violations": 0,
+        "file_sha256": {
+          "annotation-notes.md": "a06f9389b7ea628aef552ac8366b1f4c89610b1e6dbebd9f7691117d29bded5f",
+          "annotation-v3.py": "c8772d1cd113254f73f0c45bdac3dff63c9317c6fc3469988cbf5caa0ae586a3",
+          "background.png": "94854a565e316ff1e938d3a242c598b2bf9e36c2745c1744570660a41204dcd3",
+          "blouse-visible.png": "1d25c51b3431506f34a92fb15578611e765b1efa6f7c683a5f8eeb8e995bd995",
+          "fixed.png": "8df2f1cf20d6367f1eb0bcfe8c43442ceeca46ad703d7361734adbbdf5a76329",
+          "hair-left.png": "0103b9c33036913b3cffa0d1655c13c362ea09d7eca4dc466c84994ebaa595bd",
+          "hair-right.png": "7e7e280ac1df1f690de3d1b975a6b67901892b835902f34e47304fd786cb4f6c",
+          "hem-trim.png": "d14c2055592bec8e569abaea9b179287aedb842b43e2e906d2679c1ec747939a",
+          "landmarks.json": "9cad80872d8211472a4da34f4b0c4d728ca955bd95ba5968bc92ea241e9745d1",
+          "manifest.json": "5c72c25367294e4750be6fa52216c5c1194543feccdf5f32c7539f5cc744954f",
+          "skirt.png": "cb615a5a926d3ac997a65a4285c8451ffe5c8d7b3fdfda05a12b065613a6c388",
+          "uncertain.png": "432ce0a4b6b970e9da152767f5cc4d53b334a183c09bd9d8d9c8c9d0fc42d149"
+        },
+        "fixed": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 240115
+        },
+        "hair-left": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 17024
+        },
+        "hair-right": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 13208
+        },
+        "hem-trim": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 2434
+        },
+        "hemtrim_subset_skirt_violations": 0,
+        "original_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+        "original_sha256_matches_registered": true,
+        "primary_overlap_pixels": 0,
+        "primary_unclassified_pixels": 0,
+        "skirt": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 429218
+        },
+        "uncertain": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 23972
+        }
+      },
+      "stderr": "",
+      "stdout": "{\n  \"original_sha256_matches_registered\": true,\n  \"primary_overlap_pixels\": 0,\n  \"primary_unclassified_pixels\": 0,\n  \"blouse_subset_fixed_violations\": 0,\n  \"hemtrim_subset_skirt_violations\": 0,\n  \"all_checks_passed\": true\n}\n"
+    },
+    "asset-02": {
+      "command_template": [
+        "python",
+        "results/008-segmentation-accuracy/reference/asset-02/verify-reference.py",
+        "<temporary copy>",
+        "source_008/original.png",
+        "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728"
+      ],
+      "frozen_sha256_mismatches": {},
+      "original_dimensions_match": true,
+      "png_8bit_grayscale_binary": {
+        "background.png": true,
+        "blouse-visible.png": true,
+        "fixed.png": true,
+        "hair-left.png": true,
+        "hair-right.png": true,
+        "hem-trim.png": true,
+        "skirt.png": true,
+        "uncertain.png": true
+      },
+      "returncode": 0,
+      "saved_png_checks": {
+        "all_checks_passed": true,
+        "asset_dir": "asset-02",
+        "background": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 1589649
+        },
+        "blouse-visible": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 132343
+        },
+        "blouse_subset_fixed_violations": 0,
+        "file_sha256": {
+          "annotation-notes.md": "c05abf91550bf0075e163fbff63a70e999f8cd489ef85e31331a04b6328bbd70",
+          "annotation-v3.py": "7ea830ec1da817a443e287ec91b59e0c5875f5d33b63e44e83f6d76fef0532c9",
+          "background.png": "8a680c939f2c2bcd563f827cc7b43feb75a48742b1997fa7e48a4293d27fe938",
+          "blouse-visible.png": "bcb4a60a55a35230347dfee999365a4354909440f9be7f957ba55c8bc604dd8d",
+          "fixed.png": "d8c02c3afa8e7c4f9184065726dd6be27341faf46b945cc7153180ea3563e28e",
+          "hair-left.png": "9b250fdc42eb0a573d70ae9795234f87f0761915403085e209a3e81bd398978c",
+          "hair-right.png": "00695c819c10baa543ce737c85f68b4300d301e9e3f8b10e73980a84cf2d1aea",
+          "hem-trim.png": "76a5fc670be9230d7d62ad54c54035e50de47e4010471514f8de76f919257966",
+          "landmarks.json": "7d89ab9f10e22e89928c1c2e0838f4d0dc23bd7b394b55228d343014ed835fdb",
+          "manifest.json": "bf214701420fa1a41d9be332fe8203880062c3a209fa47eaa4557403ba830210",
+          "skirt.png": "076e26117dc5a3dad9957b4301575933dc632036715485724d365a609a7c5497",
+          "uncertain.png": "0063a79bfacbf1e66271a669f956aa0df1016fb5c39ae536a000691b05aa8cb9"
+        },
+        "fixed": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 264022
+        },
+        "hair-left": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 68549
+        },
+        "hair-right": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 27094
+        },
+        "hem-trim": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 4734
+        },
+        "hemtrim_subset_skirt_violations": 0,
+        "original_sha256": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+        "original_sha256_matches_registered": true,
+        "primary_overlap_pixels": 0,
+        "primary_unclassified_pixels": 0,
+        "skirt": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 409982
+        },
+        "uncertain": {
+          "mode": "L",
+          "size": [
+            1152,
+            2048
+          ],
+          "unique_values": [
+            0,
+            255
+          ],
+          "white_pixels": 37912
+        }
+      },
+      "stderr": "",
+      "stdout": "{\n  \"original_sha256_matches_registered\": true,\n  \"primary_overlap_pixels\": 0,\n  \"primary_unclassified_pixels\": 0,\n  \"blouse_subset_fixed_violations\": 0,\n  \"hemtrim_subset_skirt_violations\": 0,\n  \"all_checks_passed\": true\n}\n"
+    }
+  },
+  "protected_file_count": 2373,
+  "all_protected_files_match_pre_run": true,
+  "008_saved_iou_regression": {
+    "asset-01": {
+      "identical": true,
+      "methods": [
+        "A-007-assisted",
+        "A-007-auto",
+        "B-opencv",
+        "B-opencv-trial-01",
+        "C-mobile-sam",
+        "C-mobile-sam-trial-01",
+        "D-tta",
+        "D-tta-trial-01",
+        "E-mirror",
+        "E-mirror-trial-01"
+      ]
+    },
+    "asset-02": {
+      "identical": true,
+      "methods": [
+        "A-007-auto",
+        "B-opencv",
+        "C-mobile-sam",
+        "D-tta",
+        "E-mirror"
+      ]
+    }
+  },
+  "008_mobile_sam_rerun_iou_delta": {
+    "asset-01": {
+      "hair-left": 0.0,
+      "hair-right": 0.0,
+      "skirt": -2.32772506769674e-06
+    },
+    "asset-02": {
+      "hair-left": 0.0,
+      "hair-right": 0.0,
+      "skirt": 0.0
+    }
+  },
+  "build": "pass",
+  "npm_test": {
+    "status": "pass",
+    "node_tests": 183
+  },
+  "005_monitor_regression": "pass",
+  "006_saved_regression": "pass",
+  "007_deformation_and_gui_regression": "pass",
+  "007_gui_checks": 13,
+  "diagnostic_video": {
+    "width": 1152,
+    "height": 2048,
+    "avg_frame_rate": "30/1",
+    "duration": "8.000000",
+    "nb_read_frames": "240"
+  }
+}

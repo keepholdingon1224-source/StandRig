@@ -1,0 +1,24 @@
+Codex Cloud on 2026-11-20 JST
+nvidia-smi: command not found
+/dev/nvidia*: no device nodes
+PyTorch 2.8.0+cpu: torch.cuda.is_available() == False
+
+GET https://huggingface.co/api/models/layerdifforg/seethroughv0.0.2_layerdiff3d
+GET https://huggingface.co/api/models/24yearsold/seethroughv0.0.1_marigold
+GET https://huggingface.co/api/models/24yearsold/seethroughv0.0.2_layerdiff3d_nf4
+GET https://huggingface.co/api/models/24yearsold/seethroughv0.0.1_marigold_nf4
+Result for each: proxy CONNECT 403 Forbidden
+
+HEAD https://huggingface.co/suzukimain/AnimeSeg/resolve/main/models/anime_seg_mask2former_v3.safetensors
+HEAD https://huggingface.co/google-bert/bert-base-uncased/resolve/main/vocab.txt
+HEAD https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+Result for each: proxy CONNECT 403 Forbidden
+
+Grounding DINO official Swin-T checkpoint downloaded from the upstream GitHub release v0.1.0-alpha.
+SHA-256 3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799
+Official CPU initialization also needs the BERT tokenizer/configuration/model. Inference was not run.
+
+Kaggle Notebook page https://www.kaggle.com/code
+Cloud desktop navigation did not load the page (Browser Use could not read requirements).
+Shell HEAD request: proxy CONNECT 403 Forbidden.
+No session or GPU quota was observed and no Kaggle notebook was executed.

@@ -1,0 +1,2 @@
+StandRig local service: http://127.0.0.1:5187
+Player: http://127.0.0.1:5187/player

@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-20T08:22:28.839Z",
+  "integrityPass": true,
+  "numericalAcceptancePass": true,
+  "maxErrorPx": 7.105427357601002e-15,
+  "guiGeometry": {
+    "before": {
+      "samples": 482,
+      "trianglesPerSample": 512,
+      "maxErrorPx": 0.000016158029857098344
+    },
+    "reloaded": {
+      "samples": 482,
+      "trianglesPerSample": 512,
+      "maxErrorPx": 0.000016158029857098344
+    }
+  },
+  "tests": [
+    {
+      "name": "protected baseline hashes",
+      "pass": true
+    },
+    {
+      "name": "assets UV IDs topology transforms physics",
+      "pass": true
+    },
+    {
+      "name": "independent all 482 evaluated coordinates",
+      "pass": true
+    },
+    {
+      "name": "official build and tests",
+      "pass": true
+    },
+    {
+      "name": "fresh service and data directory reload",
+      "pass": true
+    },
+    {
+      "name": "independent width curvature acceleration jerk monitoring",
+      "pass": true
+    },
+    {
+      "name": "GUI operations",
+      "pass": true
+    },
+    {
+      "name": "actual GUI draw matrices all 482 before",
+      "pass": true
+    },
+    {
+      "name": "actual GUI draw matrices all 482 reloaded",
+      "pass": true
+    },
+    {
+      "name": "GUI rendering 240 before",
+      "pass": true
+    },
+    {
+      "name": "GUI rendering 240 reloaded",
+      "pass": true
+    },
+    {
+      "name": "reloaded GUI 240 pixels identical to first session",
+      "pass": true
+    },
+    {
+      "name": "software render all 240 identical",
+      "pass": true
+    },
+    {
+      "name": "decode exported-loop.mp4",
+      "pass": true
+    },
+    {
+      "name": "decode comparison-005-006.mp4",
+      "pass": true
+    },
+    {
+      "name": "decode three-loops.mp4",
+      "pass": true
+    },
+    {
+      "name": "decode gui-playback.mp4",
+      "pass": true
+    },
+    {
+      "name": "decode comparison-005-gui-export.mp4",
+      "pass": true
+    }
+  ],
+  "acceptance": [
+    {
+      "name": "hair:edges",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:centerline",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:tip",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:root",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:triangles",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:screen",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:loop",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:phase",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "hair:seam",
+      "pass": true,
+      "metrics": {
+        "min": 0.9015362086034463,
+        "max": 1.0983755193919393,
+        "lmin": 1.0000000818873727,
+        "lmax": 1.01908964205736,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 147.97766549545972,
+        "pos": 0,
+        "phase": 0,
+        "seam": 1.4195291460003283
+      }
+    },
+    {
+      "name": "skirt:edges",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:centerline",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:tip",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:root",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:triangles",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:screen",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:loop",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:phase",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    },
+    {
+      "name": "skirt:seam",
+      "pass": true,
+      "metrics": {
+        "min": 0.9470905217983507,
+        "max": 1.058098735039116,
+        "lmin": 0.9740406938832336,
+        "lmax": 0.9953099936892515,
+        "root": 0,
+        "inverted": 0,
+        "degenerate": 0,
+        "clipped": 0,
+        "tipRange": 66.80046969832415,
+        "pos": 0,
+        "phase": 0,
+        "seam": 0.7505313476963217
+      }
+    }
+  ],
+  "technicalAcceptance": false,
+  "technicalScope": "Numerical fidelity, GUI transport/save/reload and auxiliary MP4 checked; full experiment remains open due to GUI Canvas visual equivalence review and missing direct GUI MP4.",
+  "visual": "pending user review",
+  "directGuiMp4": false,
+  "notTested": [
+    "Windows hardware"
+  ]
+}

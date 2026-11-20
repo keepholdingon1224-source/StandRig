@@ -1,0 +1,5 @@
+PASS: read a synthetic PSD with two offset layers on an 8×8 canvas.
+PASS: center crop to 4×8, preserve layer offsets and prioritize the front layer.
+PASS: visible counts 8/24 and completed counts 8/32.
+PASS: Python and Kaggle notebook code cells compile.
+Official GPU execution and real PSD alignment are pending.

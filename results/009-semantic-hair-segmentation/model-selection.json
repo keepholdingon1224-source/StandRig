@@ -1,0 +1,26 @@
+{
+  "adopted_for_formal_segmentation": null,
+  "priority": "See-through",
+  "see_through": {
+    "code_license": "Apache-2.0",
+    "weights": "Apache-2.0 contributions plus inherited Open RAIL restrictions",
+    "weight_revisions": "unresolved: full immutable revisions require reachable model registry",
+    "standard_layerdiff_public_short_revision": "4477e6c",
+    "nf4_marigold_public_short_revision": "e53b344",
+    "status": "not executed: no CUDA and registry 403"
+  },
+  "mobile_sam": {
+    "use": "A diagnostics only",
+    "license": "Apache-2.0",
+    "weight_sha256": "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f"
+  },
+  "anime_seg": {
+    "status": "not executed: official model download 403; weight terms unverified"
+  },
+  "grounding_dino": {
+    "status": "not executed: BERT dependency download 403",
+    "code_license": "Apache-2.0",
+    "checkpoint_sha256": "3b3ca2563c77c69f651d7bd133e97139c186df06231157a64c507099c52bc799",
+    "checkpoint_redistributed": false
+  }
+}

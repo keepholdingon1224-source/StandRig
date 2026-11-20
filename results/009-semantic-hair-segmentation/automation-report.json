@@ -1,0 +1,12 @@
+{
+  "fully_automatic_009": "not_run",
+  "materials": "both development and regression",
+  "A": {
+    "diagnostic_only": true,
+    "manual_coordinate_entries": 0,
+    "reference_prompt_variants_use_reference_masks": true
+  },
+  "F": "waiting_for_formal_separation",
+  "new_gui_model": "not_run",
+  "visual_approval": "pending"
+}

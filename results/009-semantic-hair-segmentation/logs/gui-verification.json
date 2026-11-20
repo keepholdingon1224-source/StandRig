@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "name": "model import",
+      "pass": true
+    },
+    {
+      "name": "motion import",
+      "pass": true
+    },
+    {
+      "name": "play",
+      "pass": true
+    },
+    {
+      "name": "pause",
+      "pass": true
+    },
+    {
+      "name": "resume",
+      "pass": true
+    },
+    {
+      "name": "stop",
+      "pass": true
+    },
+    {
+      "name": "seek",
+      "pass": true
+    },
+    {
+      "name": "loop on",
+      "pass": true
+    },
+    {
+      "name": "over 3 continuous cycles",
+      "pass": true,
+      "wraps": 3
+    },
+    {
+      "name": "loop off",
+      "pass": true
+    },
+    {
+      "name": "model/gui-exported-model.srig",
+      "pass": true
+    },
+    {
+      "name": "model/gui-exported-motion.json",
+      "pass": true
+    },
+    {
+      "name": "fresh browser and service reload model and playable motion",
+      "pass": true
+    }
+  ],
+  "status": "pass",
+  "directGuiMp4": false,
+  "environment": "Linux Chromium headless"
+}

@@ -1,0 +1,35 @@
+{
+  "experiment": "009",
+  "base_commit": "69f71e0031febb433de6ed7f945fe7570e58d42a",
+  "branch": "experiment/rigging-validation-20261115",
+  "initial_worktree": "clean",
+  "started_jst": "2026-11-20",
+  "reference_version": "008 v4",
+  "frozen_commit": "ca383315a73c0f5e0621f15b9a943d6b67f87d23",
+  "reference_approval_commit": "b41bfa774a39629f1ed92f9a9e706103336f1d82",
+  "errata_commit": "788367477ba721657701243d4795de8c5c52dea2",
+  "inputs": {
+    "asset-01": {
+      "path": "source_007/original.png",
+      "sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+      "size": [
+        1152,
+        2048
+      ]
+    },
+    "asset-02": {
+      "path": "source_008/original.png",
+      "sha256": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+      "size": [
+        1152,
+        2048
+      ]
+    }
+  },
+  "code": {
+    "See-through": "fc4440db7c076518e313f378e28b1504e9886a95",
+    "AnimeSeg": "8a7a6532e7f19ae9ca31f1ded2ca1db1b2322675",
+    "GroundingDINO": "856dde20aee659246248e20734ef9ba5214f5e44",
+    "MobileSAM": "f706ad9c4eb7f219c00d9050e46328518ffb65d2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cloud": {
+    "os": "Linux",
+    "cpu": "AMD EPYC 9V74",
+    "cgroup_ram_bytes": 8589934592,
+    "gpu": null,
+    "nvidia_smi": "not installed",
+    "cuda_devices": 0,
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "node": "24.22.1",
+    "npm": "11.9.0",
+    "opencv": "4.13.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pillow": "13.0.0",
+    "timm": "0.9.16",
+    "hugging_face_proxy_status": 403,
+    "see_through_gpu_smoke": "blocked"
+  },
+  "kaggle": {
+    "status": "not accessed",
+    "gpu": null,
+    "quota": null,
+    "notebook": "notebooks/009-kaggle.ipynb"
+  },
+  "rtx_3060_ti": {
+    "status": "not accessed",
+    "gpu_reported_by_user": "RTX 3060 Ti 8GB",
+    "driver": null,
+    "free_vram": null,
+    "dependencies": "environment/README.md"
+  },
+  "upstream_documented_vram_gb_approximate": {
+    "standard_1280": [
+      12,
+      16
+    ],
+    "group_offload_1280": 10,
+    "nf4_1280": 8
+  },
+  "measured_see_through_peak_vram": null,
+  "measured_see_through_peak_ram": null,
+  "charges": 0
+}

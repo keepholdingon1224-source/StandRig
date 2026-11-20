@@ -1,0 +1,32 @@
+{
+  "threshold_per_part": 0.9,
+  "uncertain_included": true,
+  "formal_all_six_pass": null,
+  "formal_status": "blocked_before_prediction",
+  "official_009_evaluations": {
+    "asset-01": {
+      "hair-left": null,
+      "hair-right": null,
+      "skirt": null
+    },
+    "asset-02": {
+      "hair-left": null,
+      "hair-right": null,
+      "skirt": null
+    }
+  },
+  "008_selected_baseline": "B-opencv",
+  "008_baseline": {
+    "asset-01": {
+      "hair-left": 0.8827121163852607,
+      "hair-right": 0.8596777350120687,
+      "skirt": 0.9928255185637093
+    },
+    "asset-02": {
+      "hair-left": 0.01045967118411647,
+      "hair-right": 0.16549567776347252,
+      "skirt": 0.8764022996266965
+    }
+  },
+  "diagnostics": "method-comparison.csv"
+}

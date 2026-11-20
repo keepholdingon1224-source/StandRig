@@ -183,3 +183,11 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - 008総合不合格、第18章9区分の[正式判定](results/008-segmentation-accuracy/FINAL-DECISION.md)を追加。独立IoU・回帰検査成功、全6基準未達。補完・新規リグ・GUI・映像承認未実施。005〜007合格を維持。
 - [ERRATA](results/008-segmentation-accuracy/reference/ERRATA-20261120.md) に旧v3文書ハッシュ4件の正しいv4値を追記（コミット 788367477ba721657701243d4795de8c5c52dea2）。原画・マスク・元固定記録・008検査ログは変更なし。正式判定コミット ee1345ac1bc977e7bd5bdb76f80f60f854f39b0f。
 - 009の方針承認：See-throughを最優先、Kaggle無料GPUとローカルRTX3060Ti 8GBを候補とし動作検証で決定。代替AnimeSeg＋MobileSAM、Grounding DINO＋SAM。両素材全6 IoU0.90以上、素材別手指定ゼロを維持。素材1・2は開発/回帰対象で新規汎用性の証明ではない。最終実行指示のユーザー承認まで未開始。追加課金なし、SONY分離。
+
+## 2026-11-20 JST / 009-semantic-hair-segmentation 開始・CPU診断
+
+- 最終実行承認を受け、指定Forkの実験ブランチをクリーンな隔離作業先へ取得。リモート先端は `69f71e0031febb433de6ed7f945fe7570e58d42a`。原画とv4マスクの独立検査に合格し、保護対象2,373ファイルの前後SHA-256が一致。
+- Codex CloudのLinux CPUでMobileSAMを再実行。重み・コードSHA、実行コマンド、比較結果は[009報告](results/009-semantic-hair-segmentation/README.md)・[方式別CSV](results/009-semantic-hair-segmentation/method-comparison.csv)。008 C再実行の左毛束・右毛束・スカートIoUは素材1 0.53494 / 0.91292 / 0.98708、素材2 0.04153 / 0.19073 / 0.97031。基準由来プロンプトで素材2の左右Recallを0.90818、0.91958まで回復した条件でも、IoUは0.87823、0.81925。基準由来の結果は隔離診断。
+- See-throughコードを `fc4440db7c076518e313f378e28b1504e9886a95` に固定。CloudはCUDAなし、Hugging Faceへの接続403。Kaggle無料GPU・RTX 3060 Ti 8GBの実機は未確認。標準・NF4の性能差未測定。AnimeSegは重み、Grounding DINOはBERT依存の取得で403。[環境判定](results/009-semantic-hair-segmentation/environment-report.json) · [実行手順](results/009-semantic-hair-segmentation/environment/README.md)
+- 変更は `experiments/009-*`、`results/009-semantic-hair-segmentation/`、`PROJECT.md`、`PROGRESS.md`。npm build、公式Node 183件、保存済み008予測の再評価、隔離した005〜007回帰、診断動画240フレームの全デコードを確認。009自動版の正式6項目は未測定。補完、リギング、新規GUIモデル、映像承認は未実施。
+- ChatGPTレビューでは、008の入力・選択・上側切断の切り分け、See-through出力後の可視アルファと前後関係の復元、意味ラベルから左右毛束へ接続する判断を確認してほしい。

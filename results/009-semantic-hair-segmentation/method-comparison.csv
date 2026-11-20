@@ -1,0 +1,182 @@
+stage,asset,part,method,scope,iou,recall
+R,asset-01,hair-left,A-007-assisted,008 saved regression,0.9095900837229531,0.9827890037593985
+R,asset-01,hair-right,A-007-assisted,008 saved regression,0.9286524822695036,0.9913688673531194
+R,asset-01,skirt,A-007-assisted,008 saved regression,0.9846071088674639,0.9978845248801308
+R,asset-01,hair-left,A-007-auto,008 saved regression,0.7796363636363637,0.9445488721804511
+R,asset-01,hair-right,A-007-auto,008 saved regression,0.8745922435665096,0.9134615384615384
+R,asset-01,skirt,A-007-auto,008 saved regression,0.9869483399898118,0.9885326337665242
+R,asset-01,hair-left,B-opencv,008 saved regression,0.8827121163852607,0.9765625
+R,asset-01,hair-right,B-opencv,008 saved regression,0.8596777350120687,0.9977286493034525
+R,asset-01,skirt,B-opencv,008 saved regression,0.9928255185637093,0.9952704686196758
+R,asset-01,hair-left,B-opencv-trial-01,008 saved regression,0.8513852614328878,0.9765625
+R,asset-01,hair-right,B-opencv-trial-01,008 saved regression,0.8354446414998733,0.9986371895820715
+R,asset-01,skirt,B-opencv-trial-01,008 saved regression,0.9928278426587648,0.9952727984380897
+R,asset-01,hair-left,C-mobile-sam,008 saved regression,0.5349409448818898,0.957765507518797
+R,asset-01,hair-right,C-mobile-sam,008 saved regression,0.9129213483146067,0.984251968503937
+R,asset-01,skirt,C-mobile-sam,008 saved regression,0.9870857813241962,0.9879734773471756
+R,asset-01,hair-left,C-mobile-sam-trial-01,008 saved regression,0.5281346060508009,0.9587640977443609
+R,asset-01,hair-right,C-mobile-sam-trial-01,008 saved regression,0.9132635130385885,0.9837219866747425
+R,asset-01,skirt,C-mobile-sam-trial-01,008 saved regression,0.9870857813241962,0.9879734773471756
+R,asset-01,hair-left,D-tta,008 saved regression,0.8225140901771336,0.9601151315789473
+R,asset-01,hair-right,D-tta,008 saved regression,0.8979116740842177,0.9928831011508177
+R,asset-01,skirt,D-tta,008 saved regression,0.9880197715658074,0.9891477058278078
+R,asset-01,hair-left,D-tta-trial-01,008 saved regression,0.8036072144288577,0.9657542293233082
+R,asset-01,hair-right,D-tta-trial-01,008 saved regression,0.8996157540826129,0.9926559660811629
+R,asset-01,skirt,D-tta-trial-01,008 saved regression,0.9880197715658074,0.9891477058278078
+R,asset-01,hair-left,E-mirror,008 saved regression,0.7979788116975053,0.9601151315789473
+R,asset-01,hair-right,E-mirror,008 saved regression,0.8971745228158993,0.9928831011508177
+R,asset-01,skirt,E-mirror,008 saved regression,0.9880197715658074,0.9891477058278078
+R,asset-01,hair-left,E-mirror-trial-01,008 saved regression,0.7797116570236176,0.9657542293233082
+R,asset-01,hair-right,E-mirror-trial-01,008 saved regression,0.8991222054587849,0.9926559660811629
+R,asset-01,skirt,E-mirror-trial-01,008 saved regression,0.9880197715658074,0.9891477058278078
+A,asset-01,hair-left,008-exact,diagnostic,0.5349409448818898,0.957765507518797
+A,asset-01,hair-left,008-input-008-rank-uncut,diagnostic,0.521626463625312,0.957765507518797
+A,asset-01,hair-left,008-input-008-rank-008-cut,diagnostic,0.5349409448818898,0.957765507518797
+A,asset-01,hair-left,008-input-sam-rank-uncut,diagnostic,0.521626463625312,0.957765507518797
+A,asset-01,hair-left,008-input-sam-rank-008-cut,diagnostic,0.5349409448818898,0.957765507518797
+A,asset-01,hair-left,reference-points-008-rank-uncut,reference-derived diagnostic,0.8915070912201314,0.948954417293233
+A,asset-01,hair-left,reference-points-008-rank-008-cut,reference-derived diagnostic,0.8915070912201314,0.948954417293233
+A,asset-01,hair-left,reference-points-sam-rank-uncut,reference-derived diagnostic,0.5294022512614828,0.9614074248120301
+A,asset-01,hair-left,reference-points-sam-rank-008-cut,reference-derived diagnostic,0.5395417834184935,0.9614074248120301
+A,asset-01,hair-left,reference-box-008-rank-uncut,reference-derived diagnostic,0.8729236335727208,0.9353265977443609
+A,asset-01,hair-left,reference-box-008-rank-008-cut,reference-derived diagnostic,0.8729236335727208,0.9353265977443609
+A,asset-01,hair-left,reference-box-sam-rank-uncut,reference-derived diagnostic,0.8852084841062183,0.9340343045112782
+A,asset-01,hair-left,reference-box-sam-rank-008-cut,reference-derived diagnostic,0.8852084841062183,0.9340343045112782
+A,asset-01,hair-left,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.8774640088593577,0.9308623120300752
+A,asset-01,hair-left,reference-points-box-008-rank-008-cut,reference-derived diagnostic,0.8774640088593577,0.9308623120300752
+A,asset-01,hair-left,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.8774640088593577,0.9308623120300752
+A,asset-01,hair-left,reference-points-box-sam-rank-008-cut,reference-derived diagnostic,0.8774640088593577,0.9308623120300752
+A,asset-01,hair-left,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.8795099471732044,0.9192904135338346
+A,asset-01,hair-left,reference-points-box-negatives-008-rank-008-cut,reference-derived diagnostic,0.8795099471732044,0.9192904135338346
+A,asset-01,hair-left,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.8795099471732044,0.9192904135338346
+A,asset-01,hair-left,reference-points-box-negatives-sam-rank-008-cut,reference-derived diagnostic,0.8795099471732044,0.9192904135338346
+A,asset-01,hair-right,008-exact,diagnostic,0.9129213483146067,0.984251968503937
+A,asset-01,hair-right,008-input-008-rank-uncut,diagnostic,0.9129213483146067,0.984251968503937
+A,asset-01,hair-right,008-input-008-rank-008-cut,diagnostic,0.9129213483146067,0.984251968503937
+A,asset-01,hair-right,008-input-sam-rank-uncut,diagnostic,0.9233347596633861,0.9802392489400363
+A,asset-01,hair-right,008-input-sam-rank-008-cut,diagnostic,0.9233347596633861,0.9802392489400363
+A,asset-01,hair-right,reference-points-008-rank-uncut,reference-derived diagnostic,0.9150611728308254,0.9853119321623258
+A,asset-01,hair-right,reference-points-008-rank-008-cut,reference-derived diagnostic,0.9150611728308254,0.9853119321623258
+A,asset-01,hair-right,reference-points-sam-rank-uncut,reference-derived diagnostic,0.9150611728308254,0.9853119321623258
+A,asset-01,hair-right,reference-points-sam-rank-008-cut,reference-derived diagnostic,0.9150611728308254,0.9853119321623258
+A,asset-01,hair-right,reference-box-008-rank-uncut,reference-derived diagnostic,0.9261778605184018,0.9793307086614174
+A,asset-01,hair-right,reference-box-008-rank-008-cut,reference-derived diagnostic,0.9261778605184018,0.9793307086614174
+A,asset-01,hair-right,reference-box-sam-rank-uncut,reference-derived diagnostic,0.9261778605184018,0.9793307086614174
+A,asset-01,hair-right,reference-box-sam-rank-008-cut,reference-derived diagnostic,0.9261778605184018,0.9793307086614174
+A,asset-01,hair-right,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.9277913493318005,0.9776650514839491
+A,asset-01,hair-right,reference-points-box-008-rank-008-cut,reference-derived diagnostic,0.9277913493318005,0.9776650514839491
+A,asset-01,hair-right,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.9277913493318005,0.9776650514839491
+A,asset-01,hair-right,reference-points-box-sam-rank-008-cut,reference-derived diagnostic,0.9277913493318005,0.9776650514839491
+A,asset-01,hair-right,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.9339773387565369,0.9735766202301636
+A,asset-01,hair-right,reference-points-box-negatives-008-rank-008-cut,reference-derived diagnostic,0.9339773387565369,0.9735766202301636
+A,asset-01,hair-right,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.9339773387565369,0.9735766202301636
+A,asset-01,hair-right,reference-points-box-negatives-sam-rank-008-cut,reference-derived diagnostic,0.9339773387565369,0.9735766202301636
+A,asset-01,skirt,008-exact,diagnostic,0.9870834535991285,0.9879711475287616
+A,asset-01,skirt,008-input-008-rank-uncut,diagnostic,0.9870834535991285,0.9879711475287616
+A,asset-01,skirt,008-input-sam-rank-uncut,diagnostic,0.9838854678082001,0.9842201398822976
+A,asset-01,skirt,reference-points-008-rank-uncut,reference-derived diagnostic,0.9848898094063439,0.9860187596978691
+A,asset-01,skirt,reference-points-sam-rank-uncut,reference-derived diagnostic,0.9848898094063439,0.9860187596978691
+A,asset-01,skirt,reference-box-008-rank-uncut,reference-derived diagnostic,0.9878089667889806,0.9884487603036219
+A,asset-01,skirt,reference-box-sam-rank-uncut,reference-derived diagnostic,0.9843384971572183,0.9846022301021858
+A,asset-01,skirt,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.9882129994575605,0.9889566607178637
+A,asset-01,skirt,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.985568402789907,0.9859977913321436
+A,asset-01,skirt,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.9882129994575605,0.9889566607178637
+A,asset-01,skirt,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.985568402789907,0.9859977913321436
+B,asset-01,hair-left,,blocked: no available CUDA,,
+B,asset-01,hair-right,,blocked: no available CUDA,,
+B,asset-01,skirt,,blocked: no available CUDA,,
+C,asset-01,hair-left,,blocked: no semantic layers,,
+C,asset-01,hair-right,,blocked: no semantic layers,,
+C,asset-01,skirt,,blocked: no semantic layers,,
+D,asset-01,hair-left,,blocked: no semantic predictions,,
+D,asset-01,hair-right,,blocked: no semantic predictions,,
+D,asset-01,skirt,,blocked: no semantic predictions,,
+E1,asset-01,hair-left,,blocked: weight access 403,,
+E1,asset-01,hair-right,,blocked: weight access 403,,
+E1,asset-01,skirt,,blocked: weight access 403,,
+E2,asset-01,hair-left,,blocked: BERT dependency access 403,,
+E2,asset-01,hair-right,,blocked: BERT dependency access 403,,
+E2,asset-01,skirt,,blocked: BERT dependency access 403,,
+R,asset-02,hair-left,A-007-auto,008 saved regression,0.0,0.0
+R,asset-02,hair-right,A-007-auto,008 saved regression,0.0,0.0
+R,asset-02,skirt,A-007-auto,008 saved regression,0.0,0.0
+R,asset-02,hair-left,B-opencv,008 saved regression,0.01045967118411647,0.01045967118411647
+R,asset-02,hair-right,B-opencv,008 saved regression,0.16549567776347252,0.16605152432272827
+R,asset-02,skirt,B-opencv,008 saved regression,0.8764022996266965,0.8864364776990209
+R,asset-02,hair-left,C-mobile-sam,008 saved regression,0.04153233453442064,0.04153233453442064
+R,asset-02,hair-right,C-mobile-sam,008 saved regression,0.19073220686123912,0.1924780394183214
+R,asset-02,skirt,C-mobile-sam,008 saved regression,0.9703137556803509,0.9806918352513038
+R,asset-02,hair-left,D-tta,008 saved regression,0.03848342061882741,0.03848342061882741
+R,asset-02,hair-right,D-tta,008 saved regression,0.19360607277106676,0.1957998080755887
+R,asset-02,skirt,D-tta,008 saved regression,0.9710697741748697,0.981723587864833
+R,asset-02,hair-left,E-mirror,008 saved regression,0.038906475659747045,0.038906475659747045
+R,asset-02,hair-right,E-mirror,008 saved regression,0.19488619784067698,0.19720233261976822
+R,asset-02,skirt,E-mirror,008 saved regression,0.9710697741748697,0.981723587864833
+A,asset-02,hair-left,008-exact,diagnostic,0.04153233453442064,0.04153233453442064
+A,asset-02,hair-left,008-input-008-rank-uncut,diagnostic,0.0443186625625465,0.0443186625625465
+A,asset-02,hair-left,008-input-008-rank-008-cut,diagnostic,0.04153233453442064,0.04153233453442064
+A,asset-02,hair-left,008-input-sam-rank-uncut,diagnostic,0.05407730327904705,0.05410728092313528
+A,asset-02,hair-left,008-input-sam-rank-008-cut,diagnostic,0.05057809789027075,0.05060613575690382
+A,asset-02,hair-left,reference-points-008-rank-uncut,reference-derived diagnostic,0.08986289381563593,0.0898773140381333
+A,asset-02,hair-left,reference-points-008-rank-008-cut,reference-derived diagnostic,0.08900233372228705,0.08901661585143474
+A,asset-02,hair-left,reference-points-sam-rank-uncut,reference-derived diagnostic,0.10146893644333581,0.101474857401275
+A,asset-02,hair-left,reference-points-sam-rank-008-cut,reference-derived diagnostic,0.08065292547372106,0.08065763176705715
+A,asset-02,hair-left,reference-box-008-rank-uncut,reference-derived diagnostic,0.7656758608874422,0.7823746517089964
+A,asset-02,hair-left,reference-box-008-rank-008-cut,reference-derived diagnostic,0.11695822304062609,0.11860129250609053
+A,asset-02,hair-left,reference-box-sam-rank-uncut,reference-derived diagnostic,0.8782287302326237,0.9081824680155801
+A,asset-02,hair-left,reference-box-sam-rank-008-cut,reference-derived diagnostic,0.11470825645756458,0.11609213847029133
+A,asset-02,hair-left,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.8693456644775103,0.8940757706166392
+A,asset-02,hair-left,reference-points-box-008-rank-008-cut,reference-derived diagnostic,0.11684595029912563,0.11852835198179404
+A,asset-02,hair-left,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.8693456644775103,0.8940757706166392
+A,asset-02,hair-left,reference-points-box-sam-rank-008-cut,reference-derived diagnostic,0.11684595029912563,0.11852835198179404
+A,asset-02,hair-left,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.8551742849390966,0.8736378357087631
+A,asset-02,hair-left,reference-points-box-negatives-008-rank-008-cut,reference-derived diagnostic,0.11450767475777222,0.115683671534231
+A,asset-02,hair-left,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.8551742849390966,0.8736378357087631
+A,asset-02,hair-left,reference-points-box-negatives-sam-rank-008-cut,reference-derived diagnostic,0.11450767475777222,0.115683671534231
+A,asset-02,hair-right,008-exact,diagnostic,0.19073220686123912,0.1924780394183214
+A,asset-02,hair-right,008-input-008-rank-uncut,diagnostic,0.21859002486470674,0.22063925592382078
+A,asset-02,hair-right,008-input-008-rank-008-cut,diagnostic,0.19073220686123912,0.1924780394183214
+A,asset-02,hair-right,008-input-sam-rank-uncut,diagnostic,0.20035325090812145,0.2218941463054551
+A,asset-02,hair-right,008-input-sam-rank-008-cut,diagnostic,0.1896580595465354,0.20901306562338526
+A,asset-02,hair-right,reference-points-008-rank-uncut,reference-derived diagnostic,0.2626990841210873,0.26360079722447777
+A,asset-02,hair-right,reference-points-008-rank-008-cut,reference-derived diagnostic,0.17679964669512735,0.17730862921680077
+A,asset-02,hair-right,reference-points-sam-rank-uncut,reference-derived diagnostic,0.7828888119154832,0.8342068354617258
+A,asset-02,hair-right,reference-points-sam-rank-008-cut,reference-derived diagnostic,0.19692911980003572,0.20355060160921237
+A,asset-02,hair-right,reference-box-008-rank-uncut,reference-derived diagnostic,0.7291177457229118,0.8022071307300509
+A,asset-02,hair-right,reference-box-008-rank-008-cut,reference-derived diagnostic,0.19959597417120595,0.20421495534066583
+A,asset-02,hair-right,reference-box-sam-rank-uncut,reference-derived diagnostic,0.7057313709963684,0.9539381412858936
+A,asset-02,hair-right,reference-box-sam-rank-008-cut,reference-derived diagnostic,0.1886056755000361,0.19281021628404812
+A,asset-02,hair-right,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.8192489806655268,0.9195762899534953
+A,asset-02,hair-right,reference-points-box-008-rank-008-cut,reference-derived diagnostic,0.19714046029835502,0.199490662139219
+A,asset-02,hair-right,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.7438405061087089,0.9460397135897246
+A,asset-02,hair-right,reference-points-box-sam-rank-008-cut,reference-derived diagnostic,0.18289430419056665,0.18476415442533403
+A,asset-02,hair-right,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.7960454275255765,0.9391009079500997
+A,asset-02,hair-right,reference-points-box-negatives-008-rank-008-cut,reference-derived diagnostic,0.17996709925059404,0.18170074555252086
+A,asset-02,hair-right,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.7362002196404832,0.9402081641691887
+A,asset-02,hair-right,reference-points-box-negatives-sam-rank-008-cut,reference-derived diagnostic,0.18030325227072957,0.18170074555252086
+A,asset-02,skirt,008-exact,diagnostic,0.9703137556803509,0.9806918352513038
+A,asset-02,skirt,008-input-008-rank-uncut,diagnostic,0.9703137556803509,0.9806918352513038
+A,asset-02,skirt,008-input-sam-rank-uncut,diagnostic,0.9653466661835923,0.9748427979764965
+A,asset-02,skirt,reference-points-008-rank-uncut,reference-derived diagnostic,0.9684848660293199,0.9792307954983389
+A,asset-02,skirt,reference-points-sam-rank-uncut,reference-derived diagnostic,0.9684848660293199,0.9792307954983389
+A,asset-02,skirt,reference-box-008-rank-uncut,reference-derived diagnostic,0.9710049494920259,0.9819138401198101
+A,asset-02,skirt,reference-box-sam-rank-uncut,reference-derived diagnostic,0.962756884479901,0.9719621837056261
+A,asset-02,skirt,reference-points-box-008-rank-uncut,reference-derived diagnostic,0.9695899406756557,0.9802771829007128
+A,asset-02,skirt,reference-points-box-sam-rank-uncut,reference-derived diagnostic,0.9695899406756557,0.9802771829007128
+A,asset-02,skirt,reference-points-box-negatives-008-rank-uncut,reference-derived diagnostic,0.9695899406756557,0.9802771829007128
+A,asset-02,skirt,reference-points-box-negatives-sam-rank-uncut,reference-derived diagnostic,0.9695899406756557,0.9802771829007128
+B,asset-02,hair-left,,blocked: no available CUDA,,
+B,asset-02,hair-right,,blocked: no available CUDA,,
+B,asset-02,skirt,,blocked: no available CUDA,,
+C,asset-02,hair-left,,blocked: no semantic layers,,
+C,asset-02,hair-right,,blocked: no semantic layers,,
+C,asset-02,skirt,,blocked: no semantic layers,,
+D,asset-02,hair-left,,blocked: no semantic predictions,,
+D,asset-02,hair-right,,blocked: no semantic predictions,,
+D,asset-02,skirt,,blocked: no semantic predictions,,
+E1,asset-02,hair-left,,blocked: weight access 403,,
+E1,asset-02,hair-right,,blocked: weight access 403,,
+E1,asset-02,skirt,,blocked: weight access 403,,
+E2,asset-02,hair-left,,blocked: BERT dependency access 403,,
+E2,asset-02,hair-right,,blocked: BERT dependency access 403,,
+E2,asset-02,skirt,,blocked: BERT dependency access 403,,

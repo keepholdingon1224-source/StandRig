@@ -1,0 +1,50 @@
+{
+  "asset-01-comparison.mp4": {
+    "status": "pass",
+    "frames": 240,
+    "fps": 30,
+    "seconds": 8.0,
+    "width": 1152,
+    "height": 2048
+  },
+  "asset-02-comparison.mp4": {
+    "status": "pass",
+    "frames": 240,
+    "fps": 30,
+    "seconds": 8.0,
+    "width": 1152,
+    "height": 2048
+  },
+  "asset-01-roots-closeup.mp4": {
+    "status": "pass",
+    "frames": 240,
+    "fps": 30,
+    "seconds": 8.0,
+    "width": 1152,
+    "height": 2048
+  },
+  "asset-02-roots-closeup.mp4": {
+    "status": "pass",
+    "frames": 240,
+    "fps": 30,
+    "seconds": 8.0,
+    "width": 1152,
+    "height": 2048
+  },
+  "asset-01-comparison-three-cycles.mp4": {
+    "status": "pass",
+    "frames": 720,
+    "fps": 30,
+    "seconds": 24.0,
+    "width": 1152,
+    "height": 2048
+  },
+  "asset-02-comparison-three-cycles.mp4": {
+    "status": "pass",
+    "frames": 720,
+    "fps": 30,
+    "seconds": 24.0,
+    "width": 1152,
+    "height": 2048
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 8, in <module>\n  File \"/workspace/work/standrig-008/experiments/007-segment.py\", line 15, in <module>\n    assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == EXPECTED\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "script_sha256": "6505056320777da0e7376a9bb015c04ce08e83155d999352c1e5047203c5428b",
+  "total_replay_seconds": 0.41852217100000644,
+  "manual_interventions": 0,
+  "unavailable_roles_zero_filled_for_scoring": [
+    "hair-left",
+    "hair-right",
+    "skirt",
+    "fixed",
+    "background"
+  ],
+  "recovered_intermediate_roles": [],
+  "peak_child_rss_kib": 85240
+}

@@ -1,0 +1,310 @@
+{
+  "reference_inputs": {
+    "status": "pass",
+    "pngs_checked": 16,
+    "originals_checked": 2,
+    "freeze_document_hash_index": "mismatch_in_four_metadata_entries",
+    "detail": "logs/reference-document-discrepancies.json",
+    "before": "logs/reference-before.json",
+    "after": "logs/reference-after.json"
+  },
+  "protection": {
+    "status": "pass",
+    "matched_file_count": 2054,
+    "includes": "005–007 code/results/acceptance records, both originals, all fixed references"
+  },
+  "independent_iou_recalculation": {
+    "status": "pass",
+    "implementation": "Pillow darker/lighter + histogram",
+    "checked_values": {
+      "asset-01/A-007-assisted": {
+        "hair-left": 0.9095900837229531,
+        "hair-right": 0.9286524822695036,
+        "skirt": 0.9846071088674639
+      },
+      "asset-01/A-007-auto": {
+        "hair-left": 0.7796363636363637,
+        "hair-right": 0.8745922435665096,
+        "skirt": 0.9869483399898118
+      },
+      "asset-01/B-opencv": {
+        "hair-left": 0.8827121163852607,
+        "hair-right": 0.8596777350120687,
+        "skirt": 0.9928255185637093
+      },
+      "asset-01/B-opencv-trial-01": {
+        "hair-left": 0.8513852614328878,
+        "hair-right": 0.8354446414998733,
+        "skirt": 0.9928278426587648
+      },
+      "asset-01/C-mobile-sam": {
+        "hair-left": 0.5349409448818898,
+        "hair-right": 0.9129213483146067,
+        "skirt": 0.9870857813241962
+      },
+      "asset-01/C-mobile-sam-trial-01": {
+        "hair-left": 0.5281346060508009,
+        "hair-right": 0.9132635130385885,
+        "skirt": 0.9870857813241962
+      },
+      "asset-01/D-tta": {
+        "hair-left": 0.8225140901771336,
+        "hair-right": 0.8979116740842177,
+        "skirt": 0.9880197715658074
+      },
+      "asset-01/D-tta-trial-01": {
+        "hair-left": 0.8036072144288577,
+        "hair-right": 0.8996157540826129,
+        "skirt": 0.9880197715658074
+      },
+      "asset-01/E-mirror": {
+        "hair-left": 0.7979788116975053,
+        "hair-right": 0.8971745228158993,
+        "skirt": 0.9880197715658074
+      },
+      "asset-01/E-mirror-trial-01": {
+        "hair-left": 0.7797116570236176,
+        "hair-right": 0.8991222054587849,
+        "skirt": 0.9880197715658074
+      },
+      "asset-02/A-007-auto": {
+        "hair-left": 0.0,
+        "hair-right": 0.0,
+        "skirt": 0.0
+      },
+      "asset-02/B-opencv": {
+        "hair-left": 0.01045967118411647,
+        "hair-right": 0.16549567776347252,
+        "skirt": 0.8764022996266965
+      },
+      "asset-02/C-mobile-sam": {
+        "hair-left": 0.04153233453442064,
+        "hair-right": 0.19073220686123912,
+        "skirt": 0.9703137556803509
+      },
+      "asset-02/D-tta": {
+        "hair-left": 0.03848342061882741,
+        "hair-right": 0.19360607277106676,
+        "skirt": 0.9710697741748697
+      },
+      "asset-02/E-mirror": {
+        "hair-left": 0.038906475659747045,
+        "hair-right": 0.19488619784067698,
+        "skirt": 0.9710697741748697
+      }
+    }
+  },
+  "build": {
+    "status": "pass",
+    "log": "logs/build.log"
+  },
+  "npm_test": {
+    "status": "pass",
+    "passed": 183,
+    "failed": 0,
+    "log": "logs/npm-test.log"
+  },
+  "007_numeric_and_video_regression": {
+    "status": "pass",
+    "results": "logs/regression-007-verification.json",
+    "all_decoded_videos": {
+      "A-left-hair.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          576,
+          1024
+        ]
+      },
+      "B-right-hair.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          576,
+          1024
+        ]
+      },
+      "C-skirt.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          576,
+          1024
+        ]
+      },
+      "character-loop.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          1152,
+          2048
+        ]
+      },
+      "comparison.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          1152,
+          1024
+        ]
+      },
+      "hair-closeup.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          420,
+          500
+        ]
+      },
+      "skirt-closeup.mp4": {
+        "pass": true,
+        "decodedFrames": 240,
+        "duration": 8.0,
+        "fps": "30/1",
+        "dimensions": [
+          800,
+          400
+        ]
+      },
+      "three-loops.mp4": {
+        "pass": true,
+        "decodedFrames": 720,
+        "duration": 24.0,
+        "fps": "30/1",
+        "dimensions": [
+          1152,
+          2048
+        ]
+      }
+    }
+  },
+  "007_gui_regression": {
+    "status": "pass",
+    "operations": [
+      {
+        "name": "model import",
+        "pass": true
+      },
+      {
+        "name": "motion import",
+        "pass": true
+      },
+      {
+        "name": "play",
+        "pass": true
+      },
+      {
+        "name": "pause",
+        "pass": true
+      },
+      {
+        "name": "resume",
+        "pass": true
+      },
+      {
+        "name": "stop",
+        "pass": true
+      },
+      {
+        "name": "seek",
+        "pass": true
+      },
+      {
+        "name": "loop on",
+        "pass": true
+      },
+      {
+        "name": "over 3 continuous cycles",
+        "pass": true,
+        "wraps": 3
+      },
+      {
+        "name": "loop off",
+        "pass": true
+      },
+      {
+        "name": "model/gui-exported-model.srig",
+        "pass": true
+      },
+      {
+        "name": "model/gui-exported-motion.json",
+        "pass": true
+      },
+      {
+        "name": "fresh browser and service reload model and playable motion",
+        "pass": true
+      }
+    ],
+    "log": "logs/regression-007-gui.json"
+  },
+  "008_diagnostic_videos": {
+    "asset-01-comparison.mp4": {
+      "status": "pass",
+      "frames": 240,
+      "fps": 30,
+      "seconds": 8.0,
+      "width": 1152,
+      "height": 2048
+    },
+    "asset-02-comparison.mp4": {
+      "status": "pass",
+      "frames": 240,
+      "fps": 30,
+      "seconds": 8.0,
+      "width": 1152,
+      "height": 2048
+    },
+    "asset-01-roots-closeup.mp4": {
+      "status": "pass",
+      "frames": 240,
+      "fps": 30,
+      "seconds": 8.0,
+      "width": 1152,
+      "height": 2048
+    },
+    "asset-02-roots-closeup.mp4": {
+      "status": "pass",
+      "frames": 240,
+      "fps": 30,
+      "seconds": 8.0,
+      "width": 1152,
+      "height": 2048
+    },
+    "asset-01-comparison-three-cycles.mp4": {
+      "status": "pass",
+      "frames": 720,
+      "fps": 30,
+      "seconds": 24.0,
+      "width": 1152,
+      "height": 2048
+    },
+    "asset-02-comparison-three-cycles.mp4": {
+      "status": "pass",
+      "frames": 720,
+      "fps": 30,
+      "seconds": 24.0,
+      "width": 1152,
+      "height": 2048
+    }
+  },
+  "008_baked_animation_video": {
+    "status": "not_run",
+    "reason": "Formal automatic segmentation failed."
+  },
+  "008_gui_with_new_rig": {
+    "status": "not_run",
+    "reason": "No model passed the automatic segmentation gate."
+  }
+}

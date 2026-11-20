@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "/workspace/work/standrig-008/experiments/007-segment.py", line 15, in <module>
+    assert hashlib.sha256(SOURCE.read_bytes()).hexdigest() == EXPECTED
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

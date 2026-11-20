@@ -1,0 +1,62 @@
+{
+  "experiment": "008-segmentation-accuracy",
+  "start_utc": "2026-11-20T07:04:00Z",
+  "execution_approval": "2026-11-20 JST",
+  "repository": "keepholdingon1224-source/StandRig",
+  "branch": "experiment/rigging-validation-20261115",
+  "initial_remote_sha": "06d77d8ea4d8432115eabe738f8d3e9feb2df822",
+  "start_worktree": "clean isolated checkout; original local work branch remained separate",
+  "code_freeze": "c0ea3bba6421fe6a7d98546b64cd7dd5493f9d44",
+  "frozen_reference_source": "ca383315a73c0f5e0621f15b9a943d6b67f87d23",
+  "frozen_reference_approval": "b41bfa774a39629f1ed92f9a9e706103336f1d82",
+  "inputs": {
+    "asset-01": {
+      "source": "source_007/original.png",
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+      "reference": "reference/asset-01",
+      "role": "development"
+    },
+    "asset-02": {
+      "source": "source_008/original.png",
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "sha256": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+      "reference": "reference/asset-02",
+      "role": "held-out"
+    }
+  },
+  "environment": {
+    "system": "Linux",
+    "architecture": "x86_64",
+    "python": "3.12.14",
+    "python_executable": "python",
+    "python_package_list": "logs/python-packages.txt",
+    "node": "v24.22.1",
+    "npm": "11.9.0",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+    "compute": "3 CPU threads for 008 segmentation, MobileSAM CPU PyTorch"
+  },
+  "external_paid_apis": 0,
+  "additional_cost": 0,
+  "prediction_inputs": "B–E process only the original PNG and pinned code/model; A uses original legacy script and hash guard.",
+  "preflight_access": "Both source PNGs and reference sets read for original SHA-256 and saved PNG consistency; no asset-02 visual inspection or reference data used for model selection.",
+  "development_access": [
+    "source_007/original.png",
+    "experiments/007-segment.py",
+    "frozen asset-01 masks and landmarks via separate evaluator",
+    "pre-existing 007 artifact copies for regression",
+    "pinned public MobileSAM"
+  ],
+  "asset_02_first_application": [
+    "source_008/original.png passed to frozen B–E and A commands",
+    "reference/asset-02 passed only to frozen evaluation after prediction"
+  ],
+  "commands": "README.md#再現コマンド"
+}

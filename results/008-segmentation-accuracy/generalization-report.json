@@ -1,0 +1,92 @@
+{
+  "type": "first post-freeze application of the same pipeline to publicly accessible asset-02",
+  "freeze_commit": "c0ea3bba6421fe6a7d98546b64cd7dd5493f9d44",
+  "selected_method": "B-opencv",
+  "asset_02_specific_adjustments": 0,
+  "first_run_status": "fail",
+  "threshold_for_each_target": 0.9,
+  "first_run_part_iou": {
+    "hair-left": 0.01045967118411647,
+    "hair-right": 0.16549567776347252,
+    "skirt": 0.8764022996266965
+  },
+  "all_six_pass": false,
+  "method_scores": {
+    "A-007-auto": {
+      "hair-left": 0.0,
+      "hair-right": 0.0,
+      "skirt": 0.0
+    },
+    "B-opencv": {
+      "hair-left": 0.01045967118411647,
+      "hair-right": 0.16549567776347252,
+      "skirt": 0.8764022996266965
+    },
+    "C-mobile-sam": {
+      "hair-left": 0.04153233453442064,
+      "hair-right": 0.19073220686123912,
+      "skirt": 0.9703137556803509
+    },
+    "D-tta": {
+      "hair-left": 0.03848342061882741,
+      "hair-right": 0.19360607277106676,
+      "skirt": 0.9710697741748697
+    },
+    "E-mirror": {
+      "hair-left": 0.038906475659747045,
+      "hair-right": 0.19488619784067698,
+      "skirt": 0.9710697741748697
+    }
+  },
+  "after_holdout_tuning": "none",
+  "excluded_assisted_baseline": "007 assisted path was not reached after assertion on source SHA-256",
+  "result_sha256": {
+    "predictions/asset-02/A-007-auto/background.png": "1a6900cf70436e3d7dd3a2c79fa0bdceeef5967d60ef727973b12cbe65c7b77a",
+    "predictions/asset-02/A-007-auto/fixed.png": "1a6900cf70436e3d7dd3a2c79fa0bdceeef5967d60ef727973b12cbe65c7b77a",
+    "predictions/asset-02/A-007-auto/hair-left.png": "1a6900cf70436e3d7dd3a2c79fa0bdceeef5967d60ef727973b12cbe65c7b77a",
+    "predictions/asset-02/A-007-auto/hair-right.png": "1a6900cf70436e3d7dd3a2c79fa0bdceeef5967d60ef727973b12cbe65c7b77a",
+    "predictions/asset-02/A-007-auto/run.json": "8fbcf6b108cfdf7290c281691660ca617178e668dc26129ff9fc2ae2e860d311",
+    "predictions/asset-02/A-007-auto/skirt.png": "1a6900cf70436e3d7dd3a2c79fa0bdceeef5967d60ef727973b12cbe65c7b77a",
+    "predictions/asset-02/B-opencv/background.png": "8053db39f0e7e0f1300843209d286e25174d200dae0a894be06c2659c61e6239",
+    "predictions/asset-02/B-opencv/fixed.png": "93e622a3d596385721bff1dc711f3203324768e22abacd20040aedfac3b3c6e5",
+    "predictions/asset-02/B-opencv/hair-left.png": "367f6072fc8e8f3799845abfdf342f8b76fcc5e4ab43b1eafe100575a25fa604",
+    "predictions/asset-02/B-opencv/hair-right.png": "012c05bee08b6c1ef4536103196a9512c068d84003f8595d7ebfd60731cd3987",
+    "predictions/asset-02/B-opencv/run.json": "f46732116e2142b0ae458bce86ac2738b387ad3d651272bf6ebcf0bc05522b47",
+    "predictions/asset-02/B-opencv/skirt.png": "ae2cf0f4b3e6a876fe3a1ed4029419662b5ab706853f54667296fa031f7b4eee",
+    "predictions/asset-02/C-mobile-sam/background.png": "ceca8c2a0ea5884f3e5ef43376ab1e0390532fc4299492a5864de17e187457c1",
+    "predictions/asset-02/C-mobile-sam/fixed.png": "9727334f1b99d0ffe3b4261a3bf6d746ad3775ecd37381ebfd92c9ba23433591",
+    "predictions/asset-02/C-mobile-sam/hair-left.png": "0cc7364ce115a679780b95d533e853682d7c30badfa598125b685676ddb3462e",
+    "predictions/asset-02/C-mobile-sam/hair-right.png": "bd9bb5194d6c249da4df54682bd77b9d91830695392aa073ea9ee07dddbe2bca",
+    "predictions/asset-02/C-mobile-sam/run.json": "c80f64fc6531c3b14dd7cd9c911fe95f47a49b2d2a7bd7b2dac7c52a34e3c583",
+    "predictions/asset-02/C-mobile-sam/skirt.png": "16d239729f9d7fa3e8b8f754b7e733681415acb975a2086f080171fec764b84e",
+    "predictions/asset-02/D-tta/background.png": "32e57196a0623d74581d215aba15f9c02122b7400508ab2c4e8786a40be1d9fc",
+    "predictions/asset-02/D-tta/disagreement/background.png": "81d179baa73b2612e21b640a70480986d096c3c2594ddb5119b84399de912890",
+    "predictions/asset-02/D-tta/disagreement/fixed.png": "27dbddf98cbf17b3f78d96cb70421bc13bed530c35d89afb4eb6aebda42bb025",
+    "predictions/asset-02/D-tta/disagreement/hair-left.png": "20e595367081f9f3cc7e33534af536e528e37c841782eab6c8a6689da0f4b2f1",
+    "predictions/asset-02/D-tta/disagreement/hair-right.png": "5aca5d91b26c6ae198d6265d011231406ff07d9b9244ab59dbd93c9b5e24548c",
+    "predictions/asset-02/D-tta/disagreement/skirt.png": "d0621a35b8a812167e8e1687209a1655ef718a77e6a777a465c1d8ae38568423",
+    "predictions/asset-02/D-tta/fixed.png": "9e0809bfc8799921bb432654c5e4b7ab32f0152b02d355a6e1585f6959c571f4",
+    "predictions/asset-02/D-tta/flipped-native/background.png": "2c508e32e7687258f51477e9a20bd9afe591128b71d7e2f0c6dc1e053dbee014",
+    "predictions/asset-02/D-tta/flipped-native/fixed.png": "af3e04e64d94fac2ed70dd4ddcc03f43ecb03807c3a0116495b5dc1a26d4f71f",
+    "predictions/asset-02/D-tta/flipped-native/hair-left.png": "c8c1465d6285132e81cc7a09729adcc44619314ccfccc21cd060f255f6d7bad2",
+    "predictions/asset-02/D-tta/flipped-native/hair-right.png": "1042879843e006c545d626e4de3e151bb468006d961fcafb77102b8f3068b0b1",
+    "predictions/asset-02/D-tta/flipped-native/skirt.png": "009f727d926fa61138a1afedad12b94ef4179dae34e179bf72f6084095228d08",
+    "predictions/asset-02/D-tta/flipped-restored/background.png": "a885efb4f1af29b7959d78fe7f357415c8b8befd6fb10d6212709b50e89e6580",
+    "predictions/asset-02/D-tta/flipped-restored/fixed.png": "f8f177f8b942b6270898aab189bd768aa40fec59fd9f687a7a3b90daaf968c9a",
+    "predictions/asset-02/D-tta/flipped-restored/hair-left.png": "3fb5961139c69534da2aae1f906fbc94205392fa2a0739781221ab9630a4ce39",
+    "predictions/asset-02/D-tta/flipped-restored/hair-right.png": "914bc98e540f9efb2a730f5a3a84d8529c9561865d48272df044530beb54b5b2",
+    "predictions/asset-02/D-tta/flipped-restored/skirt.png": "d9d3154f233550c74446ca59ac698a2179bbfcb9d8f937c590d627a8cde6adf4",
+    "predictions/asset-02/D-tta/hair-left.png": "094808b103771037f2dd0caaaf4467f52c237219afd72d9cf6b3d13ee7972fbd",
+    "predictions/asset-02/D-tta/hair-right.png": "fea8dde4e36375a5e7ed51aa8c6c11e8e0ea49878ba2fc2333baaf2425ecf8ba",
+    "predictions/asset-02/D-tta/run.json": "c1bfd6cad380b85886130b1c6c988bee8206adb9102275dd85119621cde98ee0",
+    "predictions/asset-02/D-tta/skirt.png": "87097ab32a2fe4979037c4bcf1d76884a76f797172daf22bca81e4e9d87afa37",
+    "predictions/asset-02/E-mirror/background.png": "32e57196a0623d74581d215aba15f9c02122b7400508ab2c4e8786a40be1d9fc",
+    "predictions/asset-02/E-mirror/fixed.png": "72240d33e4a82e58a9602d64c77807941691a9e9650c0c45df95a74c4370eeb5",
+    "predictions/asset-02/E-mirror/hair-left.png": "cc3611f321c59728b482f713a90e7aa6e334365e6f82cb5fe8d1ca152ad64d74",
+    "predictions/asset-02/E-mirror/hair-right.png": "5444bef7eee562b9b1dd9947f332e04dcbf690dc7f6f0332689c1fe78605bf99",
+    "predictions/asset-02/E-mirror/run.json": "200db996237c8d93e16325c45c66faeaa58579012c1583be5cd26e7a72a4ee43",
+    "predictions/asset-02/E-mirror/skirt.png": "87097ab32a2fe4979037c4bcf1d76884a76f797172daf22bca81e4e9d87afa37"
+  },
+  "timeline": "logs/asset-02-freeze-check.log",
+  "details": "logs/metrics-asset-02.json"
+}

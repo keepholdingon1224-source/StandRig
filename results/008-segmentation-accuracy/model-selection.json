@@ -61,5 +61,6 @@
       }
     }
   },
-  "holdout": "Asset-02 image and references are public. Read by preflight only (hashes, PNG/reference consistency). No image inspection or adjustment using asset-02; holdout scoring starts after this configuration is committed."
+  "holdout": "Asset-02 image and references are public. Read by preflight only (hashes, PNG/reference consistency). No image inspection or adjustment using asset-02; holdout scoring starts after this configuration is committed.",
+  "freeze_commit": "c0ea3bba6421fe6a7d98546b64cd7dd5493f9d44"
 }

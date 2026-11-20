@@ -1,0 +1,47 @@
+{
+  "selected_method": "B-opencv",
+  "formal_status": "fail",
+  "automatic_steps": [
+    "background and subject detection",
+    "Lab palette seed selection",
+    "connected components",
+    "root and centerline estimates",
+    "GrabCut and stroke recovery",
+    "AI prompt generation",
+    "MobileSAM inference",
+    "reflected inference and label restoration",
+    "hair width-based mirror trial",
+    "independent metrics",
+    "diagnostic overlay, error images and comparison videos"
+  ],
+  "manual_inference_interventions": {
+    "asset-01": {
+      "A-007-assisted": 2,
+      "A-007-auto": 0,
+      "B-opencv": 0,
+      "B-opencv-trial-01": 0,
+      "C-mobile-sam": 0,
+      "C-mobile-sam-trial-01": 0,
+      "D-tta": 0,
+      "D-tta-trial-01": 0,
+      "E-mirror": 0,
+      "E-mirror-trial-01": 0
+    },
+    "asset-02": {
+      "A-007-auto": 0,
+      "B-opencv": 0,
+      "C-mobile-sam": 0,
+      "D-tta": 0,
+      "E-mirror": 0
+    }
+  },
+  "manual_pair_of_cut_lines": "A-007-assisted only; historic asset-01 root rows 538 and 452",
+  "model_development": "Human-designed shared features and tuning on asset-01; no manual per-image prediction configuration.",
+  "gate": "Six individual IoUs at or above 0.90.",
+  "downstream": {
+    "hidden_completion_quality": "not_run_after_segmentation_failure",
+    "automatic_rigging_and_deformation": "not_run_after_segmentation_failure",
+    "StandRig_GUI_with_008_model": "not_run_after_segmentation_failure",
+    "user_video_quality_approval": "not_reviewed_no_008_animation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "hair-left-root": {
+    "x": 458,
+    "y": 539,
+    "note": "neck (narrowest row) of left strand; knot itself is fixed"
+  },
+  "hair-right-root": {
+    "x": 669,
+    "y": 451,
+    "note": "neck (narrowest row) of right strand; knot itself is fixed"
+  },
+  "waist-top-center": {
+    "x": 576,
+    "y": 774,
+    "note": "top of skirt waistband"
+  },
+  "hem-bottom-center": {
+    "x": 576,
+    "y": 1756,
+    "note": "lowest skirt pixel row"
+  },
+  "image-size": {
+    "width": 1152,
+    "height": 2048
+  },
+  "origin": "top-left (0,0)"
+}

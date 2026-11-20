@@ -1,0 +1,16 @@
+{
+  "asset": "asset-01",
+  "source_file": "source_007/original.png",
+  "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+  "source_size": [
+    1152,
+    2048
+  ],
+  "created_by": "MUSE (independent annotation from the original artwork only)",
+  "created_date": "2026-11-20",
+  "method": "Color-class seeding + connected components on the original image; hair bundles split at the narrowest row (neck) of each knot; skirt from the teal component with interior filled (gold trim included); no 007/008 algorithm outputs used.",
+  "neck_rows": {
+    "hair-left": 539,
+    "hair-right": 451
+  }
+}

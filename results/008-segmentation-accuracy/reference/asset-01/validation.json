@@ -10,15 +10,23 @@
   "unclassified_pixels": 0,
   "class_pixel_counts": {
     "background": 1659731,
+    "hair-left": 17544,
+    "hair-right": 13668,
+    "skirt": 429218,
+    "fixed": 239135
+  },
+  "aux_pixel_counts": {
+    "blouse-visible": 102223,
+    "hem-trim": 1573,
+    "uncertain": 24352
+  },
+  "all_primary_masks_nonempty": true,
+  "revision": "v2 (ChatGPT review fixes): nearest-core assignment absorbs line art; blouse regrown incl. left sleeve/chest; hem-trim extended to pale gold",
+  "previous_class_pixel_counts": {
+    "background": 1659731,
     "hair-left": 15543,
     "hair-right": 12547,
     "skirt": 423600,
     "fixed": 247875
-  },
-  "aux_pixel_counts": {
-    "blouse-visible": 59697,
-    "hem-trim": 471,
-    "uncertain": 28888
-  },
-  "all_primary_masks_nonempty": true
+  }
 }

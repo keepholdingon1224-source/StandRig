@@ -1,0 +1,283 @@
+"""Single-image part proposals. This process receives no evaluation data."""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import resource
+import sys
+from time import perf_counter
+
+import cv2 as cv
+import numpy as np
+from scipy.ndimage import gaussian_filter1d, distance_transform_edt, binary_fill_holes
+
+PARTS = ("hair-left", "hair-right", "skirt")
+MODEL_REVISION = "f706ad9c4eb7f219c00d9050e46328518ffb65d2"
+WEIGHT = "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f"
+cv.setNumThreads(3)
+cv.setRNGSeed(218)
+
+
+def morph(mask, size, operation=cv.MORPH_CLOSE):
+    return cv.morphologyEx(mask.astype("uint8"), operation,
+                           cv.getStructuringElement(cv.MORPH_ELLIPSE, (size, size))).astype(bool)
+
+
+def largest(mask):
+    count, labels, stats, _ = cv.connectedComponentsWithStats(mask.astype("uint8"))
+    return labels == (1 + stats[1:, cv.CC_STAT_AREA].argmax()) if count > 1 else mask
+
+
+def palette_distance(lab, samples):
+    center = np.median(samples, axis=0)
+    scale = np.maximum(1.4826 * np.median(np.abs(samples - center), axis=0), [12, 6, 6])
+    return np.sum(((lab - center) / scale) ** 2, axis=-1)
+
+
+def pack_masks(sequence, subject):
+    occupied = np.zeros_like(subject)
+    result = {}
+    for name, candidate in zip(PARTS, sequence):
+        result[name] = candidate & ~occupied
+        occupied |= result[name]
+    result["fixed"] = subject & ~occupied
+    result["background"] = ~(occupied | subject)
+    return result
+
+
+def local_grabcut(image, seed, allowed):
+    if not seed.any() or not (~allowed).any():
+        return seed
+    yy, xx = np.where(allowed)
+    crop = np.s_[max(0, yy.min()-3):yy.max()+4, max(0, xx.min()-3):xx.max()+4]
+    trimap = np.full(seed[crop].shape, cv.GC_BGD, dtype="uint8")
+    trimap[allowed[crop]] = cv.GC_PR_BGD
+    trimap[seed[crop]] = cv.GC_PR_FGD
+    trimap[morph(seed[crop], 7, cv.MORPH_ERODE)] = cv.GC_FGD
+    empty = np.zeros((1, 65), dtype="float64")
+    cv.grabCut(image[crop], trimap, None, empty, empty.copy(), 2, cv.GC_INIT_WITH_MASK)
+    final = np.zeros_like(seed)
+    final[crop] = (trimap & 1).astype(bool)
+    return largest(final)
+
+
+def proposals(image):
+    height, width = image.shape[:2]
+    y, x = np.ogrid[:height, :width]
+    bg = np.concatenate((image[:, :width//20], image[:, -width//20:]), axis=1)
+    bg_color = np.median(bg, axis=(0, 1))
+    diff = np.max(np.abs(image - bg_color), axis=-1)
+    background_noise = np.quantile(np.max(np.abs(bg - bg_color), axis=-1), .95)
+    subject = binary_fill_holes(largest(morph(diff > max(7, 2 * background_noise), 9)))
+    rows, cols = np.where(subject)
+    if not len(rows):
+        return pack_masks([subject] * 3, subject)
+    top, bottom = rows.min(), rows.max()
+    span = bottom - top
+    relative_y = (y - top) / max(span, 1)
+    crown = subject & (relative_y > .025) & (relative_y < .065)
+    axis = float(np.median(np.where(crown)[1])) if crown.any() else np.median(cols)
+    lab = cv.cvtColor(image, cv.COLOR_BGR2LAB).astype("float32")
+    skirt_samples = lab[subject & (relative_y > .59) & (relative_y < .73)
+                        & (abs(x - axis) < .075 * span)]
+    if not len(skirt_samples):
+        skirt_samples = lab[subject & (relative_y > .5)]
+    skirt_distance = palette_distance(lab, skirt_samples)
+    skirt_core = largest(morph((skirt_distance < 9) & subject & (relative_y > .28), 13))
+    if not skirt_core.any():
+        return pack_masks([np.zeros_like(subject)] * 3, subject)
+    skirt_seed = binary_fill_holes(skirt_core)
+    skirt_allowed = morph(skirt_seed, 41, cv.MORPH_DILATE) & subject
+    skirt = local_grabcut(image, skirt_seed, skirt_allowed)
+    # Fill enclosed pleat/trim pixels and recover dark strokes at the local edge.
+    edge = cv.Canny(image, 38, 115) > 0
+    skirt = binary_fill_holes(skirt | (morph(skirt, 7, cv.MORPH_DILATE) & edge & subject))
+    hair_distance = palette_distance(lab, lab[crown] if crown.any() else lab[subject][:512])
+    hair_color = morph((hair_distance < 10) & subject & (hair_distance < skirt_distance), 9)
+    waist = np.where(skirt_seed)[0].min()
+    tails = []
+    for side in (x < axis, x > axis):
+        candidate = largest(hair_color & side & (relative_y > .13) & (y < waist + .17 * span))
+        occupied = np.flatnonzero(candidate.any(axis=1))
+        if occupied.size < 10:
+            tails.append(candidate)
+            continue
+        widths = gaussian_filter1d(candidate.sum(axis=1).astype(float), max(1, .003 * span))
+        tip = occupied[-1]
+        start = max(occupied[0] + 3, int(top + .16 * span))
+        stop = int(tip - .23 * (tip - occupied[0]))
+        transitions = []
+        radius = max(2, int(.018 * span))
+        for row in range(max(start, radius), stop):
+            above = widths[row-radius:row].mean()
+            below = widths[row:row+radius].mean()
+            transitions.append((above - below, row))
+        root = max(transitions, default=(0, start))[1]
+        seed = largest(candidate & (y >= root))
+        allowed = morph(seed, 23, cv.MORPH_DILATE) & subject & (y >= root - 1) & side
+        hair = local_grabcut(image, seed, allowed)
+        tails.append(hair | (morph(hair, 5, cv.MORPH_DILATE) & edge & allowed))
+    return pack_masks([*tails, skirt], subject)
+
+
+def ai_masks(image, prior, predictor):
+    predictor.set_image(cv.cvtColor(image, cv.COLOR_BGR2RGB))
+    result = []
+    for name in PARTS:
+        seed = prior[name]
+        yy, xx = np.where(seed)
+        if not yy.size:
+            result.append(seed)
+            continue
+        depth = distance_transform_edt(seed)
+        point = np.unravel_index(depth.argmax(), seed.shape)
+        margin = max(5, round(.12 * (xx.max()-xx.min())))
+        box = np.array([xx.min()-margin, yy.min()-margin, xx.max()+margin, yy.max()+margin])
+        box = np.clip(box, 0, np.tile([seed.shape[1]-1, seed.shape[0]-1], 2))
+        point_xy = np.array([[point[1], point[0]]])
+        masks, scores, _ = predictor.predict(point_xy, np.ones(1), box=box, multimask_output=True)
+        similarity = np.array([(candidate & seed).sum() / max((candidate | seed).sum(), 1)
+                               for candidate in masks])
+        mask = masks[np.argmax(.78 * similarity + .22 * scores)]
+        if name.startswith("hair"):
+            lower = np.ogrid[:seed.shape[0]][:, None] >= yy.min() - margin // 3
+            mask = mask & lower
+        result.append(largest(mask))
+    return pack_masks(result, ~prior["background"])
+
+
+def flip_labels(prediction):
+    swapped = {"hair-left": "hair-right", "hair-right": "hair-left"}
+    return {name: prediction[swapped.get(name, name)][:, ::-1] for name in prediction}
+
+
+def fuse(ordinary, reflected, prior):
+    masks = [(ordinary[part] & reflected[part])
+             | ((ordinary[part] ^ reflected[part]) & morph(prior[part], 7, cv.MORPH_DILATE))
+             for part in PARTS]
+    return pack_masks(masks, ~prior["background"])
+
+
+def row_profile(mask):
+    y = np.flatnonzero(mask.any(axis=1))
+    return np.array([(row, np.median(cols), cols[-1] - cols[0] + 1)
+                     for row in y for cols in [np.flatnonzero(mask[row])]]).reshape(-1, 3)
+
+
+def mirror_shape(tta, disagreement, prior, image):
+    profiles = [row_profile(tta[part]) for part in PARTS[:2]]
+    masks = [tta[part].copy() for part in PARTS]
+    audit = {}
+    # Align by relative depth from independently detected roots and tips. Compare
+    # width ratios only; the candidate is centered on the original-side profile.
+    for index, part in enumerate(PARTS[:2]):
+        local, opposite = profiles[index], profiles[1-index]
+        if min(len(local), len(opposite)) < 20:
+            audit[part] = {"status": "abstained", "reason": "short or empty profile"}
+            continue
+        relative = lambda p: (p[:, 0] - p[0, 0]) / (p[-1, 0] - p[0, 0])
+        transferred = np.interp(relative(local), relative(opposite), opposite[:, 2])
+        ratio = local[:, 2] / transferred
+        scale = np.median(ratio)
+        agreement = np.mean(np.abs(np.log(ratio / scale)) < .45)
+        if agreement < .60:
+            audit[part] = {"status": "abstained", "width_agreement": float(agreement)}
+            continue
+        edge = cv.Canny(image, 38, 115) > 0
+        allowed = disagreement[part] & morph(prior[part], 19, cv.MORPH_DILATE) & ~edge
+        for (row, center, width), estimate in zip(local, transferred * scale):
+            if width < estimate < 1.35 * width:
+                radius = min(width * .58, estimate * .5)
+                a, b = max(0, int(center-radius)), int(center+radius)+1
+                masks[index][int(row), a:b] |= allowed[int(row), a:b]
+        audit[part] = {"status": "evaluated", "width_agreement": float(agreement),
+                       "added_pixels": int((masks[index] & ~tta[part]).sum())}
+    for part in ("skirt", "sleeves", "waist", "hem-trim"):
+        audit[part] = {"status": "unimplemented", "reason": "no semantic correspondence estimator"}
+    return pack_masks(masks, ~prior["background"]), audit
+
+
+def save_mask(path, mask):
+    if not cv.imwrite(str(path), mask.astype("uint8") * 255):
+        raise OSError(path)
+
+
+def save_result(root, method, masks, seconds, extra=None):
+    dest = root / method
+    dest.mkdir(parents=True, exist_ok=True)
+    for key, mask in masks.items():
+        save_mask(dest / f"{key}.png", mask)
+    profiles = {}
+    for key in PARTS:
+        profile = row_profile(masks[key])
+        profiles[key] = {"root_xy": [float(profile[0, 1]), int(profile[0, 0])] if profile.size else None,
+                         "centerline_xy": profile[:, [1, 0]].tolist()}
+    (dest / "run.json").write_text(json.dumps(
+        {"seconds": seconds, "peak_process_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+         "manual_interventions": 0, "landmarks": profiles, **(extra or {})}, indent=2) + "\n")
+
+
+def load_predictor(model_path):
+    import subprocess
+    from importlib.metadata import version
+
+    head = subprocess.check_output(["git", "-C", model_path, "rev-parse", "HEAD"], text=True).strip()
+    if head != MODEL_REVISION:
+        raise ValueError(f"Unexpected MobileSAM revision: {head}")
+    weights = model_path / "weights/mobile_sam.pt"
+    with weights.open("rb") as stream:
+        sha = hashlib.file_digest(stream, "sha256").hexdigest()
+    if sha != WEIGHT:
+        raise ValueError(f"Unexpected MobileSAM weight SHA-256: {sha}")
+    sys.path.insert(0, str(model_path))
+    import torch
+    from mobile_sam import SamPredictor, sam_model_registry
+
+    torch.set_num_threads(3)
+    model = sam_model_registry["vit_t"](checkpoint=str(weights)).eval()
+    return SamPredictor(model), {"model": "MobileSAM vit_t", "revision": head, "weights_sha256": sha,
+                                 "torch": torch.__version__, "timm": version("timm"), "device": "cpu"}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("source", type=Path)
+    parser.add_argument("output", type=Path)
+    parser.add_argument("--mobile-sam", type=Path)
+    args = parser.parse_args()
+    image = cv.imread(os.fspath(args.source))
+    if image is None:
+        raise ValueError(f"Unreadable source {args.source}")
+    start = perf_counter()
+    prior = proposals(image)
+    save_result(args.output, "B-opencv", prior, perf_counter() - start)
+    if args.mobile_sam is None:
+        return
+    start = perf_counter()
+    predictor, metadata = load_predictor(args.mobile_sam)
+    normal = ai_masks(image, prior, predictor)
+    first_seconds = perf_counter() - start
+    save_result(args.output, "C-mobile-sam", normal, first_seconds, metadata)
+    start = perf_counter()
+    flipped_image = image[:, ::-1].copy()
+    flipped = ai_masks(flipped_image, proposals(flipped_image), predictor)
+    reflected = flip_labels(flipped)
+    disagreement = {p: normal[p] ^ reflected[p] for p in normal}
+    tta = fuse(normal, reflected, prior)
+    tta_seconds = first_seconds + perf_counter() - start
+    save_result(args.output, "D-tta", tta, tta_seconds, metadata)
+    for name, masks in [("flipped-native", flipped), ("flipped-restored", reflected),
+                        ("disagreement", disagreement)]:
+        directory = args.output / "D-tta" / name
+        directory.mkdir(exist_ok=True)
+        for part, mask in masks.items():
+            save_mask(directory / f"{part}.png", mask)
+    start = perf_counter()
+    mirrored, audit = mirror_shape(tta, disagreement, prior, image)
+    save_result(args.output, "E-mirror", mirrored, tta_seconds + perf_counter() - start,
+                {**metadata, "mirror": audit})
+
+
+if __name__ == "__main__":
+    main()

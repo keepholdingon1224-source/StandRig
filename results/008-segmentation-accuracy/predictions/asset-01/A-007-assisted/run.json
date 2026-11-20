@@ -1,0 +1,25 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "script_sha256": "6505056320777da0e7376a9bb015c04ce08e83155d999352c1e5047203c5428b",
+  "total_replay_seconds": 3.0147870030000092,
+  "manual_interventions": 2,
+  "unavailable_roles_zero_filled_for_scoring": [],
+  "recovered_intermediate_roles": [],
+  "peak_child_rss_kib": 331628,
+  "007_parameters_record": {
+    "shirt": "Row-wise clean endpoint color interpolation; OpenCV Telea and Navier-Stokes comparison",
+    "skirt": "nearest known skirt sample with vertical distance weighted 4x",
+    "background": "median BGR from source margins",
+    "hiddenLegs": "Short vertical transfer of visible skin below the hem",
+    "staticChangedPixels": 0,
+    "assistedRootRows": {
+      "left": 538,
+      "right": 452
+    },
+    "processingSeconds": 1.2589062790000014,
+    "manualOperations": 2
+  },
+  "seconds": 1.2589062790000014
+}

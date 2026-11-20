@@ -1,0 +1,65 @@
+{
+  "selected_method": "B-opencv",
+  "selection_criterion": "Maximize the minimum of three formal IoUs on asset-01; break ties by mean. A assisted and initial trials are excluded.",
+  "asset_01_rank": {
+    "B-opencv": {
+      "minimum_iou": 0.8596777350120687,
+      "mean_iou": 0.9117384566536796
+    },
+    "D-tta": {
+      "minimum_iou": 0.8225140901771336,
+      "mean_iou": 0.9028151786090529
+    },
+    "E-mirror": {
+      "minimum_iou": 0.7979788116975053,
+      "mean_iou": 0.8943910353597374
+    },
+    "A-007-auto": {
+      "minimum_iou": 0.7796363636363637,
+      "mean_iou": 0.8803923157308949
+    },
+    "C-mobile-sam": {
+      "minimum_iou": 0.5349409448818898,
+      "mean_iou": 0.8116493581735642
+    }
+  },
+  "asset_01_pass": false,
+  "selection_reason": "Best worst-part and mean IoU on development asset, with no manual inference prompts and no model dependency. This choice was frozen despite failing the formal threshold.",
+  "parameter_location": "experiments/008-segment.py; all scalar parameters are committed in source. No source-specific adapter.",
+  "code_sha256": {
+    "experiments/008-verify-reference.py": "7278be73bcfeff9674893570ee722b13a6c4fe29c695eca0949db30137a146cd",
+    "experiments/008-baseline.py": "4d8ae5fe0c0b7aef80ef493f83e6724474215ddfa96b2b8c1cf275940d560532",
+    "experiments/008-segment.py": "f298b736cdbb12d03091e9955bfa0ce8f246c2bb88366f2d49046c9cf1fd2fc1",
+    "experiments/008-evaluate.py": "dce596723aeef146b11e876059566e755c23a82d033ecac6ee515a52fe4a2683"
+  },
+  "python_environment": "logs/python-packages.txt",
+  "compared_ai": {
+    "model": "MobileSAM TinyViT (vit_t)",
+    "source": "https://github.com/ChaoningZhang/MobileSAM",
+    "revision": "f706ad9c4eb7f219c00d9050e46328518ffb65d2",
+    "package": "mobile_sam",
+    "license": "Apache-2.0 (repository license)",
+    "license_url": "https://github.com/ChaoningZhang/MobileSAM/blob/f706ad9c4eb7f219c00d9050e46328518ffb65d2/LICENSE",
+    "weights_source": "https://github.com/ChaoningZhang/MobileSAM/blob/f706ad9c4eb7f219c00d9050e46328518ffb65d2/weights/mobile_sam.pt",
+    "weights_sha256": "6dbb90523a35330fedd7f1d3dfc66f995213d81b29a5ca8108dbcdd4e37d6c2f",
+    "redistribution": "Weights are fetched upstream at the pinned revision and are absent from this repository. Apache-2.0 repository terms require preservation of license/notices and declaration of modifications when redistributing covered material.",
+    "device": "CPU / PyTorch 2.15.0+cpu / torchvision 0.29.2+cpu / 3 torch threads",
+    "alternatives": {
+      "SAM": {
+        "license": "Apache-2.0",
+        "url": "https://github.com/facebookresearch/segment-anything",
+        "decision": "Larger encoder and CPU cost; not executed."
+      },
+      "SAM 2": {
+        "license": "Apache-2.0",
+        "url": "https://github.com/facebookresearch/sam2",
+        "decision": "Image/video model and larger dependency surface; not executed."
+      },
+      "Anime Segmentation": {
+        "url": "https://github.com/SkyTNT/anime-segmentation",
+        "decision": "Foreground/background matting does not label hair tails and skirt; not executed."
+      }
+    }
+  },
+  "holdout": "Asset-02 image and references are public. Read by preflight only (hashes, PNG/reference consistency). No image inspection or adjustment using asset-02; holdout scoring starts after this configuration is committed."
+}

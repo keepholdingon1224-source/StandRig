@@ -1,0 +1,38 @@
+{
+  "asset-01": {
+    "manifest.json": {
+      "expected": "4c93e1ee235effc3439df8f0ab0f82d3371e3326329be587a58417d01ca07b4c",
+      "actual": "5c72c25367294e4750be6fa52216c5c1194543feccdf5f32c7539f5cc744954f",
+      "v4_snapshot_sha256": "5c72c25367294e4750be6fa52216c5c1194543feccdf5f32c7539f5cc744954f",
+      "v4_approval_sha256": "5c72c25367294e4750be6fa52216c5c1194543feccdf5f32c7539f5cc744954f",
+      "v3_commit": "ff51729",
+      "v3_sha256": "4c93e1ee235effc3439df8f0ab0f82d3371e3326329be587a58417d01ca07b4c"
+    },
+    "annotation-notes.md": {
+      "expected": "d3851da974958d8d83965eed4f867a90904cffa7404ea1ea6e6243221c78d9a2",
+      "actual": "a06f9389b7ea628aef552ac8366b1f4c89610b1e6dbebd9f7691117d29bded5f",
+      "v4_snapshot_sha256": "a06f9389b7ea628aef552ac8366b1f4c89610b1e6dbebd9f7691117d29bded5f",
+      "v4_approval_sha256": "a06f9389b7ea628aef552ac8366b1f4c89610b1e6dbebd9f7691117d29bded5f",
+      "v3_commit": "ff51729",
+      "v3_sha256": "d3851da974958d8d83965eed4f867a90904cffa7404ea1ea6e6243221c78d9a2"
+    }
+  },
+  "asset-02": {
+    "manifest.json": {
+      "expected": "932df0f03586284d2233fa0de2fe07fcd09ab70298e54d45bf9a70d3a66d4268",
+      "actual": "bf214701420fa1a41d9be332fe8203880062c3a209fa47eaa4557403ba830210",
+      "v4_snapshot_sha256": "bf214701420fa1a41d9be332fe8203880062c3a209fa47eaa4557403ba830210",
+      "v4_approval_sha256": "bf214701420fa1a41d9be332fe8203880062c3a209fa47eaa4557403ba830210",
+      "v3_commit": "2efcb4a",
+      "v3_sha256": "932df0f03586284d2233fa0de2fe07fcd09ab70298e54d45bf9a70d3a66d4268"
+    },
+    "annotation-notes.md": {
+      "expected": "32e35c17fb22c544030921c4056b291e3810aad200e18936e4139fc2f6bc942b",
+      "actual": "c05abf91550bf0075e163fbff63a70e999f8cd489ef85e31331a04b6328bbd70",
+      "v4_snapshot_sha256": "c05abf91550bf0075e163fbff63a70e999f8cd489ef85e31331a04b6328bbd70",
+      "v4_approval_sha256": "c05abf91550bf0075e163fbff63a70e999f8cd489ef85e31331a04b6328bbd70",
+      "v3_commit": "2efcb4a",
+      "v3_sha256": "32e35c17fb22c544030921c4056b291e3810aad200e18936e4139fc2f6bc942b"
+    }
+  }
+}

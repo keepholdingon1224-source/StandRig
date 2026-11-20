@@ -1,0 +1,204 @@
+{
+  "experiment": "009-A",
+  "handoff": "raw-from-muse/README-from-muse.md",
+  "handoff_commit": "8594d3c",
+  "official_code_commit": "fc4440db7c076518e313f378e28b1504e9886a95",
+  "checksum_scope": "v2/v3の同梱マニフェスト。original/src_img.pngはMUSEが引き渡しから除外した。Notebookなどマニフェストに記載のない引き渡しファイルは同マニフェストの照合対象外。レポートの原画SHA-256はsource_007/original.pngを別途照合。",
+  "memory_scope": "デバイス使用量とプロセスツリーRSSのピークは約1秒間隔で得たサンプル最大値。OOM欄は例外発生時の値。",
+  "kaggle_t4": {
+    "v1": {
+      "source_commit": "a1f2e19",
+      "evidence": "raw-from-muse/kaggle-t4-v1/run-v1-kaggle-log.txt",
+      "status": "blocked_before_inference",
+      "host_python": "3.13",
+      "reason": "Notebook冒頭のPython 3.12要件検査",
+      "workaround": "v2/v3でPython 3.12のvenvを使用",
+      "checksum_manifest": null
+    },
+    "v2": {
+      "source_commit": "4abd194",
+      "evidence_directory": "raw-from-muse/kaggle-t4-v2",
+      "status": "cuda_oom",
+      "stage": "vae_encode",
+      "torch": "2.8.0+cu128",
+      "cuda_build": "12.8",
+      "nvidia_driver": "580.178.04",
+      "bitsandbytes": "0.49.2",
+      "gpu": "Tesla T4",
+      "compute_capability_reported": null,
+      "native_bf16": false,
+      "mode": "standard",
+      "resolution": 1280,
+      "depth_resolution": 768,
+      "seed": 42,
+      "group_offload": false,
+      "cpu_offload_requested": false,
+      "elapsed_seconds": 162.32512064300005,
+      "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+      "oom": {
+        "requested_gib": 3.52,
+        "device_capacity_gib": 14.56,
+        "process_in_use_gib": 13.24,
+        "torch_allocated_gib": 9.7,
+        "torch_reserved_but_unallocated": {
+          "value": 3.42,
+          "unit": "GiB"
+        }
+      },
+      "memory": {
+        "sampled_device_used_peak_mib_by_index": {
+          "0": 13565,
+          "1": 0
+        },
+        "sampled_process_tree_rss_peak_bytes": 25699020800,
+        "system_ram_capacity_bytes": 33658155008,
+        "system_ram_used_peak_bytes": null,
+        "torch_peak_allocated_bytes": null,
+        "torch_peak_reserved_bytes": null
+      },
+      "attention": {
+        "eligible_backends": null,
+        "selected_backend": null,
+        "selection_reason": null,
+        "qkv_shapes": null,
+        "qkv_dtypes": null
+      },
+      "notebook_provenance": "reconstructed_from_v3_config_diff",
+      "checksum_verification": {
+        "manifest_entries": 5,
+        "matched": 4,
+        "mismatched": 0,
+        "missing": 1,
+        "files": {
+          "gpu-samples.csv": {
+            "expected_sha256": "57caefa004e2f551b9e35241794eb9fc0ba7d802527622158d78139b23eb5606",
+            "actual_sha256": "57caefa004e2f551b9e35241794eb9fc0ba7d802527622158d78139b23eb5606",
+            "status": "match"
+          },
+          "inference.txt": {
+            "expected_sha256": "2c2a0febd71964b29ca771b11d6bfd6c0c14fdee514344427896c7a2931ba75f",
+            "actual_sha256": "2c2a0febd71964b29ca771b11d6bfd6c0c14fdee514344427896c7a2931ba75f",
+            "status": "match"
+          },
+          "original/src_img.png": {
+            "expected_sha256": "54ccc129575dcffb7539e14346a717501b1ca3408a67874e296eee2216e130db",
+            "actual_sha256": null,
+            "status": "omitted_from_handoff"
+          },
+          "ram-samples.csv": {
+            "expected_sha256": "02ce487ac0a3bdf46a4b1d7a74a1196d511018a587bf2e4996bc71e7fcd07900",
+            "actual_sha256": "02ce487ac0a3bdf46a4b1d7a74a1196d511018a587bf2e4996bc71e7fcd07900",
+            "status": "match"
+          },
+          "run.json": {
+            "expected_sha256": "5f22b1aefb0539650ae768a65c9e29b881d6a6a79fee17fe630ccc6303c88925",
+            "actual_sha256": "5f22b1aefb0539650ae768a65c9e29b881d6a6a79fee17fe630ccc6303c88925",
+            "status": "match"
+          }
+        }
+      },
+      "host_python": "3.13.16",
+      "inference_python": "3.12.16"
+    },
+    "v3": {
+      "source_commit": "c8caa02",
+      "evidence_directory": "raw-from-muse/kaggle-t4-v3",
+      "status": "cuda_oom",
+      "stage": "layerdiff_sdpa",
+      "torch": "2.8.0+cu128",
+      "cuda_build": "12.8",
+      "nvidia_driver": "580.178.04",
+      "bitsandbytes": "0.49.2",
+      "gpu": "Tesla T4",
+      "compute_capability_reported": null,
+      "native_bf16": false,
+      "mode": "standard",
+      "resolution": 1280,
+      "depth_resolution": 768,
+      "seed": 42,
+      "group_offload": true,
+      "cpu_offload_requested": false,
+      "elapsed_seconds": 169.25728924000003,
+      "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+      "oom": {
+        "requested_gib": 19.84,
+        "device_capacity_gib": 14.56,
+        "process_in_use_gib": 5.21,
+        "torch_allocated_gib": 4.27,
+        "torch_reserved_but_unallocated": {
+          "value": 835.93,
+          "unit": "MiB"
+        }
+      },
+      "memory": {
+        "sampled_device_used_peak_mib_by_index": {
+          "0": 10347,
+          "1": 0
+        },
+        "sampled_process_tree_rss_peak_bytes": 28226084864,
+        "system_ram_capacity_bytes": 33658159104,
+        "system_ram_used_peak_bytes": null,
+        "torch_peak_allocated_bytes": null,
+        "torch_peak_reserved_bytes": null
+      },
+      "attention": {
+        "eligible_backends": null,
+        "selected_backend": null,
+        "selection_reason": null,
+        "qkv_shapes": null,
+        "qkv_dtypes": null
+      },
+      "notebook_provenance": "submitted_notebook",
+      "checksum_verification": {
+        "manifest_entries": 5,
+        "matched": 4,
+        "mismatched": 0,
+        "missing": 1,
+        "files": {
+          "gpu-samples.csv": {
+            "expected_sha256": "591f7a25c31c3d6d09069f21f0739b5d7b8c830b815415e345491fc3ca1cd175",
+            "actual_sha256": "591f7a25c31c3d6d09069f21f0739b5d7b8c830b815415e345491fc3ca1cd175",
+            "status": "match"
+          },
+          "inference.txt": {
+            "expected_sha256": "f73decd4fe2a1cdc018359caa31085aeabb61dd9818e480429984e5e600e963a",
+            "actual_sha256": "f73decd4fe2a1cdc018359caa31085aeabb61dd9818e480429984e5e600e963a",
+            "status": "match"
+          },
+          "original/src_img.png": {
+            "expected_sha256": "54ccc129575dcffb7539e14346a717501b1ca3408a67874e296eee2216e130db",
+            "actual_sha256": null,
+            "status": "omitted_from_handoff"
+          },
+          "ram-samples.csv": {
+            "expected_sha256": "37f75b151adcc4c43cc9aef08d3a904050493be25d9c6f83a090a917cce42f76",
+            "actual_sha256": "37f75b151adcc4c43cc9aef08d3a904050493be25d9c6f83a090a917cce42f76",
+            "status": "match"
+          },
+          "run.json": {
+            "expected_sha256": "edf30f391386d00dbd919184c8b2f4ea4d578d314eea819d07fe928a53e63884",
+            "actual_sha256": "edf30f391386d00dbd919184c8b2f4ea4d578d314eea819d07fe928a53e63884",
+            "status": "match"
+          }
+        }
+      },
+      "host_python": "3.13.16",
+      "inference_python": "3.12.16"
+    }
+  },
+  "kaggle_l4_probe": {
+    "source_commit": "77bfc77",
+    "machine_shape_reported_by_muse": "NvidiaL4",
+    "logs": [
+      "raw-from-muse/l4-probe/probe-script-v2.log",
+      "raw-from-muse/l4-probe/probe-notebook-v1.log"
+    ],
+    "status": "cpu_fallback_in_both_api_batch_runs",
+    "torch": "2.11.0+cpu",
+    "cuda_build": null,
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "nvidia_smi_available": false,
+    "web_ui_interactive_tested": false
+  }
+}

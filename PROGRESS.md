@@ -191,3 +191,11 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - See-throughコードを `fc4440db7c076518e313f378e28b1504e9886a95` に固定。CloudはCUDAなし、Hugging Faceへの接続403。Kaggle無料GPU・RTX 3060 Ti 8GBの実機は未確認。標準・NF4の性能差未測定。AnimeSegは重み、Grounding DINOはBERT依存の取得で403。[環境判定](results/009-semantic-hair-segmentation/environment-report.json) · [実行手順](results/009-semantic-hair-segmentation/environment/README.md)
 - 変更は `experiments/009-*`、`results/009-semantic-hair-segmentation/`、`PROJECT.md`、`PROGRESS.md`。npm build、公式Node 183件、保存済み008予測の再評価、隔離した005〜007回帰、診断動画240フレームの全デコードを確認。009自動版の正式6項目は未測定。補完、リギング、新規GUIモデル、映像承認は未実施。
 - ChatGPTレビューでは、008の入力・選択・上側切断の切り分け、See-through出力後の可視アルファと前後関係の復元、意味ラベルから左右毛束へ接続する判断を確認してほしい。
+
+## 2026-11-20 JST / 009-A GPU環境の正式記録
+
+- 2026-11-20 13:53 UTC。Linuxの隔離チェックアウトで指定実験ブランチを確認し、MUSEの5コミットを照合。See-through公式コードは `fc4440db7c076518e313f378e28b1504e9886a95`。
+- `sha256sum -c SHA256SUMS` でv2・v3とも保存済み4件一致、改変不一致0件。各マニフェストの `original/src_img.png` は引き渡し時の除外により各1件照合不可。別途、既存の素材1原画が両 `run.json` の入力ハッシュと一致。標準モデルの固定SHAとファイル別SHA-256は両 `run.json` 間で一致。
+- v1はホストPython 3.13で起動前停止し、v2・v3は3.12 venvで対処。v2はVAEで3.52 GiB確保要求に失敗。v3はグループオフロード有効で、例外時のプロセスGPU使用量5.21 GiB、SDPAの19.84 GiB確保要求でOOM。実際のAttentionバックエンド・選択理由・Q/K/Vは未確認。L4指定のAPIバッチ2件はCPUへフォールバック。Web UI対話セッションは未確認。
+- `PROJECT.md` と環境手順索引を更新し、[試行記録](results/009-semantic-hair-segmentation/environment/kaggle-attempts.json)、[固定リビジョン](results/009-semantic-hair-segmentation/environment/model-revisions.json)、[構成別判定](results/009-semantic-hair-segmentation/environment/environment-report.json)、[ローカル実行と事前診断](results/009-semantic-hair-segmentation/environment/rtx-3060-ti-nf4-1024.md)を追加。GPU再実行・アプリのテスト・正式IoUは今回未実施。Hugging Face APIはHTTP 403で、NF4のMarigold完全SHAと重みの実ファイル照合は実行先で確認する。
+- 次はMUSE・ユーザーと連携して、RTX 3060 TiのNF4・1024診断を実施する。ChatGPTレビュー項目は実入力に対するSDPA選択の証拠と公式IoUへの座標復元。005〜008・固定基準マスク・生ログは変更せず、追加課金なし、SONY分離。

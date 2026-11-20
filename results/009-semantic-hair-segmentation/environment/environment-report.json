@@ -1,0 +1,66 @@
+{
+  "experiment": "009-A",
+  "official_code_commit": "fc4440db7c076518e313f378e28b1504e9886a95",
+  "initial_cloud_diagnosis": "../environment-report.json",
+  "attempts": "kaggle-attempts.json",
+  "model_revisions": "model-revisions.json",
+  "local_runbook": "rtx-3060-ti-nf4-1024.md",
+  "configurations": {
+    "codex_cloud": {
+      "status": "unavailable_for_gpu_inference",
+      "reason": "CUDAなし。初回診断でHugging Face接続がHTTP 403。"
+    },
+    "kaggle_t4_standard_1280": {
+      "status": "failed",
+      "attempts": [
+        "v1",
+        "v2"
+      ],
+      "reason": "v1のPython起動前停止は3.12 venvで対処。v2はVAEエンコードで3.52 GiBの確保要求に失敗。"
+    },
+    "kaggle_t4_standard_1280_group_offload": {
+      "status": "failed",
+      "attempts": [
+        "v3"
+      ],
+      "confirmed": "SDPA呼び出しで19.84 GiBを要求してOOM。例外時の推論プロセスGPU使用量は5.21 GiB。",
+      "leading_hypothesis": "T4のネイティブBF16非対応と、この入力・環境での省メモリAttention実装への非適合。",
+      "unverified": [
+        "実際のAttentionバックエンド",
+        "選択理由",
+        "Q/K/V形状・dtype"
+      ]
+    },
+    "kaggle_l4_standard_1280_group_offload": {
+      "status": "unavailable_for_free_api_batch",
+      "reason": "NvidiaL4を指定したスクリプト型・Notebook型ともCPUへのフォールバック。Web UIの対話セッションは未確認。"
+    },
+    "local_rtx_3060_ti_nf4_1024": {
+      "status": "selected_pending_hardware_validation",
+      "gpu_vram_gib_reported": 8
+    },
+    "kaggle_t4_nf4_1024": {
+      "status": "conditional_not_tested",
+      "risk": "NF4による重みの省メモリ化後もAttention OOMの可能性あり。"
+    }
+  },
+  "fallback_order_if_gpu_unavailable": [
+    "AnimeSeg+MobileSAM",
+    "Grounding DINO+SAM"
+  ],
+  "formal_evaluation": {
+    "status": "not_measured",
+    "asset_01_source_width": 1152,
+    "asset_01_source_height": 2048,
+    "evaluate_in_each_original_image_coordinates": true,
+    "minimum_iou_per_part": 0.9,
+    "required_parts_per_asset": [
+      "left_hair",
+      "right_hair",
+      "skirt"
+    ],
+    "required_assets": 2,
+    "asset_specific_manual_inputs": 0
+  },
+  "additional_charges": 0
+}

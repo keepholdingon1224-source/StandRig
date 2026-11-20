@@ -1,5 +1,7 @@
 # See-through 無料GPUでの最小試験
 
+009-Aの最新判定と次の実行手順は[構成別環境判定](environment-report.json)と[RTX 3060 Ti NF4・1024手順](rtx-3060-ti-nf4-1024.md)を参照。以下は初回試験時の手順。
+
 まず既存のKaggle無料GPU枠で素材1を1回試す。[Notebook](../notebooks/009-kaggle.ipynb) をインポートし、AcceleratorをGPUにしてInternetを有効にする。無料残量とセッション上限はKaggle画面で確認し、実行記録に転記する。GPUは1枚を指定する。T4などのネイティブBF16対応状況を記録し、公式BF16処理が失敗した場合はログで確認する。複数GPUのVRAMは合算しない。
 
 ## 既存PCで実行する場合

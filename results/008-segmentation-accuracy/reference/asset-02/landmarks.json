@@ -1,13 +1,13 @@
 {
   "hair-left-root": {
-    "x": 490,
-    "y": 245,
-    "note": "just below the left ribbon (width-profile transition)"
+    "x": 470,
+    "y": 219,
+    "note": "per-column tie-following boundary (median ~219); ribbon itself is fixed"
   },
   "hair-right-root": {
-    "x": 700,
-    "y": 245,
-    "note": "just below the right ribbon"
+    "x": 705,
+    "y": 250,
+    "note": "per-column tie-following boundary (median ~250); ribbon itself is fixed"
   },
   "waist-top-center": {
     "x": 576,

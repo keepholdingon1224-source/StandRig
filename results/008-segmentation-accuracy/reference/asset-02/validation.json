@@ -10,15 +10,53 @@
   "unclassified_pixels": 0,
   "class_pixel_counts": {
     "background": 1589649,
+    "hair-left": 72572,
+    "hair-right": 30916,
+    "skirt": 411365,
+    "fixed": 254794
+  },
+  "aux_pixel_counts": {
+    "blouse-visible": 126240,
+    "hem-trim": 2977,
+    "uncertain": 37298
+  },
+  "all_primary_masks_nonempty": true,
+  "revision": "v2 (ChatGPT review fixes): per-column tie-following root boundary; nearest-core assignment absorbs line art; skirt edges/trim absorbed; blouse regrown",
+  "previous_class_pixel_counts": {
+    "background": 1589649,
     "hair-left": 60130,
     "hair-right": 22736,
     "skirt": 407250,
     "fixed": 279531
   },
-  "aux_pixel_counts": {
-    "blouse-visible": 96026,
-    "hem-trim": 5363,
-    "uncertain": 46391
+  "boundary_rows_left_sample": {
+    "430": 219,
+    "440": 219,
+    "450": 219,
+    "460": 219,
+    "470": 219,
+    "480": 219,
+    "490": 219,
+    "500": 219,
+    "510": 219,
+    "520": 219,
+    "530": 219,
+    "540": 219
   },
-  "all_primary_masks_nonempty": true
+  "boundary_rows_right_sample": {
+    "650": 250,
+    "660": 250,
+    "670": 250,
+    "680": 250,
+    "690": 250,
+    "700": 250,
+    "710": 250,
+    "720": 250,
+    "730": 250,
+    "740": 250,
+    "750": 250,
+    "760": 225,
+    "770": 225,
+    "780": 225
+  }
 }

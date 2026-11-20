@@ -1,0 +1,27 @@
+{
+  "hair-left-root": {
+    "x": 490,
+    "y": 245,
+    "note": "just below the left ribbon (width-profile transition)"
+  },
+  "hair-right-root": {
+    "x": 700,
+    "y": 245,
+    "note": "just below the right ribbon"
+  },
+  "waist-top-center": {
+    "x": 576,
+    "y": 752,
+    "note": "top of skirt waistband"
+  },
+  "hem-bottom-center": {
+    "x": 576,
+    "y": 1681,
+    "note": "lowest skirt pixel row"
+  },
+  "image-size": {
+    "width": 1152,
+    "height": 2048
+  },
+  "origin": "top-left (0,0)"
+}

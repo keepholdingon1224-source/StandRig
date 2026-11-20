@@ -1,0 +1,16 @@
+{
+  "asset": "asset-02",
+  "source_file": "source_008/original.png",
+  "source_sha256": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+  "source_size": [
+    1152,
+    2048
+  ],
+  "created_by": "MUSE (independent annotation from the original artwork only)",
+  "created_date": "2026-11-20",
+  "method": "Color-class seeding + connected components on the original image; bundles split just below the ribbons (split row from the strand width profile and visual check); skirt from the magenta component (B-G>=25 excludes skin) with row fill; no 007/008 algorithm outputs used.",
+  "split_rows": {
+    "hair-left": 245,
+    "hair-right": 245
+  }
+}

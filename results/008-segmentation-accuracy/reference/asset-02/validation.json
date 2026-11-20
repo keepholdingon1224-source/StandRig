@@ -1,0 +1,24 @@
+{
+  "image_size": [
+    1152,
+    2048
+  ],
+  "mask_values_binary": true,
+  "classes_mutually_exclusive": true,
+  "total_pixels": 2359296,
+  "expected_pixels": 2359296,
+  "unclassified_pixels": 0,
+  "class_pixel_counts": {
+    "background": 1589649,
+    "hair-left": 60130,
+    "hair-right": 22736,
+    "skirt": 407250,
+    "fixed": 279531
+  },
+  "aux_pixel_counts": {
+    "blouse-visible": 96026,
+    "hem-trim": 5363,
+    "uncertain": 46391
+  },
+  "all_primary_masks_nonempty": true
+}

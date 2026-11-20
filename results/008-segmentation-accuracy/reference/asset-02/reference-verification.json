@@ -1,0 +1,120 @@
+{
+  "asset_dir": "asset-02",
+  "original_sha256": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+  "original_sha256_matches_registered": true,
+  "background": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 1589649
+  },
+  "hair-left": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 68549
+  },
+  "hair-right": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 27094
+  },
+  "skirt": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 409982
+  },
+  "fixed": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 264022
+  },
+  "blouse-visible": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 132343
+  },
+  "hem-trim": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 4734
+  },
+  "uncertain": {
+    "size": [
+      1152,
+      2048
+    ],
+    "mode": "L",
+    "unique_values": [
+      0,
+      255
+    ],
+    "white_pixels": 37912
+  },
+  "primary_overlap_pixels": 0,
+  "primary_unclassified_pixels": 0,
+  "blouse_subset_fixed_violations": 0,
+  "hemtrim_subset_skirt_violations": 0,
+  "file_sha256": {
+    "background.png": "8a680c939f2c2bcd563f827cc7b43feb75a48742b1997fa7e48a4293d27fe938",
+    "hair-left.png": "9b250fdc42eb0a573d70ae9795234f87f0761915403085e209a3e81bd398978c",
+    "hair-right.png": "00695c819c10baa543ce737c85f68b4300d301e9e3f8b10e73980a84cf2d1aea",
+    "skirt.png": "076e26117dc5a3dad9957b4301575933dc632036715485724d365a609a7c5497",
+    "fixed.png": "d8c02c3afa8e7c4f9184065726dd6be27341faf46b945cc7153180ea3563e28e",
+    "blouse-visible.png": "bcb4a60a55a35230347dfee999365a4354909440f9be7f957ba55c8bc604dd8d",
+    "hem-trim.png": "76a5fc670be9230d7d62ad54c54035e50de47e4010471514f8de76f919257966",
+    "uncertain.png": "0063a79bfacbf1e66271a669f956aa0df1016fb5c39ae536a000691b05aa8cb9",
+    "landmarks.json": "7d89ab9f10e22e89928c1c2e0838f4d0dc23bd7b394b55228d343014ed835fdb",
+    "manifest.json": "932df0f03586284d2233fa0de2fe07fcd09ab70298e54d45bf9a70d3a66d4268",
+    "annotation-notes.md": "32e35c17fb22c544030921c4056b291e3810aad200e18936e4139fc2f6bc942b",
+    "annotation-v3.py": "7ea830ec1da817a443e287ec91b59e0c5875f5d33b63e44e83f6d76fef0532c9"
+  },
+  "all_checks_passed": true
+}

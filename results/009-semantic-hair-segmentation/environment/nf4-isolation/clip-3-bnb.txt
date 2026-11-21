@@ -1,0 +1,23 @@
+=================== bitsandbytes v0.49.2 ===================
+Platform: Windows-11-10.0.26300-SP0
+Python: 3.12.10
+PyTorch: 2.8.0+cu128
+  CUDA: 12.8
+  HIP: N/A
+  XPU: N/A
+Related packages:
+  accelerate: 1.13.0
+  diffusers: 0.37.0
+  numpy: 2.2.6
+  pip: 25.0.1
+  peft: not found
+  safetensors: 0.7.0
+  transformers: 5.0.0
+  triton: not found
+  trl: not found
+============================================================
+PyTorch settings found: CUDA_VERSION=128, Highest Compute Capability: (8, 6).
+Checking that the library is importable and CUDA is callable...
+SUCCESS!
+
+exit_code=0

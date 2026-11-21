@@ -208,3 +208,9 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - 失敗・未実行：テキスト埋め込み生成でCUDA失敗、同期診断でbitsandbytesのillegal memory access。実Body SDPAと本推論は未到達。PSD・009-Bなし。
 - 成果物：[ローカル結果](results/009-semantic-hair-segmentation/environment/rtx-3060-ti-local-result.md) および run-nf4-preflight。005〜008と固定マスクの変更なし。
 - 未解決・ChatGPT確認事項：この失敗を固定構成固有の結果として評価し、量子化カーネルの別構成を別試行として比較するか。レビュー未実施。
+
+### 2026-11-21 02:45 UTC　009-A NF4単独切り分け
+
+- Windows既存venv、RTX 3060 TiをUUID指定。各条件で bitsandbytes CLI と isolate.py を独立プロセスで3回ずつ実行。通常Linear、小形状NF4、CLIP第1層の実重みNF4が全9回合格。失敗0件。
+- 更新は experiments/009-local-nf4/isolate.py、environment-report.json、[単独診断記録](results/009-semantic-hair-segmentation/environment/nf4-isolation/README.md)。同フォルダにGPU・メモリ・DLL・各試行ログとSHA256SUMS。
+- 全条件合格の分岐で停止。第2・第3段階、正式IoUは未実施。前回の統合失敗は未解決。ChatGPT確認事項は、ロード・グループオフロード・デバイス移動のどこで量子化状態を比較するか。第三者レビュー未実施。

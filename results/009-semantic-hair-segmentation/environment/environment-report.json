@@ -43,7 +43,13 @@
       "record": "run-nf4-preflight/run.json",
       "attention": "run-nf4-preflight/attention-summary.json",
       "actual_model_sdpa_observed": [],
-      "gpu_uuid": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e"
+      "gpu_uuid": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e",
+      "standalone_nf4": {
+        "status": "9_of_9_passed",
+        "report": "nf4-isolation/README.md",
+        "record": "nf4-isolation/summary.json",
+        "next_hypothesis": "Integrated loading, group offload, device transfers or runtime state; cause unconfirmed."
+      }
     },
     "kaggle_t4_nf4_1024": {
       "status": "conditional_not_tested",

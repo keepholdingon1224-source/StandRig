@@ -1,0 +1,125 @@
+{
+  "stage1": "all_pass",
+  "runs": [
+    {
+      "trial": "control-1",
+      "pid": 15700,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 2718720,
+        "reserved": 23068672
+      },
+      "rms": 0.5784169435501099
+    },
+    {
+      "trial": "control-2",
+      "pid": 27132,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 2718720,
+        "reserved": 23068672
+      },
+      "rms": 0.5784169435501099
+    },
+    {
+      "trial": "control-3",
+      "pid": 22160,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 2718720,
+        "reserved": 23068672
+      },
+      "rms": 0.5784169435501099
+    },
+    {
+      "trial": "small-1",
+      "pid": 28640,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 5632,
+        "reserved": 2097152
+      },
+      "rms": 0.6209133267402649
+    },
+    {
+      "trial": "small-2",
+      "pid": 8904,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 5632,
+        "reserved": 2097152
+      },
+      "rms": 0.6209133267402649
+    },
+    {
+      "trial": "small-3",
+      "pid": 26960,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 5632,
+        "reserved": 2097152
+      },
+      "rms": 0.6209133267402649
+    },
+    {
+      "trial": "clip-1",
+      "pid": 16548,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 1871360,
+        "reserved": 23068672
+      },
+      "rms": 0.7008213400840759
+    },
+    {
+      "trial": "clip-2",
+      "pid": 16476,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 1871360,
+        "reserved": 23068672
+      },
+      "rms": 0.7008213400840759
+    },
+    {
+      "trial": "clip-3",
+      "pid": 27488,
+      "result": "pass",
+      "pre_forward_bytes": {
+        "event": "before_forward",
+        "free": 7461666816,
+        "total": 8589279232,
+        "allocated": 1871360,
+        "reserved": 23068672
+      },
+      "rms": 0.7008213400840759
+    }
+  ],
+  "stage2": "not_run_all_stage1_passed",
+  "stage3": "not_run",
+  "local_nf4_1024_established": false
+}

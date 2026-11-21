@@ -1,0 +1,64 @@
+{
+  "mode": "counterfactual replay of frozen area guard on all collapsed pairs; not actual automatic fallback invocations",
+  "assets": {
+    "01": {},
+    "02": {
+      "238-74": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          0,
+          75780
+        ]
+      },
+      "74-1037": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          75356,
+          424
+        ]
+      },
+      "175-209": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          6271,
+          25151
+        ]
+      },
+      "1037-175": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          424,
+          31422
+        ]
+      },
+      "1037-209": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          424,
+          25151
+        ]
+      },
+      "238-1037": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          61043,
+          424
+        ]
+      },
+      "1037-657": {
+        "diagnostic": "abstain",
+        "auto": "238-209",
+        "side_pixels": [
+          424,
+          5379
+        ]
+      }
+    }
+  }
+}

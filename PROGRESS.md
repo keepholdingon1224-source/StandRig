@@ -241,3 +241,8 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 
 - 既存venvで構造側6方式を凍結・採点。可視髪・スカートは009-C固定。正式3/6で不合格。素材2の接続帰属失敗は8,079→31,878。選択根元の遠位枝への誤帰属が未解決。
 - experiments/009-d の predict.py、evaluate.py、integrity.py。保護対象2,373件、009-Bローカル193件とB/C追跡記録127件の前後ハッシュ一致。[正式結果・アブレーション・素材3の条件](results/009-semantic-hair-segmentation/009-D/README.md)。ChatGPTレビュー待ち。
+
+### 2026-11-21 23:48 UTC　実験009-E
+
+- 既存venvでexperiments/009-eのintegrity.py start/end、predict.pyと独立evaluate.pyを実行。素材1・2の根元選択だけを比較。全アブレーションとも009-Cと同一、正式4/6・総合未達。素材2の遠位候補は構造制約で棄却、実フォールバックなし。素材2の正解根元近傍を回収できない課題は残る。
+- [結果・診断・凍結記録](results/009-semantic-hair-segmentation/009-E/README.md)。保護2,373件、009-Bローカル193件、B/C/D追跡190件の前後SHA-256一致。素材3未使用。ChatGPTレビュー待ち。

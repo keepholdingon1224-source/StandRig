@@ -1,0 +1,950 @@
+{
+ "01": {
+  "303-220": {
+   "ids": [
+    303,
+    220
+   ],
+   "tips": [
+    658,
+    520
+   ],
+   "old": 6.612456246183534,
+   "e1": 0.7375165934824504,
+   "e2": 0.8721562448809748,
+   "e3": [
+    0.9716855437789643,
+    0.9669287839267934,
+    0.9712351561818803
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9578059071729957,
+   "sides": [
+    {
+     "pixels": 17739,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.7703492641448975,
+      0.7075231075286865,
+      0.7641355991363525
+     ],
+     "visible_support": 0.9784335355763927,
+     "largest_fraction": 0.9992107785106263,
+     "holes": 629,
+     "intrusion": 0.0,
+     "flow": 0.9770485583149063,
+     "path_visible": 0.9761904761904762,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 14018,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.9565478563308716,
+      0.9432658553123474,
+      0.9555553197860718
+     ],
+     "visible_support": 0.9643643368189323,
+     "largest_fraction": 1.0,
+     "holes": 33,
+     "intrusion": 0.0,
+     "flow": 0.9822501531779135,
+     "path_visible": 0.9791666666666666,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  }
+ },
+ "02": {
+  "74-175": {
+   "ids": [
+    74,
+    175
+   ],
+   "tips": [
+    462,
+    466
+   ],
+   "old": 4.477577144347374,
+   "e1": 0.7800876325985887,
+   "e2": 0.945591563251514,
+   "e3": [
+    0.9657223534834531,
+    0.9605232377600816,
+    0.9652064827335027
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9900990099009901,
+   "sides": [
+    {
+     "pixels": 75780,
+     "edge_contact": false,
+     "area_vs_C": 1.2328566547903754,
+     "contours": [
+      0.8058586120605469,
+      0.7503049969673157,
+      0.8004705905914307
+     ],
+     "visible_support": 0.9479728292823277,
+     "largest_fraction": 0.9994457640538401,
+     "holes": 578,
+     "intrusion": 0.00022433359725521244,
+     "flow": 0.9860958132746314,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 31422,
+     "edge_contact": false,
+     "area_vs_C": 1.2493340225040754,
+     "contours": [
+      0.8683867454528809,
+      0.840754508972168,
+      0.8655208349227905
+     ],
+     "visible_support": 0.9443693084482914,
+     "largest_fraction": 0.9969129908980969,
+     "holes": 693,
+     "intrusion": 0.0035007319712303483,
+     "flow": 0.9822639657025429,
+     "path_visible": 0.953125,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "74-209": {
+   "ids": [
+    74,
+    209
+   ],
+   "tips": [
+    462,
+    504
+   ],
+   "old": 6.581430447773551,
+   "e1": 0.7935248340220964,
+   "e2": 0.9408632364842031,
+   "e3": [
+    0.9698736968222008,
+    0.9647427837136135,
+    0.9693657199623928
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.991304347826087,
+   "sides": [
+    {
+     "pixels": 75780,
+     "edge_contact": false,
+     "area_vs_C": 1.2328566547903754,
+     "contours": [
+      0.8058586120605469,
+      0.7503049969673157,
+      0.8004705905914307
+     ],
+     "visible_support": 0.9479728292823277,
+     "largest_fraction": 0.9994457640538401,
+     "holes": 578,
+     "intrusion": 0.00022433359725521244,
+     "flow": 0.9860958132746314,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 25151,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8681036233901978,
+      0.8415626287460327,
+      0.8653640151023865
+     ],
+     "visible_support": 0.9752607700957773,
+     "largest_fraction": 0.9935986640690231,
+     "holes": 680,
+     "intrusion": 0.0,
+     "flow": 0.9757619712375476,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "238-74": {
+   "ids": [
+    238,
+    74
+   ],
+   "tips": [
+    1130,
+    462
+   ],
+   "old": 5.288104822131933,
+   "e1": 0.8002899864472768,
+   "e2": 0.7551479550036297,
+   "e3": [
+    -0.6112738740000423,
+    -0.6147459749433692,
+    -0.6116106253418621
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.8108552631578947,
+   "upstream_divergence": 0.4871794871794872,
+   "sides": [
+    {
+     "pixels": 0,
+     "edge_contact": false,
+     "area_vs_C": 0.0,
+     "contours": [
+      0,
+      0,
+      0
+     ],
+     "visible_support": 0.0,
+     "largest_fraction": 0.0,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9873188534617512,
+     "path_visible": 0.9875621890547264,
+     "connectivity": 1,
+     "collapse": true
+    },
+    {
+     "pixels": 75780,
+     "edge_contact": false,
+     "area_vs_C": 3.013001471114469,
+     "contours": [
+      0.8058586120605469,
+      0.7503049969673157,
+      0.8004705905914307
+     ],
+     "visible_support": 0.9479728292823277,
+     "largest_fraction": 0.9994457640538401,
+     "holes": 578,
+     "intrusion": 0.00022433359725521244,
+     "flow": 0.9860958132746314,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "74-657": {
+   "ids": [
+    74,
+    657
+   ],
+   "tips": [
+    462,
+    620
+   ],
+   "old": 4.55806825278246,
+   "e1": 0.6298654769833313,
+   "e2": 0.9084661261567787,
+   "e3": [
+    0.9640537822071782,
+    0.9588413709227315,
+    0.9634900265757314
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9957983193277311,
+   "sides": [
+    {
+     "pixels": 75780,
+     "edge_contact": false,
+     "area_vs_C": 1.2328566547903754,
+     "contours": [
+      0.8058586120605469,
+      0.7503049969673157,
+      0.8004705905914307
+     ],
+     "visible_support": 0.9479728292823277,
+     "largest_fraction": 0.9994457640538401,
+     "holes": 578,
+     "intrusion": 0.00022433359725521244,
+     "flow": 0.9860958132746314,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 5379,
+     "edge_contact": false,
+     "area_vs_C": 0.2138682358554332,
+     "contours": [
+      0.8096989989280701,
+      0.7818540334701538,
+      0.8060669302940369
+     ],
+     "visible_support": 0.9294971487817522,
+     "largest_fraction": 0.9979550102249489,
+     "holes": 77,
+     "intrusion": 0.0,
+     "flow": 0.9702431818598822,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "74-1037": {
+   "ids": [
+    74,
+    1037
+   ],
+   "tips": [
+    462,
+    1109
+   ],
+   "old": 3.3569406161058066,
+   "e1": 0.5857068682957696,
+   "e2": 0.7912006945763826,
+   "e3": [
+    -0.1408782293355566,
+    -0.15057369966865597,
+    -0.14165512000084934
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.046052631578947366,
+   "upstream_divergence": 0.9071925754060325,
+   "sides": [
+    {
+     "pixels": 75356,
+     "edge_contact": false,
+     "area_vs_C": 1.2259586444758976,
+     "contours": [
+      0.7979937195777893,
+      0.7480958700180054,
+      0.7927625775337219
+     ],
+     "visible_support": 0.9426687849485232,
+     "largest_fraction": 0.9994957269494135,
+     "holes": 578,
+     "intrusion": 0.00022559583842029831,
+     "flow": 0.9860958132746314,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 424,
+     "edge_contact": false,
+     "area_vs_C": 0.016858176613255935,
+     "contours": [
+      0.664627730846405,
+      0.5593980550765991,
+      0.6574286222457886
+     ],
+     "visible_support": 0.5971830985915493,
+     "largest_fraction": 0.589622641509434,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9730907654438419,
+     "path_visible": 0.5714285714285714,
+     "connectivity": 1,
+     "collapse": true
+    }
+   ]
+  },
+  "175-209": {
+   "ids": [
+    175,
+    209
+   ],
+   "tips": [
+    466,
+    504
+   ],
+   "old": 4.89738137967967,
+   "e1": 0.7697077647103878,
+   "e2": 0.6787892606050774,
+   "e3": [
+    -0.49143616457027894,
+    -0.4945527014557789,
+    -0.49183508355659944
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.810126582278481,
+   "upstream_divergence": 0.1842105263157895,
+   "sides": [
+    {
+     "pixels": 6271,
+     "edge_contact": false,
+     "area_vs_C": 0.10202222330681504,
+     "contours": [
+      0.7414165139198303,
+      0.7180929183959961,
+      0.7377734184265137
+     ],
+     "visible_support": 0.188471132750278,
+     "largest_fraction": 0.9859671503747409,
+     "holes": 13,
+     "intrusion": 0.017541062031573913,
+     "flow": 0.9822639657025429,
+     "path_visible": 0.953125,
+     "connectivity": 1,
+     "collapse": true
+    },
+    {
+     "pixels": 25151,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8681036233901978,
+      0.8415626287460327,
+      0.8653640151023865
+     ],
+     "visible_support": 0.9752607700957773,
+     "largest_fraction": 0.9935986640690231,
+     "holes": 680,
+     "intrusion": 0.0,
+     "flow": 0.9757619712375476,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "238-175": {
+   "ids": [
+    238,
+    175
+   ],
+   "tips": [
+    1130,
+    466
+   ],
+   "old": 6.406975462067249,
+   "e1": 0.7764729171355682,
+   "e2": 0.9121742555763425,
+   "e3": [
+    0.9658827169078148,
+    0.9598551636772907,
+    0.9653306884902275
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9928057553956835,
+   "sides": [
+    {
+     "pixels": 61467,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8019134402275085,
+      0.7331048250198364,
+      0.7959468960762024
+     ],
+     "visible_support": 0.9642033600527067,
+     "largest_fraction": 0.9998373110774887,
+     "holes": 414,
+     "intrusion": 0.0,
+     "flow": 0.9873188534617512,
+     "path_visible": 0.9875621890547264,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 31422,
+     "edge_contact": false,
+     "area_vs_C": 1.2493340225040754,
+     "contours": [
+      0.8683867454528809,
+      0.840754508972168,
+      0.8655208349227905
+     ],
+     "visible_support": 0.9443693084482914,
+     "largest_fraction": 0.9969129908980969,
+     "holes": 693,
+     "intrusion": 0.0035007319712303483,
+     "flow": 0.9822639657025429,
+     "path_visible": 0.953125,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "175-657": {
+   "ids": [
+    175,
+    657
+   ],
+   "tips": [
+    466,
+    620
+   ],
+   "old": 2.888617724834565,
+   "e1": 0.6060484076716227,
+   "e2": 0.7955409375213953,
+   "e3": [
+    0.8182889264765563,
+    0.8149568740967097,
+    0.8178813573661627
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.26582278481012656,
+   "upstream_divergence": 0.6884422110552764,
+   "sides": [
+    {
+     "pixels": 26043,
+     "edge_contact": false,
+     "area_vs_C": 0.4236907608960906,
+     "contours": [
+      0.8385374546051025,
+      0.8130695819854736,
+      0.8356484174728394
+     ],
+     "visible_support": 0.782706699125417,
+     "largest_fraction": 0.9966209730061821,
+     "holes": 616,
+     "intrusion": 0.0042237837422723955,
+     "flow": 0.9822639657025429,
+     "path_visible": 0.953125,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 5379,
+     "edge_contact": false,
+     "area_vs_C": 0.2138682358554332,
+     "contours": [
+      0.8096989989280701,
+      0.7818540334701538,
+      0.8060669302940369
+     ],
+     "visible_support": 0.9294971487817522,
+     "largest_fraction": 0.9979550102249489,
+     "holes": 77,
+     "intrusion": 0.0,
+     "flow": 0.9702431818598822,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "1037-175": {
+   "ids": [
+    1037,
+    175
+   ],
+   "tips": [
+    1109,
+    466
+   ],
+   "old": 3.015957241442583,
+   "e1": 0.561889798984061,
+   "e2": 0.779704995788184,
+   "e3": [
+    -0.11775428844943447,
+    -0.1260581579650919,
+    -0.11838335214510365
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9979674796747967,
+   "sides": [
+    {
+     "pixels": 424,
+     "edge_contact": false,
+     "area_vs_C": 0.006898010314477687,
+     "contours": [
+      0.664627730846405,
+      0.5593980550765991,
+      0.6574286222457886
+     ],
+     "visible_support": 0.5971830985915493,
+     "largest_fraction": 0.589622641509434,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9730907654438419,
+     "path_visible": 0.5714285714285714,
+     "connectivity": 1,
+     "collapse": true
+    },
+    {
+     "pixels": 31422,
+     "edge_contact": false,
+     "area_vs_C": 1.2493340225040754,
+     "contours": [
+      0.8683867454528809,
+      0.840754508972168,
+      0.8655208349227905
+     ],
+     "visible_support": 0.9443693084482914,
+     "largest_fraction": 0.9969129908980969,
+     "holes": 693,
+     "intrusion": 0.0035007319712303483,
+     "flow": 0.9822639657025429,
+     "path_visible": 0.953125,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "238-209": {
+   "ids": [
+    238,
+    209
+   ],
+   "tips": [
+    1130,
+    504
+   ],
+   "old": 8.510828765493427,
+   "e1": 0.789910118559076,
+   "e2": 0.9073677800900033,
+   "e3": [
+    0.9700340602465624,
+    0.9640747096308225,
+    0.9694899257191175
+   ],
+   "eligible": true,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9934640522875817,
+   "sides": [
+    {
+     "pixels": 61467,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8019134402275085,
+      0.7331048250198364,
+      0.7959468960762024
+     ],
+     "visible_support": 0.9642033600527067,
+     "largest_fraction": 0.9998373110774887,
+     "holes": 414,
+     "intrusion": 0.0,
+     "flow": 0.9873188534617512,
+     "path_visible": 0.9875621890547264,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 25151,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8681036233901978,
+      0.8415626287460327,
+      0.8653640151023865
+     ],
+     "visible_support": 0.9752607700957773,
+     "largest_fraction": 0.9935986640690231,
+     "holes": 680,
+     "intrusion": 0.0,
+     "flow": 0.9757619712375476,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "209-657": {
+   "ids": [
+    209,
+    657
+   ],
+   "tips": [
+    504,
+    620
+   ],
+   "old": 4.162831626114897,
+   "e1": 0.6194856090951305,
+   "e2": 0.7716898519099501,
+   "e3": [
+    0.7874878626613516,
+    0.784303953900804,
+    0.7870906684844393
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.328125,
+   "upstream_divergence": 0.6180904522613065,
+   "sides": [
+    {
+     "pixels": 19772,
+     "edge_contact": false,
+     "area_vs_C": 0.32166853758927555,
+     "contours": [
+      0.8263616561889648,
+      0.8032640814781189,
+      0.8236386179924011
+     ],
+     "visible_support": 0.7666834696963821,
+     "largest_fraction": 0.9923123609144244,
+     "holes": 603,
+     "intrusion": 0.0,
+     "flow": 0.9757619712375476,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 5379,
+     "edge_contact": false,
+     "area_vs_C": 0.2138682358554332,
+     "contours": [
+      0.8096989989280701,
+      0.7818540334701538,
+      0.8060669302940369
+     ],
+     "visible_support": 0.9294971487817522,
+     "largest_fraction": 0.9979550102249489,
+     "holes": 77,
+     "intrusion": 0.0,
+     "flow": 0.9702431818598822,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "1037-209": {
+   "ids": [
+    1037,
+    209
+   ],
+   "tips": [
+    1109,
+    504
+   ],
+   "old": 5.11981054486876,
+   "e1": 0.5753270004075688,
+   "e2": 0.7748125115658911,
+   "e3": [
+    -0.11360294511068691,
+    -0.1218386120115601,
+    -0.11422411491621365
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9980237154150198,
+   "sides": [
+    {
+     "pixels": 424,
+     "edge_contact": false,
+     "area_vs_C": 0.006898010314477687,
+     "contours": [
+      0.664627730846405,
+      0.5593980550765991,
+      0.6574286222457886
+     ],
+     "visible_support": 0.5971830985915493,
+     "largest_fraction": 0.589622641509434,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9730907654438419,
+     "path_visible": 0.5714285714285714,
+     "connectivity": 1,
+     "collapse": true
+    },
+    {
+     "pixels": 25151,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8681036233901978,
+      0.8415626287460327,
+      0.8653640151023865
+     ],
+     "visible_support": 0.9752607700957773,
+     "largest_fraction": 0.9935986640690231,
+     "holes": 680,
+     "intrusion": 0.0,
+     "flow": 0.9757619712375476,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "238-657": {
+   "ids": [
+    238,
+    657
+   ],
+   "tips": [
+    1130,
+    620
+   ],
+   "old": 6.1371016069986855,
+   "e1": 0.6262507615203108,
+   "e2": 0.8747447823061468,
+   "e3": [
+    0.9642141456315398,
+    0.9581732968399406,
+    0.9636142323324561
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9963768115942029,
+   "sides": [
+    {
+     "pixels": 61467,
+     "edge_contact": false,
+     "area_vs_C": 1.0,
+     "contours": [
+      0.8019134402275085,
+      0.7331048250198364,
+      0.7959468960762024
+     ],
+     "visible_support": 0.9642033600527067,
+     "largest_fraction": 0.9998373110774887,
+     "holes": 414,
+     "intrusion": 0.0,
+     "flow": 0.9873188534617512,
+     "path_visible": 0.9875621890547264,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 5379,
+     "edge_contact": false,
+     "area_vs_C": 0.2138682358554332,
+     "contours": [
+      0.8096989989280701,
+      0.7818540334701538,
+      0.8060669302940369
+     ],
+     "visible_support": 0.9294971487817522,
+     "largest_fraction": 0.9979550102249489,
+     "holes": 77,
+     "intrusion": 0.0,
+     "flow": 0.9702431818598822,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  },
+  "238-1037": {
+   "ids": [
+    238,
+    1037
+   ],
+   "tips": [
+    1130,
+    1109
+   ],
+   "old": 5.286338933825682,
+   "e1": 0.5820921528327492,
+   "e2": 0.7432667727403743,
+   "e3": [
+    -0.14633892469211296,
+    -0.15677078805967049,
+    -0.14714977137847618
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.056795131845841784,
+   "upstream_divergence": 0.8190255220417634,
+   "sides": [
+    {
+     "pixels": 61043,
+     "edge_contact": false,
+     "area_vs_C": 0.9931019896855223,
+     "contours": [
+      0.7913868427276611,
+      0.7297067046165466,
+      0.7856124043464661
+     ],
+     "visible_support": 0.9575522753298091,
+     "largest_fraction": 0.9999017086316203,
+     "holes": 414,
+     "intrusion": 0.0,
+     "flow": 0.9873188534617512,
+     "path_visible": 0.9875621890547264,
+     "connectivity": 1,
+     "collapse": false
+    },
+    {
+     "pixels": 424,
+     "edge_contact": false,
+     "area_vs_C": 0.016858176613255935,
+     "contours": [
+      0.664627730846405,
+      0.5593980550765991,
+      0.6574286222457886
+     ],
+     "visible_support": 0.5971830985915493,
+     "largest_fraction": 0.589622641509434,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9730907654438419,
+     "path_visible": 0.5714285714285714,
+     "connectivity": 1,
+     "collapse": true
+    }
+   ]
+  },
+  "1037-657": {
+   "ids": [
+    1037,
+    657
+   ],
+   "tips": [
+    1109,
+    620
+   ],
+   "old": 3.111046890023654,
+   "e1": 0.4116676433688037,
+   "e2": 0.7418286138047664,
+   "e3": [
+    -0.11942285972570943,
+    -0.12774002480244206,
+    -0.12009980830287503
+   ],
+   "eligible": false,
+   "downstream_overlap": 0.0,
+   "upstream_divergence": 0.9984101748807631,
+   "sides": [
+    {
+     "pixels": 424,
+     "edge_contact": false,
+     "area_vs_C": 0.006898010314477687,
+     "contours": [
+      0.664627730846405,
+      0.5593980550765991,
+      0.6574286222457886
+     ],
+     "visible_support": 0.5971830985915493,
+     "largest_fraction": 0.589622641509434,
+     "holes": 0,
+     "intrusion": 0.0,
+     "flow": 0.9730907654438419,
+     "path_visible": 0.5714285714285714,
+     "connectivity": 1,
+     "collapse": true
+    },
+    {
+     "pixels": 5379,
+     "edge_contact": false,
+     "area_vs_C": 0.2138682358554332,
+     "contours": [
+      0.8096989989280701,
+      0.7818540334701538,
+      0.8060669302940369
+     ],
+     "visible_support": 0.9294971487817522,
+     "largest_fraction": 0.9979550102249489,
+     "holes": 77,
+     "intrusion": 0.0,
+     "flow": 0.9702431818598822,
+     "path_visible": 1.0,
+     "connectivity": 1,
+     "collapse": false
+    }
+   ]
+  }
+ }
+}

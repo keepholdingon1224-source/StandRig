@@ -1,0 +1,18 @@
+{
+ "01": {
+  "baseline": "303-220",
+  "raw": "303-220",
+  "auto": "303-220",
+  "diagnostic_confirmed": "303-220",
+  "fallback": false,
+  "reasons": []
+ },
+ "02": {
+  "baseline": "238-209",
+  "raw": "238-209",
+  "auto": "238-209",
+  "diagnostic_confirmed": "238-209",
+  "fallback": false,
+  "reasons": []
+ }
+}

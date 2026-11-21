@@ -1,0 +1,342 @@
+{
+ "01": {
+  "baseline": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8921438082556591,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.7451868629671574,
+    "nearest_candidate": 10.198039027185569
+   }
+  },
+  "root": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8921438082556591,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.7451868629671574,
+    "nearest_candidate": 10.198039027185569
+   }
+  },
+  "ownership": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8093959731543624,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.6606129398410897,
+    "nearest_candidate": 10.198039027185569
+   }
+  },
+  "both": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8093959731543624,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.6606129398410897,
+    "nearest_candidate": 10.198039027185569
+   }
+  },
+  "pathB": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8093959731543624,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.6606129398410897,
+    "nearest_candidate": 10.198039027185569
+   }
+  },
+  "formal": {
+   "hair-left": {
+    "root": [
+     459,
+     545
+    ],
+    "reference": [
+     458,
+     539
+    ],
+    "distance": 6.082762530298219,
+    "window_iou": 0.8093959731543624,
+    "nearest_candidate": 6.082762530298219
+   },
+   "hair-right": {
+    "root": [
+     671,
+     461
+    ],
+    "reference": [
+     669,
+     451
+    ],
+    "distance": 10.198039027185569,
+    "window_iou": 0.6606129398410897,
+    "nearest_candidate": 10.198039027185569
+   }
+  }
+ },
+ "02": {
+  "baseline": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.0,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     709,
+     267
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 43.18564576337837,
+    "window_iou": 0.0,
+    "nearest_candidate": 27.65863337187866
+   }
+  },
+  "root": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.0,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     595,
+     987
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 770.8884484800639,
+    "window_iou": 0.0,
+    "nearest_candidate": 27.65863337187866
+   }
+  },
+  "ownership": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.06590084643288996,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     709,
+     267
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 43.18564576337837,
+    "window_iou": 0.03076923076923077,
+    "nearest_candidate": 27.65863337187866
+   }
+  },
+  "both": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.06590084643288996,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     595,
+     987
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 770.8884484800639,
+    "window_iou": 0.0,
+    "nearest_candidate": 27.65863337187866
+   }
+  },
+  "pathB": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.06590084643288996,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     595,
+     987
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 770.8884484800639,
+    "window_iou": 0.0,
+    "nearest_candidate": 27.65863337187866
+   }
+  },
+  "formal": {
+   "hair-left": {
+    "root": [
+     447,
+     281
+    ],
+    "reference": [
+     470,
+     224
+    ],
+    "distance": 61.465437442517235,
+    "window_iou": 0.06590084643288996,
+    "nearest_candidate": 28.178005607210743
+   },
+   "hair-right": {
+    "root": [
+     595,
+     987
+    ],
+    "reference": [
+     705,
+     224
+    ],
+    "distance": 770.8884484800639,
+    "window_iou": 0.0,
+    "nearest_candidate": 27.65863337187866
+   }
+  }
+ }
+}

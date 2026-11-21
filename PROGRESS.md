@@ -236,3 +236,8 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - 009-B再利用、Oracle4上限、C1中心線グラフとC2-A/B/Cを評価。既存venv・RTX 3060 Ti。公式コード変更なし。
 - 正式Cは4/6合格・総合未達。素材2左右の根元位置と枝帰属が未解決。手動0・素材別設定0。保護2,373件と009-B入力193件の前後ハッシュ一致。
 - コード experiments/009-c、[正式結果・証拠](results/009-semantic-hair-segmentation/009-C/README.md)。ChatGPT確認事項は素材2の接続誤りと未見素材への一般化。レビュー未実施。
+
+### 2026-11-21 23:29 UTC　実験009-D
+
+- 既存venvで構造側6方式を凍結・採点。可視髪・スカートは009-C固定。正式3/6で不合格。素材2の接続帰属失敗は8,079→31,878。選択根元の遠位枝への誤帰属が未解決。
+- experiments/009-d の predict.py、evaluate.py、integrity.py。保護対象2,373件、009-Bローカル193件とB/C追跡記録127件の前後ハッシュ一致。[正式結果・アブレーション・素材3の条件](results/009-semantic-hair-segmentation/009-D/README.md)。ChatGPTレビュー待ち。

@@ -1,0 +1,78 @@
+{
+ "01": {
+  "baseline": {
+   "left": 17739,
+   "right": 14018,
+   "fixed_visible_hair": 57921,
+   "excluded_from_evaluation": 0
+  },
+  "root": {
+   "left": 17739,
+   "right": 14018,
+   "fixed_visible_hair": 57921,
+   "excluded_from_evaluation": 0
+  },
+  "ownership": {
+   "left": 17428,
+   "right": 13921,
+   "fixed_visible_hair": 58329,
+   "excluded_from_evaluation": 0
+  },
+  "both": {
+   "left": 17428,
+   "right": 13921,
+   "fixed_visible_hair": 58329,
+   "excluded_from_evaluation": 0
+  },
+  "pathB": {
+   "left": 17428,
+   "right": 13921,
+   "fixed_visible_hair": 58329,
+   "excluded_from_evaluation": 0
+  },
+  "formal": {
+   "left": 17428,
+   "right": 13921,
+   "fixed_visible_hair": 58329,
+   "excluded_from_evaluation": 0
+  }
+ },
+ "02": {
+  "baseline": {
+   "left": 61467,
+   "right": 25151,
+   "fixed_visible_hair": 46326,
+   "excluded_from_evaluation": 0
+  },
+  "root": {
+   "left": 61043,
+   "right": 424,
+   "fixed_visible_hair": 71477,
+   "excluded_from_evaluation": 0
+  },
+  "ownership": {
+   "left": 61997,
+   "right": 25642,
+   "fixed_visible_hair": 45305,
+   "excluded_from_evaluation": 0
+  },
+  "both": {
+   "left": 61750,
+   "right": 247,
+   "fixed_visible_hair": 70947,
+   "excluded_from_evaluation": 0
+  },
+  "pathB": {
+   "left": 61750,
+   "right": 247,
+   "fixed_visible_hair": 70947,
+   "excluded_from_evaluation": 0
+  },
+  "formal": {
+   "left": 61750,
+   "right": 247,
+   "fixed_visible_hair": 70947,
+   "excluded_from_evaluation": 0
+  }
+ }
+}

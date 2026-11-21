@@ -1,0 +1,101 @@
+{
+ "code": {
+  "experiments/009-d/features.py": "43125b57321132f9b58354a2d4d3fb84923671240144af25f290eaea1f608ab0",
+  "experiments/009-d/ownership.py": "889ba5c63570d494961e6b08b531535995ac4cf233b2b8c70e785ab9c319a7cb",
+  "experiments/009-d/paths.py": "f6544a45038dd10d7bf2bc44bc79b23786b1c7c2f6134a5f8f61185e0983cf16",
+  "experiments/009-d/predict.py": "48d9b8a552542d028e72a37e5eb2ef47227ef716538eff252d65596e4dcd3e0f",
+  "experiments/009-d/ranking.py": "587a1a1de8ef84c26740f69524768c6e96e6f7a64b046b8b6a9ba0a6e8f15764"
+ },
+ "inputs": {
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/root-candidates.json": "ba90200ed1e3e5feebeb6a7a2dd681ced88ee052cd7402b3a9362571d3894996",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/hair-graph.json": "6c44bf08a242bb06e0d87795af9b3bedae12f05855120a1ed0bcc4b3cc2a0ef3",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/C/visible-hair.png": "16521851f7ee3c4aed556fb8a47820afd68633ae43ea455e1939ad5e9d1ea42d",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/C/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "b009/pred-01/completed/06-back-hair.png": "155e6c8181b762c7760cf6a6b4b73e3b2a59804b6421ee68fbc63d90bad8bb0c",
+  "b009/pred-01/completed/07-front-hair.png": "9e4f41a705ad42547cffe2e0776819d34abae298619e06e85c33926b24ce5d28",
+  "StandRig/source_007/original.png": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/C/hair-left.png": "e42410996aabb11b833d062f9a43d044a325d103d4e9fbe3fd8f68967c1a3e6c",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-01/C/hair-right.png": "a44e5262c2266fb2961dccd35490151809abc71097ad29a21dbbe3a80a635ee2",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/root-candidates.json": "e1c62767a475d9ce766608f09801ade8b2a2dd8a3b773e9c406757d30d542076",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/hair-graph.json": "86d20c9fb7c329f8ac9b66cf008b07c06fdd4f3b337dc4187b7bbf5e7e73e841",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/C/visible-hair.png": "d2e7f4a5ed62c7d97e398f9ba934a2d6b4d2bf07688eede13f70650338db30be",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/C/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "b009/pred-02/completed/02-back-hair.png": "49a5d439bfb265865499071726b11378ebae096eb4f40d15331fb6088226c302",
+  "b009/pred-02/completed/16-front-hair.png": "99499712cd6e81356e23f6434cc9c2f08b5d006ce0440276b7d03c255d861663",
+  "StandRig/source_008/original.png": "ee3f4481c7d3259844659ee49d54899920a9c9698eddf8d0b93b951501701728",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/C/hair-left.png": "20e5707819b2db4803b07cd14f65cf6fc307fb36cda1f001aa6bf151e2bf7dee",
+  "StandRig/results/009-semantic-hair-segmentation/009-C/predictions/asset-02/C/hair-right.png": "eb17f7283a009db13ee854a743b2ad6e01953368cefe3d04502a592384cbe5b8"
+ },
+ "masks": {
+  "predictions/01/baseline/hair-left.png": "e42410996aabb11b833d062f9a43d044a325d103d4e9fbe3fd8f68967c1a3e6c",
+  "predictions/01/baseline/hair-right.png": "a44e5262c2266fb2961dccd35490151809abc71097ad29a21dbbe3a80a635ee2",
+  "predictions/01/baseline/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/01/root/hair-left.png": "e42410996aabb11b833d062f9a43d044a325d103d4e9fbe3fd8f68967c1a3e6c",
+  "predictions/01/root/hair-right.png": "a44e5262c2266fb2961dccd35490151809abc71097ad29a21dbbe3a80a635ee2",
+  "predictions/01/root/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/01/ownership/hair-left.png": "3cfc37636e3aecde8a78fc48f40f996f299193e68d90c6bb97de0ae69fc5a320",
+  "predictions/01/ownership/hair-right.png": "4b9b50a04aa5389f0f39a947a84be9262b74a095aecdfb11b7d4327e34643ec4",
+  "predictions/01/ownership/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/01/both/hair-left.png": "3cfc37636e3aecde8a78fc48f40f996f299193e68d90c6bb97de0ae69fc5a320",
+  "predictions/01/both/hair-right.png": "4b9b50a04aa5389f0f39a947a84be9262b74a095aecdfb11b7d4327e34643ec4",
+  "predictions/01/both/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/01/pathB/hair-left.png": "3cfc37636e3aecde8a78fc48f40f996f299193e68d90c6bb97de0ae69fc5a320",
+  "predictions/01/pathB/hair-right.png": "4b9b50a04aa5389f0f39a947a84be9262b74a095aecdfb11b7d4327e34643ec4",
+  "predictions/01/pathB/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/01/formal/hair-left.png": "3cfc37636e3aecde8a78fc48f40f996f299193e68d90c6bb97de0ae69fc5a320",
+  "predictions/01/formal/hair-right.png": "4b9b50a04aa5389f0f39a947a84be9262b74a095aecdfb11b7d4327e34643ec4",
+  "predictions/01/formal/skirt.png": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "predictions/02/baseline/hair-left.png": "20e5707819b2db4803b07cd14f65cf6fc307fb36cda1f001aa6bf151e2bf7dee",
+  "predictions/02/baseline/hair-right.png": "eb17f7283a009db13ee854a743b2ad6e01953368cefe3d04502a592384cbe5b8",
+  "predictions/02/baseline/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "predictions/02/root/hair-left.png": "118df7d2ae578491b1a26be54649ec661568053cd78d865d3a3e57895911a8f6",
+  "predictions/02/root/hair-right.png": "8a28e3bf26afa414a3a70a4b688e17b19cf1e6bbf54809b6dcad4c83a4a28628",
+  "predictions/02/root/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "predictions/02/ownership/hair-left.png": "2eb0aaa87551eb27ebe5feba0a2b48e297205affecfc76e62410040f989bbf3b",
+  "predictions/02/ownership/hair-right.png": "6a3f269aa72d05abcd692639066a42c9a433ba469dd3565e72b562c28f1f7c9e",
+  "predictions/02/ownership/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "predictions/02/both/hair-left.png": "61b443095ec564003853e1391554b06e7ff5d7a9606afa819393cb2ad631fd9d",
+  "predictions/02/both/hair-right.png": "27dfc6ceab8ac981e050c9cf3b13477b99ef67497bedd3140d2323edb94a5a79",
+  "predictions/02/both/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "predictions/02/pathB/hair-left.png": "61b443095ec564003853e1391554b06e7ff5d7a9606afa819393cb2ad631fd9d",
+  "predictions/02/pathB/hair-right.png": "27dfc6ceab8ac981e050c9cf3b13477b99ef67497bedd3140d2323edb94a5a79",
+  "predictions/02/pathB/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142",
+  "predictions/02/formal/hair-left.png": "61b443095ec564003853e1391554b06e7ff5d7a9606afa819393cb2ad631fd9d",
+  "predictions/02/formal/hair-right.png": "27dfc6ceab8ac981e050c9cf3b13477b99ef67497bedd3140d2323edb94a5a79",
+  "predictions/02/formal/skirt.png": "65e8c55fedbb4a423d63070a3a029b152f1fbd081c8b54b536db26c9bf9ea142"
+ },
+ "variants": {
+  "baseline": [
+   "old",
+   "A",
+   "nearest"
+  ],
+  "root": [
+   "new",
+   "A",
+   "nearest"
+  ],
+  "ownership": [
+   "old",
+   "A",
+   "geo"
+  ],
+  "both": [
+   "new",
+   "A",
+   "geo"
+  ],
+  "pathB": [
+   "new",
+   "B",
+   "geo"
+  ],
+  "formal": [
+   "new",
+   "C",
+   "geo"
+  ]
+ },
+ "config": "5d0051f879e5f20f4c22c00854f019271ba18843b441f0021a101cffad4f7d87",
+ "formal": "formal"
+}

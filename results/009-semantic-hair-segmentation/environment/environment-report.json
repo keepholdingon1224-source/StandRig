@@ -49,6 +49,19 @@
         "report": "nf4-isolation/README.md",
         "record": "nf4-isolation/summary.json",
         "next_hypothesis": "Integrated loading, group offload, device transfers or runtime state; cause unconfirmed."
+      },
+      "integration": {
+        "report": "nf4-integration/README.md",
+        "trials": "nf4-integration/summary.json",
+        "A1": "6/6 pass",
+        "A2": "0/6 pass",
+        "A3": "6/6 pass",
+        "B": "not run; A2 failed",
+        "C": "not run; no B anomaly tested",
+        "D": "0/3 preflight; cache_tag_embeds failed before Body; no smoke",
+        "established": false,
+        "minimum_observed": "Isolated CLIP pair with block-level group offload (one block per group); first encoder, layer 0, q_proj.",
+        "observed_at_matmul": "Activation and packed weights on cuda:0; absmax and code on CPU in 3/3 traced A2 runs."
       }
     },
     "kaggle_t4_nf4_1024": {

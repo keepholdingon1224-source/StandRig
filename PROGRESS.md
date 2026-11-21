@@ -214,3 +214,8 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - Windows既存venv、RTX 3060 TiをUUID指定。各条件で bitsandbytes CLI と isolate.py を独立プロセスで3回ずつ実行。通常Linear、小形状NF4、CLIP第1層の実重みNF4が全9回合格。失敗0件。
 - 更新は experiments/009-local-nf4/isolate.py、environment-report.json、[単独診断記録](results/009-semantic-hair-segmentation/environment/nf4-isolation/README.md)。同フォルダにGPU・メモリ・DLL・各試行ログとSHA256SUMS。
 - 全条件合格の分岐で停止。第2・第3段階、正式IoUは未実施。前回の統合失敗は未解決。ChatGPT確認事項は、ロード・グループオフロード・デバイス移動のどこで量子化状態を比較するか。第三者レビュー未実施。
+
+### 2026-11-21 04:37 UTC　009-A NF4統合切り分け
+
+- 既存Windows venv・RTX 3060 Ti固定で integration.py（A1–A3、フック有無×3）と integration_body_gate.py（公式CLI素材1×3）を実行。A1/A3各6成功、A2全6失敗。第1層q_projで圧縮重みGPU・量子化状態CPUを観測。B/Cは条件外。D全3失敗、Body未到達、最小試験・009-B未実施。
+- 実験コード、environment-report.json、[実験結果と全ログ](results/009-semantic-hair-segmentation/environment/nf4-integration/README.md)を更新。未解決・ChatGPT確認事項は量子化状態の配置差についてどの単一変更で因果性を検証するか。レビュー未実施。

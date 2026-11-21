@@ -219,3 +219,9 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 
 - 既存Windows venv・RTX 3060 Ti固定で integration.py（A1–A3、フック有無×3）と integration_body_gate.py（公式CLI素材1×3）を実行。A1/A3各6成功、A2全6失敗。第1層q_projで圧縮重みGPU・量子化状態CPUを観測。B/Cは条件外。D全3失敗、Body未到達、最小試験・009-B未実施。
 - 実験コード、environment-report.json、[実験結果と全ログ](results/009-semantic-hair-segmentation/environment/nf4-integration/README.md)を更新。未解決・ChatGPT確認事項は量子化状態の配置差についてどの単一変更で因果性を検証するか。レビュー未実施。
+
+### 2026-11-21 05:59 UTC　009-A 量子化状態の介入試験とA3改変構成
+
+- 既存Windows venv・RTX 3060 TiをUUID固定。quantstate_gate.pyでControl/Fix/Reference各3回。Controlは0/3（配置検査で停止、CUDA実エラーは前回参照）。Fix/A3は各3/3全44層完走・出力完全一致。
+- a3_body.py、a3_smoke.py、a3_validate.pyで素材1を検証。Gate 3/4/5各3/3合格。A3モデル単位転送の改変構成で成立。公式ブロックオフロードは既報どおり。009-B未実施。
+- 更新は experiments/009-local-nf4 と environment-report.json、[実測記録](results/009-semantic-hair-segmentation/environment/nf4-intervention/README.md)。PSDはLive2D_009A/a3-smoke-1〜3。ChatGPTレビュー待ち。未解決事項は他素材への一般化と意味マスク品質。

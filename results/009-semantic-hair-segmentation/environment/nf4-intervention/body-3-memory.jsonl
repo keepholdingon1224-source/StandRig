@@ -1,0 +1,6 @@
+{"event": "instrumentation_ready", "stage": "load", "allocated_peak": 0, "reserved_peak": 0}
+{"event": "before_VAE_encode", "stage": "load", "allocated_peak": 205338112, "reserved_peak": 220200960}
+{"event": "exit_VAE_encode", "stage": "VAE_encode", "allocated_peak": 1809954816, "reserved_peak": 2443182080, "whole_stage_allocated_peak": 1809954816, "whole_stage_reserved_peak": 2443182080}
+{"event": "before_Body", "stage": "load", "allocated_peak": 2806435840, "reserved_peak": 2850029568}
+{"event": "probe_completed", "stage": "Body", "allocated_peak": 5106815488, "reserved_peak": 6780092416}
+{"event": "exit_Body", "stage": "Body", "allocated_peak": 5106815488, "reserved_peak": 6780092416, "whole_stage_allocated_peak": 5106815488, "whole_stage_reserved_peak": 6780092416}

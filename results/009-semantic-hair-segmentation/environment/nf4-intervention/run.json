@@ -1,0 +1,873 @@
+{
+  "input": "source_007/original.png",
+  "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+  "gate1": "supports placement hypothesis",
+  "control": "current: rejected before dispatch in 3/3; historical 3/3 traced and 3/3 plain CUDA failures",
+  "gate3": "3/3 pass",
+  "gate4": "3/3 pass",
+  "gate5": "3/3 pass",
+  "established": true,
+  "configuration": "modified A3 only",
+  "seed": 42,
+  "layerdiff_steps": 30,
+  "depth_default_steps": 4,
+  "resolution": 1024,
+  "depth_resolution": 768,
+  "replicates": [
+    {
+      "trial": 1,
+      "local_folder": "a3-smoke-1",
+      "peak": [
+        {
+          "stage": "Body image encode",
+          "allocated": 2790412288,
+          "reserved": 5041553408
+        },
+        {
+          "stage": "Body denoise",
+          "allocated": 5111665152,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head image encode",
+          "allocated": 2961605120,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head denoise",
+          "allocated": 4753447424,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "Head decode completed",
+          "allocated": 2961993216,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "depth image encode",
+          "allocated": 1510678528,
+          "reserved": 4963958784
+        },
+        {
+          "stage": "depth denoise",
+          "allocated": 4587957760,
+          "reserved": 5484052480
+        },
+        {
+          "stage": "depth decode",
+          "allocated": 1652214784,
+          "reserved": 5484052480
+        }
+      ],
+      "outputs": {
+        "original/back hair.png": {
+          "sha256": "1b89ef5da8c71f37a2fd654a26f140fd82d932dc09198dd9bf866351aa737565",
+          "bytes": 485727
+        },
+        "original/back hair_depth.png": {
+          "sha256": "edebc6778f41e6fd5dcfcc76c714b733f6424ba5ed262b8838fde6e0fe869e10",
+          "bytes": 13382
+        },
+        "original/bottomwear.png": {
+          "sha256": "32bfebfa0183911643d8f470ea9699562f65aafea379127d473a6b9cd6c64bb7",
+          "bytes": 591542
+        },
+        "original/bottomwear_depth.png": {
+          "sha256": "98efcf12eeb5b7230ed807393ac084399dc291495e0cade059b64b5623baa7f6",
+          "bytes": 45206
+        },
+        "original/ears.png": {
+          "sha256": "4c4dbe5b581c70465aac82a503c0726be70dcd3bd1a04fd8001e964e3c1a6413",
+          "bytes": 22483
+        },
+        "original/ears_depth.png": {
+          "sha256": "f5afb4e2d26c50061c55a4a70dedf6537eddda7b7113ca1a243d35780edc7c53",
+          "bytes": 15622
+        },
+        "original/earwear.png": {
+          "sha256": "7e27bd188278fce6ea5f9518ff479444b9abd3ae20a0a9361e09d7d967458f89",
+          "bytes": 20449
+        },
+        "original/earwear_depth.png": {
+          "sha256": "29cf670fc5c710bb32993e832aeb086b07bd36ad200241802fc7a71341619070",
+          "bytes": 4844
+        },
+        "original/eyebrow.png": {
+          "sha256": "44a14d4db86f4817f22e28a56137fd30f7beecbb7aef7321397328a9b0d44550",
+          "bytes": 17754
+        },
+        "original/eyebrow_depth.png": {
+          "sha256": "cb6aad946d068d76c2b0474de089352b4b60d5cb8ef5b6f1040fcd0e98198340",
+          "bytes": 3410
+        },
+        "original/eyelash.png": {
+          "sha256": "2a69391721e7332d3777b748815826dbb38d7d9aed8d6ba98596a53967509e6d",
+          "bytes": 16028
+        },
+        "original/eyelash_depth.png": {
+          "sha256": "f06493526fbbda2ba65c6f8e39dd6ea9ecdaec0949e024ea3a2f4d014a7862fc",
+          "bytes": 3720
+        },
+        "original/eyewear.png": {
+          "sha256": "45d612039713fb03fc373df0994b42b4242970729fbe67aa58c43309c0457f9b",
+          "bytes": 20292
+        },
+        "original/eyewear_depth.png": {
+          "sha256": "fcb77e14232d2ea8e7fb1ae493f4718d7ca1fa6ca04b3f3562d2e90a2e4154f6",
+          "bytes": 5483
+        },
+        "original/eyewhite.png": {
+          "sha256": "97ee5c4c8cc73a4dde4369abb825016661d1afbc1e6af4865afcc593c251d613",
+          "bytes": 24890
+        },
+        "original/eyewhite_depth.png": {
+          "sha256": "6a69067cfa0db6c7af5032da03441d73e1ad6db06eea406da3af53bd0c9128fe",
+          "bytes": 3422
+        },
+        "original/face.png": {
+          "sha256": "5f2ef6b954b3f65ca2a6698bbd6a3ce4ec92717b4bb4c53e1c9075b7ad45ed20",
+          "bytes": 27574
+        },
+        "original/face_depth.png": {
+          "sha256": "18e3ad204665dc9d6ae2d11fcd615c63ec22bee6c717a375543dc9343077395e",
+          "bytes": 10297
+        },
+        "original/footwear.png": {
+          "sha256": "08ce269369675f0e2662fb589ee4fbf8b775154a63b5682d5e5b24682807ea8e",
+          "bytes": 525337
+        },
+        "original/footwear_depth.png": {
+          "sha256": "ffdd3c2e34b925a2d9d3835ef5d76078050e067397cad31da0c70f90f7ebeaed",
+          "bytes": 17152
+        },
+        "original/front hair.png": {
+          "sha256": "d024885e7274dd98d828217861c0b0d6913aeb204c09fa0a087d12d285daefae",
+          "bytes": 485542
+        },
+        "original/front hair_depth.png": {
+          "sha256": "58773b6bee0a049a717bb950f9183e1a4cbdb894ccc3b507a86daa030192313f",
+          "bytes": 11523
+        },
+        "original/handwear.png": {
+          "sha256": "511f611fa2bbbcc8053639006653265c17efe8d7d245fb33277ba44822d483ff",
+          "bytes": 541803
+        },
+        "original/handwear_depth.png": {
+          "sha256": "a2db74acf014e7f7a5e603a7772dd4ba358d234ffa3ad992876a890167846c4d",
+          "bytes": 24507
+        },
+        "original/head.png": {
+          "sha256": "3105afdafffbac99e7097646690f750143844550f7f7c6bfa3db37411e6d029e",
+          "bytes": 764745
+        },
+        "original/headwear.png": {
+          "sha256": "aacac54bbdc14fbe49c206729b87ee601032ee29c69e2e473c0f556371c7ad81",
+          "bytes": 20999
+        },
+        "original/headwear_depth.png": {
+          "sha256": "0017fee8961ded1fee740bab017b6846d51876a15a243c568a6caf590209c18e",
+          "bytes": 5059
+        },
+        "original/info.json": {
+          "sha256": "f694b3a703036fe900d2a41ae1899c3f5fac3cf020704029d023c850ea415b32",
+          "bytes": 349
+        },
+        "original/irides.png": {
+          "sha256": "c2c08b0bde8145b707a669855fcf183d7381f8f464619d548de4c0b649bee759",
+          "bytes": 16476
+        },
+        "original/irides_depth.png": {
+          "sha256": "97866d1775e5ee273d73c8eb34562a287d206c47101a7b0ad1b6865549251c83",
+          "bytes": 3450
+        },
+        "original/legwear.png": {
+          "sha256": "4c9286e13d337519b982c722270c18d5d3cb8fd38ecf190728066f876b9379f2",
+          "bytes": 603954
+        },
+        "original/legwear_depth.png": {
+          "sha256": "d7367ec06e16d9b4dd8aca12d5d32e2f0cfb347c8e4eb3eabc3594269feaeacc",
+          "bytes": 9603
+        },
+        "original/mouth.png": {
+          "sha256": "bd8efcddf2e3a2a4989379a9ffe712cf534be167d59c695d9ab7d856d436038c",
+          "bytes": 16580
+        },
+        "original/mouth_depth.png": {
+          "sha256": "4d6cb98352fb150b513db2e6586044cfbd58e908714b59887aea51735245125d",
+          "bytes": 7308
+        },
+        "original/neck.png": {
+          "sha256": "e46311abea395bcafe654e11077c2cf8991a5c1de2dedf1181ec22c83cc43a1d",
+          "bytes": 330236
+        },
+        "original/neck_depth.png": {
+          "sha256": "70bdb4a42b52ca1622db5f60fd00d8e8a2381b9ee0629794cf7c236ae43aae55",
+          "bytes": 8502
+        },
+        "original/neckwear.png": {
+          "sha256": "b442920463a1bd7be8a8f2281703376984e282a07c5b71e4d473e7278d564cff",
+          "bytes": 487922
+        },
+        "original/neckwear_depth.png": {
+          "sha256": "040bf762f859fe73331f2153506a945ac893b1cc50097ace85f10cd3db0cac68",
+          "bytes": 4628
+        },
+        "original/nose.png": {
+          "sha256": "bf0c70529057b5b32ed6b38bef978e1de80caea8101186716134711dcd4b032c",
+          "bytes": 17435
+        },
+        "original/nose_depth.png": {
+          "sha256": "cf196bfb17a98553913d7d091f854baf0248ecc1b9facc0a56da12808c12a55c",
+          "bytes": 4708
+        },
+        "original/objects.png": {
+          "sha256": "3b3c7e07dc4a32eba9f7b9ce293bee7f59ffdada7df72ea982456996e336aeea",
+          "bytes": 495282
+        },
+        "original/objects_depth.png": {
+          "sha256": "f7f1445488984f2d578a400e12364625f90459c9594a9247e24d111b15247426",
+          "bytes": 4590
+        },
+        "original/reconstruction.png": {
+          "sha256": "d68f6af8c3f223aca97b7ff09fb612f3f78db64737b286f2c0b06912ff479e2d",
+          "bytes": 261610
+        },
+        "original/src_head.png": {
+          "sha256": "182deddfdba395167319a744b66f742945ed28b9cc783798c964cd54bb69ff85",
+          "bytes": 557602
+        },
+        "original/src_img.png": {
+          "sha256": "fc114734d304419316e0df9291d77cd090a2ae137932f91796aa9d7a4f37af7c",
+          "bytes": 250932
+        },
+        "original/tail.png": {
+          "sha256": "c938cdfd8d808c2c500b8e09926e6de848c952be26c4827da551ef12bbf518e6",
+          "bytes": 464798
+        },
+        "original/tail_depth.png": {
+          "sha256": "0dd934713c323cab49500e99f2ceffde47596c34b1332fe55a6688dd49e671b4",
+          "bytes": 5638
+        },
+        "original/topwear.png": {
+          "sha256": "8b11c0ef5c1e6587ab344c080774eb716c9dccd6b9b03058e8d982f40ad9a0d5",
+          "bytes": 615448
+        },
+        "original/topwear_depth.png": {
+          "sha256": "8ab2cc90198ffe19b8dd3716afb858c22b9b39005c1852d737d21e647ce77a03",
+          "bytes": 12901
+        },
+        "original/wings.png": {
+          "sha256": "4dcffe9dd6f77d3a858be3523337ebfe80699daf01f427b36523bc82bb93bf8b",
+          "bytes": 507372
+        },
+        "original/wings_depth.png": {
+          "sha256": "4987c782f3765773e1fb60e0e25952116e713b81ff5cdd303887bb3b1e23d704",
+          "bytes": 5265
+        },
+        "original.psd": {
+          "sha256": "460c40bf9057dd063ba3c2987f41b7c1a5f1ebff023ee4eb04d82a7c774f0647",
+          "bytes": 5281594
+        },
+        "original.psd.json": {
+          "sha256": "dbea6799cd3cc58d5441bd475a9fa1e0023301d1071f1f3e5ac473a92f279ad5",
+          "bytes": 1812
+        },
+        "original_depth.psd": {
+          "sha256": "2a85725fe40110071bd07a5acd58ce2cd73759a6e502e1a3278c4cd835308652",
+          "bytes": 1175770
+        }
+      },
+      "source_pixel_exact": true,
+      "layer_count": 16
+    },
+    {
+      "trial": 2,
+      "local_folder": "a3-smoke-2",
+      "peak": [
+        {
+          "stage": "Body image encode",
+          "allocated": 2790412288,
+          "reserved": 5041553408
+        },
+        {
+          "stage": "Body denoise",
+          "allocated": 5111665152,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head image encode",
+          "allocated": 2961605120,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head denoise",
+          "allocated": 4753447424,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "Head decode completed",
+          "allocated": 2961993216,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "depth image encode",
+          "allocated": 1510678528,
+          "reserved": 4963958784
+        },
+        {
+          "stage": "depth denoise",
+          "allocated": 4587957760,
+          "reserved": 5484052480
+        },
+        {
+          "stage": "depth decode",
+          "allocated": 1652214784,
+          "reserved": 5484052480
+        }
+      ],
+      "outputs": {
+        "original/back hair.png": {
+          "sha256": "1b89ef5da8c71f37a2fd654a26f140fd82d932dc09198dd9bf866351aa737565",
+          "bytes": 485727
+        },
+        "original/back hair_depth.png": {
+          "sha256": "edebc6778f41e6fd5dcfcc76c714b733f6424ba5ed262b8838fde6e0fe869e10",
+          "bytes": 13382
+        },
+        "original/bottomwear.png": {
+          "sha256": "32bfebfa0183911643d8f470ea9699562f65aafea379127d473a6b9cd6c64bb7",
+          "bytes": 591542
+        },
+        "original/bottomwear_depth.png": {
+          "sha256": "98efcf12eeb5b7230ed807393ac084399dc291495e0cade059b64b5623baa7f6",
+          "bytes": 45206
+        },
+        "original/ears.png": {
+          "sha256": "4c4dbe5b581c70465aac82a503c0726be70dcd3bd1a04fd8001e964e3c1a6413",
+          "bytes": 22483
+        },
+        "original/ears_depth.png": {
+          "sha256": "f5afb4e2d26c50061c55a4a70dedf6537eddda7b7113ca1a243d35780edc7c53",
+          "bytes": 15622
+        },
+        "original/earwear.png": {
+          "sha256": "7e27bd188278fce6ea5f9518ff479444b9abd3ae20a0a9361e09d7d967458f89",
+          "bytes": 20449
+        },
+        "original/earwear_depth.png": {
+          "sha256": "29cf670fc5c710bb32993e832aeb086b07bd36ad200241802fc7a71341619070",
+          "bytes": 4844
+        },
+        "original/eyebrow.png": {
+          "sha256": "44a14d4db86f4817f22e28a56137fd30f7beecbb7aef7321397328a9b0d44550",
+          "bytes": 17754
+        },
+        "original/eyebrow_depth.png": {
+          "sha256": "cb6aad946d068d76c2b0474de089352b4b60d5cb8ef5b6f1040fcd0e98198340",
+          "bytes": 3410
+        },
+        "original/eyelash.png": {
+          "sha256": "2a69391721e7332d3777b748815826dbb38d7d9aed8d6ba98596a53967509e6d",
+          "bytes": 16028
+        },
+        "original/eyelash_depth.png": {
+          "sha256": "f06493526fbbda2ba65c6f8e39dd6ea9ecdaec0949e024ea3a2f4d014a7862fc",
+          "bytes": 3720
+        },
+        "original/eyewear.png": {
+          "sha256": "45d612039713fb03fc373df0994b42b4242970729fbe67aa58c43309c0457f9b",
+          "bytes": 20292
+        },
+        "original/eyewear_depth.png": {
+          "sha256": "fcb77e14232d2ea8e7fb1ae493f4718d7ca1fa6ca04b3f3562d2e90a2e4154f6",
+          "bytes": 5483
+        },
+        "original/eyewhite.png": {
+          "sha256": "97ee5c4c8cc73a4dde4369abb825016661d1afbc1e6af4865afcc593c251d613",
+          "bytes": 24890
+        },
+        "original/eyewhite_depth.png": {
+          "sha256": "6a69067cfa0db6c7af5032da03441d73e1ad6db06eea406da3af53bd0c9128fe",
+          "bytes": 3422
+        },
+        "original/face.png": {
+          "sha256": "5f2ef6b954b3f65ca2a6698bbd6a3ce4ec92717b4bb4c53e1c9075b7ad45ed20",
+          "bytes": 27574
+        },
+        "original/face_depth.png": {
+          "sha256": "18e3ad204665dc9d6ae2d11fcd615c63ec22bee6c717a375543dc9343077395e",
+          "bytes": 10297
+        },
+        "original/footwear.png": {
+          "sha256": "08ce269369675f0e2662fb589ee4fbf8b775154a63b5682d5e5b24682807ea8e",
+          "bytes": 525337
+        },
+        "original/footwear_depth.png": {
+          "sha256": "ffdd3c2e34b925a2d9d3835ef5d76078050e067397cad31da0c70f90f7ebeaed",
+          "bytes": 17152
+        },
+        "original/front hair.png": {
+          "sha256": "d024885e7274dd98d828217861c0b0d6913aeb204c09fa0a087d12d285daefae",
+          "bytes": 485542
+        },
+        "original/front hair_depth.png": {
+          "sha256": "58773b6bee0a049a717bb950f9183e1a4cbdb894ccc3b507a86daa030192313f",
+          "bytes": 11523
+        },
+        "original/handwear.png": {
+          "sha256": "511f611fa2bbbcc8053639006653265c17efe8d7d245fb33277ba44822d483ff",
+          "bytes": 541803
+        },
+        "original/handwear_depth.png": {
+          "sha256": "a2db74acf014e7f7a5e603a7772dd4ba358d234ffa3ad992876a890167846c4d",
+          "bytes": 24507
+        },
+        "original/head.png": {
+          "sha256": "3105afdafffbac99e7097646690f750143844550f7f7c6bfa3db37411e6d029e",
+          "bytes": 764745
+        },
+        "original/headwear.png": {
+          "sha256": "aacac54bbdc14fbe49c206729b87ee601032ee29c69e2e473c0f556371c7ad81",
+          "bytes": 20999
+        },
+        "original/headwear_depth.png": {
+          "sha256": "0017fee8961ded1fee740bab017b6846d51876a15a243c568a6caf590209c18e",
+          "bytes": 5059
+        },
+        "original/info.json": {
+          "sha256": "f694b3a703036fe900d2a41ae1899c3f5fac3cf020704029d023c850ea415b32",
+          "bytes": 349
+        },
+        "original/irides.png": {
+          "sha256": "c2c08b0bde8145b707a669855fcf183d7381f8f464619d548de4c0b649bee759",
+          "bytes": 16476
+        },
+        "original/irides_depth.png": {
+          "sha256": "97866d1775e5ee273d73c8eb34562a287d206c47101a7b0ad1b6865549251c83",
+          "bytes": 3450
+        },
+        "original/legwear.png": {
+          "sha256": "4c9286e13d337519b982c722270c18d5d3cb8fd38ecf190728066f876b9379f2",
+          "bytes": 603954
+        },
+        "original/legwear_depth.png": {
+          "sha256": "d7367ec06e16d9b4dd8aca12d5d32e2f0cfb347c8e4eb3eabc3594269feaeacc",
+          "bytes": 9603
+        },
+        "original/mouth.png": {
+          "sha256": "bd8efcddf2e3a2a4989379a9ffe712cf534be167d59c695d9ab7d856d436038c",
+          "bytes": 16580
+        },
+        "original/mouth_depth.png": {
+          "sha256": "4d6cb98352fb150b513db2e6586044cfbd58e908714b59887aea51735245125d",
+          "bytes": 7308
+        },
+        "original/neck.png": {
+          "sha256": "e46311abea395bcafe654e11077c2cf8991a5c1de2dedf1181ec22c83cc43a1d",
+          "bytes": 330236
+        },
+        "original/neck_depth.png": {
+          "sha256": "70bdb4a42b52ca1622db5f60fd00d8e8a2381b9ee0629794cf7c236ae43aae55",
+          "bytes": 8502
+        },
+        "original/neckwear.png": {
+          "sha256": "b442920463a1bd7be8a8f2281703376984e282a07c5b71e4d473e7278d564cff",
+          "bytes": 487922
+        },
+        "original/neckwear_depth.png": {
+          "sha256": "040bf762f859fe73331f2153506a945ac893b1cc50097ace85f10cd3db0cac68",
+          "bytes": 4628
+        },
+        "original/nose.png": {
+          "sha256": "bf0c70529057b5b32ed6b38bef978e1de80caea8101186716134711dcd4b032c",
+          "bytes": 17435
+        },
+        "original/nose_depth.png": {
+          "sha256": "cf196bfb17a98553913d7d091f854baf0248ecc1b9facc0a56da12808c12a55c",
+          "bytes": 4708
+        },
+        "original/objects.png": {
+          "sha256": "3b3c7e07dc4a32eba9f7b9ce293bee7f59ffdada7df72ea982456996e336aeea",
+          "bytes": 495282
+        },
+        "original/objects_depth.png": {
+          "sha256": "f7f1445488984f2d578a400e12364625f90459c9594a9247e24d111b15247426",
+          "bytes": 4590
+        },
+        "original/reconstruction.png": {
+          "sha256": "d68f6af8c3f223aca97b7ff09fb612f3f78db64737b286f2c0b06912ff479e2d",
+          "bytes": 261610
+        },
+        "original/src_head.png": {
+          "sha256": "182deddfdba395167319a744b66f742945ed28b9cc783798c964cd54bb69ff85",
+          "bytes": 557602
+        },
+        "original/src_img.png": {
+          "sha256": "fc114734d304419316e0df9291d77cd090a2ae137932f91796aa9d7a4f37af7c",
+          "bytes": 250932
+        },
+        "original/tail.png": {
+          "sha256": "c938cdfd8d808c2c500b8e09926e6de848c952be26c4827da551ef12bbf518e6",
+          "bytes": 464798
+        },
+        "original/tail_depth.png": {
+          "sha256": "0dd934713c323cab49500e99f2ceffde47596c34b1332fe55a6688dd49e671b4",
+          "bytes": 5638
+        },
+        "original/topwear.png": {
+          "sha256": "8b11c0ef5c1e6587ab344c080774eb716c9dccd6b9b03058e8d982f40ad9a0d5",
+          "bytes": 615448
+        },
+        "original/topwear_depth.png": {
+          "sha256": "8ab2cc90198ffe19b8dd3716afb858c22b9b39005c1852d737d21e647ce77a03",
+          "bytes": 12901
+        },
+        "original/wings.png": {
+          "sha256": "4dcffe9dd6f77d3a858be3523337ebfe80699daf01f427b36523bc82bb93bf8b",
+          "bytes": 507372
+        },
+        "original/wings_depth.png": {
+          "sha256": "4987c782f3765773e1fb60e0e25952116e713b81ff5cdd303887bb3b1e23d704",
+          "bytes": 5265
+        },
+        "original.psd": {
+          "sha256": "460c40bf9057dd063ba3c2987f41b7c1a5f1ebff023ee4eb04d82a7c774f0647",
+          "bytes": 5281594
+        },
+        "original.psd.json": {
+          "sha256": "dbea6799cd3cc58d5441bd475a9fa1e0023301d1071f1f3e5ac473a92f279ad5",
+          "bytes": 1812
+        },
+        "original_depth.psd": {
+          "sha256": "2a85725fe40110071bd07a5acd58ce2cd73759a6e502e1a3278c4cd835308652",
+          "bytes": 1175770
+        }
+      },
+      "source_pixel_exact": true,
+      "layer_count": 16
+    },
+    {
+      "trial": 3,
+      "local_folder": "a3-smoke-3",
+      "peak": [
+        {
+          "stage": "Body image encode",
+          "allocated": 2790412288,
+          "reserved": 5041553408
+        },
+        {
+          "stage": "Body denoise",
+          "allocated": 5111665152,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head image encode",
+          "allocated": 2961605120,
+          "reserved": 6780092416
+        },
+        {
+          "stage": "Head denoise",
+          "allocated": 4753447424,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "Head decode completed",
+          "allocated": 2961993216,
+          "reserved": 6184501248
+        },
+        {
+          "stage": "depth image encode",
+          "allocated": 1510678528,
+          "reserved": 4963958784
+        },
+        {
+          "stage": "depth denoise",
+          "allocated": 4587957760,
+          "reserved": 5484052480
+        },
+        {
+          "stage": "depth decode",
+          "allocated": 1652214784,
+          "reserved": 5484052480
+        }
+      ],
+      "outputs": {
+        "original/back hair.png": {
+          "sha256": "1b89ef5da8c71f37a2fd654a26f140fd82d932dc09198dd9bf866351aa737565",
+          "bytes": 485727
+        },
+        "original/back hair_depth.png": {
+          "sha256": "edebc6778f41e6fd5dcfcc76c714b733f6424ba5ed262b8838fde6e0fe869e10",
+          "bytes": 13382
+        },
+        "original/bottomwear.png": {
+          "sha256": "32bfebfa0183911643d8f470ea9699562f65aafea379127d473a6b9cd6c64bb7",
+          "bytes": 591542
+        },
+        "original/bottomwear_depth.png": {
+          "sha256": "98efcf12eeb5b7230ed807393ac084399dc291495e0cade059b64b5623baa7f6",
+          "bytes": 45206
+        },
+        "original/ears.png": {
+          "sha256": "4c4dbe5b581c70465aac82a503c0726be70dcd3bd1a04fd8001e964e3c1a6413",
+          "bytes": 22483
+        },
+        "original/ears_depth.png": {
+          "sha256": "f5afb4e2d26c50061c55a4a70dedf6537eddda7b7113ca1a243d35780edc7c53",
+          "bytes": 15622
+        },
+        "original/earwear.png": {
+          "sha256": "7e27bd188278fce6ea5f9518ff479444b9abd3ae20a0a9361e09d7d967458f89",
+          "bytes": 20449
+        },
+        "original/earwear_depth.png": {
+          "sha256": "29cf670fc5c710bb32993e832aeb086b07bd36ad200241802fc7a71341619070",
+          "bytes": 4844
+        },
+        "original/eyebrow.png": {
+          "sha256": "44a14d4db86f4817f22e28a56137fd30f7beecbb7aef7321397328a9b0d44550",
+          "bytes": 17754
+        },
+        "original/eyebrow_depth.png": {
+          "sha256": "cb6aad946d068d76c2b0474de089352b4b60d5cb8ef5b6f1040fcd0e98198340",
+          "bytes": 3410
+        },
+        "original/eyelash.png": {
+          "sha256": "2a69391721e7332d3777b748815826dbb38d7d9aed8d6ba98596a53967509e6d",
+          "bytes": 16028
+        },
+        "original/eyelash_depth.png": {
+          "sha256": "f06493526fbbda2ba65c6f8e39dd6ea9ecdaec0949e024ea3a2f4d014a7862fc",
+          "bytes": 3720
+        },
+        "original/eyewear.png": {
+          "sha256": "45d612039713fb03fc373df0994b42b4242970729fbe67aa58c43309c0457f9b",
+          "bytes": 20292
+        },
+        "original/eyewear_depth.png": {
+          "sha256": "fcb77e14232d2ea8e7fb1ae493f4718d7ca1fa6ca04b3f3562d2e90a2e4154f6",
+          "bytes": 5483
+        },
+        "original/eyewhite.png": {
+          "sha256": "97ee5c4c8cc73a4dde4369abb825016661d1afbc1e6af4865afcc593c251d613",
+          "bytes": 24890
+        },
+        "original/eyewhite_depth.png": {
+          "sha256": "6a69067cfa0db6c7af5032da03441d73e1ad6db06eea406da3af53bd0c9128fe",
+          "bytes": 3422
+        },
+        "original/face.png": {
+          "sha256": "5f2ef6b954b3f65ca2a6698bbd6a3ce4ec92717b4bb4c53e1c9075b7ad45ed20",
+          "bytes": 27574
+        },
+        "original/face_depth.png": {
+          "sha256": "18e3ad204665dc9d6ae2d11fcd615c63ec22bee6c717a375543dc9343077395e",
+          "bytes": 10297
+        },
+        "original/footwear.png": {
+          "sha256": "08ce269369675f0e2662fb589ee4fbf8b775154a63b5682d5e5b24682807ea8e",
+          "bytes": 525337
+        },
+        "original/footwear_depth.png": {
+          "sha256": "ffdd3c2e34b925a2d9d3835ef5d76078050e067397cad31da0c70f90f7ebeaed",
+          "bytes": 17152
+        },
+        "original/front hair.png": {
+          "sha256": "d024885e7274dd98d828217861c0b0d6913aeb204c09fa0a087d12d285daefae",
+          "bytes": 485542
+        },
+        "original/front hair_depth.png": {
+          "sha256": "58773b6bee0a049a717bb950f9183e1a4cbdb894ccc3b507a86daa030192313f",
+          "bytes": 11523
+        },
+        "original/handwear.png": {
+          "sha256": "511f611fa2bbbcc8053639006653265c17efe8d7d245fb33277ba44822d483ff",
+          "bytes": 541803
+        },
+        "original/handwear_depth.png": {
+          "sha256": "a2db74acf014e7f7a5e603a7772dd4ba358d234ffa3ad992876a890167846c4d",
+          "bytes": 24507
+        },
+        "original/head.png": {
+          "sha256": "3105afdafffbac99e7097646690f750143844550f7f7c6bfa3db37411e6d029e",
+          "bytes": 764745
+        },
+        "original/headwear.png": {
+          "sha256": "aacac54bbdc14fbe49c206729b87ee601032ee29c69e2e473c0f556371c7ad81",
+          "bytes": 20999
+        },
+        "original/headwear_depth.png": {
+          "sha256": "0017fee8961ded1fee740bab017b6846d51876a15a243c568a6caf590209c18e",
+          "bytes": 5059
+        },
+        "original/info.json": {
+          "sha256": "f694b3a703036fe900d2a41ae1899c3f5fac3cf020704029d023c850ea415b32",
+          "bytes": 349
+        },
+        "original/irides.png": {
+          "sha256": "c2c08b0bde8145b707a669855fcf183d7381f8f464619d548de4c0b649bee759",
+          "bytes": 16476
+        },
+        "original/irides_depth.png": {
+          "sha256": "97866d1775e5ee273d73c8eb34562a287d206c47101a7b0ad1b6865549251c83",
+          "bytes": 3450
+        },
+        "original/legwear.png": {
+          "sha256": "4c9286e13d337519b982c722270c18d5d3cb8fd38ecf190728066f876b9379f2",
+          "bytes": 603954
+        },
+        "original/legwear_depth.png": {
+          "sha256": "d7367ec06e16d9b4dd8aca12d5d32e2f0cfb347c8e4eb3eabc3594269feaeacc",
+          "bytes": 9603
+        },
+        "original/mouth.png": {
+          "sha256": "bd8efcddf2e3a2a4989379a9ffe712cf534be167d59c695d9ab7d856d436038c",
+          "bytes": 16580
+        },
+        "original/mouth_depth.png": {
+          "sha256": "4d6cb98352fb150b513db2e6586044cfbd58e908714b59887aea51735245125d",
+          "bytes": 7308
+        },
+        "original/neck.png": {
+          "sha256": "e46311abea395bcafe654e11077c2cf8991a5c1de2dedf1181ec22c83cc43a1d",
+          "bytes": 330236
+        },
+        "original/neck_depth.png": {
+          "sha256": "70bdb4a42b52ca1622db5f60fd00d8e8a2381b9ee0629794cf7c236ae43aae55",
+          "bytes": 8502
+        },
+        "original/neckwear.png": {
+          "sha256": "b442920463a1bd7be8a8f2281703376984e282a07c5b71e4d473e7278d564cff",
+          "bytes": 487922
+        },
+        "original/neckwear_depth.png": {
+          "sha256": "040bf762f859fe73331f2153506a945ac893b1cc50097ace85f10cd3db0cac68",
+          "bytes": 4628
+        },
+        "original/nose.png": {
+          "sha256": "bf0c70529057b5b32ed6b38bef978e1de80caea8101186716134711dcd4b032c",
+          "bytes": 17435
+        },
+        "original/nose_depth.png": {
+          "sha256": "cf196bfb17a98553913d7d091f854baf0248ecc1b9facc0a56da12808c12a55c",
+          "bytes": 4708
+        },
+        "original/objects.png": {
+          "sha256": "3b3c7e07dc4a32eba9f7b9ce293bee7f59ffdada7df72ea982456996e336aeea",
+          "bytes": 495282
+        },
+        "original/objects_depth.png": {
+          "sha256": "f7f1445488984f2d578a400e12364625f90459c9594a9247e24d111b15247426",
+          "bytes": 4590
+        },
+        "original/reconstruction.png": {
+          "sha256": "d68f6af8c3f223aca97b7ff09fb612f3f78db64737b286f2c0b06912ff479e2d",
+          "bytes": 261610
+        },
+        "original/src_head.png": {
+          "sha256": "182deddfdba395167319a744b66f742945ed28b9cc783798c964cd54bb69ff85",
+          "bytes": 557602
+        },
+        "original/src_img.png": {
+          "sha256": "fc114734d304419316e0df9291d77cd090a2ae137932f91796aa9d7a4f37af7c",
+          "bytes": 250932
+        },
+        "original/tail.png": {
+          "sha256": "c938cdfd8d808c2c500b8e09926e6de848c952be26c4827da551ef12bbf518e6",
+          "bytes": 464798
+        },
+        "original/tail_depth.png": {
+          "sha256": "0dd934713c323cab49500e99f2ceffde47596c34b1332fe55a6688dd49e671b4",
+          "bytes": 5638
+        },
+        "original/topwear.png": {
+          "sha256": "8b11c0ef5c1e6587ab344c080774eb716c9dccd6b9b03058e8d982f40ad9a0d5",
+          "bytes": 615448
+        },
+        "original/topwear_depth.png": {
+          "sha256": "8ab2cc90198ffe19b8dd3716afb858c22b9b39005c1852d737d21e647ce77a03",
+          "bytes": 12901
+        },
+        "original/wings.png": {
+          "sha256": "4dcffe9dd6f77d3a858be3523337ebfe80699daf01f427b36523bc82bb93bf8b",
+          "bytes": 507372
+        },
+        "original/wings_depth.png": {
+          "sha256": "4987c782f3765773e1fb60e0e25952116e713b81ff5cdd303887bb3b1e23d704",
+          "bytes": 5265
+        },
+        "original.psd": {
+          "sha256": "460c40bf9057dd063ba3c2987f41b7c1a5f1ebff023ee4eb04d82a7c774f0647",
+          "bytes": 5281594
+        },
+        "original.psd.json": {
+          "sha256": "dbea6799cd3cc58d5441bd475a9fa1e0023301d1071f1f3e5ac473a92f279ad5",
+          "bytes": 1812
+        },
+        "original_depth.psd": {
+          "sha256": "2a85725fe40110071bd07a5acd58ce2cd73759a6e502e1a3278c4cd835308652",
+          "bytes": 1175770
+        }
+      },
+      "source_pixel_exact": true,
+      "layer_count": 16
+    }
+  ],
+  "byte_identical_across_trials": [
+    "original/back hair.png",
+    "original/back hair_depth.png",
+    "original/bottomwear.png",
+    "original/bottomwear_depth.png",
+    "original/ears.png",
+    "original/ears_depth.png",
+    "original/earwear.png",
+    "original/earwear_depth.png",
+    "original/eyebrow.png",
+    "original/eyebrow_depth.png",
+    "original/eyelash.png",
+    "original/eyelash_depth.png",
+    "original/eyewear.png",
+    "original/eyewear_depth.png",
+    "original/eyewhite.png",
+    "original/eyewhite_depth.png",
+    "original/face.png",
+    "original/face_depth.png",
+    "original/footwear.png",
+    "original/footwear_depth.png",
+    "original/front hair.png",
+    "original/front hair_depth.png",
+    "original/handwear.png",
+    "original/handwear_depth.png",
+    "original/head.png",
+    "original/headwear.png",
+    "original/headwear_depth.png",
+    "original/info.json",
+    "original/irides.png",
+    "original/irides_depth.png",
+    "original/legwear.png",
+    "original/legwear_depth.png",
+    "original/mouth.png",
+    "original/mouth_depth.png",
+    "original/neck.png",
+    "original/neck_depth.png",
+    "original/neckwear.png",
+    "original/neckwear_depth.png",
+    "original/nose.png",
+    "original/nose_depth.png",
+    "original/objects.png",
+    "original/objects_depth.png",
+    "original/reconstruction.png",
+    "original/src_head.png",
+    "original/src_img.png",
+    "original/tail.png",
+    "original/tail_depth.png",
+    "original/topwear.png",
+    "original/topwear_depth.png",
+    "original/wings.png",
+    "original/wings_depth.png",
+    "original.psd",
+    "original.psd.json",
+    "original_depth.psd"
+  ],
+  "formal_iou": "not run"
+}

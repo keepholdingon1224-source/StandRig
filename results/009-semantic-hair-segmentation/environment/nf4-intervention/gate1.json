@@ -1,0 +1,470 @@
+[
+  {
+    "file": "control-1.txt",
+    "condition": "control",
+    "pid": 2424,
+    "layers": 0,
+    "last_entered": "encoder1.layer0",
+    "packed_checks": 1,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "placement_rejected",
+        "allocated": 609087488,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": null
+  },
+  {
+    "file": "control-2.txt",
+    "condition": "control",
+    "pid": 26932,
+    "layers": 0,
+    "last_entered": "encoder1.layer0",
+    "packed_checks": 1,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "placement_rejected",
+        "allocated": 609087488,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": null
+  },
+  {
+    "file": "control-3.txt",
+    "condition": "control",
+    "pid": 19576,
+    "layers": 0,
+    "last_entered": "encoder1.layer0",
+    "packed_checks": 1,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "placement_rejected",
+        "allocated": 609087488,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": null
+  },
+  {
+    "file": "fix-1.txt",
+    "condition": "fix",
+    "pid": 27128,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 44646912,
+    "repaired_calls": 264,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630274560,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  },
+  {
+    "file": "fix-2.txt",
+    "condition": "fix",
+    "pid": 4572,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 44646912,
+    "repaired_calls": 264,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630274560,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  },
+  {
+    "file": "fix-3.txt",
+    "condition": "fix",
+    "pid": 14268,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 44646912,
+    "repaired_calls": 264,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630274560,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  },
+  {
+    "file": "reference-1.txt",
+    "condition": "reference",
+    "pid": 27796,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630273536,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  },
+  {
+    "file": "reference-2.txt",
+    "condition": "reference",
+    "pid": 26156,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630273536,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  },
+  {
+    "file": "reference-3.txt",
+    "condition": "reference",
+    "pid": 8392,
+    "layers": 44,
+    "last_entered": "encoder2.layer31",
+    "packed_checks": 264,
+    "bytes_transferred": 0,
+    "repaired_calls": 0,
+    "embedded": [
+      {
+        "event": "embedding",
+        "name": "body_tokens",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            77,
+            2048
+          ]
+        ],
+        "sha256": "4cfbba69b4cf6e43f43ffaa6927f2960d76271587f0d0ac946bd742a2de687bb",
+        "finite": true
+      },
+      {
+        "event": "embedding",
+        "name": "pooled",
+        "tensor": [
+          "cpu",
+          "torch.bfloat16",
+          [
+            13,
+            1280
+          ]
+        ],
+        "sha256": "449e9eda94907bb1cdbe77395dc3e3a36cbbd4969eff5d85a99c0c069b97363e",
+        "finite": true
+      }
+    ],
+    "peak": [
+      {
+        "event": "peak",
+        "boundary": "before_load",
+        "allocated": 0,
+        "reserved": 0
+      },
+      {
+        "event": "peak",
+        "boundary": "before_forward",
+        "allocated": 609087488,
+        "reserved": 719323136
+      },
+      {
+        "event": "peak",
+        "boundary": "after_forward",
+        "allocated": 630273536,
+        "reserved": 719323136
+      }
+    ],
+    "max_abs_error_vs_reference": 0
+  }
+]

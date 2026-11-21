@@ -62,11 +62,29 @@
         "established": false,
         "minimum_observed": "Isolated CLIP pair with block-level group offload (one block per group); first encoder, layer 0, q_proj.",
         "observed_at_matmul": "Activation and packed weights on cuda:0; absmax and code on CPU in 3/3 traced A2 runs."
+      },
+      "quant_state_intervention": {
+        "conclusion": "supports placement causality",
+        "control_current": "3/3 mixed-device pre-dispatch rejection",
+        "control_prior": "6/6 observed CUDA failures at f63382d",
+        "fix": "3/3 pass exact match",
+        "a3_reference": "3/3 pass",
+        "record": "nf4-intervention/gate1.json"
       }
     },
     "kaggle_t4_nf4_1024": {
       "status": "conditional_not_tested",
       "risk": "NF4による重みの省メモリ化後もAttention OOMの可能性あり。"
+    },
+    "local_rtx_3060_ti_nf4_1024_a3_modified": {
+      "status": "established_for_asset_1",
+      "mode": "NF4 A3 whole-model transfers; cached CLIP; no QuantState correction at inference",
+      "gate3": "3/3",
+      "gate4": "3/3",
+      "gate5": "3/3",
+      "formal_iou": "not measured",
+      "report": "nf4-intervention/README.md",
+      "record": "nf4-intervention/run.json"
     }
   },
   "fallback_order_if_gpu_unavailable": [

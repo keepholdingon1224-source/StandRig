@@ -1,0 +1,868 @@
+{
+  "pass_gate": true,
+  "errors": [],
+  "source_hash": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+  "source_wh": [
+    1152,
+    2048
+  ],
+  "pad_xy": [
+    448,
+    0
+  ],
+  "canvas_scale": 0.5,
+  "source_image_pixel_exact": true,
+  "raw": {
+    "front hair": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 11245,
+      "in_psd": true
+    },
+    "back hair": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 29498,
+      "in_psd": true
+    },
+    "head": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": null,
+      "alpha_over_15": 7546,
+      "in_psd": false
+    },
+    "neck": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 2430,
+      "in_psd": true
+    },
+    "neckwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "topwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 24937,
+      "in_psd": true
+    },
+    "handwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 24032,
+      "in_psd": true
+    },
+    "bottomwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 109392,
+      "in_psd": true
+    },
+    "legwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 12423,
+      "in_psd": true
+    },
+    "footwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 5495,
+      "in_psd": true
+    },
+    "tail": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "wings": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "objects": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "headwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "face": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 6509,
+      "in_psd": true
+    },
+    "irides": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 189,
+      "in_psd": true
+    },
+    "eyebrow": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 129,
+      "in_psd": true
+    },
+    "eyewhite": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 320,
+      "in_psd": true
+    },
+    "eyelash": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 269,
+      "in_psd": true
+    },
+    "eyewear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "ears": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 530,
+      "in_psd": true
+    },
+    "earwear": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 0,
+      "in_psd": false
+    },
+    "nose": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 59,
+      "in_psd": true
+    },
+    "mouth": {
+      "size": [
+        1024,
+        1024
+      ],
+      "depth_size": [
+        1024,
+        1024
+      ],
+      "alpha_over_15": 72,
+      "in_psd": true
+    }
+  },
+  "documents": [
+    {
+      "file": "original.psd",
+      "sha256": "460c40bf9057dd063ba3c2987f41b7c1a5f1ebff023ee4eb04d82a7c774f0647",
+      "size": [
+        1024,
+        1024
+      ],
+      "layers": [
+        {
+          "name": "legwear",
+          "box": [
+            469,
+            760,
+            560,
+            947
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            490.0,
+            1520.0,
+            672.0,
+            1894.0
+          ]
+        },
+        {
+          "name": "footwear",
+          "box": [
+            457,
+            901,
+            558,
+            980
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            466.0,
+            1802.0,
+            668.0,
+            1960.0
+          ]
+        },
+        {
+          "name": "neck",
+          "box": [
+            494,
+            158,
+            540,
+            222
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            540.0,
+            316.0,
+            632.0,
+            444.0
+          ]
+        },
+        {
+          "name": "handwear",
+          "box": [
+            397,
+            229,
+            636,
+            567
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            346.0,
+            458.0,
+            824.0,
+            1134.0
+          ]
+        },
+        {
+          "name": "bottomwear",
+          "box": [
+            342,
+            386,
+            683,
+            880
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            236.0,
+            772.0,
+            918.0,
+            1760.0
+          ]
+        },
+        {
+          "name": "topwear",
+          "box": [
+            433,
+            201,
+            602,
+            399
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            418.0,
+            402.0,
+            756.0,
+            798.0
+          ]
+        },
+        {
+          "name": "back hair",
+          "box": [
+            427,
+            59,
+            587,
+            444
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            406.0,
+            118.0,
+            726.0,
+            888.0
+          ]
+        },
+        {
+          "name": "front hair",
+          "box": [
+            469,
+            65,
+            585,
+            375
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            490.0,
+            130.0,
+            722.0,
+            750.0
+          ]
+        },
+        {
+          "name": "ears",
+          "box": [
+            471,
+            137,
+            559,
+            166
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            494.0,
+            274.0,
+            670.0,
+            332.0
+          ]
+        },
+        {
+          "name": "face",
+          "box": [
+            474,
+            96,
+            559,
+            194
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            500.0,
+            192.0,
+            670.0,
+            388.0
+          ]
+        },
+        {
+          "name": "nose",
+          "box": [
+            508,
+            154,
+            516,
+            164
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            568.0,
+            308.0,
+            584.0,
+            328.0
+          ]
+        },
+        {
+          "name": "mouth",
+          "box": [
+            504,
+            171,
+            527,
+            177
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            560.0,
+            342.0,
+            606.0,
+            354.0
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            478,
+            126,
+            548,
+            135
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            508.0,
+            252.0,
+            648.0,
+            270.0
+          ]
+        },
+        {
+          "name": "eyelash",
+          "box": [
+            480,
+            129,
+            547,
+            148
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            512.0,
+            258.0,
+            646.0,
+            296.0
+          ]
+        },
+        {
+          "name": "eyewhite",
+          "box": [
+            484,
+            135,
+            544,
+            148
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            520.0,
+            270.0,
+            640.0,
+            296.0
+          ]
+        },
+        {
+          "name": "irides",
+          "box": [
+            489,
+            136,
+            539,
+            148
+          ],
+          "mode": "RGBA",
+          "alpha_matches": true,
+          "source_box_unclipped": [
+            530.0,
+            272.0,
+            630.0,
+            296.0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "original_depth.psd",
+      "sha256": "2a85725fe40110071bd07a5acd58ce2cd73759a6e502e1a3278c4cd835308652",
+      "size": [
+        1024,
+        1024
+      ],
+      "layers": [
+        {
+          "name": "legwear",
+          "box": [
+            469,
+            760,
+            560,
+            947
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            490.0,
+            1520.0,
+            672.0,
+            1894.0
+          ]
+        },
+        {
+          "name": "footwear",
+          "box": [
+            457,
+            901,
+            558,
+            980
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            466.0,
+            1802.0,
+            668.0,
+            1960.0
+          ]
+        },
+        {
+          "name": "neck",
+          "box": [
+            494,
+            158,
+            540,
+            222
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            540.0,
+            316.0,
+            632.0,
+            444.0
+          ]
+        },
+        {
+          "name": "handwear",
+          "box": [
+            397,
+            229,
+            636,
+            567
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            346.0,
+            458.0,
+            824.0,
+            1134.0
+          ]
+        },
+        {
+          "name": "bottomwear",
+          "box": [
+            342,
+            386,
+            683,
+            880
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            236.0,
+            772.0,
+            918.0,
+            1760.0
+          ]
+        },
+        {
+          "name": "topwear",
+          "box": [
+            433,
+            201,
+            602,
+            399
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            418.0,
+            402.0,
+            756.0,
+            798.0
+          ]
+        },
+        {
+          "name": "back hair",
+          "box": [
+            427,
+            59,
+            587,
+            444
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            406.0,
+            118.0,
+            726.0,
+            888.0
+          ]
+        },
+        {
+          "name": "front hair",
+          "box": [
+            469,
+            65,
+            585,
+            375
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            490.0,
+            130.0,
+            722.0,
+            750.0
+          ]
+        },
+        {
+          "name": "ears",
+          "box": [
+            471,
+            137,
+            559,
+            166
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            494.0,
+            274.0,
+            670.0,
+            332.0
+          ]
+        },
+        {
+          "name": "face",
+          "box": [
+            474,
+            96,
+            559,
+            194
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            500.0,
+            192.0,
+            670.0,
+            388.0
+          ]
+        },
+        {
+          "name": "nose",
+          "box": [
+            508,
+            154,
+            516,
+            164
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            568.0,
+            308.0,
+            584.0,
+            328.0
+          ]
+        },
+        {
+          "name": "mouth",
+          "box": [
+            504,
+            171,
+            527,
+            177
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            560.0,
+            342.0,
+            606.0,
+            354.0
+          ]
+        },
+        {
+          "name": "eyebrow",
+          "box": [
+            478,
+            126,
+            548,
+            135
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            508.0,
+            252.0,
+            648.0,
+            270.0
+          ]
+        },
+        {
+          "name": "eyelash",
+          "box": [
+            480,
+            129,
+            547,
+            148
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            512.0,
+            258.0,
+            646.0,
+            296.0
+          ]
+        },
+        {
+          "name": "eyewhite",
+          "box": [
+            484,
+            135,
+            544,
+            148
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            520.0,
+            270.0,
+            640.0,
+            296.0
+          ]
+        },
+        {
+          "name": "irides",
+          "box": [
+            489,
+            136,
+            539,
+            148
+          ],
+          "mode": "LA",
+          "alpha_matches": null,
+          "source_box_unclipped": [
+            530.0,
+            272.0,
+            630.0,
+            296.0
+          ]
+        }
+      ]
+    }
+  ]
+}

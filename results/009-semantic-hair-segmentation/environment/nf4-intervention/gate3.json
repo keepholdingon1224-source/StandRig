@@ -1,0 +1,1190 @@
+[
+  {
+    "trial": 1,
+    "peak": {
+      "event": "probe_completed",
+      "stage": "Body",
+      "allocated_peak": 5106815488,
+      "reserved_peak": 6780092416
+    },
+    "dispatch": [
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 8724152320,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 164003840,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 27688960,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 1090519040,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 82001920,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 13844480,
+        "math_enabled": true
+      }
+    ],
+    "cache_file_sha256": "e6f4fde115ff9d17efcb77bad663a11fd8d3fceb85ecbdb6813df5242e49a535"
+  },
+  {
+    "trial": 2,
+    "peak": {
+      "event": "probe_completed",
+      "stage": "Body",
+      "allocated_peak": 5106815488,
+      "reserved_peak": 6780092416
+    },
+    "dispatch": [
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 8724152320,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 164003840,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 27688960,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 1090519040,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 82001920,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 13844480,
+        "math_enabled": true
+      }
+    ],
+    "cache_file_sha256": "e6f4fde115ff9d17efcb77bad663a11fd8d3fceb85ecbdb6813df5242e49a535"
+  },
+  {
+    "trial": 3,
+    "peak": {
+      "event": "probe_completed",
+      "stage": "Body",
+      "allocated_peak": 5106815488,
+      "reserved_peak": 6780092416
+    },
+    "dispatch": [
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 8724152320,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            10,
+            4096,
+            64
+          ],
+          "stride": [
+            2621440,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            10,
+            77,
+            64
+          ],
+          "stride": [
+            49280,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 164003840,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            4096,
+            10,
+            13,
+            64
+          ],
+          "stride": [
+            8320,
+            64,
+            640,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 27688960,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 1090519040,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            13,
+            20,
+            1024,
+            64
+          ],
+          "stride": [
+            1310720,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            13,
+            20,
+            77,
+            64
+          ],
+          "stride": [
+            98560,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 82001920,
+        "math_enabled": true
+      },
+      {
+        "event": "dispatch",
+        "events": [
+          "aten::scaled_dot_product_attention",
+          "aten::_scaled_dot_product_efficient_attention",
+          "aten::_efficient_attention_forward"
+        ],
+        "selected": "efficient",
+        "stage": "Body",
+        "q": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "k": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "v": {
+          "shape": [
+            1024,
+            20,
+            13,
+            64
+          ],
+          "stride": [
+            16640,
+            64,
+            1280,
+            1
+          ],
+          "dtype": "torch.float16",
+          "device": "cuda:0"
+        },
+        "mask": null,
+        "causal": false,
+        "dropout": 0.0,
+        "gqa": false,
+        "math_score_fp32_bytes": 13844480,
+        "math_enabled": true
+      }
+    ],
+    "cache_file_sha256": "e6f4fde115ff9d17efcb77bad663a11fd8d3fceb85ecbdb6813df5242e49a535"
+  }
+]

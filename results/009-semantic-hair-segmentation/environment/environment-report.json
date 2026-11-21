@@ -36,8 +36,14 @@
       "reason": "NvidiaL4を指定したスクリプト型・Notebook型ともCPUへのフォールバック。Web UIの対話セッションは未確認。"
     },
     "local_rtx_3060_ti_nf4_1024": {
-      "status": "selected_pending_hardware_validation",
-      "gpu_vram_gib_reported": 8
+      "status": "preflight_stopped",
+      "gpu_vram_gib_reported": 8,
+      "preflight_pass": false,
+      "smoke": "not_started",
+      "record": "run-nf4-preflight/run.json",
+      "attention": "run-nf4-preflight/attention-summary.json",
+      "actual_model_sdpa_observed": [],
+      "gpu_uuid": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e"
     },
     "kaggle_t4_nf4_1024": {
       "status": "conditional_not_tested",

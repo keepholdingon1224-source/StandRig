@@ -63,17 +63,60 @@
     }
   },
   "nf4": {
-    "status": "snapshot_and_file_hash_verification_pending",
+    "status": "both_snapshots_file_hashes_verified",
     "models": {
       "24yearsold/seethroughv0.0.2_layerdiff3d_nf4": {
         "revision": "96f9311ff449dc86cfaba101ce4dfb4fd4958b80",
-        "file_sha256": null
+        "file_sha256": {
+          ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "LICENSE": "a303819ffc9b14ff54fe8d5cdd7045e15318d95a383cea96ce0b7f1ee2766615",
+          "NOTICE": "b7f7446873464141ca4af4ea1f9e74efad422e21c8c54074a8372e4312a5b82f",
+          "README.md": "97d32b25da3418c39c5e722df39a99ce8d14defb66dd6a6f1b15a6bf748b0a99",
+          "model_index.json": "694e1737bd7fadbefbd09cc26f30add5d5101ec0f877f3cc546471b130362ecf",
+          "scheduler/scheduler_config.json": "5e6ec01fb7a66422914d3c082504d0912ba6611aa2b5c6bb1da1038bf58d423e",
+          "text_encoder/config.json": "2db23832791cfc56bd56e33c1679fc4fbc5a8f5b030766ea98c38293abebcc47",
+          "text_encoder/model.safetensors": "2a54f4b63f049d5f219b258c2cbdbc32576d3b99d87406d3c6537706eb7c75a2",
+          "text_encoder_2/config.json": "92a12b2881e89e6b292ad71d174092365021d4c80624a4f0227121f874dcd3a9",
+          "text_encoder_2/model.safetensors": "f020fa75fa059f09b666bb4afa75c9637425a304a3e37c03e5fc979c2e07cdf7",
+          "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "tokenizer/special_tokens_map.json": "a46982c1c09487f4ba4118d4d491a01d7e1b3a9e457662aa93f7c7159f11eaf7",
+          "tokenizer/tokenizer_config.json": "d650e9eaa38ed46fc61c1d218f8133101c552ebf4d752d8c1707479d361943ed",
+          "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "tokenizer_2/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "tokenizer_2/special_tokens_map.json": "c2d0fb8b86ad86b1f46134d4a5f93fd1e688c932a78efc8d149087c33a53ad06",
+          "tokenizer_2/tokenizer_config.json": "a7cda9f488d12f08f294d50f65472feb1d74b2e31be386a79ec621d0212f86d9",
+          "tokenizer_2/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "trans_vae/config.json": "4dcb702898f532ecd92be3f9a6b592dd3da25331fbcc7257e3064feb9ef22b8d",
+          "trans_vae/diffusion_pytorch_model.safetensors": "925ffed4df7b2f57dbb549ac1ef374a26a1ead8d247eaf054dab641f82a8e0b7",
+          "unet/config.json": "52977a7b6e4aef9498584529d6ffb928c00317765a679af56081158a8a210a84",
+          "unet/diffusion_pytorch_model.safetensors": "854ce2d0cb639416b9e5eadf95c4eef3ce6ac00c3bb6eee7e7cf8034723b7565",
+          "vae/config.json": "0084b76f6221d3aa992053b06249fa932bdc55b2fb1b5590560e02bda2f7821c",
+          "vae/diffusion_pytorch_model.safetensors": "ce4b137acad050c9072769cfb02fdc6ecb8dc0957586db5f6fab71d18103ccc1"
+        }
       },
       "24yearsold/seethroughv0.0.1_marigold_nf4": {
         "public_short_revision": "e53b344",
-        "revision": null,
-        "file_sha256": null
+        "revision": "e53b344b5aa5beec7c141bd5601decaaff0898c9",
+        "file_sha256": {
+          ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "LICENSE": "a2ae09d229d24f663d1b9a68231b325e68f60a0cb71a3db7762fbf4e551694bb",
+          "NOTICE": "2596c319492ab6878a45b140b56bff6be2fc36b90e4b6ad28c940cd587c03034",
+          "README.md": "29d7e42ab81092a3e32fa550b3923a4be5f1026692dbe45483309a1752c6cfb5",
+          "model_index.json": "4afb86d401903499497af0d0d9202ecc341b321b23a42e42867e8cc50c1df4cf",
+          "scheduler/scheduler_config.json": "5cc63ea04344def32977bf0a049a1c4b4f1453f63ce4913afca103c717cc4b5c",
+          "text_encoder/config.json": "e729538f56658a35ee04ee19343d7220eefe82b5e4c4c82df2e47c92e0c1ff42",
+          "text_encoder/model.safetensors": "acae8b5f8324c2bc87ad94a1cfc8495ce2b8d31b25aa6623f8da0bf1677cc95b",
+          "tokenizer/merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "tokenizer/special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+          "tokenizer/tokenizer_config.json": "cb591546bf1d3135b59adc6da78326e03a3d6b067c26cb81960fef8ef491708f",
+          "tokenizer/vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "unet/config.json": "b3633ae11b92e7b1cb388ed17f84b643337104986fd53a426c886e04a49a09ec",
+          "unet/diffusion_pytorch_model.safetensors": "b66d2601bed0be56b4e17bc38487baf30f458eb91b2934479a2c75efecab8937",
+          "vae/config.json": "c96018ba17135cf0d34ddc3b73653f75393a3a0406bdc363234cda5b40ae3296",
+          "vae/diffusion_pytorch_model.safetensors": "8d0c34f57abe50f323040f2366c8e22b941068dcdf53c8eb1d6fafb838afecb7"
+        }
       }
-    }
+    },
+    "local_manifest": "run-nf4-preflight/verified-files.json"
   }
 }

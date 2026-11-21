@@ -1,0 +1,206 @@
+Quantized inference: quant_mode=nf4, cpu_offload=False
+  Source image: <WORK>\StandRig\source_007\original.png
+  Save dir: <WORK>\probe-images
+  Resolution: 1024, Steps: 30, Seed: 42
+
+Building LayerDiff3D pipeline...
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.68it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:01<00:00,  2.81it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:01<00:00,  3.70it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.49it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.75it/s]
+<WORK>\.venv-009\Lib\site-packages\huggingface_hub\utils\_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<WORK>\see-through\inference\scripts\inference_psd_quantized.py", line 403, in <module>
+    pipeline = build_layerdiff_pipeline(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\see-through\inference\scripts\inference_psd_quantized.py", line 96, in build_layerdiff_pipeline
+    pipeline.cache_tag_embeds()
+  File "<WORK>\see-through\common\modules\layerdiffuse\diffusers_kdiffusion_sdxl.py", line 247, in cache_tag_embeds
+    prompt_embeds, pooled_prompt_embeds = self.encode_cropped_prompt_77tokens(body_tag_list)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\utils\_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\see-through\common\modules\layerdiffuse\diffusers_kdiffusion_sdxl.py", line 200, in encode_cropped_prompt_77tokens
+    prompt_embeds = text_encoder(text_input_ids.to(device), output_hidden_states=True, return_dict=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\diffusers\hooks\hooks.py", line 189, in new_forward
+    output = function_reference.forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\utils\generic.py", line 1002, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 641, in forward
+    return self.text_model(
+           ^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 555, in forward
+    encoder_outputs: BaseModelOutput = self.encoder(
+                                       ^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 507, in forward
+    hidden_states = encoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\utils\generic.py", line 955, in wrapped_forward
+    output = orig_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 380, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 318, in forward
+    queries = self.q_proj(hidden_states)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\nn\modules.py", line 556, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\autograd\function.py", line 576, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "<WORK>\diagnostics\attention_probe.py", line 109, in report_error
+    try:mem("uncaught_exception",exception=ty.__name__,message=str(err),driver_free_total=torch.cuda.mem_get_info())
+                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\cuda\memory.py", line 838, in mem_get_info
+    return torch.cuda.cudart().cudaMemGetInfo(device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+Original exception was:
+Traceback (most recent call last):
+  File "<WORK>\see-through\inference\scripts\inference_psd_quantized.py", line 403, in <module>
+    pipeline = build_layerdiff_pipeline(args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\see-through\inference\scripts\inference_psd_quantized.py", line 96, in build_layerdiff_pipeline
+    pipeline.cache_tag_embeds()
+  File "<WORK>\see-through\common\modules\layerdiffuse\diffusers_kdiffusion_sdxl.py", line 247, in cache_tag_embeds
+    prompt_embeds, pooled_prompt_embeds = self.encode_cropped_prompt_77tokens(body_tag_list)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\utils\_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\see-through\common\modules\layerdiffuse\diffusers_kdiffusion_sdxl.py", line 200, in encode_cropped_prompt_77tokens
+    prompt_embeds = text_encoder(text_input_ids.to(device), output_hidden_states=True, return_dict=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\diffusers\hooks\hooks.py", line 189, in new_forward
+    output = function_reference.forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\utils\generic.py", line 1002, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 641, in forward
+    return self.text_model(
+           ^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 555, in forward
+    encoder_outputs: BaseModelOutput = self.encoder(
+                                       ^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 507, in forward
+    hidden_states = encoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\utils\generic.py", line 955, in wrapped_forward
+    output = orig_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 380, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\transformers\models\clip\modeling_clip.py", line 318, in forward
+    queries = self.q_proj(hidden_states)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\nn\modules.py", line 556, in forward
+    return bnb.matmul_4bit(x, weight, bias=bias, quant_state=quant_state).to(inp_dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 401, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\torch\autograd\function.py", line 576, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORK>\.venv-009\Lib\site-packages\bitsandbytes\autograd\_functions.py", line 315, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`

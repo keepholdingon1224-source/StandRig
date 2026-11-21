@@ -1,0 +1,147 @@
+[
+  {
+    "rfilename": ".gitattributes",
+    "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519
+  },
+  {
+    "rfilename": "LICENSE",
+    "blobId": "2d790a3b07108d59b1a76f1e2f2954924aa88a20",
+    "size": 43573
+  },
+  {
+    "rfilename": "NOTICE",
+    "blobId": "161ed9620d1d8466262e3bec1a84432fe1b2b55f",
+    "size": 2568
+  },
+  {
+    "rfilename": "README.md",
+    "blobId": "b740cbc03fc348047981df33570ae2230e296c6f",
+    "size": 2763
+  },
+  {
+    "rfilename": "model_index.json",
+    "blobId": "3bf962198a9bcee304310516457916338f909520",
+    "size": 668
+  },
+  {
+    "rfilename": "scheduler/scheduler_config.json",
+    "blobId": "ed256528d77fda40249c8ab68434fa2e0178aaff",
+    "size": 992
+  },
+  {
+    "rfilename": "text_encoder/config.json",
+    "blobId": "4adbe56868f6be11c47afe916d28dd109f68d8d9",
+    "size": 1036
+  },
+  {
+    "rfilename": "text_encoder/model.safetensors",
+    "blobId": "935dc9789482b61f7671d291c3765968bed20e1f",
+    "size": 124089024,
+    "lfs": {
+      "sha256": "2a54f4b63f049d5f219b258c2cbdbc32576d3b99d87406d3c6537706eb7c75a2",
+      "size": 124089024,
+      "pointerSize": 134
+    }
+  },
+  {
+    "rfilename": "text_encoder_2/config.json",
+    "blobId": "bdda46e43518bc8b7ed982426cbde2fe22267c2d",
+    "size": 1046
+  },
+  {
+    "rfilename": "text_encoder_2/model.safetensors",
+    "blobId": "abf502590fc17e85bee80b7940b877cc8b8ceffd",
+    "size": 485089576,
+    "lfs": {
+      "sha256": "f020fa75fa059f09b666bb4afa75c9637425a304a3e37c03e5fc979c2e07cdf7",
+      "size": 485089576,
+      "pointerSize": 134
+    }
+  },
+  {
+    "rfilename": "tokenizer/merges.txt",
+    "blobId": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+    "size": 524619
+  },
+  {
+    "rfilename": "tokenizer/special_tokens_map.json",
+    "blobId": "b5018cd2c0d0f31e08ba78d639e05736101ca08a",
+    "size": 585
+  },
+  {
+    "rfilename": "tokenizer/tokenizer_config.json",
+    "blobId": "0ad88c5e80ee19b52006a7330ae588a34a399848",
+    "size": 755
+  },
+  {
+    "rfilename": "tokenizer/vocab.json",
+    "blobId": "469be27c5c010538f845f518c4f5e8574c78f7c8",
+    "size": 1059962
+  },
+  {
+    "rfilename": "tokenizer_2/merges.txt",
+    "blobId": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+    "size": 524619
+  },
+  {
+    "rfilename": "tokenizer_2/special_tokens_map.json",
+    "blobId": "eaf8780e3c90b1af01a8574bf8596a9acebe6858",
+    "size": 574
+  },
+  {
+    "rfilename": "tokenizer_2/tokenizer_config.json",
+    "blobId": "dc097ae967f931ac94b3762db0073a76abf66b41",
+    "size": 906
+  },
+  {
+    "rfilename": "tokenizer_2/vocab.json",
+    "blobId": "469be27c5c010538f845f518c4f5e8574c78f7c8",
+    "size": 1059962
+  },
+  {
+    "rfilename": "trans_vae/config.json",
+    "blobId": "b87fabc870d5f3ed2a0c9990d168394693ac7fac",
+    "size": 139
+  },
+  {
+    "rfilename": "trans_vae/diffusion_pytorch_model.safetensors",
+    "blobId": "9ff4b4d92ee28203732be48858e2ee12b78a3f56",
+    "size": 210639792,
+    "lfs": {
+      "sha256": "925ffed4df7b2f57dbb549ac1ef374a26a1ead8d247eaf054dab641f82a8e0b7",
+      "size": 210639792,
+      "pointerSize": 134
+    }
+  },
+  {
+    "rfilename": "unet/config.json",
+    "blobId": "e5d4ae1838c42de6c5dfdb1926690b6c65896afb",
+    "size": 2527
+  },
+  {
+    "rfilename": "unet/diffusion_pytorch_model.safetensors",
+    "blobId": "d66b14fbeef5a314a57dec7398f8675eefd9113d",
+    "size": 2774123207,
+    "lfs": {
+      "sha256": "854ce2d0cb639416b9e5eadf95c4eef3ce6ac00c3bb6eee7e7cf8034723b7565",
+      "size": 2774123207,
+      "pointerSize": 135
+    }
+  },
+  {
+    "rfilename": "vae/config.json",
+    "blobId": "52868beadc84182071c8bc41804560dac30bc660",
+    "size": 932
+  },
+  {
+    "rfilename": "vae/diffusion_pytorch_model.safetensors",
+    "blobId": "c11ec3241fe711c38cfccab9ef8ff65c8f87cde4",
+    "size": 167335590,
+    "lfs": {
+      "sha256": "ce4b137acad050c9072769cfb02fdc6ecb8dc0957586db5f6fab71d18103ccc1",
+      "size": 167335590,
+      "pointerSize": 134
+    }
+  }
+]

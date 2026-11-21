@@ -1,0 +1,20 @@
+{
+  "mode": "nf4",
+  "resolution": 1024,
+  "depth_resolution": 768,
+  "seed": 42,
+  "steps": 30,
+  "group_offload": true,
+  "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea",
+  "official_commit": "fc4440db7c076518e313f378e28b1504e9886a95",
+  "gpu_uuid": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e",
+  "models": {
+    "24yearsold/seethroughv0.0.2_layerdiff3d_nf4": "96f9311ff449dc86cfaba101ce4dfb4fd4958b80",
+    "24yearsold/seethroughv0.0.1_marigold_nf4": "e53b344b5aa5beec7c141bd5601decaaff0898c9"
+  },
+  "diagnostic_pass": false,
+  "smoke": "not_started",
+  "small_exit": 0,
+  "real_exit": 1,
+  "error": "real-input preflight stopped; inspect diagnostic-2-3.txt and real.jsonl"
+}

@@ -1,0 +1,32 @@
+{
+  "blocking-only-samples.csv": {
+    "samples": 23,
+    "max_gpu_used_mib": 4081,
+    "max_tree_rss_bytes": 4503322624,
+    "min_available_system_ram_bytes": 17049952256
+  },
+  "real-samples.csv": {
+    "samples": 26,
+    "max_gpu_used_mib": 4065,
+    "max_tree_rss_bytes": 4524449792,
+    "min_available_system_ram_bytes": 16998862848
+  },
+  "small-samples.csv": {
+    "samples": 6,
+    "max_gpu_used_mib": 427,
+    "max_tree_rss_bytes": 598654976,
+    "min_available_system_ram_bytes": 20384305152
+  },
+  "attempt-1/real-samples.csv": {
+    "samples": 41,
+    "max_gpu_used_mib": 4081,
+    "max_tree_rss_bytes": 4581036032,
+    "min_available_system_ram_bytes": 16911745024
+  },
+  "attempt-1/small-samples.csv": {
+    "samples": 9,
+    "max_gpu_used_mib": 427,
+    "max_tree_rss_bytes": 597540864,
+    "min_available_system_ram_bytes": 20723167232
+  }
+}

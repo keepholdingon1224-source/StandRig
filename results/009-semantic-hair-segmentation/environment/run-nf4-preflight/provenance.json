@@ -1,0 +1,10 @@
+{
+  "runbook_blob": "bf27ec8bd4a168315ea2e4dcb64e397287e230e5",
+  "standrig_commit": "9640dc74b4459db6b1d1e7ed17fb2e486d3c7a60",
+  "standrig_branch": "experiment/rigging-validation-20261115",
+  "see_through_commit": "fc4440db7c076518e313f378e28b1504e9886a95",
+  "python": "Python 3.12.10",
+  "cuda_visible_devices": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e",
+  "gpu_selection": "Explicit UUID isolation even though nvidia-smi already listed 3060 Ti at index 0",
+  "source_sha256": "a1388c37f35c19278d346ab4491c8bcc919e1f375b07f312a70ab7e87bbcbcea"
+}

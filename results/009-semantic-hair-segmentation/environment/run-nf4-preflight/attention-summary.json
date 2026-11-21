@@ -1,0 +1,8 @@
+{
+  "small_dispatch": "efficient",
+  "real_dispatches": [],
+  "unclassified_dispatches": 0,
+  "real_distinct_calls_profiled": 0,
+  "rejected_shapes": [],
+  "real_shapes_seen": 0
+}

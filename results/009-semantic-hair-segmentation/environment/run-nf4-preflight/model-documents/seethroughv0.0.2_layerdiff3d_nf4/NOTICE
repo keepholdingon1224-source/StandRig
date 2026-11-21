@@ -1,0 +1,56 @@
+See-through: LayerDiff 3D (NF4)
+Copyright 2026 The See-through Authors
+
+This model is part of See-through (https://github.com/shitagaki-lab/see-through).
+The See-through code is licensed under the Apache License, Version 2.0.
+The licence terms for these model weights are in LICENSE.
+
+==============================================================================
+Third-party models
+==============================================================================
+
+This model is derived from, or includes components of, the following:
+
+* Animagine XL 4.0 by Cagliostro Labs
+  https://huggingface.co/cagliostrolab/animagine-xl-4.0
+  CreativeML Open RAIL++-M License
+  The UNet was fine-tuned from this model. The text encoders and tokenizers
+  are taken from it.
+
+* Stable Diffusion XL 1.0 by Stability AI. Copyright (c) 2023 Stability AI.
+  https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+  CreativeML Open RAIL++-M License
+  Base model of Animagine XL 4.0.
+
+* LayerDiffuse by Lvmin Zhang (lllyasviel)
+  https://huggingface.co/lllyasviel/LayerDiffuse_Diffusers
+  CreativeML Open RAIL-M License
+  The transparent VAE and the attention weights merged into the UNet are
+  derived from this model.
+
+* SDXL-VAE-FP16-Fix by madebyollin
+  https://huggingface.co/madebyollin/sdxl-vae-fp16-fix
+  MIT License
+  The VAE, as shipped with Animagine XL 4.0.
+
+==============================================================================
+Changes made by The See-through Authors
+==============================================================================
+
+* The UNet was fine-tuned from Animagine XL 4.0 with the LayerDiffuse
+  attention weights merged in, and converted into the multi-frame UNet
+  (UNetFrameConditionModel) used by the See-through pipeline.
+* The transparent VAE was derived from the LayerDiffuse transparent VAE.
+* All components were saved in the diffusers format.
+* The weights were quantised to 4-bit NF4 with bitsandbytes (bfloat16 compute
+  dtype), starting from layerdifforg/seethroughv0.0.2_layerdiff3d. The UNet and both text
+  encoders are quantised; the VAE and the transparent VAE are unchanged.
+
+==============================================================================
+Citation
+==============================================================================
+
+Jian Lin, Chengze Li, Haoyun Qin, Kwun Wang Chan, Yanghua Jin, Hanyuan Liu,
+Stephen Chun Wang Choy, and Xueting Liu. 2026. See-through: Single-image Layer
+Decomposition for Anime Characters. In SIGGRAPH Conference Papers '26. ACM.
+https://doi.org/10.1145/3799902.3811209

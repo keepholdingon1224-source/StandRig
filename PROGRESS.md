@@ -199,3 +199,12 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 - v1はホストPython 3.13で起動前停止し、v2・v3は3.12 venvで対処。v2はVAEで3.52 GiB確保要求に失敗。v3はグループオフロード有効で、例外時のプロセスGPU使用量5.21 GiB、SDPAの19.84 GiB確保要求でOOM。実際のAttentionバックエンド・選択理由・Q/K/Vは未確認。L4指定のAPIバッチ2件はCPUへフォールバック。Web UI対話セッションは未確認。
 - `PROJECT.md` と環境手順索引を更新し、[試行記録](results/009-semantic-hair-segmentation/environment/kaggle-attempts.json)、[固定リビジョン](results/009-semantic-hair-segmentation/environment/model-revisions.json)、[構成別判定](results/009-semantic-hair-segmentation/environment/environment-report.json)、[ローカル実行と事前診断](results/009-semantic-hair-segmentation/environment/rtx-3060-ti-nf4-1024.md)を追加。GPU再実行・アプリのテスト・正式IoUは今回未実施。Hugging Face APIはHTTP 403で、NF4のMarigold完全SHAと重みの実ファイル照合は実行先で確認する。
 - 次はMUSE・ユーザーと連携して、RTX 3060 TiのNF4・1024診断を実施する。ChatGPTレビュー項目は実入力に対するSDPA選択の証拠と公式IoUへの座標復元。005〜008・固定基準マスク・生ログは変更せず、追加課金なし、SONY分離。
+
+## 2026-11-21 01:03:22 UTC　実験009-A ローカル実機検証
+- 目的：RTX 3060 Ti、公式NF4・1024が素材1で起動可能か検証。
+- 環境・コマンド：Windows / Python 3.12.10 venv / cu128。UUID固定、weights.py、measure.py、blocking.py。
+- 更新：experiments/009-local-nf4 および results/009-semantic-hair-segmentation/environment の記録と固定重みマニフェスト。
+- 成功：2 GPUを識別。固定モデル40ファイルのハッシュ計測、8 LFS照合、小BF16 SDPAのEfficient実選択、証拠ハッシュ照合。
+- 失敗・未実行：テキスト埋め込み生成でCUDA失敗、同期診断でbitsandbytesのillegal memory access。実Body SDPAと本推論は未到達。PSD・009-Bなし。
+- 成果物：[ローカル結果](results/009-semantic-hair-segmentation/environment/rtx-3060-ti-local-result.md) および run-nf4-preflight。005〜008と固定マスクの変更なし。
+- 未解決・ChatGPT確認事項：この失敗を固定構成固有の結果として評価し、量子化カーネルの別構成を別試行として比較するか。レビュー未実施。

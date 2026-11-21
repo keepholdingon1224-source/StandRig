@@ -1,0 +1,1 @@
+Full inference not started: real-input preflight stopped; inspect diagnostic-2-3.txt and real.jsonl

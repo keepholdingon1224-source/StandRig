@@ -1,0 +1,44 @@
+See-through: Marigold Depth (NF4)
+Copyright 2026 The See-through Authors
+
+This model is part of See-through (https://github.com/shitagaki-lab/see-through).
+The See-through code is licensed under the Apache License, Version 2.0.
+The licence terms for these model weights are in LICENSE.
+
+==============================================================================
+Third-party models
+==============================================================================
+
+This model is derived from, or includes components of, the following:
+
+* Marigold Depth v1.1 by PRS, ETH Zürich. Copyright (c) 2023-2025 PRS, ETH Zürich.
+  https://huggingface.co/prs-eth/marigold-depth-v1-1
+  Open RAIL++-M License
+  The UNet was fine-tuned from this model. The VAE, text encoder and tokenizer
+  are taken from it.
+
+* Stable Diffusion 2 by Stability AI. Copyright (c) 2022 Stability AI and contributors.
+  CreativeML Open RAIL++-M License
+  Base model of Marigold. The use-based restrictions in its Attachment A apply
+  to this model.
+
+==============================================================================
+Changes made by The See-through Authors
+==============================================================================
+
+* The UNet was fine-tuned from Marigold Depth v1.1 for pseudo-depth estimation
+  of anime characters, and converted into the multi-frame UNet
+  (UNetFrameConditionModel) used by the See-through pipeline.
+* All components were saved in the diffusers format.
+* The weights were quantised to 4-bit NF4 with bitsandbytes (bfloat16 compute
+  dtype), starting from layerdifforg/seethroughv0.0.1_marigold. The UNet and the text
+  encoder are quantised; the VAE is unchanged.
+
+==============================================================================
+Citation
+==============================================================================
+
+Jian Lin, Chengze Li, Haoyun Qin, Kwun Wang Chan, Yanghua Jin, Hanyuan Liu,
+Stephen Chun Wang Choy, and Xueting Liu. 2026. See-through: Single-image Layer
+Decomposition for Anime Characters. In SIGGRAPH Conference Papers '26. ACM.
+https://doi.org/10.1145/3799902.3811209

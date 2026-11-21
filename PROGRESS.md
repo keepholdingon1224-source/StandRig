@@ -230,3 +230,9 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 
 - 素材1はA3代表PSDを照合、素材2はRTX 3060 Ti固定でa3_smoke.pyを1回実行しa3_validate.pyで再読込。共通predict.pyで固定後、独立evaluate.pyで採点。2/6項目合格、手動0回。
 - 実行コードはexperiments/009-b、[正式結果・画像・manifest](results/009-semantic-hair-segmentation/009-B/README.md)。005〜008の開始・終了ハッシュを照合。未解決・ChatGPTレビュー事項は固定髪と可動根元の自動識別。009-C未実施。
+
+### 2026-11-21 13:24 UTC　実験009-C
+
+- 009-B再利用、Oracle4上限、C1中心線グラフとC2-A/B/Cを評価。既存venv・RTX 3060 Ti。公式コード変更なし。
+- 正式Cは4/6合格・総合未達。素材2左右の根元位置と枝帰属が未解決。手動0・素材別設定0。保護2,373件と009-B入力193件の前後ハッシュ一致。
+- コード experiments/009-c、[正式結果・証拠](results/009-semantic-hair-segmentation/009-C/README.md)。ChatGPT確認事項は素材2の接続誤りと未見素材への一般化。レビュー未実施。

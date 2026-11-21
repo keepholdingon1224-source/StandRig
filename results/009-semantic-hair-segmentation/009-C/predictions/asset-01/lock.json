@@ -1,0 +1,20 @@
+{
+ "A": {
+  "hair-left": "de6f4ca335091e5673ca4f2c0541c396281bf185c23b6caace0fb752ef6425fe",
+  "hair-right": "27c325ce7c0117b759ca85862d15d1667e82e5ae9a347585b4dafdfb44153a0d",
+  "skirt": "23dd7b6a5980f3da2b2321703a384d9046ceff02c9bb398c786ace0b80ea429c",
+  "visible-hair": "23795aab6756a25353dfc2ff8d28f4fea1a32addd21dad8fc8da6b5bb4454e3a"
+ },
+ "B": {
+  "hair-left": "e42410996aabb11b833d062f9a43d044a325d103d4e9fbe3fd8f68967c1a3e6c",
+  "hair-right": "a44e5262c2266fb2961dccd35490151809abc71097ad29a21dbbe3a80a635ee2",
+  "skirt": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "visible-hair": "16521851f7ee3c4aed556fb8a47820afd68633ae43ea455e1939ad5e9d1ea42d"
+ },
+ "C": {
+  "hair-left": "e42410996aabb11b833d062f9a43d044a325d103d4e9fbe3fd8f68967c1a3e6c",
+  "hair-right": "a44e5262c2266fb2961dccd35490151809abc71097ad29a21dbbe3a80a635ee2",
+  "skirt": "552b1ebfdf7a682223032038ff604f650eb0990a914bc4dcf03c1feda7b22c95",
+  "visible-hair": "16521851f7ee3c4aed556fb8a47820afd68633ae43ea455e1939ad5e9d1ea42d"
+ }
+}

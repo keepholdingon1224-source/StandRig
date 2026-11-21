@@ -1,0 +1,11 @@
+{
+ "baseline_overlap_pixels": 78516,
+ "mean_recomposition_cost_on_overlap": 110.23046112060547,
+ "B_restored": 52593,
+ "B_removed": 1266,
+ "C_added_over_B": 312,
+ "completed_hair_pixels": 142350,
+ "not_visible_C": 9406,
+ "gpu": "NVIDIA GeForce RTX 3060 Ti",
+ "uuid": "GPU-cf2220a2-aaf6-affa-ea59-8951594faf5e"
+}

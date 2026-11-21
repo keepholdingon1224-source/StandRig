@@ -1,0 +1,107 @@
+{
+  "definitions": {
+    "candidate": "coverage of truth by completed hair alpha >=128",
+    "visibility": "optimistic IoU ceiling under frozen B topology: run B motion on completed hair, grant perfect visibility rejection (including removal of every FP); not an attainable semantic-owner prediction",
+    "connectivity": "perfect root/side labels restricted to B visible hair",
+    "both": "perfect visibility and labels restricted to completed hair; equals candidate coverage mathematically"
+  },
+  "assets": {
+    "01": {
+      "hair-left": {
+        "candidate": {
+          "upper": 0.9836113721804511,
+          "missing": 279,
+          "truth": 17024
+        },
+        "visibility": {
+          "upper": 0.9836113721804511,
+          "missing": 279,
+          "truth": 17024
+        },
+        "connectivity": {
+          "upper": 0.9836113721804511,
+          "missing": 279,
+          "truth": 17024
+        },
+        "both": {
+          "upper": 0.9836113721804511,
+          "missing": 279,
+          "truth": 17024
+        },
+        "visibility_first_conditional_iou": 0.4738659195743838
+      },
+      "hair-right": {
+        "candidate": {
+          "upper": 0.9950030284675954,
+          "missing": 66,
+          "truth": 13208
+        },
+        "visibility": {
+          "upper": 0.9950030284675954,
+          "missing": 66,
+          "truth": 13208
+        },
+        "connectivity": {
+          "upper": 0.9950030284675954,
+          "missing": 66,
+          "truth": 13208
+        },
+        "both": {
+          "upper": 0.9950030284675954,
+          "missing": 66,
+          "truth": 13208
+        },
+        "visibility_first_conditional_iou": 0.5929702657582457
+      }
+    },
+    "02": {
+      "hair-left": {
+        "candidate": {
+          "upper": 0.9854118951407023,
+          "missing": 1000,
+          "truth": 68549
+        },
+        "visibility": {
+          "upper": 0.0,
+          "missing": 68549,
+          "truth": 68549
+        },
+        "connectivity": {
+          "upper": 0.2803979635005616,
+          "missing": 49328,
+          "truth": 68549
+        },
+        "both": {
+          "upper": 0.9854118951407023,
+          "missing": 1000,
+          "truth": 68549
+        },
+        "visibility_first_conditional_iou": 0.0
+      },
+      "hair-right": {
+        "candidate": {
+          "upper": 0.9692920941905957,
+          "missing": 832,
+          "truth": 27094
+        },
+        "visibility": {
+          "upper": 0.6234959769690707,
+          "missing": 10201,
+          "truth": 27094
+        },
+        "connectivity": {
+          "upper": 0.9203144607662213,
+          "missing": 2159,
+          "truth": 27094
+        },
+        "both": {
+          "upper": 0.9692920941905957,
+          "missing": 832,
+          "truth": 27094
+        },
+        "visibility_first_conditional_iou": 0.6067887931034482
+      }
+    }
+  },
+  "visibility_first_note": "Apply ideal moving-hair visibility (no left/right identity passed), retain B's visible hair on reference fixed pixels because fixed-hair truth is not annotated. Then rerun the original B connectivity rule. This conditional IoU measures order dependence; it need not be bounded by the separate fixed-envelope ceiling."
+}

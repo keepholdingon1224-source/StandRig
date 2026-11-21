@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-21T13:21:13.108877+00:00",
+  "formal": "C",
+  "files": {
+    "experiments/009-c/topology.py": "f788da3e265b4a511579669dc1bdd7967ce165743098f1c5b2c3b6cef84daa2d",
+    "experiments/009-c/predict.py": "8198d0f3575f8b1d15dde4109cba91cc28b7e887b722132ea694a8f644c00d34",
+    "results/009-semantic-hair-segmentation/009-C/visibility-rules.json": "4fe161ef41326eddfb7bace9d650bfc27be8ec2b422f48e3a5e16a4db92e9617",
+    "results/009-semantic-hair-segmentation/009-C/investment.md": "8dc2f135af23a49952f3691afbc55434d647152ac6eea50d255969d7f37acf03"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10",
+  "torch": "2.8.0+cu128",
+  "opencv": "4.13.0",
+  "scipy": "1.15.3",
+  "skimage": "0.25.2",
+  "networkx": "3.7",
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "new_packages": [],
+  "official_commit": "fc4440db7c076518e313f378e28b1504e9886a95"
+}

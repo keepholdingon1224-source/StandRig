@@ -1,0 +1,8 @@
+{
+ "resolution":"Source-sized masks. Medial graph at half scale, morphological closing 2 iterations, eight-neighbor skeleton.",
+ "topology":"Crown is the thickest skeleton point penalized by distance to the face center. Select two disjoint downstream paths using constriction, direction change, remaining geodesic length and root separation. Root positions determine screen-side names. Assign tree descendants and nearest skeleton pixels to each root. Confidence is heuristic, not calibrated. The graph also records optional short bridges across disconnections.",
+ "A":"009-B visible hair, frontmost alpha>=128; same new C1 topology in all three methods. Historical 009-B scores are separate.",
+ "B":"Compare two counterfactual premultiplied normal composites (hair above/below other layers). Compare to source RGB on 0..255 via local color and residual gradients; require absolute advantage >4 to change depth ownership, within hard alpha overlap only.",
+ "C":"B plus restoration for hair connected to a selected root when direct evidence >1 and same-branch tangent samples at +/-8 pixels average >4. Ambiguity otherwise retains B.",
+ "formal":"C only, locked before predictions; no interventions, no per-image configuration. Skirt follows visible bottomwear after hair ownership changes."
+}

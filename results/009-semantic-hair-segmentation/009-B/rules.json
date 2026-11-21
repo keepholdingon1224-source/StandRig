@@ -1,0 +1,10 @@
+{
+ "rule_version":"009-B-1",
+ "source":"original PSD normal visible layers with full opacity, original source size and confirmed square pad transform",
+ "ownership":"PSD front to back. Use the nearest layer whose unpremultiplied alpha is at least 128/255; earlier qualifying layers occlude all later ones. Hard ownership approximates compositing, rather than assigning overlapping soft classes. The 0.5 threshold and ownership are inherited from the 009 runner.",
+ "coordinates":"Paste each layer at PSD top/left. Bilinear alpha in Pillow mapped via pixel centers: (x_original+pad_left+0.5)*canvas_width/side-0.5. Crop the square at integer [pad_left,pad_top,pad_left+width,pad_top+height). Outside canvas is transparent. Never interpolate a hard class label.",
+ "direct":"front hair OR back hair = semantic hair; bottomwear = candidate skirt. Tail, head, headwear and other labels are not identifying evidence for moving hair. Missing semantic layers contribute zero pixels.",
+ "motion":"Use the visible face bounding box. Visible semantic hair at or below the exclusive bottom of that box forms 8-connected components. Candidate must touch this first row, and every pixel in the component must be on a single side of the visible face horizontal midpoint (screen-left or screen-right). Assign every qualifying component to its side. Ambiguous, disconnected and above-face-bottom hair stays fixed. If no visible face, return empty bundles. This is a jaw-level geometric proxy for long hair; it cannot infer an actual attachment or mobility.",
+ "partition":"Assign bottomwear to skirt; the accepted components to hair-left/hair-right; remaining owned pixels to fixed; all unowned to background.",
+ "evaluation":"Formal IoU includes uncertain pixels, no corrections; compare source-resolution frozen masks. Direct all-hair recall against the two movable-hair truths is a coverage diagnostic, not true all-hair IoU. Boundary F1 within 2px, root disk radius 32 (008 evaluator), FP/FN. No per-asset choices."
+}

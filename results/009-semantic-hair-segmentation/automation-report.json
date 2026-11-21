@@ -1,5 +1,5 @@
 {
-  "fully_automatic_009": "not_run",
+  "fully_automatic_009": "009-B completed on both assets",
   "materials": "both development and regression",
   "A": {
     "diagnostic_only": true,
@@ -8,5 +8,7 @@
   },
   "F": "waiting_for_formal_separation",
   "new_gui_model": "not_run",
-  "visual_approval": "pending"
+  "visual_approval": "pending",
+  "manual_asset_interventions_009_B": 0,
+  "formal_record": "009-B/results.json"
 }

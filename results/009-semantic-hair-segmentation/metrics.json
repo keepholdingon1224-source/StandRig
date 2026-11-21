@@ -1,18 +1,18 @@
 {
   "threshold_per_part": 0.9,
   "uncertain_included": true,
-  "formal_all_six_pass": null,
-  "formal_status": "blocked_before_prediction",
+  "formal_all_six_pass": false,
+  "formal_status": "evaluated_009_B",
   "official_009_evaluations": {
     "asset-01": {
-      "hair-left": null,
-      "hair-right": null,
-      "skirt": null
+      "hair-left": 0.46911332119344445,
+      "hair-right": 0.5929702657582457,
+      "skirt": 0.9939715916485397
     },
     "asset-02": {
-      "hair-left": null,
-      "hair-right": null,
-      "skirt": null
+      "hair-left": 0.09224801679888008,
+      "hair-right": 0.5585217079296735,
+      "skirt": 0.9323177476580178
     }
   },
   "008_selected_baseline": "B-opencv",
@@ -28,5 +28,6 @@
       "skirt": 0.8764022996266965
     }
   },
-  "diagnostics": "method-comparison.csv"
+  "diagnostics": "method-comparison.csv",
+  "formal_record": "009-B/results.json"
 }

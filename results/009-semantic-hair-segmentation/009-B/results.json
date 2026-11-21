@@ -1,0 +1,19 @@
+{
+  "ious": {
+    "asset-01": {
+      "hair-left": 0.46911332119344445,
+      "hair-right": 0.5929702657582457,
+      "skirt": 0.9939715916485397
+    },
+    "asset-02": {
+      "hair-left": 0.09224801679888008,
+      "hair-right": 0.5585217079296735,
+      "skirt": 0.9323177476580178
+    }
+  },
+  "passed_items": 2,
+  "total_items": 6,
+  "threshold": 0.9,
+  "manual_interventions": 0,
+  "all_six_pass": false
+}

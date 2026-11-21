@@ -1,0 +1,14 @@
+{
+  "hair-left": {
+    "reference_pixels": 68549,
+    "visible_semantic_hair": 19221,
+    "occluded_by_other_semantics": 48328,
+    "absent_even_from_completed_hair": 1000
+  },
+  "hair-right": {
+    "reference_pixels": 27094,
+    "visible_semantic_hair": 24935,
+    "occluded_by_other_semantics": 1327,
+    "absent_even_from_completed_hair": 832
+  }
+}

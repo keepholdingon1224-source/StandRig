@@ -1,0 +1,72 @@
+{
+  "status": "stopped_preflight",
+  "input": {
+    "expected_sha256": "8c9bf2c4b8a6f7e553dd9f54578ec0f02178fb698fcc87c4e33ca24cddc87083",
+    "expected_size": [
+      1152,
+      2048
+    ],
+    "actual_sha256": null,
+    "actual_size": null,
+    "verification": "source not supplied"
+  },
+  "code": {
+    "009-A": {
+      "path": "experiments/009-local-nf4/a3_smoke.py",
+      "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
+      "git_blob_sha256": "8f2b85ec394f6817dbf0ace15448eed0daaf3cfd4eb9055fb5d8a130a91ebfe3",
+      "sha256": "a3421f181b1cca7a76a12eacd694c6c6e9278fae6807fac2e66ff7634bdc4ff1",
+      "executed": false
+    },
+    "009-B": {
+      "path": "experiments/009-b/predict.py",
+      "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
+      "git_blob_sha256": "02f11e2115319afcdbe105db77a7db1ac6b2902c139b5cf8c4312edee6039e58",
+      "sha256": "02f11e2115319afcdbe105db77a7db1ac6b2902c139b5cf8c4312edee6039e58",
+      "executed": false
+    },
+    "009-C": {
+      "path": "experiments/009-c/predict.py",
+      "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
+      "git_blob_sha256": "8198d0f3575f8b1d15dde4109cba91cc28b7e887b722132ea694a8f644c00d34",
+      "sha256": "8198d0f3575f8b1d15dde4109cba91cc28b7e887b722132ea694a8f644c00d34",
+      "executed": false
+    },
+    "009-G": {
+      "path": "experiments/009-g/predict.py",
+      "commit": "38ff2140c8f1358305931276d450040986657973",
+      "git_blob_sha256": "e7b5b641e161a577082a0cf34ff351130aff52abcea71bc811d7737c92d5513d",
+      "sha256": "e7b5b641e161a577082a0cf34ff351130aff52abcea71bc811d7737c92d5513d",
+      "executed": false
+    },
+    "rules": {
+      "path": "results/009-semantic-hair-segmentation/009-G/rules.md",
+      "commit": "38ff2140c8f1358305931276d450040986657973",
+      "git_blob_sha256": "5d5401cfac8d4e3e08599859b7237e018e9b14bb736189fa1b41e72f8283436a",
+      "sha256": "5d5401cfac8d4e3e08599859b7237e018e9b14bb736189fa1b41e72f8283436a",
+      "executed": false
+    }
+  },
+  "planned_settings": {
+    "A": {
+      "gpu": "RTX 3060 Ti",
+      "quantization": "NF4",
+      "offload": "A3",
+      "resolution": 1024,
+      "depth": 768,
+      "seed": 42,
+      "layerdiff_steps": 30,
+      "marigold_steps": 4,
+      "layerdiff_revision": "96f9311ff449dc86cfaba101ce4dfb4fd4958b80",
+      "marigold_revision": "e53b344b5aa5beec7c141bd5601decaaff0898c9"
+    },
+    "B": "frozen visible masks",
+    "C": "C2-C",
+    "G": "D with whole-asset fallback to A"
+  },
+  "blocker": "Frozen G main loops over 01 and 02; Asset selects source_007 or source_008. No audited holdout adapter identified in pinned repository.",
+  "attempts": 0,
+  "scored": false,
+  "fallback": null,
+  "locked_predictions": []
+}

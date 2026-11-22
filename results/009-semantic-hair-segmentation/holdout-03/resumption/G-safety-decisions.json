@@ -1,0 +1,40 @@
+{
+ "01": {
+  "fallback": false,
+  "reasons": [],
+  "sides": [
+   {
+    "area_ratio": 1.0116692034500254,
+    "unsupported": 0,
+    "perturbation_pixels": 9,
+    "edit_instability": 0.04285714285714286
+   },
+   {
+    "area_ratio": 1.0154087601655015,
+    "unsupported": 0,
+    "perturbation_pixels": 26,
+    "edit_instability": 0.1087866108786611
+   }
+  ]
+ },
+ "02": {
+  "fallback": true,
+  "reasons": [
+   "1: perturbation"
+  ],
+  "sides": [
+   {
+    "area_ratio": 1.0003538570417552,
+    "unsupported": 0,
+    "perturbation_pixels": 0,
+    "edit_instability": 0.0
+   },
+   {
+    "area_ratio": 1.0022189349112427,
+    "unsupported": 0,
+    "perturbation_pixels": 17,
+    "edit_instability": 0.6538461538461539
+   }
+  ]
+ }
+}

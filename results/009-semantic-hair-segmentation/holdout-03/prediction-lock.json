@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "hair-left.png": "44d3605d077f53ef8d1bc55edcc2fee4a248a038aadc15516b2fb742f5275bc2",
+    "hair-right.png": "b949e609a80ebda21b64f8f58dcfebecbdf7a202a0e451a13fda156061e7bb31",
+    "skirt.png": "b142b93d240440c31756dc3dce4d1dfdc8548bbd5913dd4a9f961c1c9ab26a31"
+  },
+  "size": [
+    1152,
+    2048
+  ],
+  "adapter_commit": "ca9e315610791b180a362be116b362cb590fcf82",
+  "source_sha256": "8c9bf2c4b8a6f7e553dd9f54578ec0f02178fb698fcc87c4e33ca24cddc87083",
+  "method_commit": "38ff2140c8f1358305931276d450040986657973",
+  "scored": false
+}

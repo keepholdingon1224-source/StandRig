@@ -1,14 +1,18 @@
 {
-  "status": "stopped_preflight",
+  "status": "predictions locked",
   "input": {
     "expected_sha256": "8c9bf2c4b8a6f7e553dd9f54578ec0f02178fb698fcc87c4e33ca24cddc87083",
     "expected_size": [
       1152,
       2048
     ],
-    "actual_sha256": null,
-    "actual_size": null,
-    "verification": "source not supplied"
+    "actual_sha256": "8c9bf2c4b8a6f7e553dd9f54578ec0f02178fb698fcc87c4e33ca24cddc87083",
+    "actual_size": [
+      1152,
+      2048
+    ],
+    "verification": "matched before copy; checked after copy",
+    "route": "Google Drive AI-Shared/holdout-03-original.png, Drive file ID 1-WSFJeDqXzUs1kPrYaq9sjXcTqI0xupw; local Drive sync supplied original bytes"
   },
   "code": {
     "009-A": {
@@ -16,28 +20,32 @@
       "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
       "git_blob_sha256": "8f2b85ec394f6817dbf0ace15448eed0daaf3cfd4eb9055fb5d8a130a91ebfe3",
       "sha256": "a3421f181b1cca7a76a12eacd694c6c6e9278fae6807fac2e66ff7634bdc4ff1",
-      "executed": false
+      "executed": true,
+      "returncode": 0
     },
     "009-B": {
       "path": "experiments/009-b/predict.py",
       "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
       "git_blob_sha256": "02f11e2115319afcdbe105db77a7db1ac6b2902c139b5cf8c4312edee6039e58",
       "sha256": "02f11e2115319afcdbe105db77a7db1ac6b2902c139b5cf8c4312edee6039e58",
-      "executed": false
+      "executed": true,
+      "returncode": 0
     },
     "009-C": {
       "path": "experiments/009-c/predict.py",
       "commit": "0bc5af0cfef748e237cea4a4f4c9fec77c098afd",
       "git_blob_sha256": "8198d0f3575f8b1d15dde4109cba91cc28b7e887b722132ea694a8f644c00d34",
       "sha256": "8198d0f3575f8b1d15dde4109cba91cc28b7e887b722132ea694a8f644c00d34",
-      "executed": false
+      "executed": true,
+      "returncode": 0
     },
     "009-G": {
       "path": "experiments/009-g/predict.py",
       "commit": "38ff2140c8f1358305931276d450040986657973",
       "git_blob_sha256": "e7b5b641e161a577082a0cf34ff351130aff52abcea71bc811d7737c92d5513d",
       "sha256": "e7b5b641e161a577082a0cf34ff351130aff52abcea71bc811d7737c92d5513d",
-      "executed": false
+      "executed": true,
+      "returncode": 0
     },
     "rules": {
       "path": "results/009-semantic-hair-segmentation/009-G/rules.md",
@@ -64,9 +72,44 @@
     "C": "C2-C",
     "G": "D with whole-asset fallback to A"
   },
-  "blocker": "Frozen G main loops over 01 and 02; Asset selects source_007 or source_008. No audited holdout adapter identified in pinned repository.",
-  "attempts": 0,
+  "attempts": 1,
   "scored": false,
-  "fallback": null,
-  "locked_predictions": []
+  "fallback": {
+    "fallback": true,
+    "reasons": [
+      "1: perturbation"
+    ],
+    "sides": [
+      {
+        "area_ratio": 1.0003538570417552,
+        "unsupported": 0,
+        "perturbation_pixels": 0,
+        "edit_instability": 0.0
+      },
+      {
+        "area_ratio": 1.0022189349112427,
+        "unsupported": 0,
+        "perturbation_pixels": 17,
+        "edit_instability": 0.6538461538461539
+      }
+    ]
+  },
+  "locked_predictions": {
+    "hair-left.png": "44d3605d077f53ef8d1bc55edcc2fee4a248a038aadc15516b2fb742f5275bc2",
+    "hair-right.png": "b949e609a80ebda21b64f8f58dcfebecbdf7a202a0e451a13fda156061e7bb31",
+    "skirt.png": "b142b93d240440c31756dc3dce4d1dfdc8548bbd5913dd4a9f961c1c9ab26a31"
+  },
+  "adapter": {
+    "sha256": "3c2b552820f7e0b18d0636f5f16a4be6b59e03dc60f0c9471ac690f9ead16a74",
+    "holdout_slot": "02",
+    "commit": "ca9e315610791b180a362be116b362cb590fcf82",
+    "control_slot": "01 (original development asset 1)"
+  },
+  "dependencies": {
+    "experiments/009-run-seethrough.py": "ab4d4399efa40db2894ce9d7f356c0f89f592e8ea5408fcfab2f9f98ec18db54",
+    "experiments/009-c/topology.py": "f788da3e265b4a511579669dc1bdd7967ce165743098f1c5b2c3b6cef84daa2d",
+    "results/009-semantic-hair-segmentation/009-B/rules.json": "78335c5d17ea1b422bf49712199593a63a52b6b9696d191f6c65dd44ea43bc31"
+  },
+  "official_commit": "fc4440db7c076518e313f378e28b1504e9886a95",
+  "input_cache_sha256": "e6f4fde115ff9d17efcb77bad663a11fd8d3fceb85ecbdb6813df5242e49a535"
 }

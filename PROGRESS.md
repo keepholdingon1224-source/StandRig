@@ -262,3 +262,9 @@ GitHub反映: リポジトリURL、ブランチ、対象コミット、確認方
 ### 素材3ホールドアウト初回予測完了
 
 - 指定原本のSHA-256と寸法が一致。事前コミット済み入力アダプターでRTX 3060 Ti A3→009-B→C2-C→固定009-Gを単回実行。右毛束の摂動でAへ復帰し、3マスクを凍結した。独立採点待ち。[予測と監査記録](results/009-semantic-hair-segmentation/holdout-03/README.md)
+
+### 2026-11-22 JST　009系・研究の正式終了
+
+- MUSEの素材3初回独立評価が完了。左毛束IoU 0.1238、右0.1068、スカート0.9897で1/3、ホールドアウト正式不合格。ChatGPT最終判定により009は総合不合格、研究全体は部分成功・最終目標未達で終了した。
+- ローカルNF4・A3実行、PSD生成、3素材のスカート分離、独立評価・保護手順は再利用できる。007の手動補助付き制作は限定合格を維持する。009の最終映像品質はユーザー未承認。[最終報告](results/009-semantic-hair-segmentation/FINAL-REPORT.md)・[独立評価](results/009-semantic-hair-segmentation/HOLDOUT-03-EVALUATION.md)・[資産目録](results/009-semantic-hair-segmentation/REUSABLE-ASSETS.md)
+- 文書作業の開始・終了時に固定基準を含む2,373件、009-Bローカル193件、holdout-03までの既存追跡754件のSHA-256を照合し一致。追跡対象のパス・SHA-256一覧の集約値は 7c40c2ee550ec66205e983b17f476a7edc08d83a5fab31e10ad271755397bc8e。新規実験・再採点なし。

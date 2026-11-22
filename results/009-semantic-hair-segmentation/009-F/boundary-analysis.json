@@ -1,0 +1,32 @@
+{
+ "01": {
+  "fallback": false,
+  "reasons": [],
+  "raw_pixels": [
+   35243,
+   18066
+  ],
+  "added": [
+   4785,
+   1377
+  ],
+  "visible_violations": 0,
+  "overlap": 0
+ },
+ "02": {
+  "fallback": true,
+  "reasons": [
+   "attachment margin"
+  ],
+  "raw_pixels": [
+   63237,
+   33436
+  ],
+  "added": [
+   1322,
+   914
+  ],
+  "visible_violations": 0,
+  "overlap": 0
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "method_record": "experiments/009-f/predict.py (all settings embedded)",
+  "holdout_run_authorized_by_this_task": false,
+  "prediction_lock_sha256": "13582cf6ec39b4de145375638511711a1c5ae61e0c878ef8e9179e82b2f25b04",
+  "migration_conditions": {
+    "six_item_acceptance_met": false,
+    "fixed_commit_required": true,
+    "separate_task_authorization_required": true
+  },
+  "method_fixed": true
+}

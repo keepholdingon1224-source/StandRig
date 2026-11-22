@@ -1,0 +1,118 @@
+{
+ "asset": "02",
+ "scope": "oracle only; same nearest valid E candidate per GT landmark in all three conditions",
+ "roots": [
+  74,
+  175
+ ],
+ "xy": [
+  [
+   495,
+   211
+  ],
+  [
+   687,
+   245
+  ]
+ ],
+ "errors": [
+  28.178005607210743,
+  27.65863337187866
+ ],
+ "recorded_E_pair": true,
+ "eligible": true,
+ "condition1_descendants": [
+  {
+   "pixels": 75780,
+   "iou": 0.8447193854727182
+  },
+  {
+   "pixels": 31422,
+   "iou": 0.7891518375833181
+  }
+ ],
+ "condition2_keep_region": [
+  {
+   "pixels": 61467,
+   "iou": 0.8475267503161724
+  },
+  {
+   "pixels": 25151,
+   "iou": 0.8651601156688444
+  }
+ ],
+ "condition3_connect": [
+  {
+   "pixels": 68030,
+   "iou": 0.8608760814769398
+  },
+  {
+   "pixels": 27635,
+   "iou": 0.8624174777104744
+  }
+ ],
+ "paths": [
+  [
+   74,
+   132,
+   142,
+   141,
+   145,
+   144,
+   148,
+   150,
+   152,
+   154,
+   156,
+   158,
+   160,
+   162,
+   164,
+   166,
+   168,
+   170,
+   172,
+   174,
+   176,
+   178,
+   180,
+   183,
+   186,
+   190,
+   193,
+   197,
+   201,
+   204,
+   207,
+   210,
+   213,
+   217,
+   221,
+   226,
+   233,
+   232,
+   238
+  ],
+  [
+   175,
+   177,
+   179,
+   182,
+   185,
+   188,
+   189,
+   192,
+   195,
+   196,
+   199,
+   200,
+   203,
+   206,
+   209
+  ]
+ ],
+ "predictor_sha_before_oracle": "feae8840b9c45b6b78502d7da6653b3476927e6b15a4119acec3baaa0cee9ea0",
+ "E_rank": 4,
+ "E_pairs_ranked": 6,
+ "conclusion": "Combined ranking and descendant ownership. The near pair was eligible but lower-ranked. Moving just the landmarks leaves the mask unchanged; reassigning descendants reduces both IoUs, especially right. Connecting against a preserved region improves left and slightly reduces right against the E baseline."
+}

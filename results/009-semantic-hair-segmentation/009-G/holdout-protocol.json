@@ -1,0 +1,21 @@
+{
+  "development_acceptance": "4/6; failed",
+  "code_sha256": "e7b5b641e161a577082a0cf34ff351130aff52abcea71bc811d7737c92d5513d",
+  "method": "D with asset-wide safety fallback to A",
+  "holdout_conditions": [
+    "separate authorized task after method lock",
+    "identical settings and frozen predictor; supply isolated asset through an audited input adapter",
+    "freeze first prediction before independent reference scoring",
+    "report first holdout score separately"
+  ],
+  "restore_C_when": [
+    "unsupported added or removed pixel",
+    "empty tuft or area ratio outside [0.75,1.25]",
+    "new inter-tuft contact exceeds band width",
+    "perturbed mask exceeds both relative edit and absolute area thresholds in frozen rules"
+  ],
+  "holdout_accessed": false,
+  "settings_path": "experiments/009-g/predict.py",
+  "rules_sha256": "5d5401cfac8d4e3e08599859b7237e018e9b14bb736189fa1b41e72f8283436a",
+  "method_commit": "38ff2140c8f1358305931276d450040986657973"
+}

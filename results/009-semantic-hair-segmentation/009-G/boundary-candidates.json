@@ -1,0 +1,34 @@
+{
+ "01": [
+  {
+   "boundary": 9440,
+   "likely_movable": 879,
+   "likely_fixed": 0,
+   "other_interface": 9440,
+   "width": 11
+  },
+  {
+   "boundary": 6929,
+   "likely_movable": 522,
+   "likely_fixed": 0,
+   "other_interface": 6929,
+   "width": 11
+  }
+ ],
+ "02": [
+  {
+   "boundary": 31890,
+   "likely_movable": 2501,
+   "likely_fixed": 0,
+   "other_interface": 29962,
+   "width": 11
+  },
+  {
+   "boundary": 14430,
+   "likely_movable": 1268,
+   "likely_fixed": 0,
+   "other_interface": 12454,
+   "width": 11
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "01": {
+  "hair-left": {
+   "edits": {
+    "growth": {
+     "added_true": 62,
+     "added_false": 145,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "cut": {
+     "added_true": 64,
+     "added_false": 165,
+     "removed_true": 344,
+     "removed_false": 350
+    },
+    "flow": {
+     "added_true": 64,
+     "added_false": 182,
+     "removed_true": 260,
+     "removed_false": 334
+    },
+    "residual": {
+     "added_true": 64,
+     "added_false": 178,
+     "removed_true": 224,
+     "removed_false": 307
+    },
+    "B": {
+     "added_true": 62,
+     "added_false": 145,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "C": {
+     "added_true": 0,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "D": {
+     "added_true": 62,
+     "added_false": 145,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "auto": {
+     "added_true": 62,
+     "added_false": 145,
+     "removed_true": 0,
+     "removed_false": 0
+    }
+   },
+   "formal_minus_raw_iou": 0.0,
+   "historical_F3_added": 4785,
+   "historical_FP": 4785,
+   "historical_FP_rejected_by_local_gate": 4785,
+   "historical_TP_rejected_by_local_gate": 0,
+   "historical_scope": "F3 additions only, replay against frozen local G permission maps; not a formal fallback"
+  },
+  "hair-right": {
+   "edits": {
+    "growth": {
+     "added_true": 164,
+     "added_false": 61,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "cut": {
+     "added_true": 177,
+     "added_false": 71,
+     "removed_true": 342,
+     "removed_false": 568
+    },
+    "flow": {
+     "added_true": 182,
+     "added_false": 70,
+     "removed_true": 162,
+     "removed_false": 534
+    },
+    "residual": {
+     "added_true": 182,
+     "added_false": 67,
+     "removed_true": 149,
+     "removed_false": 546
+    },
+    "B": {
+     "added_true": 164,
+     "added_false": 52,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "C": {
+     "added_true": 0,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "D": {
+     "added_true": 164,
+     "added_false": 52,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "auto": {
+     "added_true": 164,
+     "added_false": 52,
+     "removed_true": 0,
+     "removed_false": 0
+    }
+   },
+   "formal_minus_raw_iou": 0.0,
+   "historical_F3_added": 1377,
+   "historical_FP": 1377,
+   "historical_FP_rejected_by_local_gate": 1377,
+   "historical_TP_rejected_by_local_gate": 0,
+   "historical_scope": "F3 additions only, replay against frozen local G permission maps; not a formal fallback"
+  }
+ },
+ "02": {
+  "hair-left": {
+   "edits": {
+    "growth": {
+     "added_true": 727,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "cut": {
+     "added_true": 1246,
+     "added_false": 0,
+     "removed_true": 2642,
+     "removed_false": 1312
+    },
+    "flow": {
+     "added_true": 1214,
+     "added_false": 0,
+     "removed_true": 2564,
+     "removed_false": 1300
+    },
+    "residual": {
+     "added_true": 1214,
+     "added_false": 0,
+     "removed_true": 2379,
+     "removed_false": 1250
+    },
+    "B": {
+     "added_true": 715,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "C": {
+     "added_true": 0,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "D": {
+     "added_true": 715,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "auto": {
+     "added_true": 715,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    }
+   },
+   "formal_minus_raw_iou": 0.0,
+   "historical_F3_added": 1322,
+   "historical_FP": 0,
+   "historical_FP_rejected_by_local_gate": 0,
+   "historical_TP_rejected_by_local_gate": 963,
+   "historical_scope": "F3 additions only, replay against frozen local G permission maps; not a formal fallback"
+  },
+  "hair-right": {
+   "edits": {
+    "growth": {
+     "added_true": 408,
+     "added_false": 46,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "cut": {
+     "added_true": 790,
+     "added_false": 481,
+     "removed_true": 2214,
+     "removed_false": 646
+    },
+    "flow": {
+     "added_true": 752,
+     "added_false": 111,
+     "removed_true": 1907,
+     "removed_false": 699
+    },
+    "residual": {
+     "added_true": 752,
+     "added_false": 111,
+     "removed_true": 1802,
+     "removed_false": 699
+    },
+    "B": {
+     "added_true": 400,
+     "added_false": 36,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "C": {
+     "added_true": 0,
+     "added_false": 0,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "D": {
+     "added_true": 400,
+     "added_false": 36,
+     "removed_true": 0,
+     "removed_false": 0
+    },
+    "auto": {
+     "added_true": 400,
+     "added_false": 36,
+     "removed_true": 0,
+     "removed_false": 0
+    }
+   },
+   "formal_minus_raw_iou": 0.0,
+   "historical_F3_added": 914,
+   "historical_FP": 914,
+   "historical_FP_rejected_by_local_gate": 914,
+   "historical_TP_rejected_by_local_gate": 0,
+   "historical_scope": "F3 additions only, replay against frozen local G permission maps; not a formal fallback"
+  }
+ }
+}

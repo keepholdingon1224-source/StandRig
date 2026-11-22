@@ -1,0 +1,110 @@
+{
+ "01": [
+  {
+   "added": {
+    "image_hair_match": 0.7918726205825806,
+    "tuft_connectivity": 0.46017764674286765,
+    "composite_error_rgb": 12.54267406463623,
+    "hair_error_rgb": 11.214171409606934,
+    "head_fixed_evidence": 0.0014571704238693676,
+    "edge": 0.21153199672698975
+   },
+   "removed": {
+    "image_hair_match": null,
+    "tuft_connectivity": null,
+    "composite_error_rgb": null,
+    "hair_error_rgb": null,
+    "head_fixed_evidence": null,
+    "edge": null
+   },
+   "band": {
+    "image_hair_match": 0.7066164612770081,
+    "tuft_connectivity": 0.25753876923097047,
+    "composite_error_rgb": 19.709251403808594,
+    "hair_error_rgb": 16.25971031188965,
+    "head_fixed_evidence": 0.0001476252572461423,
+    "edge": 0.37702956795692444
+   }
+  },
+  {
+   "added": {
+    "image_hair_match": 0.7974175810813904,
+    "tuft_connectivity": 0.4045128301186701,
+    "composite_error_rgb": 11.88888931274414,
+    "hair_error_rgb": 11.154321670532227,
+    "head_fixed_evidence": 0.045138084405550255,
+    "edge": 0.24104712903499603
+   },
+   "removed": {
+    "image_hair_match": null,
+    "tuft_connectivity": null,
+    "composite_error_rgb": null,
+    "hair_error_rgb": null,
+    "head_fixed_evidence": null,
+    "edge": null
+   },
+   "band": {
+    "image_hair_match": 0.6753605008125305,
+    "tuft_connectivity": 0.2639060193853678,
+    "composite_error_rgb": 24.143695831298828,
+    "hair_error_rgb": 24.17616844177246,
+    "head_fixed_evidence": 0.007116797772431979,
+    "edge": 0.45531949400901794
+   }
+  }
+ ],
+ "02": [
+  {
+   "added": {
+    "image_hair_match": 0.8671401143074036,
+    "tuft_connectivity": 0.31017461749302644,
+    "composite_error_rgb": 6.938927173614502,
+    "hair_error_rgb": 6.938927173614502,
+    "head_fixed_evidence": 0.12070116283593477,
+    "edge": 0.13273844122886658
+   },
+   "removed": {
+    "image_hair_match": null,
+    "tuft_connectivity": null,
+    "composite_error_rgb": null,
+    "hair_error_rgb": null,
+    "head_fixed_evidence": null,
+    "edge": null
+   },
+   "band": {
+    "image_hair_match": 0.7087225317955017,
+    "tuft_connectivity": 0.22525811697988646,
+    "composite_error_rgb": 99.36087799072266,
+    "hair_error_rgb": 19.574800491333008,
+    "head_fixed_evidence": 0.014482838087089483,
+    "edge": 0.38261929154396057
+   }
+  },
+  {
+   "added": {
+    "image_hair_match": 0.8493219614028931,
+    "tuft_connectivity": 0.3956057587985578,
+    "composite_error_rgb": 8.180427551269531,
+    "hair_error_rgb": 8.180427551269531,
+    "head_fixed_evidence": 0.07747241318260038,
+    "edge": 0.08887064456939697
+   },
+   "removed": {
+    "image_hair_match": null,
+    "tuft_connectivity": null,
+    "composite_error_rgb": null,
+    "hair_error_rgb": null,
+    "head_fixed_evidence": null,
+    "edge": null
+   },
+   "band": {
+    "image_hair_match": 0.5916242599487305,
+    "tuft_connectivity": 0.2417718706340581,
+    "composite_error_rgb": 37.56013107299805,
+    "hair_error_rgb": 31.58699607849121,
+    "head_fixed_evidence": 0.03725605023785055,
+    "edge": 0.47892099618911743
+   }
+  }
+ ]
+}
